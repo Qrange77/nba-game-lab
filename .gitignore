@@ -1,0 +1,24 @@
+# Virtual environment. uv recreates it from pyproject.toml + uv.lock.
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Local secrets and config. Commit .env.example instead, never .env.
+.env
+
+# macOS
+.DS_Store
+
+# Local conversation history
+chat_history/
+
+# Vue dependencies (frontend/dist is committed for Cloud Run deployment)
+frontend/node_modules/
+
+# Historical NBA response cache
+data_cache/
+
+# Local browser verification artifacts
+.playwright-cli/
