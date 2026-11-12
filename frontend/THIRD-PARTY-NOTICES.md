@@ -11,3 +11,12 @@ component. The responsive sidebar shell is adapted for conversation history in
 integration are custom to NBA Game Lab. This uses only the free edition.
 
 TailAdmin's MIT copyright and license are preserved in `TAILADMIN-LICENSE`.
+
+# Research execution graph
+
+Design reference: https://www.assistant-ui.com/elements/flow-graph
+
+The research graph is a native Vue implementation of the documented dependency
+column, curved edge and progressive reveal interaction. It does not install the
+React component or assistant-ui runtime. Node lifecycle, per-node tool inspection,
+concurrency measurements and round tracking are specific to this application.

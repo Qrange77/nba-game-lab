@@ -1,0 +1,122 @@
+{
+  "checked_at": "2026-11-11T05:57:52.470709+00:00",
+  "execution": "Real contract resolver with the configured model; guard-only cases do not call the model. No user clarification reply was supplied.",
+  "cases": [
+    {
+      "id": "neutral_long",
+      "question": "Compare Michael Jordan and LeBron James over their entire NBA careers. Examine regular-season and playoff scoring volume, raw shooting efficiency, league-relative efficiency, core helpers, rotation appearances and Finals opponents. Use completed seasons through 2025-26. Separate metric advantages and qualify the context; do not rank overall players.",
+      "expected_action": "review",
+      "observed_contract": {
+        "action": "review",
+        "question": "",
+        "claim": "Compare Michael Jordan and LeBron James over their entire NBA careers regarding regular-season and playoff scoring volume, raw shooting efficiency, league-relative efficiency, core helpers, rotation appearances and Finals opponents.",
+        "request_kind": "comparison",
+        "left_player": 893,
+        "right_player": 2544,
+        "period": "career",
+        "left_start": null,
+        "left_end": null,
+        "right_start": null,
+        "right_end": null,
+        "phases": [
+          "Regular Season",
+          "Playoffs"
+        ],
+        "lens": "overall_scoring",
+        "include_context": true,
+        "support_phases": [],
+        "cutoff": 2025
+      },
+      "seconds": 1.761,
+      "internal_scope_rechecks": 0,
+      "status": "passed"
+    },
+    {
+      "id": "earlier_cutoff",
+      "question": "Compare Michael Jordan and LeBron James over their entire scoring careers, including regular-season and playoff volume and shooting efficiency, league-relative efficiency, teammates and Finals opposition. Use completed seasons through 2022-23. State limitations and a metric-specific conclusion.",
+      "expected_action": "review",
+      "observed_contract": {
+        "action": "review",
+        "question": "",
+        "claim": "Compare Michael Jordan and LeBron James over their entire scoring careers, including regular-season and playoff volume and shooting efficiency, league-relative efficiency, teammates and Finals opposition.",
+        "request_kind": "comparison",
+        "left_player": 893,
+        "right_player": 2544,
+        "period": "career",
+        "left_start": null,
+        "left_end": null,
+        "right_start": null,
+        "right_end": null,
+        "phases": [
+          "Regular Season",
+          "Playoffs"
+        ],
+        "lens": "overall_scoring",
+        "include_context": true,
+        "support_phases": [],
+        "cutoff": 2022
+      },
+      "seconds": 1.074,
+      "internal_scope_rechecks": 0,
+      "status": "passed"
+    },
+    {
+      "id": "vague",
+      "question": "Compare Michael Jordan and LeBron James. Who is better?",
+      "expected_action": "clarify",
+      "observed_contract": {
+        "action": "clarify",
+        "question": "",
+        "claim": "",
+        "request_kind": "claim",
+        "left_player": null,
+        "right_player": null,
+        "period": "career",
+        "left_start": null,
+        "left_end": null,
+        "right_start": null,
+        "right_end": null,
+        "phases": [
+          "Regular Season",
+          "Playoffs"
+        ],
+        "lens": "overall_scoring",
+        "include_context": true,
+        "support_phases": [],
+        "cutoff": 2025
+      },
+      "seconds": 0.0,
+      "internal_scope_rechecks": 0,
+      "status": "passed"
+    },
+    {
+      "id": "ongoing_cutoff",
+      "question": "Compare Michael Jordan and LeBron James over their entire scoring careers. Compare regular-season and playoff volume and efficiency. Use completed seasons through 2026-27.",
+      "expected_action": "clarify",
+      "observed_contract": {
+        "action": "clarify",
+        "question": "That season is ongoing or in the future. Choose completed seasons through 2025-26 or an earlier cutoff.",
+        "claim": "",
+        "request_kind": "claim",
+        "left_player": null,
+        "right_player": null,
+        "period": "career",
+        "left_start": null,
+        "left_end": null,
+        "right_start": null,
+        "right_end": null,
+        "phases": [
+          "Regular Season",
+          "Playoffs"
+        ],
+        "lens": "overall_scoring",
+        "include_context": true,
+        "support_phases": [],
+        "cutoff": 2025
+      },
+      "seconds": 0.0,
+      "internal_scope_rechecks": 0,
+      "status": "passed"
+    }
+  ]
+}

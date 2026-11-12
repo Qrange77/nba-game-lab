@@ -1,0 +1,508 @@
+{
+  "status": "audited",
+  "checks": [
+    {
+      "id": "2548:Regular Season:PTS",
+      "required": false,
+      "expected": 2040,
+      "tolerance": 1,
+      "unit": "points",
+      "extraction": {
+        "id": "2548:Regular Season:PTS",
+        "quote": "2,040",
+        "number": "2040",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Accumulated points (total) | 2,040 | 1,596",
+        "method": "aggregate"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "2548:Regular Season:PPG",
+      "required": true,
+      "expected": 27.2,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "2548:Regular Season:PPG",
+        "quote": "27.2",
+        "number": "27.2",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Points per game (per game) | 27.2 | 26.6",
+        "method": "aggregate"
+      },
+      "observed": 27.2,
+      "status": "correct"
+    },
+    {
+      "id": "2548:Regular Season:TS",
+      "required": true,
+      "expected": 57.747180578830566,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "2548:Regular Season:TS",
+        "quote": "57.75",
+        "number": "57.75",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Raw true shooting (%) | 57.75 | 60.62",
+        "method": "aggregate"
+      },
+      "observed": 57.75,
+      "status": "correct"
+    },
+    {
+      "id": "2548:Playoffs:PTS",
+      "required": false,
+      "expected": 654,
+      "tolerance": 1,
+      "unit": "points",
+      "extraction": {
+        "id": "2548:Playoffs:PTS",
+        "quote": "654",
+        "number": "654",
+        "scope": "requested",
+        "scope_quote": "Playoffs | Accumulated points (total) | 654 | 732",
+        "method": "aggregate"
+      },
+      "observed": 654.0,
+      "status": "correct"
+    },
+    {
+      "id": "2548:Playoffs:PPG",
+      "required": true,
+      "expected": 28.434782608695652,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "2548:Playoffs:PPG",
+        "quote": "28.43",
+        "number": "28.43",
+        "scope": "requested",
+        "scope_quote": "Playoffs | Points per game (per game) | 28.43 | 30.5",
+        "method": "aggregate"
+      },
+      "observed": 28.43,
+      "status": "correct"
+    },
+    {
+      "id": "2548:Playoffs:TS",
+      "required": true,
+      "expected": 59.346642468239565,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "2548:Playoffs:TS",
+        "quote": "59.35",
+        "number": "59.35",
+        "scope": "requested",
+        "scope_quote": "Playoffs | Raw true shooting (%) | 59.35 | 61.92",
+        "method": "aggregate"
+      },
+      "observed": 59.35,
+      "status": "correct"
+    },
+    {
+      "id": "2548:Playoffs minus Regular Season:PPG_CHANGE",
+      "required": true,
+      "expected": 1.234782608695653,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "2548:Playoffs minus Regular Season:PPG_CHANGE",
+        "quote": "1.23",
+        "number": "1.23",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade | 1.23 | 1.6",
+        "method": "aggregate"
+      },
+      "observed": 1.23,
+      "status": "correct"
+    },
+    {
+      "id": "2548:Playoffs minus Regular Season:TS_CHANGE",
+      "required": true,
+      "expected": 1.5994618894089996,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "2548:Playoffs minus Regular Season:TS_CHANGE",
+        "quote": "1.6",
+        "number": "1.6",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade | 1.23 | 1.6",
+        "method": "aggregate"
+      },
+      "observed": 1.6,
+      "status": "correct"
+    },
+    {
+      "id": "202695:Regular Season:PTS",
+      "required": false,
+      "expected": 1596,
+      "tolerance": 1,
+      "unit": "points",
+      "extraction": {
+        "id": "202695:Regular Season:PTS",
+        "quote": "1,596",
+        "number": "1596",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Accumulated points (total) | 2,040 | 1,596",
+        "method": "aggregate"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "202695:Regular Season:PPG",
+      "required": true,
+      "expected": 26.6,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "202695:Regular Season:PPG",
+        "quote": "26.6",
+        "number": "26.6",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Points per game (per game) | 27.2 | 26.6",
+        "method": "aggregate"
+      },
+      "observed": 26.6,
+      "status": "correct"
+    },
+    {
+      "id": "202695:Regular Season:TS",
+      "required": true,
+      "expected": 60.61803044574762,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "202695:Regular Season:TS",
+        "quote": "60.62",
+        "number": "60.62",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Raw true shooting (%) | 57.75 | 60.62",
+        "method": "aggregate"
+      },
+      "observed": 60.62,
+      "status": "correct"
+    },
+    {
+      "id": "202695:Playoffs:PTS",
+      "required": false,
+      "expected": 732,
+      "tolerance": 1,
+      "unit": "points",
+      "extraction": {
+        "id": "202695:Playoffs:PTS",
+        "quote": "732",
+        "number": "732",
+        "scope": "requested",
+        "scope_quote": "Playoffs | Accumulated points (total) | 654 | 732",
+        "method": "aggregate"
+      },
+      "observed": 732.0,
+      "status": "correct"
+    },
+    {
+      "id": "202695:Playoffs:PPG",
+      "required": true,
+      "expected": 30.5,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "202695:Playoffs:PPG",
+        "quote": "30.5",
+        "number": "30.5",
+        "scope": "requested",
+        "scope_quote": "Playoffs | Points per game (per game) | 28.43 | 30.5",
+        "method": "aggregate"
+      },
+      "observed": 30.5,
+      "status": "correct"
+    },
+    {
+      "id": "202695:Playoffs:TS",
+      "required": true,
+      "expected": 61.92474282620466,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "202695:Playoffs:TS",
+        "quote": "61.92",
+        "number": "61.92",
+        "scope": "requested",
+        "scope_quote": "Playoffs | Raw true shooting (%) | 59.35 | 61.92",
+        "method": "aggregate"
+      },
+      "observed": 61.92,
+      "status": "correct"
+    },
+    {
+      "id": "202695:Playoffs minus Regular Season:PPG_CHANGE",
+      "required": true,
+      "expected": 3.8999999999999986,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "202695:Playoffs minus Regular Season:PPG_CHANGE",
+        "quote": "3.9",
+        "number": "3.9",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard | 3.9 | 1.31",
+        "method": "aggregate"
+      },
+      "observed": 3.9,
+      "status": "correct"
+    },
+    {
+      "id": "202695:Playoffs minus Regular Season:TS_CHANGE",
+      "required": true,
+      "expected": 1.3067123804570357,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "202695:Playoffs minus Regular Season:TS_CHANGE",
+        "quote": "1.31",
+        "number": "1.31",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard | 3.9 | 1.31",
+        "method": "aggregate"
+      },
+      "observed": 1.31,
+      "status": "correct"
+    }
+  ],
+  "required_count": 12,
+  "required_comparable": 12,
+  "required_correct": 12,
+  "required_missing": 0,
+  "required_scope_mismatches": 0,
+  "advisory_model_review": {
+    "question_coverage": {
+      "status": "complete",
+      "reason": "",
+      "quote": "",
+      "quote_verified": true
+    },
+    "scope": {
+      "status": "respected",
+      "reason": "",
+      "quote": "",
+      "quote_verified": true
+    },
+    "conclusion_limits": {
+      "status": "respected",
+      "reason": "",
+      "quote": "",
+      "quote_verified": true
+    }
+  },
+  "note": "Only extracted, quote-verified numeric claims are scored. Missing facts are coverage gaps, not numeric errors. Semantic review is model-judged and advisory.",
+  "extracted": {
+    "claims": [
+      {
+        "id": "2548:Regular Season:PTS",
+        "quote": "2,040",
+        "number": "2040",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Accumulated points (total) | 2,040 | 1,596",
+        "method": "aggregate"
+      },
+      {
+        "id": "2548:Regular Season:PPG",
+        "quote": "27.2",
+        "number": "27.2",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Points per game (per game) | 27.2 | 26.6",
+        "method": "aggregate"
+      },
+      {
+        "id": "2548:Regular Season:TS",
+        "quote": "57.75",
+        "number": "57.75",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Raw true shooting (%) | 57.75 | 60.62",
+        "method": "aggregate"
+      },
+      {
+        "id": "2548:Playoffs:PTS",
+        "quote": "654",
+        "number": "654",
+        "scope": "requested",
+        "scope_quote": "Playoffs | Accumulated points (total) | 654 | 732",
+        "method": "aggregate"
+      },
+      {
+        "id": "2548:Playoffs:PPG",
+        "quote": "28.43",
+        "number": "28.43",
+        "scope": "requested",
+        "scope_quote": "Playoffs | Points per game (per game) | 28.43 | 30.5",
+        "method": "aggregate"
+      },
+      {
+        "id": "2548:Playoffs:TS",
+        "quote": "59.35",
+        "number": "59.35",
+        "scope": "requested",
+        "scope_quote": "Playoffs | Raw true shooting (%) | 59.35 | 61.92",
+        "method": "aggregate"
+      },
+      {
+        "id": "2548:Playoffs minus Regular Season:PPG_CHANGE",
+        "quote": "1.23",
+        "number": "1.23",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade | 1.23 | 1.6",
+        "method": "aggregate"
+      },
+      {
+        "id": "2548:Playoffs minus Regular Season:TS_CHANGE",
+        "quote": "1.6",
+        "number": "1.6",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade | 1.23 | 1.6",
+        "method": "aggregate"
+      },
+      {
+        "id": "202695:Regular Season:PTS",
+        "quote": "1,596",
+        "number": "1596",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Accumulated points (total) | 2,040 | 1,596",
+        "method": "aggregate"
+      },
+      {
+        "id": "202695:Regular Season:PPG",
+        "quote": "26.6",
+        "number": "26.6",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Points per game (per game) | 27.2 | 26.6",
+        "method": "aggregate"
+      },
+      {
+        "id": "202695:Regular Season:TS",
+        "quote": "60.62",
+        "number": "60.62",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Raw true shooting (%) | 57.75 | 60.62",
+        "method": "aggregate"
+      },
+      {
+        "id": "202695:Playoffs:PTS",
+        "quote": "732",
+        "number": "732",
+        "scope": "requested",
+        "scope_quote": "Playoffs | Accumulated points (total) | 654 | 732",
+        "method": "aggregate"
+      },
+      {
+        "id": "202695:Playoffs:PPG",
+        "quote": "30.5",
+        "number": "30.5",
+        "scope": "requested",
+        "scope_quote": "Playoffs | Points per game (per game) | 28.43 | 30.5",
+        "method": "aggregate"
+      },
+      {
+        "id": "202695:Playoffs:TS",
+        "quote": "61.92",
+        "number": "61.92",
+        "scope": "requested",
+        "scope_quote": "Playoffs | Raw true shooting (%) | 59.35 | 61.92",
+        "method": "aggregate"
+      },
+      {
+        "id": "202695:Playoffs minus Regular Season:PPG_CHANGE",
+        "quote": "3.9",
+        "number": "3.9",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard | 3.9 | 1.31",
+        "method": "aggregate"
+      },
+      {
+        "id": "202695:Playoffs minus Regular Season:TS_CHANGE",
+        "quote": "1.31",
+        "number": "1.31",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard | 3.9 | 1.31",
+        "method": "aggregate"
+      }
+    ],
+    "review": {
+      "question_coverage": {
+        "status": "complete",
+        "reason": "",
+        "quote": "",
+        "quote_verified": true
+      },
+      "scope": {
+        "status": "respected",
+        "reason": "",
+        "quote": "",
+        "quote_verified": true
+      },
+      "conclusion_limits": {
+        "status": "respected",
+        "reason": "",
+        "quote": "",
+        "quote_verified": true
+      }
+    }
+  },
+  "extractor_response": "{\"claims\": [{\"id\": \"2548:Regular Season:PTS\", \"quote\": \"2,040\", \"number\": \"2040\", \"scope\": \"requested\", \"scope_quote\": \"Regular Season | Accumulated points (total) | 2,040 | 1,596\", \"method\": \"aggregate\"}, {\"id\": \"2548:Regular Season:PPG\", \"quote\": \"27.2\", \"number\": \"27.2\", \"scope\": \"requested\", \"scope_quote\": \"Regular Season | Points per game (per game) | 27.2 | 26.6\", \"method\": \"aggregate\"}, {\"id\": \"2548:Regular Season:TS\", \"quote\": \"57.75\", \"number\": \"57.75\", \"scope\": \"requested\", \"scope_quote\": \"Regular Season | Raw true shooting (%) | 57.75 | 60.62\", \"method\": \"aggregate\"}, {\"id\": \"2548:Playoffs:PTS\", \"quote\": \"654\", \"number\": \"654\", \"scope\": \"requested\", \"scope_quote\": \"Playoffs | Accumulated points (total) | 654 | 732\", \"method\": \"aggregate\"}, {\"id\": \"2548:Playoffs:PPG\", \"quote\": \"28.43\", \"number\": \"28.43\", \"scope\": \"requested\", \"scope_quote\": \"Playoffs | Points per game (per game) | 28.43 | 30.5\", \"method\": \"aggregate\"}, {\"id\": \"2548:Playoffs:TS\", \"quote\": \"59.35\", \"number\": \"59.35\", \"scope\": \"requested\", \"scope_quote\": \"Playoffs | Raw true shooting (%) | 59.35 | 61.92\", \"method\": \"aggregate\"}, {\"id\": \"2548:Playoffs minus Regular Season:PPG_CHANGE\", \"quote\": \"1.23\", \"number\": \"1.23\", \"scope\": \"requested\", \"scope_quote\": \"Dwyane Wade | 1.23 | 1.6\", \"method\": \"aggregate\"}, {\"id\": \"2548:Playoffs minus Regular Season:TS_CHANGE\", \"quote\": \"1.6\", \"number\": \"1.6\", \"scope\": \"requested\", \"scope_quote\": \"Dwyane Wade | 1.23 | 1.6\", \"method\": \"aggregate\"}, {\"id\": \"202695:Regular Season:PTS\", \"quote\": \"1,596\", \"number\": \"1596\", \"scope\": \"requested\", \"scope_quote\": \"Regular Season | Accumulated points (total) | 2,040 | 1,596\", \"method\": \"aggregate\"}, {\"id\": \"202695:Regular Season:PPG\", \"quote\": \"26.6\", \"number\": \"26.6\", \"scope\": \"requested\", \"scope_quote\": \"Regular Season | Points per game (per game) | 27.2 | 26.6\", \"method\": \"aggregate\"}, {\"id\": \"202695:Regular Season:TS\", \"quote\": \"60.62\", \"number\": \"60.62\", \"scope\": \"requested\", \"scope_quote\": \"Regular Season | Raw true shooting (%) | 57.75 | 60.62\", \"method\": \"aggregate\"}, {\"id\": \"202695:Playoffs:PTS\", \"quote\": \"732\", \"number\": \"732\", \"scope\": \"requested\", \"scope_quote\": \"Playoffs | Accumulated points (total) | 654 | 732\", \"method\": \"aggregate\"}, {\"id\": \"202695:Playoffs:PPG\", \"quote\": \"30.5\", \"number\": \"30.5\", \"scope\": \"requested\", \"scope_quote\": \"Playoffs | Points per game (per game) | 28.43 | 30.5\", \"method\": \"aggregate\"}, {\"id\": \"202695:Playoffs:TS\", \"quote\": \"61.92\", \"number\": \"61.92\", \"scope\": \"requested\", \"scope_quote\": \"Playoffs | Raw true shooting (%) | 59.35 | 61.92\", \"method\": \"aggregate\"}, {\"id\": \"202695:Playoffs minus Regular Season:PPG_CHANGE\", \"quote\": \"3.9\", \"number\": \"3.9\", \"scope\": \"requested\", \"scope_quote\": \"Kawhi Leonard | 3.9 | 1.31\", \"method\": \"aggregate\"}, {\"id\": \"202695:Playoffs minus Regular Season:TS_CHANGE\", \"quote\": \"1.31\", \"number\": \"1.31\", \"scope\": \"requested\", \"scope_quote\": \"Kawhi Leonard | 3.9 | 1.31\", \"method\": \"aggregate\"}], \"review\": {\"question_coverage\": {\"status\": \"complete\", \"reason\": \"\", \"quote\": \"\"}, \"scope\": {\"status\": \"respected\", \"reason\": \"\", \"quote\": \"\"}, \"conclusion_limits\": {\"status\": \"respected\", \"reason\": \"\", \"quote\": \"\"}}}",
+  "model_calls": [
+    {
+      "started_at": "2026-11-11T03:44:25.622273+00:00",
+      "parameters": {
+        "model": "vertex_ai/gemini-3.5-flash-lite",
+        "vertex_location": "global",
+        "response_format": {
+          "type": "json_object"
+        },
+        "temperature": 0,
+        "max_tokens": 16000,
+        "timeout": 100,
+        "num_retries": 0
+      },
+      "temperature": 0,
+      "message_roles": [
+        "system",
+        "user"
+      ],
+      "messages_sha256": "dc070ba8b5d4b6bc882c1bf28dd0baa69a115cf9e5e0ce4e99276e8a96a8eeee",
+      "tool_names": [],
+      "index": 0,
+      "response_model": "gemini-3.5-flash-lite",
+      "response_id": "meTzat6KLdybotQP2JG-wAw",
+      "finish_reasons": [
+        "stop"
+      ],
+      "truncated": false,
+      "usage": {
+        "completion_tokens": 1239,
+        "prompt_tokens": 4499,
+        "total_tokens": 5738,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": null,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 1239,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": null,
+          "text_tokens": 4499,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "cache_read_input_tokens": null
+      },
+      "seconds": 2.7895,
+      "ended_at": "2026-11-11T03:44:28.411915+00:00"
+    }
+  ]
+}

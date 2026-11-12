@@ -1,0 +1,38 @@
+[
+  {
+    "case": "new_volume",
+    "lens": "volume",
+    "visible_metrics": [
+      "PTS"
+    ],
+    "independent_required_numeric_checks": 4,
+    "seconds": 12.182,
+    "verification": "checked",
+    "truncated": false
+  },
+  {
+    "case": "new_efficiency",
+    "lens": "efficiency",
+    "visible_metrics": [
+      "TS_PCT",
+      "WEIGHTED_RTS"
+    ],
+    "independent_required_numeric_checks": 4,
+    "seconds": 8.022,
+    "verification": "checked",
+    "truncated": false
+  },
+  {
+    "case": "new_postseason",
+    "lens": "postseason",
+    "visible_metrics": [
+      "PTS",
+      "TS_PCT",
+      "WEIGHTED_RTS"
+    ],
+    "independent_required_numeric_checks": 12,
+    "seconds": 7.826,
+    "verification": "checked",
+    "truncated": false
+  }
+]

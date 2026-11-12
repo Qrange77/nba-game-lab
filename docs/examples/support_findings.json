@@ -1,0 +1,2845 @@
+{
+  "question": "Assess the claim that Michael Jordan's scoring in 1990-91 was stronger than LeBron James's scoring in 2014-15. Compare regular-season and playoff scoring volume and shooting efficiency relative to the league. Compare teammates: core helpers first, then rotation scoring, minutes and recorded games. Check whether the per-game helper leaders adequately represent the supporting cast's recorded availability. Keep original samples and qualify any limited context.",
+  "model": "vertex_ai/gemini-3.5-flash-lite",
+  "fault_injected": false,
+  "response": "# Scoring Claim Review\n\n**Verdict: Conditional: the broad claim is not uniformly supported across the selected metrics.**\n\n> Michael Jordan's scoring in 1990-91 was stronger than LeBron James's scoring in 2014-15, comparing regular-season and playoff scoring volume, shooting efficiency, and supporting cast metrics.\n\nThis adjudication concerns the selected scoring statistics. It does not rank overall players or establish innate ability, defensive impact, or championship causation.\n\n## Comparison contract\n\n- Subjects: **Michael Jordan** and **LeBron James**.\n- Scope: 1990-91\u20131990-91 versus 2014-15\u20132014-15; Regular Season, Playoffs.\n- Statistical lens: overall scoring.\n- Completed-season cutoff: **2025-26**; ongoing seasons are excluded.\n- Percentages are recomputed from summed inputs. Missing observations remain missing.\n- Relative efficiency uses same-season, same-phase league TS; career aggregation weights each season by FGA + 0.44 \u00d7 FTA.\n\n## Evidence selected by the Writer\n\n- Regular Season / Accumulated points: Michael Jordan has the larger observed value. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00)\n- Regular Season / Points per game: Michael Jordan has the larger observed value. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00)\n- Playoffs / Accumulated points: LeBron James has the larger observed value. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00)\n\n## Comparable evidence\n\n| Phase | Statistical lens | Michael Jordan | LeBron James | Observed advantage | Sources |\n|---|---|---:|---:|---|---|\n| Regular Season | Accumulated points (total) | 2,580 | 1,743 | Michael Jordan | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n| Regular Season | Points per game (per game) | 31.46 | 25.26 | Michael Jordan | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n| Regular Season | Raw true shooting (%) | 60.5 | 57.66 | Michael Jordan | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n| Regular Season | Contemporaneous relative true shooting (percentage points) | 7.06 | 4.25 | Michael Jordan | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n| Playoffs | Accumulated points (total) | 529 | 601 | LeBron James | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n| Playoffs | Points per game (per game) | 31.12 | 30.05 | Michael Jordan | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n| Playoffs | Raw true shooting (%) | 59.96 | 48.67 | Michael Jordan | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n| Playoffs | Contemporaneous relative true shooting (percentage points) | 5.25 | -3.96 | Michael Jordan | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n\n## Sensitivity and counterevidence\n\n- Regular Season: accumulation versus scoring rate does not change the observed direction in this sample. Agreement on these metrics is not proof of overall superiority. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00)\n- Regular Season: raw versus contemporaneous relative efficiency does not change the observed direction in this sample. Agreement on these metrics is not proof of overall superiority. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00)\n- Playoffs: accumulation versus scoring rate changes the observed advantage. The broad claim therefore depends on this choice of lens. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00)\n- Playoffs: raw versus contemporaneous relative efficiency does not change the observed direction in this sample. Agreement on these metrics is not proof of overall superiority. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00)\n\n### Regular-season to postseason changes\n\n| Subject | Points-per-game change | TS change (percentage points) | Sources |\n|---|---:|---:|---|\n| Michael Jordan | -0.35 | -0.54 | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) |\n| LeBron James | 4.79 | -9 | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n\n## Core helpers and rotation context\n\nThe same anchor rule is used for both subjects: earliest and latest verified Finals in the approved window, otherwise recorded playoff endpoints. These are case studies, not complete-career teammate rankings.\n\n| Focal player / sample | Core helper candidate | PPG | MPG | Recorded games | TS% | Sources |\n|---|---|---:|---:|---:|---:|---|\n| Michael Jordan / 1990-91 / Playoffs | Scottie Pippen | 21.65 | 41.41 | 17 | 56.37 | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=937&PerMode=Totals&LeagueID=00) |\n| Michael Jordan / 1990-91 / Playoffs | Horace Grant | 13.29 | 39.18 | 17 | 61.95 | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=270&PerMode=Totals&LeagueID=00) |\n| LeBron James / 2014-15 / Playoffs | Kyrie Irving | 19 | 35.71 | 13 | 57.35 | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n| LeBron James / 2014-15 / Playoffs | Kevin Love | 14.25 | 26.71 | 4 | 57.74 | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n\nCore candidates are selected by contemporary scoring production, not by career reputation or an overall ability score. The main rotation is retained by total minutes; its full minutes, production and availability rows appear in the supporting-cast details below the report. Games played do not identify injuries or actual shared court time.\n\n### Evidence-driven supporting-cast checks\n\nThe Lead checked whether the retrieved helper samples answer the question, in addition to checking whether the collectors ran. A candidate with fewer than half the maximum recorded games in the returned rotation triggers a sample-adequacy check; this is a declared screening rule, not a teammate ranking or exclusion threshold.\n\n- **Addressed**: The per-game core list includes Kevin Love with sparse recorded appearances relative to the returned rotation. A matched regular-season baseline is needed before treating this playoff sample as typical supporting-cast context. Matched scoped evidence addresses the sample-adequacy question. Original observations remain visible; the additional phase does not replace them. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=937&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=270&PerMode=Totals&LeagueID=00)\n\nMatched additional samples are shown alongside the original observations. Regular-season context describes a different sample; it does not replace postseason availability.\n\n| Subject / added sample | Core helper candidate | PPG | MPG | Recorded games | TS% | Sources |\n|---|---|---:|---:|---:|---:|---|\n| Michael Jordan / 1990-91 / Regular Season | Scottie Pippen | 17.82 | 36.76 | 82 | 56.08 | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=937&PerMode=Totals&LeagueID=00) |\n| Michael Jordan / 1990-91 / Regular Season | Horace Grant | 12.82 | 33.86 | 78 | 58.49 | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=270&PerMode=Totals&LeagueID=00) |\n| LeBron James / 2014-15 / Regular Season | Kyrie Irving | 21.71 | 36.4 | 75 | 58.33 | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n| LeBron James / 2014-15 / Regular Season | Kevin Love | 16.37 | 33.76 | 75 | 56.16 | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n\n## Finals opposition within the selected scope\n\n| Subject | Season | Opponent | Team series W\u2013L | Player PPG | Player TS% | Opponent regular-season win% | Sources |\n|---|---|---|---:|---:|---:|---:|---|\n| Michael Jordan | 1990-91 | Los Angeles Lakers | 4\u20131 | 31.2 | 61.17 | 70.7 | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) |\n| LeBron James | 2014-15 | Golden State Warriors | 2\u20134 | 35.83 | 47.68 | 81.7 | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n\nOpponent regular-season record is one limited proxy. Finals wins and defeats are included; Finals-only player data must not be described as the whole postseason.\n\n## Coverage and limits\n\n- **Personal: completed** \u2014 Required collection completed; bounded sample limitations still apply.\n- **Era: completed** \u2014 Required collection completed; bounded sample limitations still apply.\n- **Teammates: completed** \u2014 Required collection completed; bounded sample limitations still apply.\n- **Opponents: completed** \u2014 Required collection completed; bounded sample limitations still apply.\n- **Teammates: completed** \u2014 The per-game core list includes Kevin Love with sparse recorded appearances relative to the returned rotation. A matched regular-season baseline is needed before treating this playoff sample as typical supporting-cast context. Matched scoped evidence addresses the sample-adequacy question. Original observations remain visible; the additional phase does not replace them.\n- LeBron James, Regular Season: league-baseline shooting-opportunity coverage **100%**. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00)\n- LeBron James, Playoffs: league-baseline shooting-opportunity coverage **100%**. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00)\n- Michael Jordan, Regular Season: league-baseline shooting-opportunity coverage **100%**. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00)\n- Michael Jordan, Playoffs: league-baseline shooting-opportunity coverage **100%**. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00)\n- Era-relative TS is a descriptive benchmark, not a causal correction for rules, physicality, spacing or defensive difficulty.\n- True shooting uses the conventional 0.44 free-throw coefficient. It estimates shooting opportunities rather than counting actual possessions.\n- Supporting-cast cases and opponent records are contextual samples. No teammate-swap or championship-credit calculation is justified.\n- Linked evidence records retain exact scope, formulas, season inputs, original API parameters and retrieval timestamps. Aggregate citations use multiple API inputs; inspect the full source set in the evidence panel.\n- No total player score is produced. All displayed advantages are specific to a metric and sample.",
+  "verification": {
+    "status": "checked",
+    "checked_claims": 66,
+    "attempts": [
+      {
+        "valid": true,
+        "errors": []
+      }
+    ],
+    "note": "Published numeric values and comparison directions are server-derived and checked against scoped evidence. Missing source coverage is reported separately; descriptive context does not establish causation."
+  },
+  "tasks": [
+    {
+      "agent": "Researcher 1 \u00b7 personal",
+      "dimension": "personal",
+      "question": "Investigate the personal scoring volume, shooting efficiency, and postseason changes for Michael Jordan in 1990-91 and LeBron James in 2014-15 across regular season and playoffs.",
+      "round": 1,
+      "status": "completed"
+    },
+    {
+      "agent": "Researcher 2 \u00b7 era",
+      "dimension": "era",
+      "question": "Investigate contemporaneous league-wide era shooting benchmarks and relative true shooting context for the 1990-91 and 2014-15 NBA seasons.",
+      "round": 1,
+      "status": "completed"
+    },
+    {
+      "agent": "Researcher 3 \u00b7 teammates",
+      "dimension": "teammates",
+      "question": "Investigate the bounded teammate scoring, minutes, and games for Michael Jordan's supporting cast in 1990-91 and LeBron James's supporting cast in 2014-15.",
+      "round": 1,
+      "status": "completed"
+    },
+    {
+      "agent": "Researcher 4 \u00b7 opponents",
+      "dimension": "opponents",
+      "question": "Verify all Finals inside the locked scope, including defeats, and compare player series scoring and opponent regular-season records.",
+      "round": 1,
+      "status": "completed"
+    },
+    {
+      "agent": "Researcher 5 \u00b7 teammates",
+      "dimension": "teammates",
+      "question": "Evidence-driven follow-up: The per-game core list includes Kevin Love with sparse recorded appearances relative to the returned rotation. A matched regular-season baseline is needed before treating this playoff sample as typical supporting-cast context. Check whether the original helper sample is adequate by retrieving the approved matched supporting-cast samples. Preserve original evidence and separate phases.",
+      "round": 2,
+      "status": "completed",
+      "gap_id": "content_b95d16c4310f9b78"
+    }
+  ],
+  "content_checks": [
+    {
+      "id": "content_b95d16c4310f9b78",
+      "dimension": "teammates",
+      "kind": "sparse_helper_sample",
+      "reason": "The per-game core list includes Kevin Love with sparse recorded appearances relative to the returned rotation. A matched regular-season baseline is needed before treating this playoff sample as typical supporting-cast context.",
+      "evidence_ids": [
+        "ev_7b87fcd6ccf6d34af772",
+        "ev_f8c80e106bceaea02d2b"
+      ],
+      "targets": [
+        {
+          "player_id": 893,
+          "season": 1990,
+          "phase": "Regular Season",
+          "source": "default"
+        },
+        {
+          "player_id": 2544,
+          "season": 2014,
+          "phase": "Regular Season",
+          "source": "default"
+        }
+      ],
+      "question": "Check whether the original helper sample is adequate by retrieving the approved matched supporting-cast samples. Preserve original evidence and separate phases.",
+      "status": "completed",
+      "resolution": "Matched scoped evidence addresses the sample-adequacy question. Original observations remain visible; the additional phase does not replace them.",
+      "reused": false,
+      "added_evidence_ids": [
+        "ev_45767b600864433825d1",
+        "ev_de63ca35699f476e9740",
+        "ev_83d79d0e3a13f1e9e662",
+        "ev_ff19e5a9f8b10e61b7da"
+      ]
+    }
+  ],
+  "research_flow": {
+    "version": 24,
+    "status": "completed",
+    "elapsed_ms": 14932,
+    "peak_parallel": 4,
+    "nodes": [
+      {
+        "id": "lead",
+        "label": "Lead",
+        "role": "lead",
+        "agent": "Lead",
+        "depends_on": [],
+        "description": "Confirm the scoring claim, identities and scope; plan independent investigations.",
+        "round": 0,
+        "status": "completed",
+        "started_ms": 0,
+        "ended_ms": 4186,
+        "tool_ids": [
+          "Lead:1",
+          "Lead:2",
+          "Lead:3"
+        ],
+        "summary": "1990-91\u20131990-91 versus 2014-15\u20132014-15; Regular Season, Playoffs"
+      },
+      {
+        "id": "researcher-1",
+        "label": "Scoring evidence",
+        "role": "researcher",
+        "agent": "Researcher 1 \u00b7 personal",
+        "depends_on": [
+          "lead"
+        ],
+        "description": "Investigate the personal scoring volume, shooting efficiency, and postseason changes for Michael Jordan in 1990-91 and LeBron James in 2014-15 across regular season and playoffs.",
+        "round": 1,
+        "status": "completed",
+        "started_ms": 4188,
+        "ended_ms": 7726,
+        "tool_ids": [
+          "Researcher 1 \u00b7 personal:1"
+        ],
+        "summary": "Required collection completed."
+      },
+      {
+        "id": "researcher-2",
+        "label": "Era benchmarks",
+        "role": "researcher",
+        "agent": "Researcher 2 \u00b7 era",
+        "depends_on": [
+          "lead"
+        ],
+        "description": "Investigate contemporaneous league-wide era shooting benchmarks and relative true shooting context for the 1990-91 and 2014-15 NBA seasons.",
+        "round": 1,
+        "status": "completed",
+        "started_ms": 4189,
+        "ended_ms": 7265,
+        "tool_ids": [
+          "Researcher 2 \u00b7 era:1"
+        ],
+        "summary": "Required collection completed."
+      },
+      {
+        "id": "researcher-3",
+        "label": "Supporting cast",
+        "role": "researcher",
+        "agent": "Researcher 3 \u00b7 teammates",
+        "depends_on": [
+          "lead"
+        ],
+        "description": "Investigate the bounded teammate scoring, minutes, and games for Michael Jordan's supporting cast in 1990-91 and LeBron James's supporting cast in 2014-15.",
+        "round": 1,
+        "status": "completed",
+        "started_ms": 4189,
+        "ended_ms": 8570,
+        "tool_ids": [
+          "Researcher 3 \u00b7 teammates:1"
+        ],
+        "summary": "Required collection completed."
+      },
+      {
+        "id": "researcher-4",
+        "label": "Finals opponents",
+        "role": "researcher",
+        "agent": "Researcher 4 \u00b7 opponents",
+        "depends_on": [
+          "lead"
+        ],
+        "description": "Verify all Finals inside the locked scope, including defeats, and compare player series scoring and opponent regular-season records.",
+        "round": 1,
+        "status": "completed",
+        "started_ms": 4189,
+        "ended_ms": 6948,
+        "tool_ids": [
+          "Researcher 4 \u00b7 opponents:1"
+        ],
+        "summary": "Required collection completed."
+      },
+      {
+        "id": "review-1",
+        "label": "Lead review",
+        "role": "review",
+        "agent": "Lead",
+        "depends_on": [
+          "researcher-1",
+          "researcher-2",
+          "researcher-3",
+          "researcher-4"
+        ],
+        "description": "Inspect collected evidence and decide whether targeted follow-up is needed.",
+        "round": 1,
+        "status": "completed",
+        "started_ms": 8572,
+        "ended_ms": 10584,
+        "tool_ids": [
+          "Lead:4",
+          "Lead:5"
+        ],
+        "summary": "Follow-up requested: The per-game core list includes Kevin Love with sparse recorded appearances relative to the returned rotation. A matched regular-season baseline is needed before treating this playoff sample as typical supporting-cast context. "
+      },
+      {
+        "id": "researcher-5",
+        "label": "Helper follow-up",
+        "role": "researcher",
+        "agent": "Researcher 5 \u00b7 teammates",
+        "depends_on": [
+          "review-1"
+        ],
+        "description": "Evidence-driven follow-up: The per-game core list includes Kevin Love with sparse recorded appearances relative to the returned rotation. A matched regular-season baseline is needed before treating this playoff sample as typical supporting-cast context. Check whether the original helper sample is adequate by retrieving the approved matched supporting-cast samples. Preserve original evidence and separate phases.",
+        "round": 2,
+        "status": "completed",
+        "started_ms": 10586,
+        "ended_ms": 13049,
+        "tool_ids": [
+          "Researcher 5 \u00b7 teammates:1"
+        ],
+        "summary": "Matched supporting-cast evidence collected; original samples retained."
+      },
+      {
+        "id": "review-2",
+        "label": "Lead review",
+        "role": "review",
+        "agent": "Lead",
+        "depends_on": [
+          "researcher-5"
+        ],
+        "description": "Inspect collected evidence and decide whether targeted follow-up is needed.",
+        "round": 2,
+        "status": "completed",
+        "started_ms": 13050,
+        "ended_ms": 14094,
+        "tool_ids": [
+          "Lead:6",
+          "Lead:7"
+        ],
+        "summary": "Evidence review complete; proceed with the available coverage and disclosed gaps."
+      },
+      {
+        "id": "writer",
+        "label": "Writer",
+        "role": "writer",
+        "agent": "Writer",
+        "depends_on": [
+          "review-2"
+        ],
+        "description": "Select evidence and counterevidence; render and audit the sourced report.",
+        "round": 0,
+        "status": "completed",
+        "started_ms": 14094,
+        "ended_ms": 14931,
+        "tool_ids": [
+          "Writer:1"
+        ],
+        "summary": "The report passed its numerical evidence checks."
+      }
+    ]
+  },
+  "evidence": {
+    "ev_44099a6be3637520f238": {
+      "kind": "supporting_cast",
+      "player_id": 202681,
+      "player_name": "Kyrie Irving",
+      "scope": {
+        "start": 2014,
+        "end": 2014,
+        "phase": "Playoffs",
+        "basis": "per_game"
+      },
+      "context": {
+        "team_id": 1610612739,
+        "team_name": "CLE",
+        "focal_player_id": 2544
+      },
+      "values": {
+        "GP": {
+          "value": 13.0,
+          "unit": "games",
+          "games": 13.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "sum(GP)",
+          "inputs": {
+            "GP": 13.0
+          }
+        },
+        "PTS": {
+          "value": 19.0,
+          "unit": "per game",
+          "games": 13.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "PTS / GP",
+          "inputs": {
+            "PTS": 247.0,
+            "GP": 13.0
+          }
+        },
+        "REB": {
+          "value": 3.6153846153846154,
+          "unit": "per game",
+          "games": 13.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "REB / GP",
+          "inputs": {
+            "REB": 47.0,
+            "GP": 13.0
+          }
+        },
+        "AST": {
+          "value": 3.8461538461538463,
+          "unit": "per game",
+          "games": 13.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "AST / GP",
+          "inputs": {
+            "AST": 50.0,
+            "GP": 13.0
+          }
+        },
+        "STL": {
+          "value": 1.3076923076923077,
+          "unit": "per game",
+          "games": 13.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "STL / GP",
+          "inputs": {
+            "STL": 17.0,
+            "GP": 13.0
+          }
+        },
+        "BLK": {
+          "value": 0.8461538461538461,
+          "unit": "per game",
+          "games": 13.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "BLK / GP",
+          "inputs": {
+            "BLK": 11.0,
+            "GP": 13.0
+          }
+        },
+        "TOV": {
+          "value": 1.5384615384615385,
+          "unit": "per game",
+          "games": 13.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "TOV / GP",
+          "inputs": {
+            "TOV": 20.0,
+            "GP": 13.0
+          }
+        },
+        "MIN": {
+          "value": 35.70961538461539,
+          "unit": "per game",
+          "games": 13.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "MIN / GP",
+          "inputs": {
+            "MIN": 464.225,
+            "GP": 13.0
+          }
+        },
+        "FG_PCT": {
+          "value": 43.78378378378378,
+          "unit": "%",
+          "games": 13.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * FGM / FGA",
+          "inputs": {
+            "FGM": 81.0,
+            "FGA": 185.0
+          }
+        },
+        "FG3_PCT": {
+          "value": 45.0,
+          "unit": "%",
+          "games": 13.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * FG3M / FG3A",
+          "inputs": {
+            "FG3M": 27.0,
+            "FG3A": 60.0
+          }
+        },
+        "FT_PCT": {
+          "value": 84.05797101449275,
+          "unit": "%",
+          "games": 13.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * FTM / FTA",
+          "inputs": {
+            "FTM": 58.0,
+            "FTA": 69.0
+          }
+        },
+        "TS_PCT": {
+          "value": 57.34583952451708,
+          "unit": "%",
+          "games": 13.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * PTS / (2 * (FGA + 0.44 * FTA))",
+          "inputs": {
+            "PTS": 247.0,
+            "FGA": 185.0,
+            "FTA": 69.0
+          }
+        },
+        "EFG_PCT": {
+          "value": 51.08108108108108,
+          "unit": "%",
+          "games": 13.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * (FGM + 0.5 * FG3M) / FGA",
+          "inputs": {
+            "FGM": 81.0,
+            "FG3M": 27.0,
+            "FGA": 185.0
+          }
+        }
+      },
+      "total_minutes": 464.225,
+      "sources": [
+        {
+          "provider": "NBA.com",
+          "url": "https://www.nba.com/stats/player/2544/traditional",
+          "endpoint": "https://stats.nba.com/stats/playercareerstats",
+          "parameters": {
+            "player_id": 2544,
+            "per_mode36": "Totals",
+            "league_id_nullable": "00"
+          },
+          "request_parameters": {
+            "PlayerID": 2544,
+            "PerMode": "Totals",
+            "LeagueID": "00"
+          },
+          "fetched_at": "2026-11-10T22:33:43.397521+00:00",
+          "stale": false,
+          "warning": null
+        },
+        {
+          "provider": "NBA.com",
+          "url": "https://stats.nba.com/stats/teamplayerdashboard",
+          "endpoint": "https://stats.nba.com/stats/teamplayerdashboard",
+          "parameters": {
+            "team_id": 1610612739,
+            "season": "2014-15",
+            "season_type_all_star": "Playoffs",
+            "per_mode_detailed": "Totals",
+            "measure_type_detailed_defense": "Base"
+          },
+          "request_parameters": {
+            "TeamID": 1610612739,
+            "LastNGames": "0",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": 0,
+            "PaceAdjust": "N",
+            "PerMode": "Totals",
+            "Period": "0",
+            "PlusMinus": "N",
+            "Rank": "N",
+            "Season": "2014-15",
+            "SeasonType": "Playoffs",
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LeagueID": "00",
+            "Location": "",
+            "Outcome": "",
+            "PORound": "",
+            "SeasonSegment": "",
+            "ShotClockRange": "",
+            "VsConference": "",
+            "VsDivision": ""
+          },
+          "fetched_at": "2026-11-11T00:21:36.959246+00:00",
+          "stale": false,
+          "warning": null
+        }
+      ],
+      "limitations": [
+        "Team-season games and minutes do not establish shared court time or reasons for absences."
+      ],
+      "id": "ev_44099a6be3637520f238"
+    },
+    "ev_45767b600864433825d1": {
+      "kind": "supporting_cast",
+      "player_id": 937,
+      "player_name": "Scottie Pippen",
+      "scope": {
+        "start": 1990,
+        "end": 1990,
+        "phase": "Regular Season",
+        "basis": "per_game"
+      },
+      "context": {
+        "team_id": 1610612741,
+        "team_name": "CHI",
+        "focal_player_id": 893
+      },
+      "values": {
+        "GP": {
+          "value": 82.0,
+          "unit": "games",
+          "games": 82.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "sum(GP)",
+          "inputs": {
+            "GP": 82.0
+          }
+        },
+        "PTS": {
+          "value": 17.817073170731707,
+          "unit": "per game",
+          "games": 82.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "PTS / GP",
+          "inputs": {
+            "PTS": 1461.0,
+            "GP": 82.0
+          }
+        },
+        "REB": {
+          "value": 7.2560975609756095,
+          "unit": "per game",
+          "games": 82.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "REB / GP",
+          "inputs": {
+            "REB": 595.0,
+            "GP": 82.0
+          }
+        },
+        "AST": {
+          "value": 6.2317073170731705,
+          "unit": "per game",
+          "games": 82.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "AST / GP",
+          "inputs": {
+            "AST": 511.0,
+            "GP": 82.0
+          }
+        },
+        "STL": {
+          "value": 2.3536585365853657,
+          "unit": "per game",
+          "games": 82.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "STL / GP",
+          "inputs": {
+            "STL": 193.0,
+            "GP": 82.0
+          }
+        },
+        "BLK": {
+          "value": 1.1341463414634145,
+          "unit": "per game",
+          "games": 82.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "BLK / GP",
+          "inputs": {
+            "BLK": 93.0,
+            "GP": 82.0
+          }
+        },
+        "TOV": {
+          "value": 2.8292682926829267,
+          "unit": "per game",
+          "games": 82.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "TOV / GP",
+          "inputs": {
+            "TOV": 232.0,
+            "GP": 82.0
+          }
+        },
+        "MIN": {
+          "value": 36.75609756097561,
+          "unit": "per game",
+          "games": 82.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "MIN / GP",
+          "inputs": {
+            "MIN": 3014.0,
+            "GP": 82.0
+          }
+        },
+        "FG_PCT": {
+          "value": 52.038161318300084,
+          "unit": "%",
+          "games": 82.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "100 * FGM / FGA",
+          "inputs": {
+            "FGM": 600.0,
+            "FGA": 1153.0
+          }
+        },
+        "FG3_PCT": {
+          "value": 30.88235294117647,
+          "unit": "%",
+          "games": 82.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "100 * FG3M / FG3A",
+          "inputs": {
+            "FG3M": 21.0,
+            "FG3A": 68.0
+          }
+        },
+        "FT_PCT": {
+          "value": 70.58823529411765,
+          "unit": "%",
+          "games": 82.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "100 * FTM / FTA",
+          "inputs": {
+            "FTM": 240.0,
+            "FTA": 340.0
+          }
+        },
+        "TS_PCT": {
+          "value": 56.08014739751267,
+          "unit": "%",
+          "games": 82.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "100 * PTS / (2 * (FGA + 0.44 * FTA))",
+          "inputs": {
+            "PTS": 1461.0,
+            "FGA": 1153.0,
+            "FTA": 340.0
+          }
+        },
+        "EFG_PCT": {
+          "value": 52.94882914137034,
+          "unit": "%",
+          "games": 82.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "100 * (FGM + 0.5 * FG3M) / FGA",
+          "inputs": {
+            "FGM": 600.0,
+            "FG3M": 21.0,
+            "FGA": 1153.0
+          }
+        }
+      },
+      "total_minutes": 3014.0,
+      "sources": [
+        {
+          "provider": "NBA.com",
+          "url": "https://www.nba.com/stats/player/937/traditional",
+          "endpoint": "https://stats.nba.com/stats/playercareerstats",
+          "parameters": {
+            "player_id": 937,
+            "per_mode36": "Totals",
+            "league_id_nullable": "00"
+          },
+          "request_parameters": {
+            "PlayerID": 937,
+            "PerMode": "Totals",
+            "LeagueID": "00"
+          },
+          "fetched_at": "2026-11-10T22:33:45.904595+00:00",
+          "stale": false,
+          "warning": null
+        },
+        {
+          "provider": "NBA.com",
+          "url": "https://stats.nba.com/stats/commonteamroster",
+          "endpoint": "https://stats.nba.com/stats/commonteamroster",
+          "parameters": {
+            "team_id": 1610612741,
+            "season": "1990-91"
+          },
+          "request_parameters": {
+            "TeamID": 1610612741,
+            "Season": "1990-91",
+            "LeagueID": "00"
+          },
+          "fetched_at": "2026-11-10T22:33:45.105866+00:00",
+          "stale": false,
+          "warning": null
+        },
+        {
+          "provider": "NBA.com",
+          "url": "https://www.nba.com/stats/player/893/traditional",
+          "endpoint": "https://stats.nba.com/stats/playercareerstats",
+          "parameters": {
+            "player_id": 893,
+            "per_mode36": "Totals",
+            "league_id_nullable": "00"
+          },
+          "request_parameters": {
+            "PlayerID": 893,
+            "PerMode": "Totals",
+            "LeagueID": "00"
+          },
+          "fetched_at": "2026-11-10T22:33:42.899495+00:00",
+          "stale": false,
+          "warning": null
+        }
+      ],
+      "limitations": [
+        "Team-season games and minutes do not establish shared court time or reasons for absences.",
+        "Historical roster snapshot plus exact team-specific career rows; midseason roster coverage may be incomplete."
+      ],
+      "id": "ev_45767b600864433825d1"
+    },
+    "ev_5caf98d886e3f4347cda": {
+      "kind": "supporting_cast",
+      "player_id": 937,
+      "player_name": "Scottie Pippen",
+      "scope": {
+        "start": 1990,
+        "end": 1990,
+        "phase": "Playoffs",
+        "basis": "per_game"
+      },
+      "context": {
+        "team_id": 1610612741,
+        "team_name": "CHI",
+        "focal_player_id": 893
+      },
+      "values": {
+        "GP": {
+          "value": 17.0,
+          "unit": "games",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "sum(GP)",
+          "inputs": {
+            "GP": 17.0
+          }
+        },
+        "PTS": {
+          "value": 21.647058823529413,
+          "unit": "per game",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "PTS / GP",
+          "inputs": {
+            "PTS": 368.0,
+            "GP": 17.0
+          }
+        },
+        "REB": {
+          "value": 8.882352941176471,
+          "unit": "per game",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "REB / GP",
+          "inputs": {
+            "REB": 151.0,
+            "GP": 17.0
+          }
+        },
+        "AST": {
+          "value": 5.823529411764706,
+          "unit": "per game",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "AST / GP",
+          "inputs": {
+            "AST": 99.0,
+            "GP": 17.0
+          }
+        },
+        "STL": {
+          "value": 2.4705882352941178,
+          "unit": "per game",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "STL / GP",
+          "inputs": {
+            "STL": 42.0,
+            "GP": 17.0
+          }
+        },
+        "BLK": {
+          "value": 1.1176470588235294,
+          "unit": "per game",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "BLK / GP",
+          "inputs": {
+            "BLK": 19.0,
+            "GP": 17.0
+          }
+        },
+        "TOV": {
+          "value": 3.235294117647059,
+          "unit": "per game",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "TOV / GP",
+          "inputs": {
+            "TOV": 55.0,
+            "GP": 17.0
+          }
+        },
+        "MIN": {
+          "value": 41.411764705882355,
+          "unit": "per game",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "MIN / GP",
+          "inputs": {
+            "MIN": 704.0,
+            "GP": 17.0
+          }
+        },
+        "FG_PCT": {
+          "value": 50.354609929078016,
+          "unit": "%",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "100 * FGM / FGA",
+          "inputs": {
+            "FGM": 142.0,
+            "FGA": 282.0
+          }
+        },
+        "FG3_PCT": {
+          "value": 23.529411764705884,
+          "unit": "%",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "100 * FG3M / FG3A",
+          "inputs": {
+            "FG3M": 4.0,
+            "FG3A": 17.0
+          }
+        },
+        "FT_PCT": {
+          "value": 79.20792079207921,
+          "unit": "%",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "100 * FTM / FTA",
+          "inputs": {
+            "FTM": 80.0,
+            "FTA": 101.0
+          }
+        },
+        "TS_PCT": {
+          "value": 56.36564146550668,
+          "unit": "%",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "100 * PTS / (2 * (FGA + 0.44 * FTA))",
+          "inputs": {
+            "PTS": 368.0,
+            "FGA": 282.0,
+            "FTA": 101.0
+          }
+        },
+        "EFG_PCT": {
+          "value": 51.06382978723404,
+          "unit": "%",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "100 * (FGM + 0.5 * FG3M) / FGA",
+          "inputs": {
+            "FGM": 142.0,
+            "FG3M": 4.0,
+            "FGA": 282.0
+          }
+        }
+      },
+      "total_minutes": 704.0,
+      "sources": [
+        {
+          "provider": "NBA.com",
+          "url": "https://www.nba.com/stats/player/937/traditional",
+          "endpoint": "https://stats.nba.com/stats/playercareerstats",
+          "parameters": {
+            "player_id": 937,
+            "per_mode36": "Totals",
+            "league_id_nullable": "00"
+          },
+          "request_parameters": {
+            "PlayerID": 937,
+            "PerMode": "Totals",
+            "LeagueID": "00"
+          },
+          "fetched_at": "2026-11-10T22:33:45.904595+00:00",
+          "stale": false,
+          "warning": null
+        },
+        {
+          "provider": "NBA.com",
+          "url": "https://stats.nba.com/stats/commonteamroster",
+          "endpoint": "https://stats.nba.com/stats/commonteamroster",
+          "parameters": {
+            "team_id": 1610612741,
+            "season": "1990-91"
+          },
+          "request_parameters": {
+            "TeamID": 1610612741,
+            "Season": "1990-91",
+            "LeagueID": "00"
+          },
+          "fetched_at": "2026-11-10T22:33:45.105866+00:00",
+          "stale": false,
+          "warning": null
+        },
+        {
+          "provider": "NBA.com",
+          "url": "https://www.nba.com/stats/player/893/traditional",
+          "endpoint": "https://stats.nba.com/stats/playercareerstats",
+          "parameters": {
+            "player_id": 893,
+            "per_mode36": "Totals",
+            "league_id_nullable": "00"
+          },
+          "request_parameters": {
+            "PlayerID": 893,
+            "PerMode": "Totals",
+            "LeagueID": "00"
+          },
+          "fetched_at": "2026-11-10T22:33:42.899495+00:00",
+          "stale": false,
+          "warning": null
+        }
+      ],
+      "limitations": [
+        "Team-season games and minutes do not establish shared court time or reasons for absences.",
+        "Historical roster snapshot plus exact team-specific career rows; midseason roster coverage may be incomplete."
+      ],
+      "id": "ev_5caf98d886e3f4347cda"
+    },
+    "ev_7b87fcd6ccf6d34af772": {
+      "kind": "supporting_cast",
+      "player_id": 201567,
+      "player_name": "Kevin Love",
+      "scope": {
+        "start": 2014,
+        "end": 2014,
+        "phase": "Playoffs",
+        "basis": "per_game"
+      },
+      "context": {
+        "team_id": 1610612739,
+        "team_name": "CLE",
+        "focal_player_id": 2544
+      },
+      "values": {
+        "GP": {
+          "value": 4.0,
+          "unit": "games",
+          "games": 4.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "sum(GP)",
+          "inputs": {
+            "GP": 4.0
+          }
+        },
+        "PTS": {
+          "value": 14.25,
+          "unit": "per game",
+          "games": 4.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "PTS / GP",
+          "inputs": {
+            "PTS": 57.0,
+            "GP": 4.0
+          }
+        },
+        "REB": {
+          "value": 7.0,
+          "unit": "per game",
+          "games": 4.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "REB / GP",
+          "inputs": {
+            "REB": 28.0,
+            "GP": 4.0
+          }
+        },
+        "AST": {
+          "value": 2.5,
+          "unit": "per game",
+          "games": 4.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "AST / GP",
+          "inputs": {
+            "AST": 10.0,
+            "GP": 4.0
+          }
+        },
+        "STL": {
+          "value": 0.25,
+          "unit": "per game",
+          "games": 4.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "STL / GP",
+          "inputs": {
+            "STL": 1.0,
+            "GP": 4.0
+          }
+        },
+        "BLK": {
+          "value": 0.5,
+          "unit": "per game",
+          "games": 4.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "BLK / GP",
+          "inputs": {
+            "BLK": 2.0,
+            "GP": 4.0
+          }
+        },
+        "TOV": {
+          "value": 1.5,
+          "unit": "per game",
+          "games": 4.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "TOV / GP",
+          "inputs": {
+            "TOV": 6.0,
+            "GP": 4.0
+          }
+        },
+        "MIN": {
+          "value": 26.710416666666667,
+          "unit": "per game",
+          "games": 4.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "MIN / GP",
+          "inputs": {
+            "MIN": 106.84166666666667,
+            "GP": 4.0
+          }
+        },
+        "FG_PCT": {
+          "value": 41.46341463414634,
+          "unit": "%",
+          "games": 4.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * FGM / FGA",
+          "inputs": {
+            "FGM": 17.0,
+            "FGA": 41.0
+          }
+        },
+        "FG3_PCT": {
+          "value": 42.857142857142854,
+          "unit": "%",
+          "games": 4.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * FG3M / FG3A",
+          "inputs": {
+            "FG3M": 9.0,
+            "FG3A": 21.0
+          }
+        },
+        "FT_PCT": {
+          "value": 73.6842105263158,
+          "unit": "%",
+          "games": 4.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * FTM / FTA",
+          "inputs": {
+            "FTM": 14.0,
+            "FTA": 19.0
+          }
+        },
+        "TS_PCT": {
+          "value": 57.73905996758509,
+          "unit": "%",
+          "games": 4.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * PTS / (2 * (FGA + 0.44 * FTA))",
+          "inputs": {
+            "PTS": 57.0,
+            "FGA": 41.0,
+            "FTA": 19.0
+          }
+        },
+        "EFG_PCT": {
+          "value": 52.4390243902439,
+          "unit": "%",
+          "games": 4.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * (FGM + 0.5 * FG3M) / FGA",
+          "inputs": {
+            "FGM": 17.0,
+            "FG3M": 9.0,
+            "FGA": 41.0
+          }
+        }
+      },
+      "total_minutes": 106.84166666666667,
+      "sources": [
+        {
+          "provider": "NBA.com",
+          "url": "https://www.nba.com/stats/player/2544/traditional",
+          "endpoint": "https://stats.nba.com/stats/playercareerstats",
+          "parameters": {
+            "player_id": 2544,
+            "per_mode36": "Totals",
+            "league_id_nullable": "00"
+          },
+          "request_parameters": {
+            "PlayerID": 2544,
+            "PerMode": "Totals",
+            "LeagueID": "00"
+          },
+          "fetched_at": "2026-11-10T22:33:43.397521+00:00",
+          "stale": false,
+          "warning": null
+        },
+        {
+          "provider": "NBA.com",
+          "url": "https://stats.nba.com/stats/teamplayerdashboard",
+          "endpoint": "https://stats.nba.com/stats/teamplayerdashboard",
+          "parameters": {
+            "team_id": 1610612739,
+            "season": "2014-15",
+            "season_type_all_star": "Playoffs",
+            "per_mode_detailed": "Totals",
+            "measure_type_detailed_defense": "Base"
+          },
+          "request_parameters": {
+            "TeamID": 1610612739,
+            "LastNGames": "0",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": 0,
+            "PaceAdjust": "N",
+            "PerMode": "Totals",
+            "Period": "0",
+            "PlusMinus": "N",
+            "Rank": "N",
+            "Season": "2014-15",
+            "SeasonType": "Playoffs",
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LeagueID": "00",
+            "Location": "",
+            "Outcome": "",
+            "PORound": "",
+            "SeasonSegment": "",
+            "ShotClockRange": "",
+            "VsConference": "",
+            "VsDivision": ""
+          },
+          "fetched_at": "2026-11-11T00:21:36.959246+00:00",
+          "stale": false,
+          "warning": null
+        }
+      ],
+      "limitations": [
+        "Team-season games and minutes do not establish shared court time or reasons for absences."
+      ],
+      "id": "ev_7b87fcd6ccf6d34af772"
+    },
+    "ev_83d79d0e3a13f1e9e662": {
+      "kind": "supporting_cast",
+      "player_id": 202681,
+      "player_name": "Kyrie Irving",
+      "scope": {
+        "start": 2014,
+        "end": 2014,
+        "phase": "Regular Season",
+        "basis": "per_game"
+      },
+      "context": {
+        "team_id": 1610612739,
+        "team_name": "CLE",
+        "focal_player_id": 2544
+      },
+      "values": {
+        "GP": {
+          "value": 75.0,
+          "unit": "games",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "sum(GP)",
+          "inputs": {
+            "GP": 75.0
+          }
+        },
+        "PTS": {
+          "value": 21.706666666666667,
+          "unit": "per game",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "PTS / GP",
+          "inputs": {
+            "PTS": 1628.0,
+            "GP": 75.0
+          }
+        },
+        "REB": {
+          "value": 3.16,
+          "unit": "per game",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "REB / GP",
+          "inputs": {
+            "REB": 237.0,
+            "GP": 75.0
+          }
+        },
+        "AST": {
+          "value": 5.1866666666666665,
+          "unit": "per game",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "AST / GP",
+          "inputs": {
+            "AST": 389.0,
+            "GP": 75.0
+          }
+        },
+        "STL": {
+          "value": 1.52,
+          "unit": "per game",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "STL / GP",
+          "inputs": {
+            "STL": 114.0,
+            "GP": 75.0
+          }
+        },
+        "BLK": {
+          "value": 0.26666666666666666,
+          "unit": "per game",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "BLK / GP",
+          "inputs": {
+            "BLK": 20.0,
+            "GP": 75.0
+          }
+        },
+        "TOV": {
+          "value": 2.48,
+          "unit": "per game",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "TOV / GP",
+          "inputs": {
+            "TOV": 186.0,
+            "GP": 75.0
+          }
+        },
+        "MIN": {
+          "value": 36.398177777777775,
+          "unit": "per game",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "MIN / GP",
+          "inputs": {
+            "MIN": 2729.8633333333332,
+            "GP": 75.0
+          }
+        },
+        "FG_PCT": {
+          "value": 46.80161943319838,
+          "unit": "%",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * FGM / FGA",
+          "inputs": {
+            "FGM": 578.0,
+            "FGA": 1235.0
+          }
+        },
+        "FG3_PCT": {
+          "value": 41.53439153439153,
+          "unit": "%",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * FG3M / FG3A",
+          "inputs": {
+            "FG3M": 157.0,
+            "FG3A": 378.0
+          }
+        },
+        "FT_PCT": {
+          "value": 86.3013698630137,
+          "unit": "%",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * FTM / FTA",
+          "inputs": {
+            "FTM": 315.0,
+            "FTA": 365.0
+          }
+        },
+        "TS_PCT": {
+          "value": 58.32616795643451,
+          "unit": "%",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * PTS / (2 * (FGA + 0.44 * FTA))",
+          "inputs": {
+            "PTS": 1628.0,
+            "FGA": 1235.0,
+            "FTA": 365.0
+          }
+        },
+        "EFG_PCT": {
+          "value": 53.1578947368421,
+          "unit": "%",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * (FGM + 0.5 * FG3M) / FGA",
+          "inputs": {
+            "FGM": 578.0,
+            "FG3M": 157.0,
+            "FGA": 1235.0
+          }
+        }
+      },
+      "total_minutes": 2729.8633333333332,
+      "sources": [
+        {
+          "provider": "NBA.com",
+          "url": "https://www.nba.com/stats/player/2544/traditional",
+          "endpoint": "https://stats.nba.com/stats/playercareerstats",
+          "parameters": {
+            "player_id": 2544,
+            "per_mode36": "Totals",
+            "league_id_nullable": "00"
+          },
+          "request_parameters": {
+            "PlayerID": 2544,
+            "PerMode": "Totals",
+            "LeagueID": "00"
+          },
+          "fetched_at": "2026-11-10T22:33:43.397521+00:00",
+          "stale": false,
+          "warning": null
+        },
+        {
+          "provider": "NBA.com",
+          "url": "https://stats.nba.com/stats/teamplayerdashboard",
+          "endpoint": "https://stats.nba.com/stats/teamplayerdashboard",
+          "parameters": {
+            "team_id": 1610612739,
+            "season": "2014-15",
+            "season_type_all_star": "Regular Season",
+            "per_mode_detailed": "Totals",
+            "measure_type_detailed_defense": "Base"
+          },
+          "request_parameters": {
+            "TeamID": 1610612739,
+            "LastNGames": "0",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": 0,
+            "PaceAdjust": "N",
+            "PerMode": "Totals",
+            "Period": "0",
+            "PlusMinus": "N",
+            "Rank": "N",
+            "Season": "2014-15",
+            "SeasonType": "Regular Season",
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LeagueID": "00",
+            "Location": "",
+            "Outcome": "",
+            "PORound": "",
+            "SeasonSegment": "",
+            "ShotClockRange": "",
+            "VsConference": "",
+            "VsDivision": ""
+          },
+          "fetched_at": "2026-11-11T00:22:45.468754+00:00",
+          "stale": false,
+          "warning": null
+        }
+      ],
+      "limitations": [
+        "Team-season games and minutes do not establish shared court time or reasons for absences."
+      ],
+      "id": "ev_83d79d0e3a13f1e9e662"
+    },
+    "ev_a194fe8b31d5c54ffc44": {
+      "kind": "supporting_cast",
+      "player_id": 270,
+      "player_name": "Horace Grant",
+      "scope": {
+        "start": 1990,
+        "end": 1990,
+        "phase": "Playoffs",
+        "basis": "per_game"
+      },
+      "context": {
+        "team_id": 1610612741,
+        "team_name": "CHI",
+        "focal_player_id": 893
+      },
+      "values": {
+        "GP": {
+          "value": 17.0,
+          "unit": "games",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "sum(GP)",
+          "inputs": {
+            "GP": 17.0
+          }
+        },
+        "PTS": {
+          "value": 13.294117647058824,
+          "unit": "per game",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "PTS / GP",
+          "inputs": {
+            "PTS": 226.0,
+            "GP": 17.0
+          }
+        },
+        "REB": {
+          "value": 8.117647058823529,
+          "unit": "per game",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "REB / GP",
+          "inputs": {
+            "REB": 138.0,
+            "GP": 17.0
+          }
+        },
+        "AST": {
+          "value": 2.235294117647059,
+          "unit": "per game",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "AST / GP",
+          "inputs": {
+            "AST": 38.0,
+            "GP": 17.0
+          }
+        },
+        "STL": {
+          "value": 0.8823529411764706,
+          "unit": "per game",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "STL / GP",
+          "inputs": {
+            "STL": 15.0,
+            "GP": 17.0
+          }
+        },
+        "BLK": {
+          "value": 0.35294117647058826,
+          "unit": "per game",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "BLK / GP",
+          "inputs": {
+            "BLK": 6.0,
+            "GP": 17.0
+          }
+        },
+        "TOV": {
+          "value": 1.1764705882352942,
+          "unit": "per game",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "TOV / GP",
+          "inputs": {
+            "TOV": 20.0,
+            "GP": 17.0
+          }
+        },
+        "MIN": {
+          "value": 39.1764705882353,
+          "unit": "per game",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "MIN / GP",
+          "inputs": {
+            "MIN": 666.0,
+            "GP": 17.0
+          }
+        },
+        "FG_PCT": {
+          "value": 58.333333333333336,
+          "unit": "%",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "100 * FGM / FGA",
+          "inputs": {
+            "FGM": 91.0,
+            "FGA": 156.0
+          }
+        },
+        "FG3_PCT": {
+          "value": null,
+          "unit": "%",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": false,
+          "formula": "100 * FG3M / FG3A",
+          "inputs": {
+            "FG3M": 0.0,
+            "FG3A": 0.0
+          }
+        },
+        "FT_PCT": {
+          "value": 73.33333333333333,
+          "unit": "%",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "100 * FTM / FTA",
+          "inputs": {
+            "FTM": 44.0,
+            "FTA": 60.0
+          }
+        },
+        "TS_PCT": {
+          "value": 61.95175438596491,
+          "unit": "%",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "100 * PTS / (2 * (FGA + 0.44 * FTA))",
+          "inputs": {
+            "PTS": 226.0,
+            "FGA": 156.0,
+            "FTA": 60.0
+          }
+        },
+        "EFG_PCT": {
+          "value": 58.333333333333336,
+          "unit": "%",
+          "games": 17.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "100 * (FGM + 0.5 * FG3M) / FGA",
+          "inputs": {
+            "FGM": 91.0,
+            "FG3M": 0.0,
+            "FGA": 156.0
+          }
+        }
+      },
+      "total_minutes": 666.0,
+      "sources": [
+        {
+          "provider": "NBA.com",
+          "url": "https://www.nba.com/stats/player/270/traditional",
+          "endpoint": "https://stats.nba.com/stats/playercareerstats",
+          "parameters": {
+            "player_id": 270,
+            "per_mode36": "Totals",
+            "league_id_nullable": "00"
+          },
+          "request_parameters": {
+            "PlayerID": 270,
+            "PerMode": "Totals",
+            "LeagueID": "00"
+          },
+          "fetched_at": "2026-11-10T22:33:45.405174+00:00",
+          "stale": false,
+          "warning": null
+        },
+        {
+          "provider": "NBA.com",
+          "url": "https://stats.nba.com/stats/commonteamroster",
+          "endpoint": "https://stats.nba.com/stats/commonteamroster",
+          "parameters": {
+            "team_id": 1610612741,
+            "season": "1990-91"
+          },
+          "request_parameters": {
+            "TeamID": 1610612741,
+            "Season": "1990-91",
+            "LeagueID": "00"
+          },
+          "fetched_at": "2026-11-10T22:33:45.105866+00:00",
+          "stale": false,
+          "warning": null
+        },
+        {
+          "provider": "NBA.com",
+          "url": "https://www.nba.com/stats/player/893/traditional",
+          "endpoint": "https://stats.nba.com/stats/playercareerstats",
+          "parameters": {
+            "player_id": 893,
+            "per_mode36": "Totals",
+            "league_id_nullable": "00"
+          },
+          "request_parameters": {
+            "PlayerID": 893,
+            "PerMode": "Totals",
+            "LeagueID": "00"
+          },
+          "fetched_at": "2026-11-10T22:33:42.899495+00:00",
+          "stale": false,
+          "warning": null
+        }
+      ],
+      "limitations": [
+        "Team-season games and minutes do not establish shared court time or reasons for absences.",
+        "Historical roster snapshot plus exact team-specific career rows; midseason roster coverage may be incomplete."
+      ],
+      "id": "ev_a194fe8b31d5c54ffc44"
+    },
+    "ev_de63ca35699f476e9740": {
+      "kind": "supporting_cast",
+      "player_id": 270,
+      "player_name": "Horace Grant",
+      "scope": {
+        "start": 1990,
+        "end": 1990,
+        "phase": "Regular Season",
+        "basis": "per_game"
+      },
+      "context": {
+        "team_id": 1610612741,
+        "team_name": "CHI",
+        "focal_player_id": 893
+      },
+      "values": {
+        "GP": {
+          "value": 78.0,
+          "unit": "games",
+          "games": 78.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "sum(GP)",
+          "inputs": {
+            "GP": 78.0
+          }
+        },
+        "PTS": {
+          "value": 12.820512820512821,
+          "unit": "per game",
+          "games": 78.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "PTS / GP",
+          "inputs": {
+            "PTS": 1000.0,
+            "GP": 78.0
+          }
+        },
+        "REB": {
+          "value": 8.448717948717949,
+          "unit": "per game",
+          "games": 78.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "REB / GP",
+          "inputs": {
+            "REB": 659.0,
+            "GP": 78.0
+          }
+        },
+        "AST": {
+          "value": 2.282051282051282,
+          "unit": "per game",
+          "games": 78.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "AST / GP",
+          "inputs": {
+            "AST": 178.0,
+            "GP": 78.0
+          }
+        },
+        "STL": {
+          "value": 1.2179487179487178,
+          "unit": "per game",
+          "games": 78.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "STL / GP",
+          "inputs": {
+            "STL": 95.0,
+            "GP": 78.0
+          }
+        },
+        "BLK": {
+          "value": 0.8846153846153846,
+          "unit": "per game",
+          "games": 78.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "BLK / GP",
+          "inputs": {
+            "BLK": 69.0,
+            "GP": 78.0
+          }
+        },
+        "TOV": {
+          "value": 1.1794871794871795,
+          "unit": "per game",
+          "games": 78.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "TOV / GP",
+          "inputs": {
+            "TOV": 92.0,
+            "GP": 78.0
+          }
+        },
+        "MIN": {
+          "value": 33.85897435897436,
+          "unit": "per game",
+          "games": 78.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "MIN / GP",
+          "inputs": {
+            "MIN": 2641.0,
+            "GP": 78.0
+          }
+        },
+        "FG_PCT": {
+          "value": 54.70668485675307,
+          "unit": "%",
+          "games": 78.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "100 * FGM / FGA",
+          "inputs": {
+            "FGM": 401.0,
+            "FGA": 733.0
+          }
+        },
+        "FG3_PCT": {
+          "value": 16.666666666666668,
+          "unit": "%",
+          "games": 78.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "100 * FG3M / FG3A",
+          "inputs": {
+            "FG3M": 1.0,
+            "FG3A": 6.0
+          }
+        },
+        "FT_PCT": {
+          "value": 71.11913357400722,
+          "unit": "%",
+          "games": 78.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "100 * FTM / FTA",
+          "inputs": {
+            "FTM": 197.0,
+            "FTA": 277.0
+          }
+        },
+        "TS_PCT": {
+          "value": 58.4877409694928,
+          "unit": "%",
+          "games": 78.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "100 * PTS / (2 * (FGA + 0.44 * FTA))",
+          "inputs": {
+            "PTS": 1000.0,
+            "FGA": 733.0,
+            "FTA": 277.0
+          }
+        },
+        "EFG_PCT": {
+          "value": 54.774897680763985,
+          "unit": "%",
+          "games": 78.0,
+          "covered_seasons": [
+            "1990-91"
+          ],
+          "complete": true,
+          "formula": "100 * (FGM + 0.5 * FG3M) / FGA",
+          "inputs": {
+            "FGM": 401.0,
+            "FG3M": 1.0,
+            "FGA": 733.0
+          }
+        }
+      },
+      "total_minutes": 2641.0,
+      "sources": [
+        {
+          "provider": "NBA.com",
+          "url": "https://www.nba.com/stats/player/270/traditional",
+          "endpoint": "https://stats.nba.com/stats/playercareerstats",
+          "parameters": {
+            "player_id": 270,
+            "per_mode36": "Totals",
+            "league_id_nullable": "00"
+          },
+          "request_parameters": {
+            "PlayerID": 270,
+            "PerMode": "Totals",
+            "LeagueID": "00"
+          },
+          "fetched_at": "2026-11-10T22:33:45.405174+00:00",
+          "stale": false,
+          "warning": null
+        },
+        {
+          "provider": "NBA.com",
+          "url": "https://stats.nba.com/stats/commonteamroster",
+          "endpoint": "https://stats.nba.com/stats/commonteamroster",
+          "parameters": {
+            "team_id": 1610612741,
+            "season": "1990-91"
+          },
+          "request_parameters": {
+            "TeamID": 1610612741,
+            "Season": "1990-91",
+            "LeagueID": "00"
+          },
+          "fetched_at": "2026-11-10T22:33:45.105866+00:00",
+          "stale": false,
+          "warning": null
+        },
+        {
+          "provider": "NBA.com",
+          "url": "https://www.nba.com/stats/player/893/traditional",
+          "endpoint": "https://stats.nba.com/stats/playercareerstats",
+          "parameters": {
+            "player_id": 893,
+            "per_mode36": "Totals",
+            "league_id_nullable": "00"
+          },
+          "request_parameters": {
+            "PlayerID": 893,
+            "PerMode": "Totals",
+            "LeagueID": "00"
+          },
+          "fetched_at": "2026-11-10T22:33:42.899495+00:00",
+          "stale": false,
+          "warning": null
+        }
+      ],
+      "limitations": [
+        "Team-season games and minutes do not establish shared court time or reasons for absences.",
+        "Historical roster snapshot plus exact team-specific career rows; midseason roster coverage may be incomplete."
+      ],
+      "id": "ev_de63ca35699f476e9740"
+    },
+    "ev_f8c80e106bceaea02d2b": {
+      "kind": "supporting_cast",
+      "player_id": 2592,
+      "player_name": "James Jones",
+      "scope": {
+        "start": 2014,
+        "end": 2014,
+        "phase": "Playoffs",
+        "basis": "per_game"
+      },
+      "context": {
+        "team_id": 1610612739,
+        "team_name": "CLE",
+        "focal_player_id": 2544
+      },
+      "values": {
+        "GP": {
+          "value": 20.0,
+          "unit": "games",
+          "games": 20.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "sum(GP)",
+          "inputs": {
+            "GP": 20.0
+          }
+        },
+        "PTS": {
+          "value": 4.35,
+          "unit": "per game",
+          "games": 20.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "PTS / GP",
+          "inputs": {
+            "PTS": 87.0,
+            "GP": 20.0
+          }
+        },
+        "REB": {
+          "value": 1.45,
+          "unit": "per game",
+          "games": 20.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "REB / GP",
+          "inputs": {
+            "REB": 29.0,
+            "GP": 20.0
+          }
+        },
+        "AST": {
+          "value": 0.45,
+          "unit": "per game",
+          "games": 20.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "AST / GP",
+          "inputs": {
+            "AST": 9.0,
+            "GP": 20.0
+          }
+        },
+        "STL": {
+          "value": 0.4,
+          "unit": "per game",
+          "games": 20.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "STL / GP",
+          "inputs": {
+            "STL": 8.0,
+            "GP": 20.0
+          }
+        },
+        "BLK": {
+          "value": 0.15,
+          "unit": "per game",
+          "games": 20.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "BLK / GP",
+          "inputs": {
+            "BLK": 3.0,
+            "GP": 20.0
+          }
+        },
+        "TOV": {
+          "value": 0.25,
+          "unit": "per game",
+          "games": 20.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "TOV / GP",
+          "inputs": {
+            "TOV": 5.0,
+            "GP": 20.0
+          }
+        },
+        "MIN": {
+          "value": 15.529750000000002,
+          "unit": "per game",
+          "games": 20.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "MIN / GP",
+          "inputs": {
+            "MIN": 310.595,
+            "GP": 20.0
+          }
+        },
+        "FG_PCT": {
+          "value": 34.666666666666664,
+          "unit": "%",
+          "games": 20.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * FGM / FGA",
+          "inputs": {
+            "FGM": 26.0,
+            "FGA": 75.0
+          }
+        },
+        "FG3_PCT": {
+          "value": 34.375,
+          "unit": "%",
+          "games": 20.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * FG3M / FG3A",
+          "inputs": {
+            "FG3M": 22.0,
+            "FG3A": 64.0
+          }
+        },
+        "FT_PCT": {
+          "value": 92.85714285714286,
+          "unit": "%",
+          "games": 20.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * FTM / FTA",
+          "inputs": {
+            "FTM": 13.0,
+            "FTA": 14.0
+          }
+        },
+        "TS_PCT": {
+          "value": 53.597831444061114,
+          "unit": "%",
+          "games": 20.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * PTS / (2 * (FGA + 0.44 * FTA))",
+          "inputs": {
+            "PTS": 87.0,
+            "FGA": 75.0,
+            "FTA": 14.0
+          }
+        },
+        "EFG_PCT": {
+          "value": 49.333333333333336,
+          "unit": "%",
+          "games": 20.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * (FGM + 0.5 * FG3M) / FGA",
+          "inputs": {
+            "FGM": 26.0,
+            "FG3M": 22.0,
+            "FGA": 75.0
+          }
+        }
+      },
+      "total_minutes": 310.595,
+      "sources": [
+        {
+          "provider": "NBA.com",
+          "url": "https://www.nba.com/stats/player/2544/traditional",
+          "endpoint": "https://stats.nba.com/stats/playercareerstats",
+          "parameters": {
+            "player_id": 2544,
+            "per_mode36": "Totals",
+            "league_id_nullable": "00"
+          },
+          "request_parameters": {
+            "PlayerID": 2544,
+            "PerMode": "Totals",
+            "LeagueID": "00"
+          },
+          "fetched_at": "2026-11-10T22:33:43.397521+00:00",
+          "stale": false,
+          "warning": null
+        },
+        {
+          "provider": "NBA.com",
+          "url": "https://stats.nba.com/stats/teamplayerdashboard",
+          "endpoint": "https://stats.nba.com/stats/teamplayerdashboard",
+          "parameters": {
+            "team_id": 1610612739,
+            "season": "2014-15",
+            "season_type_all_star": "Playoffs",
+            "per_mode_detailed": "Totals",
+            "measure_type_detailed_defense": "Base"
+          },
+          "request_parameters": {
+            "TeamID": 1610612739,
+            "LastNGames": "0",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": 0,
+            "PaceAdjust": "N",
+            "PerMode": "Totals",
+            "Period": "0",
+            "PlusMinus": "N",
+            "Rank": "N",
+            "Season": "2014-15",
+            "SeasonType": "Playoffs",
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LeagueID": "00",
+            "Location": "",
+            "Outcome": "",
+            "PORound": "",
+            "SeasonSegment": "",
+            "ShotClockRange": "",
+            "VsConference": "",
+            "VsDivision": ""
+          },
+          "fetched_at": "2026-11-11T00:21:36.959246+00:00",
+          "stale": false,
+          "warning": null
+        }
+      ],
+      "limitations": [
+        "Team-season games and minutes do not establish shared court time or reasons for absences."
+      ],
+      "id": "ev_f8c80e106bceaea02d2b"
+    },
+    "ev_ff19e5a9f8b10e61b7da": {
+      "kind": "supporting_cast",
+      "player_id": 201567,
+      "player_name": "Kevin Love",
+      "scope": {
+        "start": 2014,
+        "end": 2014,
+        "phase": "Regular Season",
+        "basis": "per_game"
+      },
+      "context": {
+        "team_id": 1610612739,
+        "team_name": "CLE",
+        "focal_player_id": 2544
+      },
+      "values": {
+        "GP": {
+          "value": 75.0,
+          "unit": "games",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "sum(GP)",
+          "inputs": {
+            "GP": 75.0
+          }
+        },
+        "PTS": {
+          "value": 16.373333333333335,
+          "unit": "per game",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "PTS / GP",
+          "inputs": {
+            "PTS": 1228.0,
+            "GP": 75.0
+          }
+        },
+        "REB": {
+          "value": 9.746666666666666,
+          "unit": "per game",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "REB / GP",
+          "inputs": {
+            "REB": 731.0,
+            "GP": 75.0
+          }
+        },
+        "AST": {
+          "value": 2.24,
+          "unit": "per game",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "AST / GP",
+          "inputs": {
+            "AST": 168.0,
+            "GP": 75.0
+          }
+        },
+        "STL": {
+          "value": 0.68,
+          "unit": "per game",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "STL / GP",
+          "inputs": {
+            "STL": 51.0,
+            "GP": 75.0
+          }
+        },
+        "BLK": {
+          "value": 0.52,
+          "unit": "per game",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "BLK / GP",
+          "inputs": {
+            "BLK": 39.0,
+            "GP": 75.0
+          }
+        },
+        "TOV": {
+          "value": 1.6266666666666667,
+          "unit": "per game",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "TOV / GP",
+          "inputs": {
+            "TOV": 122.0,
+            "GP": 75.0
+          }
+        },
+        "MIN": {
+          "value": 33.75686666666667,
+          "unit": "per game",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "MIN / GP",
+          "inputs": {
+            "MIN": 2531.765,
+            "GP": 75.0
+          }
+        },
+        "FG_PCT": {
+          "value": 43.38235294117647,
+          "unit": "%",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * FGM / FGA",
+          "inputs": {
+            "FGM": 413.0,
+            "FGA": 952.0
+          }
+        },
+        "FG3_PCT": {
+          "value": 36.734693877551024,
+          "unit": "%",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * FG3M / FG3A",
+          "inputs": {
+            "FG3M": 144.0,
+            "FG3A": 392.0
+          }
+        },
+        "FT_PCT": {
+          "value": 80.37383177570094,
+          "unit": "%",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * FTM / FTA",
+          "inputs": {
+            "FTM": 258.0,
+            "FTA": 321.0
+          }
+        },
+        "TS_PCT": {
+          "value": 56.163331016062344,
+          "unit": "%",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * PTS / (2 * (FGA + 0.44 * FTA))",
+          "inputs": {
+            "PTS": 1228.0,
+            "FGA": 952.0,
+            "FTA": 321.0
+          }
+        },
+        "EFG_PCT": {
+          "value": 50.945378151260506,
+          "unit": "%",
+          "games": 75.0,
+          "covered_seasons": [
+            "2014-15"
+          ],
+          "complete": true,
+          "formula": "100 * (FGM + 0.5 * FG3M) / FGA",
+          "inputs": {
+            "FGM": 413.0,
+            "FG3M": 144.0,
+            "FGA": 952.0
+          }
+        }
+      },
+      "total_minutes": 2531.765,
+      "sources": [
+        {
+          "provider": "NBA.com",
+          "url": "https://www.nba.com/stats/player/2544/traditional",
+          "endpoint": "https://stats.nba.com/stats/playercareerstats",
+          "parameters": {
+            "player_id": 2544,
+            "per_mode36": "Totals",
+            "league_id_nullable": "00"
+          },
+          "request_parameters": {
+            "PlayerID": 2544,
+            "PerMode": "Totals",
+            "LeagueID": "00"
+          },
+          "fetched_at": "2026-11-10T22:33:43.397521+00:00",
+          "stale": false,
+          "warning": null
+        },
+        {
+          "provider": "NBA.com",
+          "url": "https://stats.nba.com/stats/teamplayerdashboard",
+          "endpoint": "https://stats.nba.com/stats/teamplayerdashboard",
+          "parameters": {
+            "team_id": 1610612739,
+            "season": "2014-15",
+            "season_type_all_star": "Regular Season",
+            "per_mode_detailed": "Totals",
+            "measure_type_detailed_defense": "Base"
+          },
+          "request_parameters": {
+            "TeamID": 1610612739,
+            "LastNGames": "0",
+            "MeasureType": "Base",
+            "Month": "0",
+            "OpponentTeamID": 0,
+            "PaceAdjust": "N",
+            "PerMode": "Totals",
+            "Period": "0",
+            "PlusMinus": "N",
+            "Rank": "N",
+            "Season": "2014-15",
+            "SeasonType": "Regular Season",
+            "DateFrom": "",
+            "DateTo": "",
+            "GameSegment": "",
+            "LeagueID": "00",
+            "Location": "",
+            "Outcome": "",
+            "PORound": "",
+            "SeasonSegment": "",
+            "ShotClockRange": "",
+            "VsConference": "",
+            "VsDivision": ""
+          },
+          "fetched_at": "2026-11-11T00:22:45.468754+00:00",
+          "stale": false,
+          "warning": null
+        }
+      ],
+      "limitations": [
+        "Team-season games and minutes do not establish shared court time or reasons for absences."
+      ],
+      "id": "ev_ff19e5a9f8b10e61b7da"
+    }
+  },
+  "samples": [
+    {
+      "player_id": 893,
+      "season": 1990,
+      "phase": "Playoffs",
+      "core": [
+        "ev_5caf98d886e3f4347cda",
+        "ev_a194fe8b31d5c54ffc44"
+      ],
+      "rotation": [
+        "ev_5caf98d886e3f4347cda",
+        "ev_a194fe8b31d5c54ffc44",
+        "ev_216a52b677cd10bf8f6c",
+        "ev_021ec63039aa18232715",
+        "ev_4dc849ceb1069f0857af",
+        "ev_a8866464de82bae41a4c",
+        "ev_27d3950e5506a010b0f4",
+        "ev_554dbebe1aee2eb6c98b"
+      ],
+      "selection": "Earliest/latest verified Finals within the window; otherwise earliest/latest recorded playoffs. Core candidates use contemporary scoring; rotation uses total minutes.",
+      "player_name": "Michael Jordan"
+    },
+    {
+      "player_id": 2544,
+      "season": 2014,
+      "phase": "Playoffs",
+      "core": [
+        "ev_44099a6be3637520f238",
+        "ev_7b87fcd6ccf6d34af772"
+      ],
+      "rotation": [
+        "ev_c945d78274d48e516c8a",
+        "ev_2a664e239b2dec41025e",
+        "ev_655c36d28ea7576e84fe",
+        "ev_932a52d04cf220a0813e",
+        "ev_dfa6b72811a33faeb0b7",
+        "ev_44099a6be3637520f238",
+        "ev_f8c80e106bceaea02d2b",
+        "ev_7b87fcd6ccf6d34af772"
+      ],
+      "selection": "Earliest/latest verified Finals within the window; otherwise earliest/latest recorded playoffs. Core candidates use contemporary scoring; rotation uses total minutes.",
+      "player_name": "LeBron James"
+    },
+    {
+      "player_id": 893,
+      "season": 1990,
+      "phase": "Regular Season",
+      "core": [
+        "ev_45767b600864433825d1",
+        "ev_de63ca35699f476e9740"
+      ],
+      "rotation": [
+        "ev_45767b600864433825d1",
+        "ev_de63ca35699f476e9740",
+        "ev_ba5651f64692446071f6",
+        "ev_cc5480791bad2c70f1b3",
+        "ev_d63a1172a6e309e393d8",
+        "ev_58df8adb36bf181a3e04",
+        "ev_9b9b0e20e03c46d8a621",
+        "ev_6264dcffadac16a6d7ef"
+      ],
+      "followup": true,
+      "selection": "Evidence-driven matched sample: same approved window position or corresponding career anchor for both subjects. Original core and rotation observations are retained.",
+      "followup_reason": "The per-game core list includes Kevin Love with sparse recorded appearances relative to the returned rotation. A matched regular-season baseline is needed before treating this playoff sample as typical supporting-cast context.",
+      "gap_id": "content_b95d16c4310f9b78",
+      "player_name": "Michael Jordan"
+    },
+    {
+      "player_id": 2544,
+      "season": 2014,
+      "phase": "Regular Season",
+      "core": [
+        "ev_83d79d0e3a13f1e9e662",
+        "ev_ff19e5a9f8b10e61b7da"
+      ],
+      "rotation": [
+        "ev_83d79d0e3a13f1e9e662",
+        "ev_ff19e5a9f8b10e61b7da",
+        "ev_7eb1775544a499f80edd",
+        "ev_550805734ad60f1a1fe6",
+        "ev_e44bbdca0f4f4e729ce0",
+        "ev_38dc6efb904159489ef9",
+        "ev_168cee9aba8673282f75",
+        "ev_4611eb7f51d1cfff3da1"
+      ],
+      "followup": true,
+      "selection": "Evidence-driven matched sample: same approved window position or corresponding career anchor for both subjects. Original core and rotation observations are retained.",
+      "followup_reason": "The per-game core list includes Kevin Love with sparse recorded appearances relative to the returned rotation. A matched regular-season baseline is needed before treating this playoff sample as typical supporting-cast context.",
+      "gap_id": "content_b95d16c4310f9b78",
+      "player_name": "LeBron James"
+    }
+  ],
+  "activity": [
+    {
+      "name": "confirm_scoring_contract",
+      "args": {},
+      "id": "Lead:1",
+      "status": "completed",
+      "agent": "Lead",
+      "node_id": "lead"
+    },
+    {
+      "name": "repair_research_plan",
+      "args": {},
+      "id": "Lead:2",
+      "status": "completed",
+      "agent": "Lead",
+      "node_id": "lead"
+    },
+    {
+      "name": "plan_research",
+      "args": {},
+      "id": "Lead:3",
+      "status": "completed",
+      "agent": "Lead",
+      "node_id": "lead"
+    },
+    {
+      "name": "collect_scoring_finals",
+      "args": {},
+      "id": "Researcher 4 \u00b7 opponents:1",
+      "status": "completed",
+      "agent": "Researcher 4 \u00b7 opponents",
+      "node_id": "researcher-4"
+    },
+    {
+      "name": "collect_scoring_environment",
+      "args": {},
+      "id": "Researcher 2 \u00b7 era:1",
+      "status": "completed",
+      "agent": "Researcher 2 \u00b7 era",
+      "node_id": "researcher-2"
+    },
+    {
+      "name": "collect_scoring_profile",
+      "args": {},
+      "id": "Researcher 1 \u00b7 personal:1",
+      "status": "completed",
+      "agent": "Researcher 1 \u00b7 personal",
+      "node_id": "researcher-1"
+    },
+    {
+      "name": "collect_scoring_support",
+      "args": {},
+      "id": "Researcher 3 \u00b7 teammates:1",
+      "status": "completed",
+      "agent": "Researcher 3 \u00b7 teammates",
+      "node_id": "researcher-3"
+    },
+    {
+      "name": "review_content_evidence",
+      "args": {},
+      "id": "Lead:4",
+      "status": "completed",
+      "agent": "Lead",
+      "node_id": "review-1"
+    },
+    {
+      "name": "review_research",
+      "args": {},
+      "id": "Lead:5",
+      "status": "completed",
+      "agent": "Lead",
+      "node_id": "review-1"
+    },
+    {
+      "name": "inspect_supporting_cast",
+      "args": {},
+      "id": "Researcher 5 \u00b7 teammates:1",
+      "status": "completed",
+      "agent": "Researcher 5 \u00b7 teammates",
+      "node_id": "researcher-5"
+    },
+    {
+      "name": "review_content_evidence",
+      "args": {},
+      "id": "Lead:6",
+      "status": "completed",
+      "agent": "Lead",
+      "node_id": "review-2"
+    },
+    {
+      "name": "review_research",
+      "args": {},
+      "id": "Lead:7",
+      "status": "completed",
+      "agent": "Lead",
+      "node_id": "review-2"
+    },
+    {
+      "name": "compose_scoring_review",
+      "args": {},
+      "id": "Writer:1",
+      "status": "completed",
+      "agent": "Writer",
+      "node_id": "writer"
+    }
+  ],
+  "note": "Additional evidence-content demonstration, separate from the three paired no-tools grader examples. All original helper rows remain in the complete ignored local run artifact."
+}

@@ -18,10 +18,12 @@ const menuButton = ref<HTMLButtonElement>()
 const mobileViewport = window.matchMedia('(max-width: 900px)')
 function onViewportChange(event: MediaQueryListEvent) { if (!event.matches) sidebarOpen.value = false }
 const prompts = [
-  { icon: CircleDot, label: 'Explore a matchup', text: 'Start with the game. Follow the story.', prompt: 'Find Orlando’s game against Memphis on January 15, 2026. What was the final score?' },
-  { icon: Users, label: 'Get to know a player', text: 'The player behind the performance.', prompt: 'Show Paolo Banchero’s photo and profile from the game against Memphis on January 15, 2026.' },
-  { icon: ChartNoAxesCombined, label: 'Go beyond the box score', text: 'Shooting efficiency, explained.', prompt: 'Calculate Paolo Banchero’s true shooting percentage against Memphis on January 15, 2026, and explain the inputs.' },
-  { icon: Activity, label: 'Break down a team', text: 'See what drove the result.', prompt: 'What was Orlando’s estimated offensive rating against Memphis on January 15, 2026? Show the calculation.' },
+  { icon: Users, label: 'Review a career claim', text: 'Rate, accumulation and relative efficiency.', prompt: "Assess the claim that Michael Jordan was a stronger scorer than LeBron James over their entire NBA careers. Compare regular-season and playoff scoring volume and efficiency, efficiency relative to each season's league, and bounded teammate and Finals-opponent context. Use completed seasons through 2025-26. Give a conditional judgement, not an overall-player ranking." },
+  { icon: ChartNoAxesCombined, label: 'Test equal scoring windows', text: 'Same duration. Transparent criteria.', prompt: "Assess whether Kobe Bryant's scoring in 2005-06 through 2007-08 was stronger than Stephen Curry's scoring in 2014-15 through 2016-17. Compare equal three-season windows, regular-season scoring volume, raw shooting efficiency and contemporaneous league-relative efficiency. Show which metric advantages change with the statistical lens." },
+  { icon: Activity, label: 'Check postseason scoring', text: 'Keep regular seasons and playoffs distinct.', prompt: "Assess the claim that Michael Jordan had stronger postseason scoring than LeBron James. Compare Jordan's 1990-91 through 1992-93 with James's 2011-12 through 2013-14, using postseason points per game, true shooting and their changes from the corresponding regular seasons. Limit conclusions to these equal three-season samples." },
+  { icon: CircleDot, label: 'Investigate helper samples', text: 'Check whether the first sample is sufficient.', prompt: "Assess the claim that Michael Jordan’s scoring in 1990-91 was stronger than LeBron James’s scoring in 2014-15. Compare regular-season and playoff scoring volume and shooting efficiency relative to the league. Compare teammates: core helpers first, then rotation scoring, minutes and recorded games. Check whether the per-game helper leaders adequately represent the supporting cast’s recorded availability. Keep original samples and qualify any limited context." },
+  { icon: Users, label: 'Compare on-court contributions', text: 'Offense, playmaking, defense and coverage.', prompt: 'Compare Michael Jordan in 1990-91 and LeBron James in 2014-15 on on-court impact. Include offense, playmaking, defensive evidence and team on/off for regular season and playoffs. Explain missing historical coverage.' },
+  { icon: Activity, label: 'Investigate playmaking', text: 'Assists, ball security and team context.', prompt: 'Compare Stephen Curry and LeBron James in 2015-16 on regular-season playmaking and ball security, with team on/off context. Give a supported conclusion without causal claims.' },
 ]
 
 function syncTheme() {
@@ -40,6 +42,10 @@ watch(draft, resizeComposer)
 async function scrollToEnd() {
   await nextTick()
   if (scrollArea.value && !loadingSession.value) {
+    if (turns.value.at(-1)?.research_flow && !sending.value) {
+      const flow = scrollArea.value.querySelector<HTMLElement>('.chat-turn:last-child .research-flow')
+      if (flow) { scrollArea.value.scrollTop += flow.getBoundingClientRect().top - scrollArea.value.getBoundingClientRect().top - 20; return }
+    }
     scrollArea.value.scrollTop = turns.value.length ? scrollArea.value.scrollHeight : 0
   }
 }
@@ -112,32 +118,32 @@ onBeforeUnmount(() => {
     <main class="main-panel" :inert="sidebarOpen || undefined">
       <header class="conversation-header">
         <button ref="menuButton" class="icon-button mobile-only" aria-label="Open conversation history" aria-controls="conversation-sidebar" :aria-expanded="sidebarOpen" @click="toggleSidebar"><Menu :size="21" /></button>
-        <div class="conversation-heading"><span class="section-kicker">THE ASSISTANT</span><h1>{{ title }}</h1></div>
-        <div class="conversation-actions"><span class="source-badge"><span></span> ESPN + NBA data</span><button class="icon-button" :aria-label="dark ? 'Switch to light theme' : 'Switch to dark theme'" @click="toggleTheme"><Sun v-if="dark" :size="19" /><Moon v-else :size="19" /></button></div>
+        <div class="conversation-heading"><span class="section-kicker">ON-COURT CONTRIBUTION REVIEW</span><h1>{{ title }}</h1></div>
+        <div class="conversation-actions"><span class="source-badge"><span></span> NBA API evidence</span><button class="icon-button" :aria-label="dark ? 'Switch to light theme' : 'Switch to dark theme'" @click="toggleTheme"><Sun v-if="dark" :size="19" /><Moon v-else :size="19" /></button></div>
       </header>
       <div v-if="error" class="page-error" role="alert">{{ error }}<button class="icon-button" aria-label="Dismiss error" @click="error = ''"><X :size="16" /></button></div>
       <div ref="scrollArea" class="conversation-scroll" :aria-busy="busy">
         <div v-if="loadingSession" class="session-loading" role="status">Opening your conversation…</div>
         <section v-if="!loadingSession && !turns.length" class="welcome">
           <div class="hero-art" aria-hidden="true"><svg viewBox="0 0 500 400"><g fill="none" stroke="currentColor" stroke-width="1"><rect x="60" y="35" width="330" height="380" rx="4"/><path d="M60 225h330M163 35v95h124V35M181 35v76h88V35"/><circle cx="225" cy="225" r="48"/><path d="M163 130a62 62 0 0 0 124 0M94 35v40a131 131 0 0 0 262 0V35"/><circle cx="225" cy="58" r="9"/><path d="M201 46h48"/></g></svg></div>
-          <div class="welcome-eyebrow"><span class="tiny-line"></span> YOUR COURTSIDE INTELLIGENCE</div>
+          <div class="welcome-eyebrow"><span class="tiny-line"></span> CROSS-ERA NBA RESEARCH</div>
           <div class="hero-mark"><img src="/favicon.svg" width="54" height="54" alt="" /><span class="sparkle"><Sparkles :size="14" /></span></div>
-          <h2>Your game.<br /><span>A clearer picture.</span></h2>
-          <p class="welcome-description">From the final score to the finer details.<br />Explore players, seasons, and the evidence behind each answer.</p>
+          <h2>Does the claim<br /><span>hold up?</span></h2>
+          <p class="welcome-description">Compare NBA players across eras.<br />Investigate offense, playmaking, defensive evidence and team context. Follow the evidence to a qualified conclusion.</p>
           <div class="prompt-heading"><span>MAKE YOUR FIRST PLAY</span><span>Start with an idea <ArrowUpRight :size="14" /></span></div>
           <div class="prompt-grid"><button v-for="(prompt, index) in prompts" :key="prompt.label" class="prompt-card" @click="choosePrompt(prompt.prompt)"><span class="prompt-icon" :class="`prompt-icon-${index}`"><component :is="prompt.icon" :size="21" /></span><span class="prompt-copy"><strong>{{ prompt.label }}</strong><span>{{ prompt.text }}</span></span><ArrowUpRight class="prompt-arrow" :size="17" /></button></div>
-          <div class="welcome-footnote"><span class="tiny-dot"></span> Game facts first. Every insight starts with the data.</div>
+          <div class="welcome-footnote"><span class="tiny-dot"></span> Careers or equal season windows · 1984-85 onward · Completed seasons only</div>
         </section>
-        <div v-else-if="!loadingSession && turns.length" class="message-list" aria-live="polite" aria-relevant="additions text"><ChatTurn v-for="(turn, index) in turns" :key="index" :turn="turn" :pending="sending && index === turns.length - 1 && !turn.response" @retry="retry(index)" @resolve="chat.send(turn.message, $event)" :can-resolve="!busy && index === turns.length - 1" /></div>
+        <div v-else-if="!loadingSession && turns.length" class="message-list" aria-live="polite" aria-relevant="additions text"><ChatTurn v-for="(turn, index) in turns" :key="index" :turn="turn" :pending="sending && index === turns.length - 1 && !turn.response" @retry="retry(index)" @resolve="chat.send(turn.message, $event)" @answer="chat.send($event)" :can-resolve="!busy && index === turns.length - 1" /></div>
       </div>
       <footer class="composer-area">
         <ResearchPlayers v-model="selectedPlayers" :disabled="busy" />
         <form class="composer-box" @submit.prevent="submit">
           <label for="message" class="sr-only">Your message</label>
-          <textarea id="message" ref="composer" v-model="draft" rows="1" maxlength="12000" placeholder="Ask a specific question about NBA players or games…" :disabled="loadingSession" @keydown="onEnter"></textarea>
-          <div class="composer-bottom"><div class="composer-settings"><span class="composer-mode"><Sparkles :size="15" /> NBA Research<span class="mode-pill">NBA</span></span></div><div class="send-controls"><span class="enter-hint">↵ to send</span><button class="send-button" type="submit" :disabled="!canSend" aria-label="Send message"><ArrowUp :size="21" /></button></div></div>
+          <textarea id="message" ref="composer" v-model="draft" rows="1" maxlength="12000" placeholder="Compare on-court contributions: name two players and careers or season windows…" :disabled="loadingSession" @keydown="onEnter"></textarea>
+          <div class="composer-bottom"><div class="composer-settings"><span class="composer-mode"><Sparkles :size="15" /> On-Court Research<span class="mode-pill">RESEARCH</span></span></div><div class="send-controls"><span class="enter-hint">↵ to send</span><button class="send-button" type="submit" :disabled="!canSend" aria-label="Send message"><ArrowUp :size="21" /></button></div></div>
         </form>
-        <p class="composer-disclaimer">AI can make mistakes. Check important game details.<span>Shift + Enter for a new line</span></p>
+        <p class="composer-disclaimer">AI can make mistakes. Inspect the evidence and scope.<span>Shift + Enter for a new line</span></p>
       </footer>
     </main>
   </div>

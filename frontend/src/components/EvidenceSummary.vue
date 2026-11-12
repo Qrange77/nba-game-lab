@@ -3,7 +3,7 @@ import type { EvidenceResult } from '../types'
 defineProps<{ result: EvidenceResult }>()
 function number(value: number | null) { return value != null && Number.isFinite(value) ? value.toLocaleString('en-US', { maximumFractionDigits: 2 }) : 'Unavailable' }
 function safeLink(value: string) {
-  try { const url = new URL(value); return url.protocol === 'https:' && (url.hostname === 'nba.com' || url.hostname.endsWith('.nba.com')) ? url.href : undefined } catch { return undefined }
+  try { const url = new URL(value); return url.protocol === 'https:' && ['nba.com', 'espn.com'].some(host => url.hostname === host || url.hostname.endsWith(`.${host}`)) ? url.href : undefined } catch { return undefined }
 }
 </script>
 <template>
@@ -17,13 +17,13 @@ function safeLink(value: string) {
       </table></div>
       <p v-for="note in comparison.limitations" :key="note" class="picker-note">{{ note }}</p>
     </section>
-    <div class="evidence-grid"><article v-for="(card, i) in result.cards" :key="`${card.evidence_id}-${i}`" class="evidence-card">
+    <details v-if="result.cards.length" class="honors-panel"><summary>Validated numerical facts ({{ result.cards.length }})</summary><div class="evidence-grid"><article v-for="(card, i) in result.cards" :key="`${card.evidence_id}-${i}`" class="evidence-card">
       <h3>{{ card.label || card.title }} <small>{{ card.unit }}</small></h3>
       <div class="evidence-value"><span>{{ card.player }}</span><strong>{{ number(card.value) }}</strong></div><p>{{ card.scope }}<template v-if="card.games != null"> · {{ card.games }} games</template></p>
       <template v-if="card.other_player"><div class="evidence-value"><span>{{ card.other_player }}</span><strong>{{ number(card.other_value ?? null) }}</strong></div><p>{{ card.other_scope }}</p></template>
       <details><summary>Scope, formula & limitations</summary><p v-if="card.formula">{{ card.formula }}</p><pre v-if="card.inputs">{{ JSON.stringify(card.inputs, null, 2) }}</pre><p v-for="note in card.limitations" :key="note">{{ note }}</p></details>
-    </article></div>
-    <details open class="honors-panel"><summary>Sources & coverage</summary>
+    </article></div></details>
+    <details class="honors-panel"><summary>Sources & coverage</summary>
       <div v-for="(source, i) in result.sources" :key="i" class="evidence-source"><a :href="safeLink(source.url)" target="_blank" rel="noopener noreferrer">{{ source.provider }} ↗</a><span>Retrieved {{ source.fetched_at }}</span><strong v-if="source.stale">Older cached data · refresh unavailable</strong></div>
       <p v-for="note in result.limitations" :key="note" class="picker-note">{{ note }}</p>
     </details>

@@ -1,0 +1,181 @@
+{
+  "kind": "vector_export_source",
+  "source_run_id": "8a4b9f87-00a1-4a88-afa0-e58dfdda73bd",
+  "question": "Assess the claim that Michael Jordan's scoring in 1990-91 was stronger than LeBron James's scoring in 2014-15. Compare regular-season and playoff scoring volume and shooting efficiency relative to the league. Compare teammates: core helpers first, then rotation scoring, minutes and recorded games. Check whether the per-game helper leaders adequately represent the supporting cast's recorded availability. Keep original samples and qualify any limited context.",
+  "research_flow": {
+    "version": 24,
+    "status": "completed",
+    "elapsed_ms": 11756,
+    "peak_parallel": 4,
+    "nodes": [
+      {
+        "id": "lead",
+        "label": "Lead",
+        "role": "lead",
+        "agent": "Lead",
+        "depends_on": [],
+        "description": "Confirm the scoring claim, identities and scope; plan independent investigations.",
+        "round": 0,
+        "status": "completed",
+        "started_ms": 1,
+        "ended_ms": 2576,
+        "tool_ids": [
+          "Lead:1",
+          "Lead:2"
+        ],
+        "summary": "1990-91\u20131990-91 versus 2014-15\u20132014-15; Regular Season, Playoffs"
+      },
+      {
+        "id": "researcher-1",
+        "label": "Scoring evidence",
+        "role": "researcher",
+        "agent": "Researcher 1 \u00b7 personal",
+        "depends_on": [
+          "lead"
+        ],
+        "description": "Investigate the personal scoring volume, shooting efficiency, and postseason changes for Michael Jordan in the 1990-91 regular season and playoffs versus LeBron James in the 2014-15 regular season and playoffs using points, minutes, games, shooting attempts/percentages, and relative true shooting.",
+        "round": 1,
+        "status": "completed",
+        "started_ms": 2576,
+        "ended_ms": 6009,
+        "tool_ids": [
+          "Researcher 1 \u00b7 personal:1"
+        ],
+        "summary": "Required collection completed."
+      },
+      {
+        "id": "researcher-2",
+        "label": "Era benchmarks",
+        "role": "researcher",
+        "agent": "Researcher 2 \u00b7 era",
+        "depends_on": [
+          "lead"
+        ],
+        "description": "Investigate contemporaneous shooting benchmarks, league averages, and weighted relative true shooting context for the 1990-91 NBA season and the 2014-15 NBA season.",
+        "round": 1,
+        "status": "completed",
+        "started_ms": 2581,
+        "ended_ms": 5143,
+        "tool_ids": [
+          "Researcher 2 \u00b7 era:1"
+        ],
+        "summary": "Required collection completed."
+      },
+      {
+        "id": "researcher-3",
+        "label": "Supporting cast",
+        "role": "researcher",
+        "agent": "Researcher 3 \u00b7 teammates",
+        "depends_on": [
+          "lead"
+        ],
+        "description": "Investigate bounded teammate scoring, minutes, and games for Michael Jordan's 1990-91 supporting cast and LeBron James's 2014-15 supporting cast across regular season and playoff phases.",
+        "round": 1,
+        "status": "completed",
+        "started_ms": 2583,
+        "ended_ms": 5856,
+        "tool_ids": [
+          "Researcher 3 \u00b7 teammates:1"
+        ],
+        "summary": "Required collection completed."
+      },
+      {
+        "id": "researcher-4",
+        "label": "Finals opponents",
+        "role": "researcher",
+        "agent": "Researcher 4 \u00b7 opponents",
+        "depends_on": [
+          "lead"
+        ],
+        "description": "Investigate opponent regular-season records and Finals scoring contexts faced by Michael Jordan in 1990-91 and LeBron James in 2014-15.",
+        "round": 1,
+        "status": "completed",
+        "started_ms": 2584,
+        "ended_ms": 5302,
+        "tool_ids": [
+          "Researcher 4 \u00b7 opponents:1"
+        ],
+        "summary": "Required collection completed."
+      },
+      {
+        "id": "review-1",
+        "label": "Lead review",
+        "role": "review",
+        "agent": "Lead",
+        "depends_on": [
+          "researcher-1",
+          "researcher-2",
+          "researcher-3",
+          "researcher-4"
+        ],
+        "description": "Inspect collected evidence and decide whether targeted follow-up is needed.",
+        "round": 1,
+        "status": "completed",
+        "started_ms": 6010,
+        "ended_ms": 6856,
+        "tool_ids": [
+          "Lead:3",
+          "Lead:4",
+          "Lead:5"
+        ],
+        "summary": "Follow-up requested: The per-game core list includes Kevin Love with sparse recorded appearances relative to the returned rotation. A matched regular-season baseline is needed before treating this playoff sample as typical supporting-cast context. "
+      },
+      {
+        "id": "researcher-5",
+        "label": "Helper follow-up",
+        "role": "researcher",
+        "agent": "Researcher 5 \u00b7 teammates",
+        "depends_on": [
+          "review-1"
+        ],
+        "description": "Evidence-driven follow-up: The per-game core list includes Kevin Love with sparse recorded appearances relative to the returned rotation. A matched regular-season baseline is needed before treating this playoff sample as typical supporting-cast context. Check whether the original helper sample is adequate by retrieving the approved matched supporting-cast samples. Preserve original evidence and separate phases.",
+        "round": 2,
+        "status": "completed",
+        "started_ms": 6856,
+        "ended_ms": 10173,
+        "tool_ids": [
+          "Researcher 5 \u00b7 teammates:1"
+        ],
+        "summary": "Matched supporting-cast evidence collected; original samples retained."
+      },
+      {
+        "id": "review-2",
+        "label": "Lead review",
+        "role": "review",
+        "agent": "Lead",
+        "depends_on": [
+          "researcher-5"
+        ],
+        "description": "Inspect collected evidence and decide whether targeted follow-up is needed.",
+        "round": 2,
+        "status": "completed",
+        "started_ms": 10176,
+        "ended_ms": 10862,
+        "tool_ids": [
+          "Lead:6",
+          "Lead:7"
+        ],
+        "summary": "Evidence review complete; proceed with the available coverage and disclosed gaps."
+      },
+      {
+        "id": "writer",
+        "label": "Writer",
+        "role": "writer",
+        "agent": "Writer",
+        "depends_on": [
+          "review-2"
+        ],
+        "description": "Select evidence and counterevidence; render and audit the sourced report.",
+        "round": 0,
+        "status": "completed",
+        "started_ms": 10862,
+        "ended_ms": 11756,
+        "tool_ids": [
+          "Writer:1"
+        ],
+        "summary": "The report passed its numerical evidence checks."
+      }
+    ]
+  },
+  "note": "Recorded public execution state from the same run as multi-agent-research.jpg. The SVG is a vector diagram export, not a screenshot."
+}

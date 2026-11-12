@@ -1,0 +1,60 @@
+Browser tab: 7, Title: "NBA Game Lab · Scoring Review", URL: "http://127.0.0.1:8767/".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 166-170
++				273 container
++					274 button (expanded) Research workspace, Secondary Actions: Collapse
++						275 image
++						276 text Research workspace
++						277 text Completed · 2 rounds
++						278 image
++					279 text LIVE EXECUTION GRAPH 14S  · PEAK 4 CONCURRENT RESEARCHERS 1990-91–1990-91 versus 2014-15–2014-15; Regular Season, Playoffs Running Completed Partial / failed
++					280 checkbox Actual size, Value: 1
++					281 container Research execution graph
++						282 container
++							283 checkbox Description: Lead, Completed. Inspect task and tools, Value: 0
++								284 image
++								285 text Lead
++								286 text Completed
++								287 text 2.9s
++							288 checkbox Description: Scoring evidence, round 1, Completed. Inspect task and tools, Value: 0
++								289 image
++								290 text Scoring evidence
++								291 text Round 1 · Completed
++								292 text 2.4s
++							293 checkbox Description: Era benchmarks, round 1, Completed. Inspect task and tools, Value: 0
++								294 image
++								295 text Era benchmarks
++								296 text Round 1 · Completed
++								297 text 2.8s
++							298 checkbox Description: Supporting cast, round 1, Completed. Inspect task and tools, Value: 0
++								299 image
++								300 text Supporting cast
++								301 text Round 1 · Completed
++								302 text 3.4s
++							303 checkbox Description: Finals opponents, round 1, Completed. Inspect task and tools, Value: 0
++								304 image
++								305 text Finals opponents
++								306 text Round 1 · Completed
++								307 text 2.1s
++							308 checkbox Description: Lead review, round 1, Completed. Inspect task and tools, Value: 0
++								309 image
++								310 text Lead review
++								311 text Round 1 · Completed
++								312 text 2.1s
++							313 checkbox Description: Helper follow-up, round 2, Completed. Inspect task and tools, Value: 0
++								314 image
++								315 text Helper follow-up
++								316 text Round 2 · Completed
++								317 text 4.0s
++							318 checkbox Description: Lead review, round 2, Completed. Inspect task and tools, Value: 0
++								319 image
++								320 text Lead review
++								321 text Round 2 · Completed
++								322 text <1s
++							323 checkbox Description: Writer, Completed. Inspect task and tools, Value: 0
++								324 image
++								325 text Writer
++								326 text Completed
++								327 text <1s
++					328 text Branches share the same stage; each updates independently. Scroll horizontally to explore later rounds. Select a node to inspect its task and tools.
+The focused UI element is 274 button (expanded) Research workspace, Secondary Actions: Collapse

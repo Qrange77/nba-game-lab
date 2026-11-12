@@ -1,0 +1,58 @@
+{
+  "checks": [
+    {
+      "case": "changes",
+      "checked_records": 12,
+      "checked_values": 72,
+      "context_values": 0,
+      "truncated_agent_calls": [
+        5,
+        8
+      ],
+      "raw_calls": 1
+    },
+    {
+      "case": "defense",
+      "checked_records": 2,
+      "checked_values": 10,
+      "context_values": 0,
+      "truncated_agent_calls": [],
+      "raw_calls": 1
+    },
+    {
+      "case": "historical",
+      "checked_records": 18,
+      "checked_values": 110,
+      "context_values": 736,
+      "truncated_agent_calls": [
+        11
+      ],
+      "raw_calls": 1
+    },
+    {
+      "case": "modern",
+      "checked_records": 8,
+      "checked_values": 50,
+      "context_values": 0,
+      "truncated_agent_calls": [],
+      "raw_calls": 1
+    },
+    {
+      "case": "playmaking",
+      "checked_records": 4,
+      "checked_values": 30,
+      "context_values": 0,
+      "truncated_agent_calls": [],
+      "raw_calls": 1
+    },
+    {
+      "case": "team",
+      "checked_records": 6,
+      "checked_values": 38,
+      "context_values": 0,
+      "truncated_agent_calls": [],
+      "raw_calls": 1
+    }
+  ],
+  "method": "Direct arithmetic from original NBA resultSets, independent of production aggregation. Covers all returned impact records; not unmeasured defense, causality or general agent superiority."
+}

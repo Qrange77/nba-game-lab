@@ -1,0 +1,354 @@
+Browser tab: 17, Title: "NBA Game Lab · Scoring Review", URL: "http://127.0.0.1:8767/".
+1 AXWebArea NBA Game Lab · Scoring Review, URL: 127.0.0.1:8767/
+	2 container app
+		3 container Description: Conversation history, ID: conversation-sidebar
+			4 text NBA 
+			5 text GAME LAB
+			6 text A NEW ANGLE ON THE GAME
+			7 button New conversation ↗
+				8 image
+				9 text New conversation
+				218 text ↗
+			10 container
+				11 image
+				12 search text field (settable) Search conversations
+			13 text YOUR CONVERSATIONS 23
+			65 container
+				66 heading Today, Value: 2
+					67 text Today
+				219 container
+					220 button Assess the claim that Michael Jordan had stronger postseason scoring than LeBron
+						221 image
+						222 text Assess the claim that Michael Jordan had stronger postseason scoring than LeBron
+					223 button Help: Delete conversation, Description: Delete conversation: Assess the claim that Michael Jordan had stronger postseason scoring than LeBron
+						224 image
+				207 container
+					208 button Assess whether Kobe Bryant's scoring in 2005-06 through 2007-08 was stronger tha
+						209 image
+						210 text Assess whether Kobe Bryant's scoring in 2005-06 through 2007-08 was stronger tha
+					211 button Help: Delete conversation, Description: Delete conversation: Assess whether Kobe Bryant's scoring in 2005-06 through 2007-08 was stronger tha
+						212 image
+				195 container
+					196 button Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+						197 image
+						198 text Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+					199 button Help: Delete conversation, Description: Delete conversation: Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+						200 image
+				68 container
+					69 button Compare Michael Jordan and LeBron James over their entire scoring careers. Compa
+						70 image
+						71 text Compare Michael Jordan and LeBron James over their entire scoring careers. Compa
+					72 button Help: Delete conversation, Description: Delete conversation: Compare Michael Jordan and LeBron James over their entire scoring careers. Compa
+						73 image
+				74 container
+					75 button Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+						76 image
+						77 text Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+					78 button Help: Delete conversation, Description: Delete conversation: Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+						79 image
+				80 container
+					81 button Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+						82 image
+						83 text Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+					84 button Help: Delete conversation, Description: Delete conversation: Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+						85 image
+				86 container
+					87 button Assess the claim that Michael Jordan's scoring in 1990-91 was stronger than LeBr
+						88 image
+						89 text Assess the claim that Michael Jordan's scoring in 1990-91 was stronger than LeBr
+					90 button Help: Delete conversation, Description: Delete conversation: Assess the claim that Michael Jordan's scoring in 1990-91 was stronger than LeBr
+						91 image
+				92 heading Previous 7 days, Value: 2
+					93 text Previous 7 days
+				94 container
+					95 button Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+						96 image
+						97 text Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+					98 button Help: Delete conversation, Description: Delete conversation: Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+						99 image
+				100 container
+					101 button Assess the claim that Michael Jordan’s scoring in 1990-91 was stronger than LeBr
+						102 image
+						103 text Assess the claim that Michael Jordan’s scoring in 1990-91 was stronger than LeBr
+					104 button Help: Delete conversation, Description: Delete conversation: Assess the claim that Michael Jordan’s scoring in 1990-91 was stronger than LeBr
+						105 image
+				106 container
+					107 button Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+						108 image
+						109 text Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+					110 button Help: Delete conversation, Description: Delete conversation: Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+						111 image
+				112 container
+					113 button Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+						114 image
+						115 text Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+					116 button Help: Delete conversation, Description: Delete conversation: Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+						117 image
+				118 container
+					119 button Compare Kevin Durant in 2011-12 through 2013-14 with James Harden in 2016-17 thr
+						120 image
+						121 text Compare Kevin Durant in 2011-12 through 2013-14 with James Harden in 2016-17 thr
+					122 button Help: Delete conversation, Description: Delete conversation: Compare Kevin Durant in 2011-12 through 2013-14 with James Harden in 2016-17 thr
+						123 image
+				124 container
+					125 button Compare Tim Duncan in 2000-01 through 2002-03 with Dirk Nowitzki in 2004-05 thro
+						126 image
+						127 text Compare Tim Duncan in 2000-01 through 2002-03 with Dirk Nowitzki in 2004-05 thro
+					128 button Help: Delete conversation, Description: Delete conversation: Compare Tim Duncan in 2000-01 through 2002-03 with Dirk Nowitzki in 2004-05 thro
+						129 image
+				130 container
+					131 button Compare Tim Duncan in 2000-01 through 2002-03 with Dirk Nowitzki in 2004-05 thro
+						132 image
+						133 text Compare Tim Duncan in 2000-01 through 2002-03 with Dirk Nowitzki in 2004-05 thro
+					134 button Help: Delete conversation, Description: Delete conversation: Compare Tim Duncan in 2000-01 through 2002-03 with Dirk Nowitzki in 2004-05 thro
+						135 image
+				136 container
+					137 button Assess the claim that Michael Jordan’s scoring in 1990-91 was stronger than LeBr
+						138 image
+						139 text Assess the claim that Michael Jordan’s scoring in 1990-91 was stronger than LeBr
+					140 button Help: Delete conversation, Description: Delete conversation: Assess the claim that Michael Jordan’s scoring in 1990-91 was stronger than LeBr
+						141 image
+				142 container
+					143 button Flow Graph acceptance: Assess the claim that Michael Jordan was a stronger score
+						144 image
+						145 text Flow Graph acceptance: Assess the claim that Michael Jordan was a stronger score
+					146 button Help: Delete conversation, Description: Delete conversation: Flow Graph acceptance: Assess the claim that Michael Jordan was a stronger score
+						147 image
+				148 container
+					149 button Controlled follow-up acceptance: Assess whether Kobe Bryant's scoring in 2005-06
+						150 image
+						151 text Controlled follow-up acceptance: Assess whether Kobe Bryant's scoring in 2005-06
+					152 button Help: Delete conversation, Description: Delete conversation: Controlled follow-up acceptance: Assess whether Kobe Bryant's scoring in 2005-06
+						153 image
+				154 container
+					155 button Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+						156 image
+						157 text Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+					158 button Help: Delete conversation, Description: Delete conversation: Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+						159 image
+				160 container
+					161 button Jordan or LeBron: who is better?
+						162 image
+						163 text Jordan or LeBron: who is better?
+					164 button Description: Delete conversation: Jordan or LeBron: who is better?, Help: Delete conversation
+						165 image
+				166 container
+					167 button Investigate Orlando against Memphis on January 15, 2026. Compare team scoring, s
+						168 image
+						169 text Investigate Orlando against Memphis on January 15, 2026. Compare team scoring, s
+					170 button Help: Delete conversation, Description: Delete conversation: Investigate Orlando against Memphis on January 15, 2026. Compare team scoring, s
+						171 image
+				172 container
+					173 button Compare Michael Jordan and LeBron James. Who is better?
+						174 image
+						175 text Compare Michael Jordan and LeBron James. Who is better?
+					176 button Description: Delete conversation: Compare Michael Jordan and LeBron James. Who is better?, Help: Delete conversation
+						177 image
+				178 container
+					179 button Compare Michael Jordan and LeBron James. Who is better?
+						180 image
+						181 text Compare Michael Jordan and LeBron James. Who is better?
+					182 button Description: Delete conversation: Compare Michael Jordan and LeBron James. Who is better?, Help: Delete conversation
+						183 image
+				184 container
+					185 button What was Curry's points per game in the 2015-16 regular season? Show sources.
+						186 image
+						187 text What was Curry's points per game in the 2015-16 regular season? Show sources.
+					188 button Description: Delete conversation: What was Curry's points per game in the 2015-16 regular season? Show sources., Help: Delete conversation
+						189 image
+		15 container
+			16 text SCORING CLAIM REVIEW
+			17 heading Assess the claim that Michael Jordan had stronger postseason scoring than LeBron, Value: 1
+				225 text Assess the claim that Michael Jordan had stronger postseason scoring than LeBron
+			19 text NBA API evidence
+			20 button Switch to light theme
+				21 image
+			214 container
+				215 text YOU Assess the claim that Michael Jordan had stronger postseason scoring than LeBron James. Compare Jordan's 1990-91 through 1992-93 with James's 2011-12 through 2013-14, using postseason points per game, true shooting and their changes from the corresponding regular seasons. Limit conclusions to these equal three-season samples.
+				216 text Game Lab
+				217 text ASSISTANT
+				226 container
+					227 text Which NBA player do you mean by  Jordan ? Choose a candidate below, or enter a full name.
+				228 container
+					229 text Which NBA player do you mean by  James ? Choose a candidate below, or enter a full name.
+				230 container Confirm player identities
+					231 container Who did you mean by “Jordan”?
+						232 text Who did you mean by “Jordan”?
+						233 container
+							234 radio button (settable, integer) Description: Jordan Adams 2014–2016 · NBA ID 203919, Value: 0
+							235 text Jordan Adams 2014–2016 · NBA ID 203919
+						236 container
+							237 radio button (settable, integer) Description: Jordan Bell 2017–2022 · NBA ID 1628395, Value: 0
+							238 text Jordan Bell 2017–2022 · NBA ID 1628395
+						239 container
+							240 radio button (settable, integer) Description: Jordan Bone 2019–2021 · NBA ID 1629648, Value: 0
+							241 text Jordan Bone 2019–2021 · NBA ID 1629648
+						242 container
+							243 radio button (settable, integer) Description: Jordan Clarkson 2014–present · NBA ID 203903, Value: 0
+							244 text Jordan Clarkson 2014–present · NBA ID 203903
+						245 container
+							246 radio button (settable, integer) Description: Jordan Crawford 2010–2018 · NBA ID 202348, Value: 0
+							247 text Jordan Crawford 2010–2018 · NBA ID 202348
+						248 container
+							249 radio button (settable, integer) Description: Jordan Farmar 2006–2017 · NBA ID 200770, Value: 0
+							250 text Jordan Farmar 2006–2017 · NBA ID 200770
+						251 container
+							252 radio button (settable, integer) Description: Jordan Ford 2023–2024 · NBA ID 1630259, Value: 0
+							253 text Jordan Ford 2023–2024 · NBA ID 1630259
+						254 container
+							255 radio button (settable, integer) Description: Jordan Goodwin 2021–present · NBA ID 1630692, Value: 0
+							256 text Jordan Goodwin 2021–present · NBA ID 1630692
+						257 container
+							258 radio button (settable, integer) Description: Jordan Hall 2022–2023 · NBA ID 1631160, Value: 0
+							259 text Jordan Hall 2022–2023 · NBA ID 1631160
+						260 container
+							261 radio button (settable, integer) Description: Jordan Hamilton 2011–2016 · NBA ID 202706, Value: 0
+							262 text Jordan Hamilton 2011–2016 · NBA ID 202706
+						263 container
+							264 radio button (settable, integer) Description: Jordan Hawkins 2023–present · NBA ID 1641722, Value: 0
+							265 text Jordan Hawkins 2023–present · NBA ID 1641722
+						266 container
+							267 radio button (settable, integer) Description: Jordan Hill 2009–2017 · NBA ID 201941, Value: 0
+							268 text Jordan Hill 2009–2017 · NBA ID 201941
+						269 container
+							270 radio button (settable, integer) Description: Adonis Jordan 1993–1999 · NBA ID 1817, Value: 0
+							271 text Adonis Jordan 1993–1999 · NBA ID 1817
+						272 container
+							273 radio button (settable, integer) Description: DeAndre Jordan 2008–present · NBA ID 201599, Value: 0
+							274 text DeAndre Jordan 2008–present · NBA ID 201599
+						275 container
+							276 radio button (settable, integer) Description: Eddie Jordan 1977–1984 · NBA ID 77205, Value: 0
+							277 text Eddie Jordan 1977–1984 · NBA ID 77205
+						278 container
+							279 radio button (settable, integer) Description: Jerome Jordan 2011–2015 · NBA ID 202366, Value: 0
+							280 text Jerome Jordan 2011–2015 · NBA ID 202366
+						281 container
+							282 radio button (settable, integer) Description: Michael Jordan 1984–2003 · NBA ID 893, Value: 0
+							283 text Michael Jordan 1984–2003 · NBA ID 893
+						284 container
+							285 radio button (settable, integer) Description: Reggie Jordan 1993–2000 · NBA ID 674, Value: 0
+							286 text Reggie Jordan 1993–2000 · NBA ID 674
+						287 container
+							288 radio button (settable, integer) Description: Thomas Jordan 1992–1993 · NBA ID 77208, Value: 0
+							289 text Thomas Jordan 1992–1993 · NBA ID 77208
+						290 container
+							291 radio button (settable, integer) Description: Walter Jordan 1980–1981 · NBA ID 77209, Value: 0
+							292 text Walter Jordan 1980–1981 · NBA ID 77209
+						293 container
+							294 radio button (settable, integer) Description: Jordan Loyd 2018–2019 · NBA ID 1628070, Value: 0
+							295 text Jordan Loyd 2018–2019 · NBA ID 1628070
+						296 container
+							297 radio button (settable, integer) Description: Jordan McLaughlin 2019–present · NBA ID 1629162, Value: 0
+							298 text Jordan McLaughlin 2019–present · NBA ID 1629162
+						299 container
+							300 radio button (settable, integer) Description: Jordan McRae 2015–2020 · NBA ID 203895, Value: 0
+							301 text Jordan McRae 2015–2020 · NBA ID 203895
+						302 container
+							303 radio button (settable, integer) Description: Jordan Mickey 2015–2018 · NBA ID 1626175, Value: 0
+							304 text Jordan Mickey 2015–2018 · NBA ID 1626175
+						305 container
+							306 radio button (settable, integer) Description: Jordan Miller 2023–present · NBA ID 1641757, Value: 0
+							307 text Jordan Miller 2023–present · NBA ID 1641757
+						308 text More matches exist. Use a full name or the player selector to narrow the search.
+					309 container Who did you mean by “James”?
+						310 text Who did you mean by “James”?
+						311 container
+							312 radio button (settable, integer) Description: James Anderson 2010–2016 · NBA ID 202341, Value: 0
+							313 text James Anderson 2010–2016 · NBA ID 202341
+						314 container
+							315 radio button (settable, integer) Description: James Augustine 2006–2008 · NBA ID 200788, Value: 0
+							316 text James Augustine 2006–2008 · NBA ID 200788
+						317 container
+							318 radio button (settable, integer) Description: James Bailey 1979–1988 · NBA ID 76085, Value: 0
+							319 text James Bailey 1979–1988 · NBA ID 76085
+						320 container
+							321 radio button (settable, integer) Description: James Blackwell 1994–1995 · NBA ID 1806, Value: 0
+							322 text James Blackwell 1994–1995 · NBA ID 1806
+						323 container
+							324 radio button (settable, integer) Description: James Bouknight 2021–2024 · NBA ID 1630547, Value: 0
+							325 text James Bouknight 2021–2024 · NBA ID 1630547
+						326 container
+							327 radio button (settable, integer) Description: James Collins 1997–1998 · NBA ID 1530, Value: 0
+							328 text James Collins 1997–1998 · NBA ID 1530
+						329 container
+							330 radio button (settable, integer) Description: James Cotton 1997–1999 · NBA ID 1526, Value: 0
+							331 text James Cotton 1997–1999 · NBA ID 1526
+						332 container
+							333 radio button (settable, integer) Description: James Davis 1955–1956 · NBA ID 76524, Value: 0
+							334 text James Davis 1955–1956 · NBA ID 76524
+						335 container
+							336 radio button (settable, integer) Description: James Donaldson 1980–1995 · NBA ID 76583, Value: 0
+							337 text James Donaldson 1980–1995 · NBA ID 76583
+						338 container
+							339 radio button (settable, integer) Description: James Edwards 1977–1996 · NBA ID 229, Value: 0
+							340 text James Edwards 1977–1996 · NBA ID 229
+						341 container
+							342 radio button (settable, integer) Description: James Ennis III 2014–2022 · NBA ID 203516, Value: 0
+							343 text James Ennis III 2014–2022 · NBA ID 203516
+						344 container
+							345 radio button (settable, integer) Description: James Harden 2009–present · NBA ID 201935, Value: 0
+							346 text James Harden 2009–present · NBA ID 201935
+						347 container
+							348 radio button (settable, integer) Description: James Hardy 1978–1982 · NBA ID 76948, Value: 0
+							349 text James Hardy 1978–1982 · NBA ID 76948
+						350 container
+							351 radio button (settable, integer) Description: Aaron James 1974–1979 · NBA ID 77115, Value: 0
+							352 text Aaron James 1974–1979 · NBA ID 77115
+						353 container
+							354 radio button (settable, integer) Description: Bernard James 2012–2015 · NBA ID 203108, Value: 0
+							355 text Bernard James 2012–2015 · NBA ID 203108
+						356 container
+							357 radio button (settable, integer) Description: Bronny James 2024–present · NBA ID 1642355, Value: 0
+							358 text Bronny James 2024–present · NBA ID 1642355
+						359 container
+							360 radio button (settable, integer) Description: Damion James 2010–2014 · NBA ID 202345, Value: 0
+							361 text Damion James 2010–2014 · NBA ID 202345
+						362 container
+							363 radio button (settable, integer) Description: Gene James 1948–1951 · NBA ID 77116, Value: 0
+							364 text Gene James 1948–1951 · NBA ID 77116
+						365 container
+							366 radio button (settable, integer) Description: Henry James 1990–1998 · NBA ID 1080, Value: 0
+							367 text Henry James 1990–1998 · NBA ID 1080
+						368 container
+							369 radio button (settable, integer) Description: Jerome James 1998–2009 · NBA ID 1744, Value: 0
+							370 text Jerome James 1998–2009 · NBA ID 1744
+						371 container
+							372 radio button (settable, integer) Description: Justin James 2019–2021 · NBA ID 1629713, Value: 0
+							373 text Justin James 2019–2021 · NBA ID 1629713
+						374 container
+							375 radio button (settable, integer) Description: LeBron James 2003–present · NBA ID 2544, Value: 0
+							376 text LeBron James 2003–present · NBA ID 2544
+						377 container
+							378 radio button (settable, integer) Description: Mike James 2001–2014 · NBA ID 2229, Value: 0
+							379 text Mike James 2001–2014 · NBA ID 2229
+						380 container
+							381 radio button (settable, integer) Description: Mike James 2017–2021 · NBA ID 1628455, Value: 0
+							382 text Mike James 2017–2021 · NBA ID 1628455
+						383 container
+							384 radio button (settable, integer) Description: Sion James 2025–present · NBA ID 1642883, Value: 0
+							385 text Sion James 2025–present · NBA ID 1642883
+						386 text More matches exist. Use a full name or the player selector to narrow the search.
+					387 button (disabled) Continue original question
+			52 container Research players
+				53 button (collapsed) Research players 2, Secondary Actions: Expand
+					54 image
+					55 text Research players
+					388 text 2
+				389 container NBA ID 893
+					390 text Michael Jordan
+					391 button Remove Michael Jordan
+						392 image
+				393 container NBA ID 2544
+					394 text LeBron James
+					395 button Remove LeBron James
+						396 image
+			56 container
+				57 text Your message
+				58 text entry area (settable) Your message, ID: message
+				59 image
+				60 text Scoring Review RESEARCH ↵ to send
+				61 button (disabled) Send message
+					62 image
+			63 text AI can make mistakes. Inspect the evidence and scope. Shift + Enter for a new line
+
+The focused UI element is 58 text entry area (settable) Your message, ID: message

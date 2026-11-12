@@ -1,0 +1,224 @@
+{
+  "status": "audited",
+  "checks": [
+    {
+      "id": "1495:Regular Season:PTS",
+      "required": true,
+      "expected": 5793,
+      "tolerance": 1,
+      "unit": "points",
+      "extraction": {
+        "id": "1495:Regular Season:PTS",
+        "quote": "5,675 points",
+        "number": "5675",
+        "scope": "requested",
+        "scope_quote": "Tim Duncan (2000-01 to 2002-03)",
+        "method": "aggregate"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "1495:Regular Season:PPG",
+      "required": true,
+      "expected": 23.644897959183673,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "1495:Regular Season:PPG",
+        "quote": "23.16 PPG",
+        "number": "23.16",
+        "scope": "requested",
+        "scope_quote": "Tim Duncan (2000-01 to 2002-03)",
+        "method": "aggregate"
+      },
+      "observed": 23.16,
+      "status": "incorrect"
+    },
+    {
+      "id": "1495:Regular Season:TS",
+      "required": false,
+      "expected": 55.90964892639576,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "status": "not_stated"
+    },
+    {
+      "id": "1717:Regular Season:PTS",
+      "required": true,
+      "expected": 6099,
+      "tolerance": 1,
+      "unit": "points",
+      "extraction": {
+        "id": "1717:Regular Season:PTS",
+        "quote": "6,496 points",
+        "number": "6496",
+        "scope": "requested",
+        "scope_quote": "Dirk Nowitzki (2004-05 to 2006-07)",
+        "method": "aggregate"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "1717:Regular Season:PPG",
+      "required": true,
+      "expected": 25.734177215189874,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "1717:Regular Season:PPG",
+        "quote": "27.29 PPG",
+        "number": "27.29",
+        "scope": "requested",
+        "scope_quote": "Dirk Nowitzki (2004-05 to 2006-07)",
+        "method": "aggregate"
+      },
+      "observed": 27.29,
+      "status": "incorrect"
+    },
+    {
+      "id": "1717:Regular Season:TS",
+      "required": false,
+      "expected": 59.01785921642398,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "status": "not_stated"
+    }
+  ],
+  "required_count": 4,
+  "required_comparable": 2,
+  "required_correct": 0,
+  "required_missing": 0,
+  "required_scope_mismatches": 0,
+  "advisory_model_review": {
+    "question_coverage": {
+      "status": "partial",
+      "reason": "The answer provides total points and PPG for both players, but does not include TS% metrics.",
+      "quote": "Dirk Nowitzki leads in both total points (6,496 to 5,675) and points per game (27.29 to 23.16) over their respective three-season windows.",
+      "quote_verified": false
+    },
+    "scope": {
+      "status": "respected",
+      "reason": "The windows and regular season scope match the prompt.",
+      "quote": "Tim Duncan from 2000-01 through 2002-03 with Dirk Nowitzki from 2004-05 through 2006-07",
+      "quote_verified": true
+    },
+    "conclusion_limits": {
+      "status": "respected",
+      "reason": "The conclusion correctly sticks to scoring volume as requested.",
+      "quote": "Dirk Nowitzki leads in both total points (6,496 to 5,675) and points per game (27.29 to 23.16) over their respective three-season windows.",
+      "quote_verified": false
+    }
+  },
+  "note": "Only extracted, quote-verified numeric claims are scored. Missing facts are coverage gaps, not numeric errors. Semantic review is model-judged and advisory.",
+  "extracted": {
+    "claims": [
+      {
+        "id": "1495:Regular Season:PTS",
+        "quote": "5,675 points",
+        "number": "5675",
+        "scope": "requested",
+        "scope_quote": "Tim Duncan (2000-01 to 2002-03)",
+        "method": "aggregate"
+      },
+      {
+        "id": "1495:Regular Season:PPG",
+        "quote": "23.16 PPG",
+        "number": "23.16",
+        "scope": "requested",
+        "scope_quote": "Tim Duncan (2000-01 to 2002-03)",
+        "method": "aggregate"
+      },
+      {
+        "id": "1717:Regular Season:PTS",
+        "quote": "6,496 points",
+        "number": "6496",
+        "scope": "requested",
+        "scope_quote": "Dirk Nowitzki (2004-05 to 2006-07)",
+        "method": "aggregate"
+      },
+      {
+        "id": "1717:Regular Season:PPG",
+        "quote": "27.29 PPG",
+        "number": "27.29",
+        "scope": "requested",
+        "scope_quote": "Dirk Nowitzki (2004-05 to 2006-07)",
+        "method": "aggregate"
+      }
+    ],
+    "review": {
+      "question_coverage": {
+        "status": "partial",
+        "reason": "The answer provides total points and PPG for both players, but does not include TS% metrics.",
+        "quote": "Dirk Nowitzki leads in both total points (6,496 to 5,675) and points per game (27.29 to 23.16) over their respective three-season windows.",
+        "quote_verified": false
+      },
+      "scope": {
+        "status": "respected",
+        "reason": "The windows and regular season scope match the prompt.",
+        "quote": "Tim Duncan from 2000-01 through 2002-03 with Dirk Nowitzki from 2004-05 through 2006-07",
+        "quote_verified": true
+      },
+      "conclusion_limits": {
+        "status": "respected",
+        "reason": "The conclusion correctly sticks to scoring volume as requested.",
+        "quote": "Dirk Nowitzki leads in both total points (6,496 to 5,675) and points per game (27.29 to 23.16) over their respective three-season windows.",
+        "quote_verified": false
+      }
+    }
+  },
+  "extractor_response": "{\"claims\": [{\"id\": \"1495:Regular Season:PTS\", \"quote\": \"5,675 points\", \"number\": \"5675\", \"scope\": \"requested\", \"scope_quote\": \"Tim Duncan (2000-01 to 2002-03)\", \"method\": \"aggregate\"}, {\"id\": \"1495:Regular Season:PPG\", \"quote\": \"23.16 PPG\", \"number\": \"23.16\", \"scope\": \"requested\", \"scope_quote\": \"Tim Duncan (2000-01 to 2002-03)\", \"method\": \"aggregate\"}, {\"id\": \"1717:Regular Season:PTS\", \"quote\": \"6,496 points\", \"number\": \"6496\", \"scope\": \"requested\", \"scope_quote\": \"Dirk Nowitzki (2004-05 to 2006-07)\", \"method\": \"aggregate\"}, {\"id\": \"1717:Regular Season:PPG\", \"quote\": \"27.29 PPG\", \"number\": \"27.29\", \"scope\": \"requested\", \"scope_quote\": \"Dirk Nowitzki (2004-05 to 2006-07)\", \"method\": \"aggregate\"}], \"review\": {\"question_coverage\": {\"status\": \"partial\", \"reason\": \"The answer provides total points and PPG for both players, but does not include TS% metrics.\", \"quote\": \"Dirk Nowitzki leads in both total points (6,496 to 5,675) and points per game (27.29 to 23.16) over their respective three-season windows.\"}, \"scope\": {\"status\": \"respected\", \"reason\": \"The windows and regular season scope match the prompt.\", \"quote\": \"Tim Duncan from 2000-01 through 2002-03 with Dirk Nowitzki from 2004-05 through 2006-07\"}, \"conclusion_limits\": {\"status\": \"respected\", \"reason\": \"The conclusion correctly sticks to scoring volume as requested.\", \"quote\": \"Dirk Nowitzki leads in both total points (6,496 to 5,675) and points per game (27.29 to 23.16) over their respective three-season windows.\"}}}",
+  "model_calls": [
+    {
+      "started_at": "2026-11-11T03:44:14.542412+00:00",
+      "parameters": {
+        "model": "vertex_ai/gemini-3.5-flash-lite",
+        "vertex_location": "global",
+        "response_format": {
+          "type": "json_object"
+        },
+        "temperature": 0,
+        "max_tokens": 16000,
+        "timeout": 100,
+        "num_retries": 0
+      },
+      "temperature": 0,
+      "message_roles": [
+        "system",
+        "user"
+      ],
+      "messages_sha256": "1a46f2a1c8ff2082891f871d717b958ede06aadf04ed131f308603f6c4c9fdca",
+      "tool_names": [],
+      "index": 0,
+      "response_model": "gemini-3.5-flash-lite",
+      "response_id": "juTzasaWJ8uWsbwPqOnk4AQ",
+      "finish_reasons": [
+        "stop"
+      ],
+      "truncated": false,
+      "usage": {
+        "completion_tokens": 544,
+        "prompt_tokens": 1443,
+        "total_tokens": 1987,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": null,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 544,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": null,
+          "text_tokens": 1443,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "cache_read_input_tokens": null
+      },
+      "seconds": 1.6885,
+      "ended_at": "2026-11-11T03:44:16.231028+00:00"
+    }
+  ]
+}

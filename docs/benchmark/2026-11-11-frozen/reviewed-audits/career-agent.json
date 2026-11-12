@@ -1,0 +1,461 @@
+{
+  "checks": [
+    {
+      "id": "893:Regular Season:PTS",
+      "required": false,
+      "expected": 32292,
+      "tolerance": 1,
+      "unit": "points",
+      "extraction": {
+        "id": "893:Regular Season:PTS",
+        "quote": "| Regular Season | Accumulated points (total) | 32,292 | 43,440 | LeBron James |",
+        "number": "32,292",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Accumulated points (total) | 32,292 | 43,440 | LeBron James |",
+        "method": "aggregate"
+      },
+      "observed": 32292.0,
+      "status": "correct"
+    },
+    {
+      "id": "893:Regular Season:PPG",
+      "required": true,
+      "expected": 30.12313432835821,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "893:Regular Season:PPG",
+        "quote": "| Regular Season | Points per game (per game) | 30.12 | 26.78 | Michael Jordan |",
+        "number": "30.12",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Points per game (per game) | 30.12 | 26.78 | Michael Jordan |",
+        "method": "aggregate"
+      },
+      "observed": 30.12,
+      "status": "correct"
+    },
+    {
+      "id": "893:Regular Season:TS",
+      "required": true,
+      "expected": 56.85875954512992,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "893:Regular Season:TS",
+        "quote": "| Regular Season | Raw true shooting (%) | 56.86 | 59.01 | LeBron James |",
+        "number": "56.86",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Raw true shooting (%) | 56.86 | 59.01 | LeBron James |",
+        "method": "aggregate"
+      },
+      "observed": 56.86,
+      "status": "correct"
+    },
+    {
+      "id": "893:Regular Season:RTS",
+      "required": false,
+      "expected": 3.4228828513230507,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "893:Regular Season:RTS",
+        "quote": "| Regular Season | Contemporaneous relative true shooting (percentage points) | 3.42 | 4.19 | LeBron James |",
+        "number": "3.42",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Contemporaneous relative true shooting (percentage points) | 3.42 | 4.19 | LeBron James |",
+        "method": "attempt_weighted"
+      },
+      "observed": 3.42,
+      "status": "correct"
+    },
+    {
+      "id": "893:Playoffs:PTS",
+      "required": false,
+      "expected": 5987,
+      "tolerance": 1,
+      "unit": "points",
+      "extraction": {
+        "id": "893:Playoffs:PTS",
+        "quote": "| Playoffs | Accumulated points (total) | 5,987 | 8,521 | LeBron James |",
+        "number": "5,987",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Accumulated points (total) | 5,987 | 8,521 | LeBron James |",
+        "method": "aggregate"
+      },
+      "observed": 5987.0,
+      "status": "correct"
+    },
+    {
+      "id": "893:Playoffs:PPG",
+      "required": true,
+      "expected": 33.44692737430167,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "893:Playoffs:PPG",
+        "quote": "| Playoffs | Points per game (per game) | 33.45 | 28.22 | Michael Jordan |",
+        "number": "33.45",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Points per game (per game) | 33.45 | 28.22 | Michael Jordan |",
+        "method": "aggregate"
+      },
+      "observed": 33.45,
+      "status": "correct"
+    },
+    {
+      "id": "893:Playoffs:TS",
+      "required": true,
+      "expected": 56.75914479222759,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "893:Playoffs:TS",
+        "quote": "| Playoffs | Raw true shooting (%) | 56.76 | 58.34 | LeBron James |",
+        "number": "56.76",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Raw true shooting (%) | 56.76 | 58.34 | LeBron James |",
+        "method": "aggregate"
+      },
+      "observed": 56.76,
+      "status": "correct"
+    },
+    {
+      "id": "893:Playoffs:RTS",
+      "required": false,
+      "expected": 2.8593753711264585,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "893:Playoffs:RTS",
+        "quote": "| Playoffs | Contemporaneous relative true shooting (percentage points) | 2.86 | 4.01 | LeBron James |",
+        "number": "2.86",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Contemporaneous relative true shooting (percentage points) | 2.86 | 4.01 | LeBron James |",
+        "method": "attempt_weighted"
+      },
+      "observed": 2.86,
+      "status": "correct"
+    },
+    {
+      "id": "2544:Regular Season:PTS",
+      "required": false,
+      "expected": 43440,
+      "tolerance": 1,
+      "unit": "points",
+      "extraction": {
+        "id": "2544:Regular Season:PTS",
+        "quote": "| Regular Season | Accumulated points (total) | 32,292 | 43,440 | LeBron James |",
+        "number": "43,440",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Accumulated points (total) | 32,292 | 43,440 | LeBron James |",
+        "method": "aggregate"
+      },
+      "observed": 43440.0,
+      "status": "correct"
+    },
+    {
+      "id": "2544:Regular Season:PPG",
+      "required": true,
+      "expected": 26.781750924784216,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "2544:Regular Season:PPG",
+        "quote": "| Regular Season | Points per game (per game) | 30.12 | 26.78 | Michael Jordan |",
+        "number": "26.78",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Points per game (per game) | 30.12 | 26.78 | Michael Jordan |",
+        "method": "aggregate"
+      },
+      "observed": 26.78,
+      "status": "correct"
+    },
+    {
+      "id": "2544:Regular Season:TS",
+      "required": true,
+      "expected": 59.01461888837325,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "2544:Regular Season:TS",
+        "quote": "| Regular Season | Raw true shooting (%) | 56.86 | 59.01 | LeBron James |",
+        "number": "59.01",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Raw true shooting (%) | 56.86 | 59.01 | LeBron James |",
+        "method": "aggregate"
+      },
+      "observed": 59.01,
+      "status": "correct"
+    },
+    {
+      "id": "2544:Regular Season:RTS",
+      "required": false,
+      "expected": 4.194453747305901,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "2544:Regular Season:RTS",
+        "quote": "| Regular Season | Contemporaneous relative true shooting (percentage points) | 3.42 | 4.19 | LeBron James |",
+        "number": "4.19",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Contemporaneous relative true shooting (percentage points) | 3.42 | 4.19 | LeBron James |",
+        "method": "attempt_weighted"
+      },
+      "observed": 4.19,
+      "status": "correct"
+    },
+    {
+      "id": "2544:Playoffs:PTS",
+      "required": false,
+      "expected": 8521,
+      "tolerance": 1,
+      "unit": "points",
+      "extraction": {
+        "id": "2544:Playoffs:PTS",
+        "quote": "| Playoffs | Accumulated points (total) | 5,987 | 8,521 | LeBron James |",
+        "number": "8,521",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Accumulated points (total) | 5,987 | 8,521 | LeBron James |",
+        "method": "aggregate"
+      },
+      "observed": 8521.0,
+      "status": "correct"
+    },
+    {
+      "id": "2544:Playoffs:PPG",
+      "required": true,
+      "expected": 28.21523178807947,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "2544:Playoffs:PPG",
+        "quote": "| Playoffs | Points per game (per game) | 33.45 | 28.22 | Michael Jordan |",
+        "number": "28.22",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Points per game (per game) | 33.45 | 28.22 | Michael Jordan |",
+        "method": "aggregate"
+      },
+      "observed": 28.22,
+      "status": "correct"
+    },
+    {
+      "id": "2544:Playoffs:TS",
+      "required": true,
+      "expected": 58.338399688898384,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "2544:Playoffs:TS",
+        "quote": "| Playoffs | Raw true shooting (%) | 56.76 | 58.34 | LeBron James |",
+        "number": "58.34",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Raw true shooting (%) | 56.76 | 58.34 | LeBron James |",
+        "method": "aggregate"
+      },
+      "observed": 58.34,
+      "status": "correct"
+    },
+    {
+      "id": "2544:Playoffs:RTS",
+      "required": false,
+      "expected": 4.006400118690391,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "2544:Playoffs:RTS",
+        "quote": "| Playoffs | Contemporaneous relative true shooting (percentage points) | 2.86 | 4.01 | LeBron James |",
+        "number": "4.01",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Contemporaneous relative true shooting (percentage points) | 2.86 | 4.01 | LeBron James |",
+        "method": "attempt_weighted"
+      },
+      "observed": 4.01,
+      "status": "correct"
+    }
+  ],
+  "required_count": 8,
+  "required_comparable": 8,
+  "required_correct": 8,
+  "required_missing": 0,
+  "required_scope_mismatches": 0,
+  "advisory_model_review": {
+    "question_coverage": {
+      "status": "complete",
+      "reason": "All required targets for Michael Jordan and LeBron James across regular season and playoffs for volume, efficiency, and relative efficiency are explicitly present in the answer's table.",
+      "quote": "| Regular Season | Accumulated points (total) | 32,292 | 43,440 | LeBron James |",
+      "quote_verified": true
+    },
+    "scope": {
+      "status": "respected",
+      "reason": "The answer provides career-spanning figures explicitly matching the requested players, phases, and metrics.",
+      "quote": "Scope: Recorded careers through 2025-26; Regular Season, Playoffs.",
+      "quote_verified": true
+    },
+    "conclusion_limits": {
+      "status": "respected",
+      "reason": "The answer avoids general overall-player rankings and restricts its conclusions to the evaluated scoring metrics.",
+      "quote": "This adjudication concerns the selected scoring statistics. It does not rank overall players or establish innate ability, defensive impact, or championship causation.",
+      "quote_verified": true
+    }
+  },
+  "note": "Only extracted, quote-verified numeric claims are scored. Missing facts are coverage gaps, not numeric errors. Semantic review is model-judged and advisory.",
+  "number_only": {
+    "correct": 8,
+    "checkable": 8,
+    "note": "Ignores scope only for diagnostic purposes; not scoped correctness."
+  },
+  "status": "audited",
+  "original_audit_sha256": "13b2f4b59a9a258d695c5b337d9df043573cab06253602f65389fe5fb6897f29",
+  "extracted": {
+    "claims": [
+      {
+        "id": "893:Regular Season:PTS",
+        "quote": "| Regular Season | Accumulated points (total) | 32,292 | 43,440 | LeBron James |",
+        "number": "32,292",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Accumulated points (total) | 32,292 | 43,440 | LeBron James |",
+        "method": "aggregate"
+      },
+      {
+        "id": "893:Regular Season:PPG",
+        "quote": "| Regular Season | Points per game (per game) | 30.12 | 26.78 | Michael Jordan |",
+        "number": "30.12",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Points per game (per game) | 30.12 | 26.78 | Michael Jordan |",
+        "method": "aggregate"
+      },
+      {
+        "id": "893:Regular Season:TS",
+        "quote": "| Regular Season | Raw true shooting (%) | 56.86 | 59.01 | LeBron James |",
+        "number": "56.86",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Raw true shooting (%) | 56.86 | 59.01 | LeBron James |",
+        "method": "aggregate"
+      },
+      {
+        "id": "893:Regular Season:RTS",
+        "quote": "| Regular Season | Contemporaneous relative true shooting (percentage points) | 3.42 | 4.19 | LeBron James |",
+        "number": "3.42",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Contemporaneous relative true shooting (percentage points) | 3.42 | 4.19 | LeBron James |",
+        "method": "attempt_weighted"
+      },
+      {
+        "id": "893:Playoffs:PTS",
+        "quote": "| Playoffs | Accumulated points (total) | 5,987 | 8,521 | LeBron James |",
+        "number": "5,987",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Accumulated points (total) | 5,987 | 8,521 | LeBron James |",
+        "method": "aggregate"
+      },
+      {
+        "id": "893:Playoffs:PPG",
+        "quote": "| Playoffs | Points per game (per game) | 33.45 | 28.22 | Michael Jordan |",
+        "number": "33.45",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Points per game (per game) | 33.45 | 28.22 | Michael Jordan |",
+        "method": "aggregate"
+      },
+      {
+        "id": "893:Playoffs:TS",
+        "quote": "| Playoffs | Raw true shooting (%) | 56.76 | 58.34 | LeBron James |",
+        "number": "56.76",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Raw true shooting (%) | 56.76 | 58.34 | LeBron James |",
+        "method": "aggregate"
+      },
+      {
+        "id": "893:Playoffs:RTS",
+        "quote": "| Playoffs | Contemporaneous relative true shooting (percentage points) | 2.86 | 4.01 | LeBron James |",
+        "number": "2.86",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Contemporaneous relative true shooting (percentage points) | 2.86 | 4.01 | LeBron James |",
+        "method": "attempt_weighted"
+      },
+      {
+        "id": "2544:Regular Season:PTS",
+        "quote": "| Regular Season | Accumulated points (total) | 32,292 | 43,440 | LeBron James |",
+        "number": "43,440",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Accumulated points (total) | 32,292 | 43,440 | LeBron James |",
+        "method": "aggregate"
+      },
+      {
+        "id": "2544:Regular Season:PPG",
+        "quote": "| Regular Season | Points per game (per game) | 30.12 | 26.78 | Michael Jordan |",
+        "number": "26.78",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Points per game (per game) | 30.12 | 26.78 | Michael Jordan |",
+        "method": "aggregate"
+      },
+      {
+        "id": "2544:Regular Season:TS",
+        "quote": "| Regular Season | Raw true shooting (%) | 56.86 | 59.01 | LeBron James |",
+        "number": "59.01",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Raw true shooting (%) | 56.86 | 59.01 | LeBron James |",
+        "method": "aggregate"
+      },
+      {
+        "id": "2544:Regular Season:RTS",
+        "quote": "| Regular Season | Contemporaneous relative true shooting (percentage points) | 3.42 | 4.19 | LeBron James |",
+        "number": "4.19",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Contemporaneous relative true shooting (percentage points) | 3.42 | 4.19 | LeBron James |",
+        "method": "attempt_weighted"
+      },
+      {
+        "id": "2544:Playoffs:PTS",
+        "quote": "| Playoffs | Accumulated points (total) | 5,987 | 8,521 | LeBron James |",
+        "number": "8,521",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Accumulated points (total) | 5,987 | 8,521 | LeBron James |",
+        "method": "aggregate"
+      },
+      {
+        "id": "2544:Playoffs:PPG",
+        "quote": "| Playoffs | Points per game (per game) | 33.45 | 28.22 | Michael Jordan |",
+        "number": "28.22",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Points per game (per game) | 33.45 | 28.22 | Michael Jordan |",
+        "method": "aggregate"
+      },
+      {
+        "id": "2544:Playoffs:TS",
+        "quote": "| Playoffs | Raw true shooting (%) | 56.76 | 58.34 | LeBron James |",
+        "number": "58.34",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Raw true shooting (%) | 56.76 | 58.34 | LeBron James |",
+        "method": "aggregate"
+      },
+      {
+        "id": "2544:Playoffs:RTS",
+        "quote": "| Playoffs | Contemporaneous relative true shooting (percentage points) | 2.86 | 4.01 | LeBron James |",
+        "number": "4.01",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Contemporaneous relative true shooting (percentage points) | 2.86 | 4.01 | LeBron James |",
+        "method": "attempt_weighted"
+      }
+    ],
+    "review": {
+      "question_coverage": {
+        "status": "complete",
+        "reason": "All required targets for Michael Jordan and LeBron James across regular season and playoffs for volume, efficiency, and relative efficiency are explicitly present in the answer's table.",
+        "quote": "| Regular Season | Accumulated points (total) | 32,292 | 43,440 | LeBron James |",
+        "quote_verified": true
+      },
+      "scope": {
+        "status": "respected",
+        "reason": "The answer provides career-spanning figures explicitly matching the requested players, phases, and metrics.",
+        "quote": "Scope: Recorded careers through 2025-26; Regular Season, Playoffs.",
+        "quote_verified": true
+      },
+      "conclusion_limits": {
+        "status": "respected",
+        "reason": "The answer avoids general overall-player rankings and restricts its conclusions to the evaluated scoring metrics.",
+        "quote": "This adjudication concerns the selected scoring statistics. It does not rank overall players or establish innate ability, defensive impact, or championship causation.",
+        "quote_verified": true
+      }
+    }
+  }
+}

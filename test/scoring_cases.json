@@ -1,0 +1,122 @@
+[
+  {
+    "id": "career",
+    "players": [
+      [
+        893,
+        "Michael Jordan"
+      ],
+      [
+        2544,
+        "LeBron James"
+      ]
+    ],
+    "question": "Assess the claim that Michael Jordan was a stronger scorer than LeBron James over their entire NBA careers. Compare regular-season and playoff scoring volume and efficiency, efficiency relative to each season's league, and bounded teammate and Finals-opponent context. Use completed seasons through 2025-26. Give a conditional judgement, not an overall-player ranking.",
+    "expected": "conditional"
+  },
+  {
+    "id": "windows",
+    "players": [
+      [
+        977,
+        "Kobe Bryant"
+      ],
+      [
+        201939,
+        "Stephen Curry"
+      ]
+    ],
+    "question": "Assess whether Kobe Bryant's scoring in 2005-06 through 2007-08 was stronger than Stephen Curry's scoring in 2014-15 through 2016-17. Compare equal three-season windows, regular-season scoring volume, raw shooting efficiency and contemporaneous league-relative efficiency. Show which metric advantages change with the statistical lens.",
+    "expected": "metric_specific"
+  },
+  {
+    "id": "postseason",
+    "players": [
+      [
+        893,
+        "Michael Jordan"
+      ],
+      [
+        2544,
+        "LeBron James"
+      ]
+    ],
+    "question": "Assess the claim that Michael Jordan had stronger postseason scoring than LeBron James. Compare Jordan's 1990-91 through 1992-93 with James's 2011-12 through 2013-14, using postseason points per game, true shooting and their changes from the corresponding regular seasons. Limit conclusions to these equal three-season samples.",
+    "expected": "metric_specific"
+  },
+  {
+    "id": "vague",
+    "players": [
+      [
+        893,
+        "Michael Jordan"
+      ],
+      [
+        2544,
+        "LeBron James"
+      ]
+    ],
+    "question": "Jordan or LeBron: who is better?",
+    "expected": "clarify"
+  },
+  {
+    "id": "outside_scope",
+    "players": [
+      [
+        893,
+        "Michael Jordan"
+      ],
+      [
+        2544,
+        "LeBron James"
+      ]
+    ],
+    "question": "Who was the better overall defender, Michael Jordan or LeBron James?",
+    "expected": "outside_scope"
+  },
+  {
+    "id": "early_era",
+    "players": [
+      [
+        76375,
+        "Wilt Chamberlain"
+      ],
+      [
+        203999,
+        "Nikola Jokic"
+      ]
+    ],
+    "question": "Compare Wilt Chamberlain's scoring in 1961-62 with Nikola Jokic's scoring in 2022-23, including league-relative efficiency.",
+    "expected": "unsupported_era"
+  },
+  {
+    "id": "causal",
+    "players": [
+      [
+        893,
+        "Michael Jordan"
+      ],
+      [
+        2544,
+        "LeBron James"
+      ]
+    ],
+    "question": "Prove that Michael Jordan would have won more championships than LeBron James if their teammates were swapped, using their career scoring and teammate data.",
+    "expected": "causal_limit"
+  },
+  {
+    "id": "support_findings",
+    "players": [
+      [
+        893,
+        "Michael Jordan"
+      ],
+      [
+        2544,
+        "LeBron James"
+      ]
+    ],
+    "question": "Assess the claim that Michael Jordan's scoring in 1990-91 was stronger than LeBron James's scoring in 2014-15. Compare regular-season and playoff scoring volume and shooting efficiency relative to the league. Compare teammates: core helpers first, then rotation scoring, minutes and recorded games. Check whether the per-game helper leaders adequately represent the supporting cast's recorded availability. Keep original samples and qualify any limited context.",
+    "expected": "evidence_driven_support_followup"
+  }
+]

@@ -1,0 +1,238 @@
+{
+  "status": "audited",
+  "checks": [
+    {
+      "id": "977:Regular Season:PTS",
+      "required": false,
+      "expected": 7585,
+      "tolerance": 1,
+      "unit": "points",
+      "status": "not_stated"
+    },
+    {
+      "id": "977:Regular Season:PPG",
+      "required": true,
+      "expected": 31.736401673640167,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "977:Regular Season:PPG",
+        "quote": "Three-Season Total / Average: 31.8 PPG",
+        "number": "31.8",
+        "scope": "requested",
+        "scope_quote": "Kobe Bryant (2005-06 to 2007-08)",
+        "method": "aggregate"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "977:Regular Season:TS",
+      "required": true,
+      "expected": 57.075048609731574,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "977:Regular Season:TS",
+        "quote": "True Shooting Percentage (TS%): 56.3%",
+        "number": "56.3",
+        "scope": "requested",
+        "scope_quote": "Kobe Bryant (2005-06 to 2007-08)",
+        "method": "aggregate"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "977:Regular Season:RTS",
+      "required": false,
+      "expected": 3.1896625563830763,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "status": "not_stated"
+    },
+    {
+      "id": "201939:Regular Season:PTS",
+      "required": false,
+      "expected": 6274,
+      "tolerance": 1,
+      "unit": "points",
+      "status": "not_stated"
+    },
+    {
+      "id": "201939:Regular Season:PPG",
+      "required": true,
+      "expected": 26.361344537815125,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "201939:Regular Season:PPG",
+        "quote": "Three-Season Total / Average: 26.4 PPG",
+        "number": "26.4",
+        "scope": "requested",
+        "scope_quote": "Stephen Curry (2014-15 to 2016-17)",
+        "method": "aggregate"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "201939:Regular Season:TS",
+      "required": true,
+      "expected": 64.47356522168054,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "201939:Regular Season:TS",
+        "quote": "True Shooting Percentage (TS%): 62.7%",
+        "number": "62.7",
+        "scope": "requested",
+        "scope_quote": "Stephen Curry (2014-15 to 2016-17)",
+        "method": "aggregate"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "201939:Regular Season:RTS",
+      "required": false,
+      "expected": 10.200510999538412,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "status": "not_stated"
+    }
+  ],
+  "required_count": 4,
+  "required_comparable": 0,
+  "required_correct": 0,
+  "required_missing": 0,
+  "required_scope_mismatches": 0,
+  "advisory_model_review": {
+    "question_coverage": {
+      "status": "partial",
+      "reason": "The answer provides three-season PPG and TS averages for both players, but does not provide exact total PTS or exact aggregated RTS numbers, only giving ranges for RTS.",
+      "quote": "Three-Season Total / Average: 31.8 PPG",
+      "quote_verified": false
+    },
+    "scope": {
+      "status": "respected",
+      "reason": "The extracted values correspond to the requested three-season regular season windows for both players.",
+      "quote": "Kobe Bryant (2005-06 to 2007-08)... Stephen Curry (2014-15 to 2016-17)",
+      "quote_verified": false
+    },
+    "conclusion_limits": {
+      "status": "respected",
+      "reason": "The extracted claims directly reflect the text without overstepping into unstated calculations.",
+      "quote": "",
+      "quote_verified": true
+    }
+  },
+  "note": "Only extracted, quote-verified numeric claims are scored. Missing facts are coverage gaps, not numeric errors. Semantic review is model-judged and advisory.",
+  "extracted": {
+    "claims": [
+      {
+        "id": "977:Regular Season:PPG",
+        "quote": "Three-Season Total / Average: 31.8 PPG",
+        "number": "31.8",
+        "scope": "requested",
+        "scope_quote": "Kobe Bryant (2005-06 to 2007-08)",
+        "method": "aggregate"
+      },
+      {
+        "id": "977:Regular Season:TS",
+        "quote": "True Shooting Percentage (TS%): 56.3%",
+        "number": "56.3",
+        "scope": "requested",
+        "scope_quote": "Kobe Bryant (2005-06 to 2007-08)",
+        "method": "aggregate"
+      },
+      {
+        "id": "201939:Regular Season:PPG",
+        "quote": "Three-Season Total / Average: 26.4 PPG",
+        "number": "26.4",
+        "scope": "requested",
+        "scope_quote": "Stephen Curry (2014-15 to 2016-17)",
+        "method": "aggregate"
+      },
+      {
+        "id": "201939:Regular Season:TS",
+        "quote": "True Shooting Percentage (TS%): 62.7%",
+        "number": "62.7",
+        "scope": "requested",
+        "scope_quote": "Stephen Curry (2014-15 to 2016-17)",
+        "method": "aggregate"
+      }
+    ],
+    "review": {
+      "question_coverage": {
+        "status": "partial",
+        "reason": "The answer provides three-season PPG and TS averages for both players, but does not provide exact total PTS or exact aggregated RTS numbers, only giving ranges for RTS.",
+        "quote": "Three-Season Total / Average: 31.8 PPG",
+        "quote_verified": false
+      },
+      "scope": {
+        "status": "respected",
+        "reason": "The extracted values correspond to the requested three-season regular season windows for both players.",
+        "quote": "Kobe Bryant (2005-06 to 2007-08)... Stephen Curry (2014-15 to 2016-17)",
+        "quote_verified": false
+      },
+      "conclusion_limits": {
+        "status": "respected",
+        "reason": "The extracted claims directly reflect the text without overstepping into unstated calculations.",
+        "quote": "",
+        "quote_verified": true
+      }
+    }
+  },
+  "extractor_response": "{\"claims\":[{\"id\":\"977:Regular Season:PPG\",\"quote\":\"Three-Season Total / Average: 31.8 PPG\",\"number\":\"31.8\",\"scope\":\"requested\",\"scope_quote\":\"Kobe Bryant (2005-06 to 2007-08)\",\"method\":\"aggregate\"},{\"id\":\"977:Regular Season:TS\",\"quote\":\"True Shooting Percentage (TS%): 56.3%\",\"number\":\"56.3\",\"scope\":\"requested\",\"scope_quote\":\"Kobe Bryant (2005-06 to 2007-08)\",\"method\":\"aggregate\"},{\"id\":\"201939:Regular Season:PPG\",\"quote\":\"Three-Season Total / Average: 26.4 PPG\",\"number\":\"26.4\",\"scope\":\"requested\",\"scope_quote\":\"Stephen Curry (2014-15 to 2016-17)\",\"method\":\"aggregate\"},{\"id\":\"201939:Regular Season:TS\",\"quote\":\"True Shooting Percentage (TS%): 62.7%\",\"number\":\"62.7\",\"scope\":\"requested\",\"scope_quote\":\"Stephen Curry (2014-15 to 2016-17)\",\"method\":\"aggregate\"}],\"review\":{\"question_coverage\":{\"status\":\"partial\",\"reason\":\"The answer provides three-season PPG and TS averages for both players, but does not provide exact total PTS or exact aggregated RTS numbers, only giving ranges for RTS.\",\"quote\":\"Three-Season Total / Average: 31.8 PPG\"},\"scope\":{\"status\":\"respected\",\"reason\":\"The extracted values correspond to the requested three-season regular season windows for both players.\",\"quote\":\"Kobe Bryant (2005-06 to 2007-08)... Stephen Curry (2014-15 to 2016-17)\"},\"conclusion_limits\":{\"status\":\"respected\",\"reason\":\"The extracted claims directly reflect the text without overstepping into unstated calculations.\",\"quote\":\"\"}}}",
+  "model_calls": [
+    {
+      "started_at": "2026-11-11T03:44:03.564929+00:00",
+      "parameters": {
+        "model": "vertex_ai/gemini-3.5-flash-lite",
+        "vertex_location": "global",
+        "response_format": {
+          "type": "json_object"
+        },
+        "temperature": 0,
+        "max_tokens": 16000,
+        "timeout": 100,
+        "num_retries": 0
+      },
+      "temperature": 0,
+      "message_roles": [
+        "system",
+        "user"
+      ],
+      "messages_sha256": "f618054bc2e5f887247c5d6e76135a824e20a6303ab0605ad6172a95fa94b2d1",
+      "tool_names": [],
+      "index": 0,
+      "response_model": "gemini-3.5-flash-lite",
+      "response_id": "g-Tzar7qKczWsbwP_p2TuAE",
+      "finish_reasons": [
+        "stop"
+      ],
+      "truncated": false,
+      "usage": {
+        "completion_tokens": 443,
+        "prompt_tokens": 3188,
+        "total_tokens": 3631,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": null,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 443,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": null,
+          "text_tokens": 3188,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "cache_read_input_tokens": null
+      },
+      "seconds": 1.8273,
+      "ended_at": "2026-11-11T03:44:05.392289+00:00"
+    }
+  ]
+}

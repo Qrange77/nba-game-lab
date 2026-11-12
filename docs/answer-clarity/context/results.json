@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "id": "support_findings",
+      "helper_records": 54,
+      "helper_samples": 4,
+      "helper_numeric_checks": 702,
+      "finals_series": 2,
+      "finals_numeric_checks": 34,
+      "published_context_numeric_checks": 42,
+      "export_citations_checked": true,
+      "finals_results": {
+        "win": 1,
+        "defeat": 1
+      },
+      "all_returned_context_metrics_checked": true,
+      "source_membership_selection_scope_and_finals_completeness_checked": true
+    }
+  ],
+  "original_responses": 24,
+  "limits": "All returned context rows in these runs; not all historical rosters, arbitrary questions, injury/causal explanations or a ranking of opponent difficulty."
+}

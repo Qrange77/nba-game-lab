@@ -1,6 +1,13 @@
-export interface ToolCall { name: string; args: unknown; result?: unknown; id?: string; status?: 'running' | 'completed' | 'failed' | 'needs_evidence' | 'needs_revision' }
+export interface ToolCall { name: string; agent?: string; node_id?: string; args: unknown; result?: unknown; id?: string; status?: 'running' | 'completed' | 'failed' | 'needs_evidence' | 'needs_revision' }
+export type FlowStatus = 'queued' | 'running' | 'completed' | 'partial' | 'failed' | 'cancelled' | 'interrupted'
+export interface FlowNode { id: string; label: string; role: 'lead' | 'researcher' | 'review' | 'writer'; agent: string
+  depends_on: string[]; description: string; round: number; status: FlowStatus
+  started_ms: number | null; ended_ms: number | null; tool_ids: string[]; summary: string }
+export interface ResearchFlow { version: number; status: FlowStatus | 'clarification' | 'outside_scope'; elapsed_ms: number; peak_parallel: number; nodes: FlowNode[] }
+export interface ResearchTask { agent: string; dimension: string; question: string; round: number; status: 'running' | 'completed' | 'partial' | 'unavailable' }
+export interface ResearchProgress { scope: string; criteria: string; tasks: ResearchTask[]; coverage?: string; elapsed_seconds?: number; api_requests?: number; data_cutoff?: string }
 export interface PlayerClarification { query: string; players: PlayerChoice[]; complete: boolean; resolved: boolean }
-export interface Turn { message: string; response: string; tool_calls: ToolCall[]; failed?: boolean; evidence_result?: EvidenceResult | null; activity_phase?: string; player_clarifications?: PlayerClarification[]; selected_players?: PlayerChoice[] }
+export interface Turn { message: string; response: string; tool_calls: ToolCall[]; research?: ResearchProgress; research_flow?: ResearchFlow | null; failed?: boolean; evidence_result?: EvidenceResult | null; activity_phase?: string; player_clarifications?: PlayerClarification[]; selected_players?: PlayerChoice[] }
 export interface Session { session_id: string; title: string; updated_at: string }
 export interface Conversation { session_id: string; title: string; turns: Turn[]; selected_players?: PlayerChoice[]; pending_identity?: { message: string; groups: PlayerClarification[] } | null }
 export interface Metric {
@@ -36,8 +43,21 @@ export interface HonorsSummary {
   sources: EvidenceSource[]; limitations: string[]
 }
 export interface EvidenceResult {
+  research?: ResearchProgress
+  scoring?: ScoringReview
   cards: EvidenceCard[]; comparisons: StatisticalComparison[]; sources: EvidenceSource[]; limitations: string[]
-  verification: { status: 'checked' | 'not_submitted'; checked_claims: number; note: string; attempts: { valid: boolean; errors: unknown[] }[] }
+  verification: { status: 'checked' | 'not_submitted' | 'partial'; checked_claims: number; note: string; attempts: { valid: boolean; errors: unknown[] }[] }
+}
+
+export interface ScoringReview {
+  verdict: 'supported' | 'contradicted' | 'conditional' | 'insufficient_data' | 'comparison'
+  contract: { claim: string; cutoff: number; period: string; phases: string[] }
+  support_samples: {
+    player_name: string; season: number; phase: string; selection: string; core: string[]
+    followup?: boolean; followup_reason?: string; gap_id?: string
+    rotation_records: { id: string; player_name: string; evidence_url?: string | null
+      values: Record<string, { value: number | null; unit?: string }> }[]
+  }[]
 }
 
 export interface StatisticalComparison {

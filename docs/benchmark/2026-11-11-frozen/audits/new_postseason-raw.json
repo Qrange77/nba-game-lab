@@ -1,0 +1,434 @@
+{
+  "status": "audited",
+  "checks": [
+    {
+      "id": "2548:Regular Season:PTS",
+      "required": false,
+      "expected": 2040,
+      "tolerance": 1,
+      "unit": "points",
+      "status": "not_stated"
+    },
+    {
+      "id": "2548:Regular Season:PPG",
+      "required": true,
+      "expected": 27.2,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "2548:Regular Season:PPG",
+        "quote": "Regular Season: 27.2",
+        "number": "27.2",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade (2005-06 Postseason)",
+        "method": "unknown"
+      },
+      "observed": 27.2,
+      "status": "correct"
+    },
+    {
+      "id": "2548:Regular Season:TS",
+      "required": true,
+      "expected": 57.747180578830566,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "2548:Regular Season:TS",
+        "quote": "Regular Season: 56.7%",
+        "number": "56.7",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade (2005-06 Postseason)",
+        "method": "unknown"
+      },
+      "observed": 56.7,
+      "status": "incorrect"
+    },
+    {
+      "id": "2548:Playoffs:PTS",
+      "required": false,
+      "expected": 654,
+      "tolerance": 1,
+      "unit": "points",
+      "status": "not_stated"
+    },
+    {
+      "id": "2548:Playoffs:PPG",
+      "required": true,
+      "expected": 28.434782608695652,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "2548:Playoffs:PPG",
+        "quote": "Playoff Points Per Game (PPG): 28.4",
+        "number": "28.4",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade (2005-06 Postseason)",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "2548:Playoffs:TS",
+      "required": true,
+      "expected": 59.346642468239565,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "2548:Playoffs:TS",
+        "quote": "Playoff True Shooting Percentage (TS%): 57.3%",
+        "number": "57.3",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade (2005-06 Postseason)",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "2548:Playoffs minus Regular Season:PPG_CHANGE",
+      "required": true,
+      "expected": 1.234782608695653,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "2548:Playoffs minus Regular Season:PPG_CHANGE",
+        "quote": "PPG: +1.2",
+        "number": "+1.2",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade (2005-06 Postseason)",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "2548:Playoffs minus Regular Season:TS_CHANGE",
+      "required": true,
+      "expected": 1.5994618894089996,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "2548:Playoffs minus Regular Season:TS_CHANGE",
+        "quote": "TS%: +0.6%",
+        "number": "+0.6",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade (2005-06 Postseason)",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "202695:Regular Season:PTS",
+      "required": false,
+      "expected": 1596,
+      "tolerance": 1,
+      "unit": "points",
+      "status": "not_stated"
+    },
+    {
+      "id": "202695:Regular Season:PPG",
+      "required": true,
+      "expected": 26.6,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "202695:Regular Season:PPG",
+        "quote": "Regular Season: 26.6",
+        "number": "26.6",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard (2018-19 Postseason)",
+        "method": "unknown"
+      },
+      "observed": 26.6,
+      "status": "correct"
+    },
+    {
+      "id": "202695:Regular Season:TS",
+      "required": true,
+      "expected": 60.61803044574762,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "202695:Regular Season:TS",
+        "quote": "Regular Season: 57.2%",
+        "number": "57.2",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard (2018-19 Postseason)",
+        "method": "unknown"
+      },
+      "observed": 57.2,
+      "status": "incorrect"
+    },
+    {
+      "id": "202695:Playoffs:PTS",
+      "required": false,
+      "expected": 732,
+      "tolerance": 1,
+      "unit": "points",
+      "status": "not_stated"
+    },
+    {
+      "id": "202695:Playoffs:PPG",
+      "required": true,
+      "expected": 30.5,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "202695:Playoffs:PPG",
+        "quote": "Playoff Points Per Game (PPG): 30.5",
+        "number": "30.5",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard (2018-19 Postseason)",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "202695:Playoffs:TS",
+      "required": true,
+      "expected": 61.92474282620466,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "202695:Playoffs:TS",
+        "quote": "Playoff True Shooting Percentage (TS%): 61.9%",
+        "number": "61.9",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard (2018-19 Postseason)",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "202695:Playoffs minus Regular Season:PPG_CHANGE",
+      "required": true,
+      "expected": 3.8999999999999986,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "202695:Playoffs minus Regular Season:PPG_CHANGE",
+        "quote": "PPG: +3.9",
+        "number": "+3.9",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard (2018-19 Postseason)",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "202695:Playoffs minus Regular Season:TS_CHANGE",
+      "required": true,
+      "expected": 1.3067123804570357,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "202695:Playoffs minus Regular Season:TS_CHANGE",
+        "quote": "TS%: +4.7%",
+        "number": "+4.7",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard (2018-19 Postseason)",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    }
+  ],
+  "required_count": 12,
+  "required_comparable": 4,
+  "required_correct": 2,
+  "required_missing": 0,
+  "required_scope_mismatches": 0,
+  "advisory_model_review": {
+    "question_coverage": {
+      "status": "partial",
+      "reason": "Total points (PTS) for regular season and playoffs were omitted for both players.",
+      "quote": "",
+      "quote_verified": true
+    },
+    "scope": {
+      "status": "respected",
+      "reason": "The answer provides stats specifically for the requested players and single-season playoff/regular season windows.",
+      "quote": "Here is the statistical comparison of Dwyane Wade\u2019s 2005-06 postseason run with Kawhi Leonard\u2019s 2018-19 postseason run",
+      "quote_verified": true
+    },
+    "conclusion_limits": {
+      "status": "respected",
+      "reason": "The conclusion correctly restricts its scope to the specified one-season samples.",
+      "quote": "Based strictly on these one-season samples, Kawhi Leonard was the more prolific and efficient postseason scorer.",
+      "quote_verified": true
+    }
+  },
+  "note": "Only extracted, quote-verified numeric claims are scored. Missing facts are coverage gaps, not numeric errors. Semantic review is model-judged and advisory.",
+  "extracted": {
+    "claims": [
+      {
+        "id": "2548:Regular Season:PPG",
+        "quote": "Regular Season: 27.2",
+        "number": "27.2",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade (2005-06 Postseason)",
+        "method": "unknown"
+      },
+      {
+        "id": "2548:Regular Season:TS",
+        "quote": "Regular Season: 56.7%",
+        "number": "56.7",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade (2005-06 Postseason)",
+        "method": "unknown"
+      },
+      {
+        "id": "2548:Playoffs:PPG",
+        "quote": "Playoff Points Per Game (PPG): 28.4",
+        "number": "28.4",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade (2005-06 Postseason)",
+        "method": "unknown"
+      },
+      {
+        "id": "2548:Playoffs:TS",
+        "quote": "Playoff True Shooting Percentage (TS%): 57.3%",
+        "number": "57.3",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade (2005-06 Postseason)",
+        "method": "unknown"
+      },
+      {
+        "id": "2548:Playoffs minus Regular Season:PPG_CHANGE",
+        "quote": "PPG: +1.2",
+        "number": "+1.2",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade (2005-06 Postseason)",
+        "method": "unknown"
+      },
+      {
+        "id": "2548:Playoffs minus Regular Season:TS_CHANGE",
+        "quote": "TS%: +0.6%",
+        "number": "+0.6",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade (2005-06 Postseason)",
+        "method": "unknown"
+      },
+      {
+        "id": "202695:Regular Season:PPG",
+        "quote": "Regular Season: 26.6",
+        "number": "26.6",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard (2018-19 Postseason)",
+        "method": "unknown"
+      },
+      {
+        "id": "202695:Regular Season:TS",
+        "quote": "Regular Season: 57.2%",
+        "number": "57.2",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard (2018-19 Postseason)",
+        "method": "unknown"
+      },
+      {
+        "id": "202695:Playoffs:PPG",
+        "quote": "Playoff Points Per Game (PPG): 30.5",
+        "number": "30.5",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard (2018-19 Postseason)",
+        "method": "unknown"
+      },
+      {
+        "id": "202695:Playoffs:TS",
+        "quote": "Playoff True Shooting Percentage (TS%): 61.9%",
+        "number": "61.9",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard (2018-19 Postseason)",
+        "method": "unknown"
+      },
+      {
+        "id": "202695:Playoffs minus Regular Season:PPG_CHANGE",
+        "quote": "PPG: +3.9",
+        "number": "+3.9",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard (2018-19 Postseason)",
+        "method": "unknown"
+      },
+      {
+        "id": "202695:Playoffs minus Regular Season:TS_CHANGE",
+        "quote": "TS%: +4.7%",
+        "number": "+4.7",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard (2018-19 Postseason)",
+        "method": "unknown"
+      }
+    ],
+    "review": {
+      "question_coverage": {
+        "status": "partial",
+        "reason": "Total points (PTS) for regular season and playoffs were omitted for both players.",
+        "quote": "",
+        "quote_verified": true
+      },
+      "scope": {
+        "status": "respected",
+        "reason": "The answer provides stats specifically for the requested players and single-season playoff/regular season windows.",
+        "quote": "Here is the statistical comparison of Dwyane Wade\u2019s 2005-06 postseason run with Kawhi Leonard\u2019s 2018-19 postseason run",
+        "quote_verified": true
+      },
+      "conclusion_limits": {
+        "status": "respected",
+        "reason": "The conclusion correctly restricts its scope to the specified one-season samples.",
+        "quote": "Based strictly on these one-season samples, Kawhi Leonard was the more prolific and efficient postseason scorer.",
+        "quote_verified": true
+      }
+    }
+  },
+  "extractor_response": "{\n  \"claims\": [\n    {\n      \"id\": \"2548:Regular Season:PPG\",\n      \"quote\": \"Regular Season: 27.2\",\n      \"number\": \"27.2\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"Dwyane Wade (2005-06 Postseason)\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"2548:Regular Season:TS\",\n      \"quote\": \"Regular Season: 56.7%\",\n      \"number\": \"56.7\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"Dwyane Wade (2005-06 Postseason)\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"2548:Playoffs:PPG\",\n      \"quote\": \"Playoff Points Per Game (PPG): 28.4\",\n      \"number\": \"28.4\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"Dwyane Wade (2005-06 Postseason)\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"2548:Playoffs:TS\",\n      \"quote\": \"Playoff True Shooting Percentage (TS%): 57.3%\",\n      \"number\": \"57.3\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"Dwyane Wade (2005-06 Postseason)\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"2548:Playoffs minus Regular Season:PPG_CHANGE\",\n      \"quote\": \"PPG: +1.2\",\n      \"number\": \"+1.2\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"Dwyane Wade (2005-06 Postseason)\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"2548:Playoffs minus Regular Season:TS_CHANGE\",\n      \"quote\": \"TS%: +0.6%\",\n      \"number\": \"+0.6\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"Dwyane Wade (2005-06 Postseason)\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"202695:Regular Season:PPG\",\n      \"quote\": \"Regular Season: 26.6\",\n      \"number\": \"26.6\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"Kawhi Leonard (2018-19 Postseason)\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"202695:Regular Season:TS\",\n      \"quote\": \"Regular Season: 57.2%\",\n      \"number\": \"57.2\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"Kawhi Leonard (2018-19 Postseason)\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"202695:Playoffs:PPG\",\n      \"quote\": \"Playoff Points Per Game (PPG): 30.5\",\n      \"number\": \"30.5\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"Kawhi Leonard (2018-19 Postseason)\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"202695:Playoffs:TS\",\n      \"quote\": \"Playoff True Shooting Percentage (TS%): 61.9%\",\n      \"number\": \"61.9\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"Kawhi Leonard (2018-19 Postseason)\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"202695:Playoffs minus Regular Season:PPG_CHANGE\",\n      \"quote\": \"PPG: +3.9\",\n      \"number\": \"+3.9\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"Kawhi Leonard (2018-19 Postseason)\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"202695:Playoffs minus Regular Season:TS_CHANGE\",\n      \"quote\": \"TS%: +4.7%\",\n      \"number\": \"+4.7\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"Kawhi Leonard (2018-19 Postseason)\",\n      \"method\": \"unknown\"\n    }\n  ],\n  \"review\": {\n    \"question_coverage\": {\n      \"status\": \"partial\",\n      \"reason\": \"Total points (PTS) for regular season and playoffs were omitted for both players.\",\n      \"quote\": \"\"\n    },\n    \"scope\": {\n      \"status\": \"respected\",\n      \"reason\": \"The answer provides stats specifically for the requested players and single-season playoff/regular season windows.\",\n      \"quote\": \"Here is the statistical comparison of Dwyane Wade\u2019s 2005-06 postseason run with Kawhi Leonard\u2019s 2018-19 postseason run\"\n    },\n    \"conclusion_limits\": {\n      \"status\": \"respected\",\n      \"reason\": \"The conclusion correctly restricts its scope to the specified one-season samples.\",\n      \"quote\": \"Based strictly on these one-season samples, Kawhi Leonard was the more prolific and efficient postseason scorer.\"\n    }\n  }\n}",
+  "model_calls": [
+    {
+      "started_at": "2026-11-11T03:44:22.575252+00:00",
+      "parameters": {
+        "model": "vertex_ai/gemini-3.5-flash-lite",
+        "vertex_location": "global",
+        "response_format": {
+          "type": "json_object"
+        },
+        "temperature": 0,
+        "max_tokens": 16000,
+        "timeout": 100,
+        "num_retries": 0
+      },
+      "temperature": 0,
+      "message_roles": [
+        "system",
+        "user"
+      ],
+      "messages_sha256": "471fb8048373cce65d02f3ac36a37f24c56d96131da794c966cc0537d4a21ea3",
+      "tool_names": [],
+      "index": 0,
+      "response_model": "gemini-3.5-flash-lite",
+      "response_id": "luTzauqJKe_ZsbwPqIGv6Qw",
+      "finish_reasons": [
+        "stop"
+      ],
+      "truncated": false,
+      "usage": {
+        "completion_tokens": 1311,
+        "prompt_tokens": 2319,
+        "total_tokens": 3630,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": null,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 1311,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": null,
+          "text_tokens": 2319,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "cache_read_input_tokens": null
+      },
+      "seconds": 3.0414,
+      "ended_at": "2026-11-11T03:44:25.616696+00:00"
+    }
+  ]
+}

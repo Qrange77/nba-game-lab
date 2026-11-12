@@ -1,0 +1,25 @@
+{
+  "provider": "NBA.com",
+  "file": "nba_seed.sqlite3.gz",
+  "sha256": "a020610693b32ded9c7f77ed1f8b66606f9aa8f1e29185457791a2f87af46393",
+  "compressed_bytes": 9236065,
+  "database_bytes": 67047424,
+  "response_count": 403,
+  "responses_by_kind": {
+    "awards": 64,
+    "career": 64,
+    "directory": 1,
+    "games": 23,
+    "league": 28,
+    "league_games": 75,
+    "league_players": 1,
+    "on_off": 11,
+    "roster": 5,
+    "team_history": 19,
+    "team_players": 112
+  },
+  "retrieved_at_min": "2026-10-02T10:18:59.730722+00:00",
+  "retrieved_at_max": "2026-11-12T02:20:30.974458+00:00",
+  "scope": "Observed API responses collected during project research; not an exhaustive NBA dataset.",
+  "contents": "Original resultSets, normalized tables, query parameters and original retrieval timestamps. No conversations or credentials."
+}

@@ -1,6 +1,10 @@
 import json
 import uuid
 import copy
+import os
+import time
+import re
+from contextlib import asynccontextmanager
 from datetime import datetime, timezone
 from threading import RLock, Thread, Event
 from queue import Queue, Empty
@@ -18,6 +22,7 @@ from backend.assistant.tools import run_tool
 from backend.assistant.research_tools import TOOLS, SHARED_NAMES, AssistantResearchTools
 from backend.assistant.identity import player_catalog, resolve_name, validate_ids, identify, clarification_text
 from backend.data.nba import NBAData
+from backend.data.seed import initialize_cache
 from backend.activity import ActivityLog
 from backend.model_calls import completion_with_backoff, model_error_message
 from backend.paths import PROJECT_ROOT
@@ -86,7 +91,7 @@ MAX_TOOL_ROUNDS = 20
 # --- The Harness ---
 
 
-def run_agent(messages: list[dict], on_event=None, research=None) -> tuple[str, list[dict]]:
+def run_lookup_agent(messages: list[dict], on_event=None, research=None) -> tuple[str, list[dict]]:
     """Complete until the model answers without asking for a tool.
 
     Returns the final text and a record of every tool call made along the way.
@@ -94,12 +99,16 @@ def run_agent(messages: list[dict], on_event=None, research=None) -> tuple[str, 
     tool_calls = ActivityLog(on_event)
     research = research or AssistantResearchTools()
     submission_requests = 0
+    deadline = time.monotonic() + 200
 
     for _ in range(MAX_TOOL_ROUNDS):
+        if time.monotonic() >= deadline:
+            break
         tool_calls.phase('Preparing a reply')
         reply = completion_with_backoff(litellm.completion,
             model="vertex_ai/gemini-3.5-flash-lite",
             vertex_location="global",
+            timeout=min(40, max(1, deadline-time.monotonic())),
             messages=messages,
             tools=TOOLS,
         ).choices[0].message
@@ -130,7 +139,9 @@ def run_agent(messages: list[dict], on_event=None, research=None) -> tuple[str, 
                     'Resend this tool call with a valid JSON object matching its parameter schema.', status='revise'))
             else:
                 tool_calls.start(call.function.name,args)
-                if research.pending or research.submission:
+                if time.monotonic() >= deadline:
+                    result = json.dumps({'status':'unavailable','error':'The lookup time limit was reached; coverage is partial.'})
+                elif research.pending or research.submission:
                     result = json.dumps({'status': 'skipped', 'reason': 'Identity clarification or final submission ends this turn.'})
                 else:
                     if call.function.name in SHARED_NAMES or call.function.name == 'submit_answer':
@@ -163,7 +174,7 @@ def run_agent(messages: list[dict], on_event=None, research=None) -> tuple[str, 
         "Do not request further tools."
     )}
     reply = completion_with_backoff(litellm.completion,
-        model="vertex_ai/gemini-3.5-flash-lite", vertex_location="global",
+        model="vertex_ai/gemini-3.5-flash-lite", vertex_location="global", timeout=40,
         messages=messages + [summary_instruction], tools=TOOLS, tool_choice="none",
     ).choices[0].message
     response = reply.content if not reply.tool_calls else None
@@ -172,10 +183,19 @@ def run_agent(messages: list[dict], on_event=None, research=None) -> tuple[str, 
     return response, tool_calls
 
 
+def run_agent(messages: list[dict], on_event=None, research=None) -> tuple[str, list[dict]]:
+    if research is not None and research.question is not None and os.getenv('NBA_DEEP_RESEARCH', '1') != '0':
+        from backend.research.engine import run_deep_research
+        return run_deep_research(messages, research, lookup=run_lookup_agent,
+                                 on_event=on_event, complete=litellm.completion)
+    return run_lookup_agent(messages, on_event=on_event, research=research)
+
+
 # --- Session Store ---
 
 HISTORY_DIR = PROJECT_ROOT / "chat_history"
 store_lock = RLock()
+session_locks = [RLock() for _ in range(64)]
 
 
 def browser_owner(response: Response, nba_browser: str | None = Cookie(default=None)):
@@ -215,7 +235,13 @@ def save_history(owner, record):
 
 # --- FastAPI App ---
 
-app = FastAPI()
+@asynccontextmanager
+async def lifespan(app):
+    initialize_cache()
+    yield
+
+
+app = FastAPI(lifespan=lifespan)
 FRONTEND_DIST = PROJECT_ROOT / "frontend" / "dist"
 app.mount("/assets", StaticFiles(directory=FRONTEND_DIST / "assets", check_dir=False), name="frontend-assets")
 
@@ -238,6 +264,7 @@ class ChatResponse(BaseModel):
     selected_players: list[dict] = Field(default_factory=list)
     player_clarifications: list[dict] = Field(default_factory=list)
     failed: bool = False
+    research_flow: dict | None = None
 
 
 @app.get("/")
@@ -285,6 +312,17 @@ def search_players(query: str = ''):
     return resolve_name(query.strip())
 
 
+@app.get('/sessions/{session_id}/evidence/{evidence_id}')
+def get_evidence(session_id: str, evidence_id: str, owner: str = Depends(browser_owner)):
+    if not re.fullmatch(r'ev_[a-f0-9]{20}', evidence_id):
+        raise HTTPException(400, 'Invalid evidence ID')
+    record = read_history(owner, session_id)
+    evidence = record.get('evidence', {}).get(evidence_id)
+    if evidence is None:
+        raise HTTPException(404, 'Evidence not found in this conversation')
+    return evidence
+
+
 @app.post("/chat", response_model=ChatResponse)
 def chat(request: ChatRequest, owner: str = Depends(browser_owner)):
     return _chat(request,owner)
@@ -330,7 +368,11 @@ def chat_stream(request: ChatRequest, response: Response, owner: str = Depends(b
 
 def _chat(request: ChatRequest, owner: str, on_event=None):
     activity = []
+    research_flow = None
     def emit(event):
+        nonlocal research_flow
+        if event['type']=='research_flow':
+            research_flow=event['flow']
         if event['type']=='tool_start':
             activity.append(dict(event['call']))
         elif event['type']=='tool_end':
@@ -342,7 +384,9 @@ def _chat(request: ChatRequest, owner: str, on_event=None):
             on_event(event)
     if not request.message.strip():
         raise HTTPException(400, "Message must not be empty")
-    with store_lock:
+    # Independent browser conversations can research concurrently; only the same
+    # session (or a rare stripe collision) waits for its in-flight turn to save.
+    with session_locks[hash((owner, request.session_id or str(uuid.uuid4()))) % len(session_locks)]:
         if request.session_id:
             record = read_history(owner, request.session_id)
             if record.get('mode', 'assistant') != 'assistant':
@@ -407,6 +451,7 @@ def _chat(request: ChatRequest, owner: str, on_event=None):
             messages.insert(1, {'role': 'system', 'content': 'Confirmed NBA identities: ' + context + '. Confirmed name choices for this question: ' + aliases + '. This selection gives identity, not allegiance or a statistical scope. Explicit newly named players may be resolved. Do not infer who is better.'})
             messages.append({'role': 'user', 'content': original})
             research = AssistantResearchTools(evidence=record.get('evidence'), players=selected, catalog=catalog, question=original)
+            research.session_id = record['session_id']
             try:
                 response, tool_calls = run_agent(messages, on_event=emit, research=research)
                 response = response or 'No response was returned. Please try again.'
@@ -431,7 +476,7 @@ def _chat(request: ChatRequest, owner: str, on_event=None):
         record['pending_identity'] = {'message': original, 'groups': pending} if pending else None
         turn = {'message': request.message if text_confirmation else original, 'response': response, 'tool_calls': tool_calls,
                 'evidence_result': evidence_result, 'player_clarifications': pending,
-                'selected_players': selected, 'failed': failed}
+                'selected_players': selected, 'failed': failed,'research_flow':research_flow}
         if replace_pending:
             record['turns'][-1] = turn
         else:
@@ -440,13 +485,13 @@ def _chat(request: ChatRequest, owner: str, on_event=None):
         save_history(owner, record)
         return ChatResponse(response=response, session_id=record['session_id'], tool_calls=tool_calls,
                             evidence_result=evidence_result, selected_players=selected,
-                            player_clarifications=pending, failed=failed)
+                            player_clarifications=pending, failed=failed,research_flow=research_flow)
 
 
 
 @app.post("/clear")
 def clear(session_id: str, owner: str = Depends(browser_owner)):
-    with store_lock:
+    with session_locks[hash((owner, session_id)) % len(session_locks)]:
         history_path(owner, session_id).unlink(missing_ok=True)
     return {"status": "ok"}
 

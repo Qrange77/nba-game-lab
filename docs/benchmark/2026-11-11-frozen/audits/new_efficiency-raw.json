@@ -1,0 +1,271 @@
+{
+  "status": "audited",
+  "checks": [
+    {
+      "id": "201142:Regular Season:PTS",
+      "required": false,
+      "expected": 6723,
+      "tolerance": 1,
+      "unit": "points",
+      "extraction": {
+        "id": "201142:Regular Season:PTS",
+        "quote": "Total PTS: 6,723",
+        "number": "6,723",
+        "scope": "requested",
+        "scope_quote": "Kevin Durant (2011-12 through 2013-14)",
+        "method": "aggregate"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "201142:Regular Season:PPG",
+      "required": false,
+      "expected": 29.486842105263158,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "status": "not_stated"
+    },
+    {
+      "id": "201142:Regular Season:TS",
+      "required": true,
+      "expected": 63.154750274299964,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "201142:Regular Season:TS",
+        "quote": "Kevin Durant leads with 64.9%",
+        "number": "64.9",
+        "scope": "requested",
+        "scope_quote": "Kevin Durant (2011-12 through 2013-14)",
+        "method": "aggregate"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "201142:Regular Season:RTS",
+      "required": true,
+      "expected": 9.66715027410465,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "201142:Regular Season:RTS",
+        "quote": "Kevin Durant leads at +9.71% above the league average",
+        "number": "9.71",
+        "scope": "requested",
+        "scope_quote": "Kevin Durant (2011-12 through 2013-14)",
+        "method": "attempt_weighted"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "201935:Regular Season:PTS",
+      "required": false,
+      "expected": 7365,
+      "tolerance": 1,
+      "unit": "points",
+      "extraction": {
+        "id": "201935:Regular Season:PTS",
+        "quote": "Total PTS: 7,365",
+        "number": "7,365",
+        "scope": "requested",
+        "scope_quote": "James Harden (2016-17 through 2018-19)",
+        "method": "aggregate"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "201935:Regular Season:PPG",
+      "required": false,
+      "expected": 31.883116883116884,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "status": "not_stated"
+    },
+    {
+      "id": "201935:Regular Season:TS",
+      "required": true,
+      "expected": 61.621073486790586,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "201935:Regular Season:TS",
+        "quote": "James Harden's 61.0%",
+        "number": "61.0",
+        "scope": "requested",
+        "scope_quote": "James Harden (2016-17 through 2018-19)",
+        "method": "aggregate"
+      },
+      "observed": 61.0,
+      "status": "incorrect"
+    },
+    {
+      "id": "201935:Regular Season:RTS",
+      "required": true,
+      "expected": 5.995444586910076,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "201935:Regular Season:RTS",
+        "quote": "James Harden's +5.98%",
+        "number": "5.98",
+        "scope": "requested",
+        "scope_quote": "James Harden (2016-17 through 2018-19)",
+        "method": "attempt_weighted"
+      },
+      "status": "unverifiable_extraction"
+    }
+  ],
+  "required_count": 4,
+  "required_comparable": 1,
+  "required_correct": 0,
+  "required_missing": 0,
+  "required_scope_mismatches": 0,
+  "advisory_model_review": {
+    "question_coverage": {
+      "status": "partial",
+      "reason": "The answer provides totals, TS%, and weighted difference for both players, but does not calculate or report PPG for either player.",
+      "quote": "",
+      "quote_verified": true
+    },
+    "scope": {
+      "status": "respected",
+      "reason": "The extracted numbers strictly match the requested windows and phases.",
+      "quote": "Kevin Durant (2011-12 through 2013-14) and James Harden (2016-17 through 2018-19)",
+      "quote_verified": false
+    },
+    "conclusion_limits": {
+      "status": "respected",
+      "reason": "Conclusions are strictly limited to the specified windows without broader assertions.",
+      "quote": "Within their respective 3-year windows:",
+      "quote_verified": true
+    }
+  },
+  "note": "Only extracted, quote-verified numeric claims are scored. Missing facts are coverage gaps, not numeric errors. Semantic review is model-judged and advisory.",
+  "extracted": {
+    "claims": [
+      {
+        "id": "201142:Regular Season:PTS",
+        "quote": "Total PTS: 6,723",
+        "number": "6,723",
+        "scope": "requested",
+        "scope_quote": "Kevin Durant (2011-12 through 2013-14)",
+        "method": "aggregate"
+      },
+      {
+        "id": "201142:Regular Season:TS",
+        "quote": "Kevin Durant leads with 64.9%",
+        "number": "64.9",
+        "scope": "requested",
+        "scope_quote": "Kevin Durant (2011-12 through 2013-14)",
+        "method": "aggregate"
+      },
+      {
+        "id": "201142:Regular Season:RTS",
+        "quote": "Kevin Durant leads at +9.71% above the league average",
+        "number": "9.71",
+        "scope": "requested",
+        "scope_quote": "Kevin Durant (2011-12 through 2013-14)",
+        "method": "attempt_weighted"
+      },
+      {
+        "id": "201935:Regular Season:PTS",
+        "quote": "Total PTS: 7,365",
+        "number": "7,365",
+        "scope": "requested",
+        "scope_quote": "James Harden (2016-17 through 2018-19)",
+        "method": "aggregate"
+      },
+      {
+        "id": "201935:Regular Season:TS",
+        "quote": "James Harden's 61.0%",
+        "number": "61.0",
+        "scope": "requested",
+        "scope_quote": "James Harden (2016-17 through 2018-19)",
+        "method": "aggregate"
+      },
+      {
+        "id": "201935:Regular Season:RTS",
+        "quote": "James Harden's +5.98%",
+        "number": "5.98",
+        "scope": "requested",
+        "scope_quote": "James Harden (2016-17 through 2018-19)",
+        "method": "attempt_weighted"
+      }
+    ],
+    "review": {
+      "question_coverage": {
+        "status": "partial",
+        "reason": "The answer provides totals, TS%, and weighted difference for both players, but does not calculate or report PPG for either player.",
+        "quote": "",
+        "quote_verified": true
+      },
+      "scope": {
+        "status": "respected",
+        "reason": "The extracted numbers strictly match the requested windows and phases.",
+        "quote": "Kevin Durant (2011-12 through 2013-14) and James Harden (2016-17 through 2018-19)",
+        "quote_verified": false
+      },
+      "conclusion_limits": {
+        "status": "respected",
+        "reason": "Conclusions are strictly limited to the specified windows without broader assertions.",
+        "quote": "Within their respective 3-year windows:",
+        "quote_verified": true
+      }
+    }
+  },
+  "extractor_response": "{\n  \"claims\": [\n    {\n      \"id\": \"201142:Regular Season:PTS\",\n      \"quote\": \"Total PTS: 6,723\",\n      \"number\": \"6,723\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"Kevin Durant (2011-12 through 2013-14)\",\n      \"method\": \"aggregate\"\n    },\n    {\n      \"id\": \"201142:Regular Season:TS\",\n      \"quote\": \"Kevin Durant leads with 64.9%\",\n      \"number\": \"64.9\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"Kevin Durant (2011-12 through 2013-14)\",\n      \"method\": \"aggregate\"\n    },\n    {\n      \"id\": \"201142:Regular Season:RTS\",\n      \"quote\": \"Kevin Durant leads at +9.71% above the league average\",\n      \"number\": \"9.71\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"Kevin Durant (2011-12 through 2013-14)\",\n      \"method\": \"attempt_weighted\"\n    },\n    {\n      \"id\": \"201935:Regular Season:PTS\",\n      \"quote\": \"Total PTS: 7,365\",\n      \"number\": \"7,365\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"James Harden (2016-17 through 2018-19)\",\n      \"method\": \"aggregate\"\n    },\n    {\n      \"id\": \"201935:Regular Season:TS\",\n      \"quote\": \"James Harden's 61.0%\",\n      \"number\": \"61.0\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"James Harden (2016-17 through 2018-19)\",\n      \"method\": \"aggregate\"\n    },\n    {\n      \"id\": \"201935:Regular Season:RTS\",\n      \"quote\": \"James Harden's +5.98%\",\n      \"number\": \"5.98\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"James Harden (2016-17 through 2018-19)\",\n      \"method\": \"attempt_weighted\"\n    }\n  ],\n  \"review\": {\n    \"question_coverage\": {\n      \"status\": \"partial\",\n      \"reason\": \"The answer provides totals, TS%, and weighted difference for both players, but does not calculate or report PPG for either player.\",\n      \"quote\": \"\"\n    },\n    \"scope\": {\n      \"status\": \"respected\",\n      \"reason\": \"The extracted numbers strictly match the requested windows and phases.\",\n      \"quote\": \"Kevin Durant (2011-12 through 2013-14) and James Harden (2016-17 through 2018-19)\"\n    },\n    \"conclusion_limits\": {\n      \"status\": \"respected\",\n      \"reason\": \"Conclusions are strictly limited to the specified windows without broader assertions.\",\n      \"quote\": \"Within their respective 3-year windows:\"\n    }\n  }\n}",
+  "model_calls": [
+    {
+      "started_at": "2026-11-11T03:44:18.298319+00:00",
+      "parameters": {
+        "model": "vertex_ai/gemini-3.5-flash-lite",
+        "vertex_location": "global",
+        "response_format": {
+          "type": "json_object"
+        },
+        "temperature": 0,
+        "max_tokens": 16000,
+        "timeout": 100,
+        "num_retries": 0
+      },
+      "temperature": 0,
+      "message_roles": [
+        "system",
+        "user"
+      ],
+      "messages_sha256": "8e7df774f992fa4204cc6554f519d3766a6e0ac78944936d14e12c15483db625",
+      "tool_names": [],
+      "index": 0,
+      "response_model": "gemini-3.5-flash-lite",
+      "response_id": "kuTzavKxGe3YsbwPiJTu6QE",
+      "finish_reasons": [
+        "stop"
+      ],
+      "truncated": false,
+      "usage": {
+        "completion_tokens": 793,
+        "prompt_tokens": 3023,
+        "total_tokens": 3816,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": null,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 793,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": null,
+          "text_tokens": 3023,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "cache_read_input_tokens": null
+      },
+      "seconds": 2.2465,
+      "ended_at": "2026-11-11T03:44:20.545393+00:00"
+    }
+  ]
+}

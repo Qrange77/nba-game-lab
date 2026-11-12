@@ -1,0 +1,66 @@
+{
+  "checked_at": "2026-11-11T06:02:55.475436+00:00",
+  "python_tests_passed": 355,
+  "frontend_tests_passed": 15,
+  "frontend_typecheck_and_build": "passed",
+  "production_and_check_files": {
+    "backend/research/contract.py": "11a8262e99c9c4516fa91d1df3a360cc984a7e3c3a7543d132a344b98dfc2afe",
+    "backend/research/scope_review.py": "bc028842c758a29d97abb7853aa59cd60ea300db9ac063e99947b6303ab6bb16",
+    "backend/research/scoring.py": "925fd6058ff2c393d88d1e3b6a7ae5817fdb8e847e753277af1b13a771745976",
+    "frontend/src/components/ChatTurn.vue": "fc4085ff49f1af1fcf2481540fea9716e5d0b85966a35d55cd31ff8df34753e4",
+    "test/context_audit.py": "15f111eebdbd80049dcb3f7b8ed8929eeb6126fb3129a0b8b5eb3beda70bd0b1",
+    "test/test_context_audit.py": "82632d7a16234196f7954860f4463bab8263aaff8b5e6f647aa31d6a295873eb",
+    "test/test_scope_cutoff.py": "498372df0a02acb8439c68042f7435ac31e3e85658bd4fd1a9ed7a7e81004206"
+  },
+  "model": "vertex_ai/gemini-3.5-flash-lite",
+  "actual_runs": [
+    {
+      "id": "career",
+      "seconds": 10.31,
+      "controlled_gap_injected": false,
+      "rounds": 1,
+      "production_numeric_claims_checked": 136
+    },
+    {
+      "id": "support_findings",
+      "seconds": 11.51,
+      "controlled_gap_injected": false,
+      "rounds": 2,
+      "production_numeric_claims_checked": 66
+    }
+  ],
+  "browser_career": {
+    "session_id": "07906c4a-f988-49b1-936d-296bd030a93f",
+    "user_turns": 1,
+    "initial_contract_action": "review",
+    "flow_status": "completed",
+    "rounds": 1,
+    "context_ledger_identical_to_independently_audited_career": true,
+    "context_records_compared": 64
+  },
+  "artifacts": {
+    "sources.json": "5bc9a24e0cf64fa980fa36094167db716c114abd1d93fd32b08040684d7258b0",
+    "browser-career-ax.txt": "19ea88e8cd2571fdcd266a240eb49529ee7d1b037f7594d17a2d8313a82ed22f",
+    "results.json": "127781c45aacc66fbcd0b29fc2503eed3a1b441c255146e57a547614221278d7",
+    "browser-ongoing-cutoff-ax.txt": "ea085820fab469bc4a293f07a2f06cca287b8e0fad347a0031247314d7dd89b5",
+    "cases.json": "967ce9bf803fb839076b91c13fdb4f67a0aba64a67dbf0041d8815c962f29a19",
+    "browser-career.jpg": "8d38e8025d65f0bb7fb977205efc5877d7eb19a7bdd9e29da007ff31cc309b0d",
+    "browser-career-answer.jpg": "fbebfe3c8c6de9f182c6869221d7da4647f556471f53ffc863b793e9d7c07fb5",
+    "browser-finals-ax.txt": "c986603fbca3992757bbe9fe2d1caae4da23d3b1b2fb9784e2eeda6e97023d7a",
+    "scope-checks.json": "8a3a7ae7d6f6022f958ab775f87343feafbf36d27171c4b3a67b67f9526be258",
+    "integrity.json": "a40feaedb4c8009d0ee7a8c0d68d77a27ec4848298bf7fd69bf869bf185d6a0c"
+  },
+  "historical_paired_benchmark_sources_unchanged": true,
+  "deployment_performed": false,
+  "limits": "Targeted acceptance of supported explicit cutoff notation and all returned context rows in two selected runs. Not a universal accuracy guarantee or a new raw/Agent benchmark.",
+  "browser_ongoing_cutoff": {
+    "expected_action": "clarify",
+    "observed_action": "clarify",
+    "observed_tool_calls": 1,
+    "observation": "browser-ongoing-cutoff-ax.txt"
+  },
+  "frontend_built_assets": {
+    "frontend/dist/assets/index-Bd7qf4Gy.js": "c196b62ad50ff8560f842577983418cdf48886cfd5731a908be61cb37dd55e51",
+    "frontend/dist/assets/index-ReE1ym86.css": "8a79d480b323adb43660c39498525c568898f43a8da108a67a0ce489bb34bd85"
+  }
+}

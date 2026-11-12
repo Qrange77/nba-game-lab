@@ -1,0 +1,408 @@
+{
+  "id": "postseason",
+  "question": "Assess the claim that Michael Jordan had stronger postseason scoring than LeBron James. Compare Jordan's 1990-91 through 1992-93 with James's 2011-12 through 2013-14, using postseason points per game, true shooting and their changes from the corresponding regular seasons. Limit conclusions to these equal three-season samples.",
+  "expected": "metric_specific",
+  "response": "# Scoring Claim Review\n\n**Verdict: Conditional: the broad claim is not uniformly supported across the selected metrics.**\n\n> Michael Jordan had stronger postseason scoring than LeBron James in their respective three-season samples.\n\nThis adjudication concerns the selected scoring statistics. It does not rank overall players or establish innate ability, defensive impact, or championship causation.\n\n## Comparison contract\n\n- Subjects: **Michael Jordan** and **LeBron James**.\n- Scope: 1990-91\u20131992-93 versus 2011-12\u20132013-14; Regular Season, Playoffs.\n- Statistical lens: postseason.\n- Completed-season cutoff: **2025-26**; ongoing seasons are excluded.\n- Percentages are recomputed from summed inputs. Missing observations remain missing.\n- Relative efficiency uses same-season, same-phase league TS; career aggregation weights each season by FGA + 0.44 \u00d7 FTA.\n\n## Evidence selected by the Writer\n\n- Playoffs / Accumulated points: Michael Jordan has the larger observed value. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00)\n- Playoffs / Points per game: Michael Jordan has the larger observed value. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00)\n- Playoffs / Raw true shooting: LeBron James has the larger observed value. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00)\n- Playoffs / Contemporaneous relative true shooting: LeBron James has the larger observed value. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00)\n\n## Comparable evidence\n\n| Phase | Statistical lens | Michael Jordan | LeBron James | Observed advantage | Sources |\n|---|---|---:|---:|---|---|\n| Regular Season | Accumulated points (total) | 7,525 | 5,808 | Michael Jordan | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n| Regular Season | Points per game (per game) | 31.35 | 27.01 | Michael Jordan | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n| Regular Season | Raw true shooting (%) | 58.21 | 63.27 | LeBron James | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n| Regular Season | Contemporaneous relative true shooting (percentage points) | 4.81 | 9.82 | LeBron James | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n| Playoffs | Accumulated points (total) | 1,954 | 1,841 | Michael Jordan | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n| Playoffs | Points per game (per game) | 33.69 | 27.89 | Michael Jordan | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n| Playoffs | Raw true shooting (%) | 57.21 | 60.39 | LeBron James | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n| Playoffs | Contemporaneous relative true shooting (percentage points) | 3.22 | 7.33 | LeBron James | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n\n## Sensitivity and counterevidence\n\n- Regular Season: accumulation versus scoring rate does not change the observed direction in this sample. Agreement on these metrics is not proof of overall superiority. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00)\n- Regular Season: raw versus contemporaneous relative efficiency does not change the observed direction in this sample. Agreement on these metrics is not proof of overall superiority. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00)\n- Playoffs: accumulation versus scoring rate does not change the observed direction in this sample. Agreement on these metrics is not proof of overall superiority. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00)\n- Playoffs: raw versus contemporaneous relative efficiency does not change the observed direction in this sample. Agreement on these metrics is not proof of overall superiority. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00)\n\n### Regular-season to postseason changes\n\n| Subject | Points-per-game change | TS change (percentage points) | Sources |\n|---|---:|---:|---|\n| Michael Jordan | 2.34 | -1 | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00) |\n| LeBron James | 0.88 | -2.89 | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) |\n\n## Context boundary\n\nThis focused claim did not request a supporting-cast or Finals-opponent investigation. The statistical result does not establish a context-independent ability ranking.\n\n## Coverage and limits\n\n- **Personal: completed** \u2014 Required collection completed; bounded sample limitations still apply.\n- **Era: completed** \u2014 Required collection completed; bounded sample limitations still apply.\n- Michael Jordan, Playoffs: league-baseline shooting-opportunity coverage **100%**. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00)\n- LeBron James, Playoffs: league-baseline shooting-opportunity coverage **100%**. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00)\n- LeBron James, Regular Season: league-baseline shooting-opportunity coverage **100%**. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00)\n- Michael Jordan, Regular Season: league-baseline shooting-opportunity coverage **100%**. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=893&PerMode=Totals&LeagueID=00)\n- Era-relative TS is a descriptive benchmark, not a causal correction for rules, physicality, spacing or defensive difficulty.\n- True shooting uses the conventional 0.44 free-throw coefficient. It estimates shooting opportunities rather than counting actual possessions.\n- Supporting-cast cases and opponent records are contextual samples. No teammate-swap or championship-credit calculation is justified.\n- Linked evidence records retain exact scope, formulas, season inputs, original API parameters and retrieval timestamps. Aggregate citations use multiple API inputs; inspect the full source set in the evidence panel.\n- No total player score is produced. All displayed advantages are specific to a metric and sample.",
+  "tool_calls": [
+    {
+      "name": "confirm_scoring_contract",
+      "args": {},
+      "id": "Lead:1",
+      "status": "completed",
+      "agent": "Lead"
+    },
+    {
+      "name": "plan_research",
+      "args": {},
+      "id": "Lead:2",
+      "status": "completed",
+      "agent": "Lead"
+    },
+    {
+      "name": "collect_scoring_environment",
+      "args": {},
+      "id": "Researcher 2 \u00b7 era:1",
+      "status": "completed",
+      "agent": "Researcher 2 \u00b7 era"
+    },
+    {
+      "name": "collect_scoring_profile",
+      "args": {},
+      "id": "Researcher 1 \u00b7 personal:1",
+      "status": "completed",
+      "agent": "Researcher 1 \u00b7 personal"
+    },
+    {
+      "name": "review_research",
+      "args": {},
+      "id": "Lead:3",
+      "status": "completed",
+      "agent": "Lead"
+    },
+    {
+      "name": "compose_scoring_review",
+      "args": {},
+      "id": "Writer:1",
+      "status": "completed",
+      "agent": "Writer"
+    }
+  ],
+  "evidence_result": {
+    "verification": {
+      "status": "checked",
+      "checked_claims": 24,
+      "attempts": [
+        {
+          "valid": true,
+          "errors": []
+        }
+      ],
+      "note": "Published numeric values and comparison directions are server-derived and checked against scoped evidence. Missing source coverage is reported separately; descriptive context does not establish causation."
+    },
+    "research": {
+      "scope": "1990-91\u20131992-93 versus 2011-12\u20132013-14; Regular Season, Playoffs",
+      "criteria": "Cross-era scoring claim review",
+      "tasks": [
+        {
+          "agent": "Researcher 1 \u00b7 personal",
+          "dimension": "personal",
+          "question": "Compare the regular season and postseason scoring volume, efficiency, and statistics for Michael Jordan from 1990 to 1992 versus LeBron James from 2011 to 2013.",
+          "round": 1,
+          "status": "completed"
+        },
+        {
+          "agent": "Researcher 2 \u00b7 era",
+          "dimension": "era",
+          "question": "Analyze contemporaneous league-wide scoring benchmarks and shooting efficiencies during Michael Jordan's 1990-1992 window and LeBron James's 2011-2013 window.",
+          "round": 1,
+          "status": "completed"
+        }
+      ],
+      "findings": [
+        {
+          "agent": "Researcher 2 \u00b7 era",
+          "dimension": "era",
+          "task": "Analyze contemporaneous league-wide scoring benchmarks and shooting efficiencies during Michael Jordan's 1990-1992 window and LeBron James's 2011-2013 window.",
+          "status": "completed",
+          "findings": "* Michael Jordan\u2019s postseason true shooting efficiency relative to league average across his 1991\u20131993 window (covering 1990\u201392 seasons in the prompt scope) yielded a shot-opportunity-weighted relative TS of +3.22 percentage points (ev_3482a78e8b50a07f4d5c).\n* LeBron James\u2019s postseason true shooting efficiency relative to league average across his 2012\u20132014 window (covering 2011\u201313 seasons in the prompt scope) yielded a shot-opportunity-weighted relative TS of +7.33 percentage points (ev_887f88414d4196047e04).\n* In the regular season comparison, Michael Jordan's 1990\u20131992 window yielded a weighted relative TS of +4.81 percentage points (ev_cbebbf8e4852b50ab3f4), while LeBron James's 2011\u20132013 window yielded +9.82 percentage points (ev_3882592283d81ff5fa64).\n* League-wide regular season true shooting averages were comparable across the two windows, standing near 53.4% in Jordan's 1990\u201392 years and 53.4% in James's 2011\u201313 years (ev_cbebbf8e4852b50ab3f4, ev_3882592283d81ff5fa64).\n* League-wide playoff true shooting averages were similarly aligned, averaging roughly 54.0% during Jordan's sample and 53.2% during James's sample (ev_3482a78e8b50a07f4d5c, ev_887f88414d4196047e04).\n* All calculated relative true shooting metrics reflect 100% shooting-opportunity coverage across the verified season baselines without interpolation or missing data (ev_cbebbf8e4852b50ab3f4, ev_3482a78e8b50a07f4d5c, ev_3882592283d81ff5fa64, ev_887f88414d4196047e04).",
+          "gaps": [],
+          "evidence_ids": [
+            "ev_3482a78e8b50a07f4d5c",
+            "ev_3882592283d81ff5fa64",
+            "ev_887f88414d4196047e04",
+            "ev_cbebbf8e4852b50ab3f4"
+          ]
+        },
+        {
+          "agent": "Researcher 1 \u00b7 personal",
+          "dimension": "personal",
+          "task": "Compare the regular season and postseason scoring volume, efficiency, and statistics for Michael Jordan from 1990 to 1992 versus LeBron James from 2011 to 2013.",
+          "status": "completed",
+          "findings": "- **Postseason Scoring Volume (Per Game):** Michael Jordan averaged 33.69 PTS per game across 58 playoff games from 1990 to 1992 (`ev_25e259df19511b623d92`), while LeBron James averaged 27.89 PTS per game across 66 playoff games from 2011 to 2013 (`ev_4bd8c4bcee81ad8a4676`).\n- **Postseason Shooting Volume & FGA:** Jordan attempted 25.60 field goals per game (1,485 total FGA in 58 games) (`ev_005bf6d7fe0c518dc115`, `ev_25e259df19511b623d92`), compared to LeBron's 19.30 field goals per game (1,274 total FGA in 66 games) (`ev_2a68ce2116e016c6ee87`, `ev_4bd8c4bcee81ad8a4676`).\n- **Postseason Efficiency (TS% and eFG%):** LeBron James registered a higher postseason scoring efficiency with 60.39% True Shooting (TS%) and 55.06% Effective Field Goal Percentage (eFG%) (`ev_2a68ce2116e016c6ee87`), whereas Michael Jordan posted 57.21% TS% and 51.55% eFG% (`ev_005bf6d7fe0c518dc115`).\n- **Postseason Free Throws:** Jordan converted 7.29 of 8.72 free-throw attempts per game (83.60% FT) (`ev_25e259df19511b623d92`), while LeBron made 6.64 of 8.62 free-throw attempts per game (76.98% FT) (`ev_4bd8c4bcee81ad8a4676`).\n- **Regular Season Scoring Comparison:** In the regular season, Jordan averaged 31.35 PTS on 58.21% TS% (`ev_d77a981c3f17d305dec5`), while LeBron averaged 27.01 PTS on 63.27% TS% (`ev_5e72c80ea137ef86aa2b`).\n- **Sample Sizes & Coverage:** Jordan's sample covers 240 regular season games and 58 playoff games from 1990 to 1992 (`ev_859cd1dfde6903caab87`, `ev_005bf6d7fe0c518dc115`). LeBron's sample covers 215 regular season games and 66 playoff games from 2011 to 2013 (`ev_7005a22891f559a32024`, `ev_2a68ce2116e016c6ee87`).",
+          "gaps": [],
+          "evidence_ids": [
+            "ev_005bf6d7fe0c518dc115",
+            "ev_25e259df19511b623d92",
+            "ev_2a68ce2116e016c6ee87",
+            "ev_4bd8c4bcee81ad8a4676",
+            "ev_5e72c80ea137ef86aa2b",
+            "ev_7005a22891f559a32024",
+            "ev_859cd1dfde6903caab87",
+            "ev_d77a981c3f17d305dec5"
+          ]
+        }
+      ],
+      "coverage": "completed",
+      "coverage_cells": [
+        {
+          "dimension": "personal",
+          "status": "completed",
+          "reason": "Required collection completed; bounded sample limitations still apply."
+        },
+        {
+          "dimension": "era",
+          "status": "completed",
+          "reason": "Required collection completed; bounded sample limitations still apply."
+        }
+      ],
+      "elapsed_seconds": 8.86,
+      "api_requests": 0,
+      "tokens": {
+        "prompt": 19653,
+        "completion": 2076
+      },
+      "data_cutoff": "2026-11-10T23:01:20.728406+00:00",
+      "limits": {
+        "seconds": 240,
+        "researchers": 8,
+        "rounds": 3,
+        "parallel_workers": 4
+      }
+    },
+    "scoring": {
+      "contract": {
+        "action": "review",
+        "question": "",
+        "claim": "Michael Jordan had stronger postseason scoring than LeBron James in their respective three-season samples.",
+        "left_player": 893,
+        "right_player": 2544,
+        "period": "windows",
+        "left_start": 1990,
+        "left_end": 1992,
+        "right_start": 2011,
+        "right_end": 2013,
+        "phases": [
+          "Regular Season",
+          "Playoffs"
+        ],
+        "lens": "postseason",
+        "include_context": false,
+        "cutoff": 2025
+      },
+      "verdict": "conditional",
+      "matrix": [
+        {
+          "phase": "Regular Season",
+          "metric": "PTS",
+          "basis": "totals",
+          "label": "Accumulated points",
+          "left": 7525.0,
+          "right": 5808.0,
+          "unit": "total",
+          "direction": "left",
+          "complete": true,
+          "left_id": "ev_859cd1dfde6903caab87",
+          "right_id": "ev_7005a22891f559a32024",
+          "left_scope": {
+            "start": 1990,
+            "end": 1992,
+            "phase": "Regular Season",
+            "basis": "totals"
+          },
+          "right_scope": {
+            "start": 2011,
+            "end": 2013,
+            "phase": "Regular Season",
+            "basis": "totals"
+          }
+        },
+        {
+          "phase": "Regular Season",
+          "metric": "PTS",
+          "basis": "per_game",
+          "label": "Points per game",
+          "left": 31.354166666666668,
+          "right": 27.013953488372092,
+          "unit": "per game",
+          "direction": "left",
+          "complete": true,
+          "left_id": "ev_d77a981c3f17d305dec5",
+          "right_id": "ev_5e72c80ea137ef86aa2b",
+          "left_scope": {
+            "start": 1990,
+            "end": 1992,
+            "phase": "Regular Season",
+            "basis": "per_game"
+          },
+          "right_scope": {
+            "start": 2011,
+            "end": 2013,
+            "phase": "Regular Season",
+            "basis": "per_game"
+          }
+        },
+        {
+          "phase": "Regular Season",
+          "metric": "TS_PCT",
+          "basis": "per_game",
+          "label": "Raw true shooting",
+          "left": 58.214197301646244,
+          "right": 63.272385002876014,
+          "unit": "%",
+          "direction": "right",
+          "complete": true,
+          "left_id": "ev_d77a981c3f17d305dec5",
+          "right_id": "ev_5e72c80ea137ef86aa2b",
+          "left_scope": {
+            "start": 1990,
+            "end": 1992,
+            "phase": "Regular Season",
+            "basis": "per_game"
+          },
+          "right_scope": {
+            "start": 2011,
+            "end": 2013,
+            "phase": "Regular Season",
+            "basis": "per_game"
+          }
+        },
+        {
+          "phase": "Regular Season",
+          "metric": "WEIGHTED_RTS",
+          "basis": "per_game",
+          "label": "Contemporaneous relative true shooting",
+          "left": 4.805353553888856,
+          "right": 9.81862814068539,
+          "unit": "percentage points",
+          "direction": "right",
+          "complete": true,
+          "left_id": "ev_cbebbf8e4852b50ab3f4",
+          "right_id": "ev_3882592283d81ff5fa64",
+          "left_scope": {
+            "start": 1990,
+            "end": 1992,
+            "phase": "Regular Season",
+            "basis": "per_game"
+          },
+          "right_scope": {
+            "start": 2011,
+            "end": 2013,
+            "phase": "Regular Season",
+            "basis": "per_game"
+          }
+        },
+        {
+          "phase": "Playoffs",
+          "metric": "PTS",
+          "basis": "totals",
+          "label": "Accumulated points",
+          "left": 1954.0,
+          "right": 1841.0,
+          "unit": "total",
+          "direction": "left",
+          "complete": true,
+          "left_id": "ev_005bf6d7fe0c518dc115",
+          "right_id": "ev_2a68ce2116e016c6ee87",
+          "left_scope": {
+            "start": 1990,
+            "end": 1992,
+            "phase": "Playoffs",
+            "basis": "totals"
+          },
+          "right_scope": {
+            "start": 2011,
+            "end": 2013,
+            "phase": "Playoffs",
+            "basis": "totals"
+          }
+        },
+        {
+          "phase": "Playoffs",
+          "metric": "PTS",
+          "basis": "per_game",
+          "label": "Points per game",
+          "left": 33.689655172413794,
+          "right": 27.893939393939394,
+          "unit": "per game",
+          "direction": "left",
+          "complete": true,
+          "left_id": "ev_25e259df19511b623d92",
+          "right_id": "ev_4bd8c4bcee81ad8a4676",
+          "left_scope": {
+            "start": 1990,
+            "end": 1992,
+            "phase": "Playoffs",
+            "basis": "per_game"
+          },
+          "right_scope": {
+            "start": 2011,
+            "end": 2013,
+            "phase": "Playoffs",
+            "basis": "per_game"
+          }
+        },
+        {
+          "phase": "Playoffs",
+          "metric": "TS_PCT",
+          "basis": "per_game",
+          "label": "Raw true shooting",
+          "left": 57.213464196200604,
+          "right": 60.38599805820147,
+          "unit": "%",
+          "direction": "right",
+          "complete": true,
+          "left_id": "ev_25e259df19511b623d92",
+          "right_id": "ev_4bd8c4bcee81ad8a4676",
+          "left_scope": {
+            "start": 1990,
+            "end": 1992,
+            "phase": "Playoffs",
+            "basis": "per_game"
+          },
+          "right_scope": {
+            "start": 2011,
+            "end": 2013,
+            "phase": "Playoffs",
+            "basis": "per_game"
+          }
+        },
+        {
+          "phase": "Playoffs",
+          "metric": "WEIGHTED_RTS",
+          "basis": "per_game",
+          "label": "Contemporaneous relative true shooting",
+          "left": 3.217445869705252,
+          "right": 7.331972729629044,
+          "unit": "percentage points",
+          "direction": "right",
+          "complete": true,
+          "left_id": "ev_3482a78e8b50a07f4d5c",
+          "right_id": "ev_887f88414d4196047e04",
+          "left_scope": {
+            "start": 1990,
+            "end": 1992,
+            "phase": "Playoffs",
+            "basis": "per_game"
+          },
+          "right_scope": {
+            "start": 2011,
+            "end": 2013,
+            "phase": "Playoffs",
+            "basis": "per_game"
+          }
+        }
+      ],
+      "sensitivity": [
+        {
+          "phase": "Regular Season",
+          "test": "Accumulation versus scoring rate",
+          "result": "stable"
+        },
+        {
+          "phase": "Regular Season",
+          "test": "Raw versus contemporaneous relative efficiency",
+          "result": "stable"
+        },
+        {
+          "phase": "Playoffs",
+          "test": "Accumulation versus scoring rate",
+          "result": "stable"
+        },
+        {
+          "phase": "Playoffs",
+          "test": "Raw versus contemporaneous relative efficiency",
+          "result": "stable"
+        }
+      ],
+      "support_samples": [],
+      "presentation": {
+        "emphasis": "tradeoff_first",
+        "highlight_rows": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "caveats": [
+          "noncausal",
+          "limited_context"
+        ]
+      }
+    }
+  },
+  "seconds": 8.87,
+  "model": "vertex_ai/gemini-3.5-flash-lite",
+  "controlled_gap_injected": false,
+  "no_tools_no_system_answer": "To assess the claim that Michael Jordan had stronger postseason scoring than LeBron James, we can analyze their respective three-season peaks: Jordan from 1990-91 to 1992-93 (his first three-peat) and LeBron James from 2011-12 to 2013-14 (his Miami Heat peak, which also includes back-to-back championships). \n\nLimiting the scope strictly to postseason points per game (PPG), True Shooting percentage (TS%), and the statistical changes (deltas) from their corresponding regular seasons, the data reveals a nuanced picture where Jordan holds an edge in sheer scoring volume and upward postseason scoring shift, while James exhibits greater scoring efficiency.\n\n---\n\n### **1. Michael Jordan (1990-91 to 1992-93)**\n\n#### **Raw Statistics**\n*   **1990-91:** \n    *   Regular Season: 31.5 PPG | 60.5% TS\n    *   Postseason: 31.1 PPG | 59.5% TS\n*   **1991-92:** \n    *   Regular Season: 30.1 PPG | 57.9% TS\n    *   Postseason: 34.5 PPG | 56.5% TS\n*   **1992-93:** \n    *   Regular Season: 32.6 PPG | 56.4% TS\n    *   Postseason: 35.1 PPG | 52.7% TS\n\n#### **Three-Season Averages**\n*   **Regular Season Scoring:** 31.4 PPG\n*   **Regular Season TS%:** 58.3%\n*   **Postseason Scoring:** **33.6 PPG**\n*   **Postseason TS%:** **56.2%**\n\n#### **Deltas (Postseason minus Regular Season)**\n*   **PPG Change:** $+2.2$ PPG (Volume increased in the playoffs)\n*   **TS% Change:** $-2.1\\%$ (Efficiency decreased in the playoffs)\n\n---\n\n### **2. LeBron James (2011-12 to 2013-14)**\n\n#### **Raw Statistics**\n*   **2011-12:** \n    *   Regular Season: 27.1 PPG | 60.5% TS\n    *   Postseason: 30.3 PPG | 57.6% TS\n*   **2012-13:** \n    *   Regular Season: 26.8 PPG | 64.0% TS\n    *   Postseason: 25.9 PPG | 58.9% TS\n*   **2013-14:** \n    *   Regular Season: 27.1 PPG | 64.9% TS\n    *   Postseason: 27.4 PPG | 66.8% TS\n\n#### **Three-Season Averages**\n*   **Regular Season Scoring:** 27.0 PPG\n*   **Regular Season TS%:** 63.1%\n*   **Postseason Scoring:** **27.9 PPG**\n*   **Postseason TS%:** **61.1%**\n\n#### **Deltas (Postseason minus Regular Season)**\n*   **PPG Change:** $+0.9$ PPG (Volume increased slightly)\n*   **TS% Change:** $-2.0\\%$ (Efficiency decreased in the playoffs)\n\n---\n\n### **3. Comparative Assessment**\n\nBased strictly on the parameters of this three-season sample, the evaluation of the claim depends on whether one defines \"stronger scoring\" through the lens of **volume** or **efficiency**:\n\n1. **Postseason Points Per Game (Volume):** \n   * **Advantage: Michael Jordan.** \n   * Jordan averaged **33.6 PPG** across these three postseasons compared to James's **27.9 PPG**, a significant margin of +5.7 points per game. Jordan also reached higher individual postseason peaks within this window, notably averaging 35.1 PPG in 1993 and 34.5 PPG in 1992.\n\n2. **True Shooting (Efficiency):** \n   * **Advantage: LeBron James.** \n   * James maintained a much higher scoring efficiency in the postseason, averaging **61.1% TS** compared to Jordan's **56.2% TS**. Notably, James's 2013-14 postseason run featured an elite 66.8% TS on 27.4 PPG. \n\n3. **Changes from the Regular Season (Deltas):**\n   * **Volume Delta Advantage: Michael Jordan.** Jordan increased his scoring output from the regular season to the postseason by an average of **+2.2 PPG**, whereas James increased his by **+0.9 PPG**. Jordan\u2019s ability to aggressively scale up his scoring volume against elite playoff defenses was more pronounced in this window.\n   * **Efficiency Delta: Comparable.** Both players saw nearly identical dips in True Shooting efficiency when transitioning from the regular season to the postseason (Jordan at $-2.1\\%$, James at $-2.0\\%$), indicating that both faced a similar relative defensive tightening, though James operated from a much higher baseline of efficiency.\n\n### **Conclusion**\nWithin these specific three-season samples, the claim that Michael Jordan had stronger postseason scoring is **supported in terms of volume and upward scaling**, but **challenged in terms of efficiency**. Jordan scored substantially more points per game and ramped up his production more dramatically relative to his regular-season baseline. However, James achieved his postseason scoring points on markedly higher True Shooting efficiency.",
+  "note": "Full numeric cards, original evidence and collector responses are retained in the ignored local output artifact. This snapshot preserves both complete answers, the comparison matrix and activity metadata."
+}

@@ -1,8 +1,11 @@
 import { computed, ref } from 'vue'
-import type { Conversation, Session, Turn, EvidenceResult, PlayerChoice, PlayerClarification, ToolCall } from '../types'
+import type { Conversation, Session, Turn, EvidenceResult, PlayerChoice, PlayerClarification, ToolCall, ResearchTask, ResearchProgress, ResearchFlow } from '../types'
+import { acceptFlow, interruptFlow } from '../researchFlow'
 
-type ChatResult = { session_id: string; response: string; tool_calls: ToolCall[]; evidence_result?: EvidenceResult; selected_players: PlayerChoice[]; player_clarifications: PlayerClarification[]; failed?: boolean }
+type ChatResult = { session_id: string; response: string; tool_calls: ToolCall[]; evidence_result?: EvidenceResult; research_flow?: ResearchFlow | null; selected_players: PlayerChoice[]; player_clarifications: PlayerClarification[]; failed?: boolean }
 type ChatEvent = { type: 'phase'; label: string } | { type: 'session'; session_id: string } | { type: 'players'; players: PlayerChoice[] } |
+  ({ type: 'research_plan' } & ResearchProgress) | { type: 'research_task'; task: ResearchTask } |
+  { type: 'research_flow'; flow: ResearchFlow } |
   { type: 'tool_start' | 'tool_end'; call: ToolCall } | { type: 'done'; data: ChatResult } |
   { type: 'error'; message: string }
 
@@ -136,6 +139,12 @@ export function useChat() {
         if (event.type === 'phase') active.activity_phase = event.label
         if (event.type === 'session') sessionId.value = event.session_id
         if (event.type === 'players') selectedPlayers.value = event.players
+        if (event.type === 'research_flow') active.research_flow = acceptFlow(active.research_flow, event.flow)
+        if (event.type === 'research_plan') active.research = { scope: event.scope, criteria: event.criteria, tasks: event.tasks }
+        if (event.type === 'research_task' && active.research) {
+          const found = active.research.tasks.findIndex(task => task.agent === event.task.agent)
+          if (found >= 0) active.research.tasks[found] = event.task
+        }
         if (event.type === 'tool_start' || event.type === 'tool_end') {
           const found = active.tool_calls.findIndex(call => call.id === event.call.id)
           if (found < 0) active.tool_calls.push(event.call)
@@ -145,11 +154,11 @@ export function useChat() {
       sessionId.value = data.session_id
       if (title.value === 'New conversation') title.value = turn.message.slice(0, 80)
       selectedPlayers.value = data.selected_players || []
-      turns.value[index] = { ...turn, response: data.response, tool_calls: data.tool_calls, evidence_result: data.evidence_result, player_clarifications: data.player_clarifications, selected_players: data.selected_players, failed: data.failed }
+      turns.value[index] = { ...turn, research_flow: data.research_flow ?? turns.value[index]?.research_flow, research: data.evidence_result?.research || turns.value[index]?.research, response: data.response, tool_calls: data.tool_calls, evidence_result: data.evidence_result, player_clarifications: data.player_clarifications, selected_players: data.selected_players, failed: data.failed }
       await refreshHistory()
     } catch (e) {
       const active = turns.value[index]!
-      turns.value[index] = { ...active, tool_calls: active.tool_calls.map(call => call.status === 'running' ? { ...call, status: 'failed', result: 'Live updates stopped before completion was confirmed.' } : call), failed: true, response: e instanceof Error ? e.message : 'Unable to reach the server.' }
+      turns.value[index] = { ...active, research_flow: interruptFlow(active.research_flow), tool_calls: active.tool_calls.map(call => call.status === 'running' ? { ...call, status: 'failed', result: 'Live updates stopped before completion was confirmed.' } : call), failed: true, response: e instanceof Error ? e.message : 'Unable to reach the server.' }
     } finally { sending.value = false }
   }
 

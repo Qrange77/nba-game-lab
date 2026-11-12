@@ -1,0 +1,26 @@
+{
+  "normal": {
+    "researchers": 4,
+    "rounds": 1,
+    "peak_concurrent_researchers": 4,
+    "shared_overlap_ms": 3431,
+    "final_status": "completed"
+  },
+  "controlled_browser_recovery": {
+    "researchers": 3,
+    "rounds": 2,
+    "original_partial_node_preserved": true,
+    "repeated_completed_era_task": false,
+    "writer_depends_on_final_review": true,
+    "final_status": "completed"
+  },
+  "checks": [
+    "Only Lead appears initially",
+    "All dependencies reference earlier dispatched nodes",
+    "Node durations derive from actual lifecycle timestamps",
+    "Every tool maps to exactly its execution node",
+    "Final snapshots preserve partial attempts",
+    "Numeric evidence verification still passes"
+  ],
+  "note": "The recovery case intentionally omits one collector. All other model and NBA calls are live/cached. Peak concurrency is measured, not an animation."
+}

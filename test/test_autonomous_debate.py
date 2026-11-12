@@ -29,7 +29,7 @@ class AutonomousDebateTests(unittest.TestCase):
         return run_debate([{'role':'system','content':''},{'role':'user','content':text}], 'rebuttal',self.config,self.names,data=self.data,**kwargs)
 
     def test_keywords_do_not_execute_queries_or_force_honors(self):
-        for text in ['SC has more champions','他冠军更多','Better record','More playoff appearances','Compare efficiency']:
+        for text in ['SC has more champions','\u4ed6\u51a0\u519b\u66f4\u591a','Better record','More playoff appearances','Compare efficiency']:
             with self.subTest(text=text), patch.object(self.data,'fetch',side_effect=AssertionError('No query chosen')), patch('backend.debate.agent.complete',side_effect=[submit({'response':'Team success alone does not isolate individual credit.'}),PASS]):
                 result=self.run_chat(text)
                 self.assertEqual(result[2]['validation']['submissions'],1)

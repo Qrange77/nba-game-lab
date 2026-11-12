@@ -14,6 +14,7 @@ from backend.paths import PROJECT_ROOT
 
 from nba_api.stats.endpoints import commonallplayers, playercareerstats, playerawards, playergamelog, leaguedashteamstats, leaguedashplayerstats, teamplayerdashboard, teamyearbyyearstats
 from nba_api.stats.static import players
+from nba_api.stats.endpoints import commonteamroster, leaguegamelog, teamgamelog, teamplayeronoffsummary
 
 CACHE_PATH = PROJECT_ROOT / 'data_cache' / 'nba.sqlite3'
 CACHE_LOCK = RLock()
@@ -26,9 +27,14 @@ ENDPOINTS = {
     'league_players': leaguedashplayerstats.LeagueDashPlayerStats,
     'team_players': teamplayerdashboard.TeamPlayerDashboard,
     'team_history': teamyearbyyearstats.TeamYearByYearStats,
+    'roster': commonteamroster.CommonTeamRoster,
+    'league_games': leaguegamelog.LeagueGameLog,
+    'team_games': teamgamelog.TeamGameLog,
+    'on_off': teamplayeronoffsummary.TeamPlayerOnOffSummary,
 }
 ENDPOINT_NAMES = {'directory': 'commonallplayers', 'career': 'playercareerstats', 'awards': 'playerawards',
-                  'games': 'playergamelog', 'league': 'leaguedashteamstats', 'league_players':'leaguedashplayerstats', 'team_players':'teamplayerdashboard', 'team_history':'teamyearbyyearstats'}
+                  'games': 'playergamelog', 'league': 'leaguedashteamstats', 'league_players':'leaguedashplayerstats', 'team_players':'teamplayerdashboard', 'team_history':'teamyearbyyearstats',
+                  'roster': 'commonteamroster', 'league_games': 'leaguegamelog', 'team_games': 'teamgamelog', 'on_off': 'teamplayeronoffsummary'}
 ALIASES = {'lebron': 'LeBron James', 'king james': 'LeBron James', 'mj': 'Michael Jordan',
            'steph': 'Stephen Curry', 'steph curry': 'Stephen Curry', 'shaq': "Shaquille O'Neal",
            'kobe': 'Kobe Bryant', 'kd': 'Kevin Durant'}
@@ -183,9 +189,23 @@ class NBAData:
         return {'players': matches[:25], 'complete': len(matches) <= 25, 'resolved': len(matches) == 1}
 
 
+def request_parameters(entry):
+    """Translate Python SDK arguments to the actual HTTP API parameter names."""
+    endpoint=(entry.get('source_url') or entry.get('endpoint') or '').rstrip('/').rsplit('/',1)[-1]
+    kind=next((k for k,name in ENDPOINT_NAMES.items() if name==endpoint),None)
+    params=entry.get('parameters',{})
+    if kind:
+        try:
+            return ENDPOINTS[kind](get_request=False,**params).parameters
+        except (TypeError,ValueError):
+            pass
+    return params
+
+
 def provenance(entry, player_id=None):
     return {'provider': 'NBA.com', 'url': (f'https://www.nba.com/stats/player/{player_id}/traditional' if player_id else
             entry['source_url']), 'endpoint': entry['source_url'], 'parameters': entry['parameters'],
+            'request_parameters':request_parameters(entry),
             'fetched_at': entry['fetched_at'], 'stale': entry['stale'],
             'warning': entry.get('refresh_error')}
 

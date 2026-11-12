@@ -3,18 +3,24 @@ import json
 
 
 class ActivityLog(list):
-    def __init__(self, emit=None):
+    def __init__(self, emit=None, agent=None, node_id=None):
         super().__init__()
         self.emit = emit or (lambda event: None)
         self.pending = []
         self.sequence = 0
+        self.agent = agent
+        self.node_id = node_id
 
     def phase(self, label):
         self.emit({'type':'phase', 'label':label})
 
     def start(self, name, args, attempt_id=None):
         self.sequence += 1
-        call = {'id':str(self.sequence), 'name':name, 'args':args, 'status':'running'}
+        call = {'id':f'{self.agent}:{self.sequence}' if self.agent else str(self.sequence), 'name':name, 'args':args, 'status':'running'}
+        if self.agent:
+            call['agent'] = self.agent
+        if self.node_id:
+            call['node_id'] = self.node_id
         if attempt_id is not None:
             call['attempt_id'] = attempt_id
         self.pending.append(call)
@@ -36,6 +42,10 @@ class ActivityLog(list):
         if not failed and isinstance(parsed,dict) and parsed.get('status') in ('revise','needs_evidence'):
             status = 'needs_revision' if parsed['status'] == 'revise' else 'needs_evidence'
         finished = dict(item, id=call['id'], status=status)
+        if self.agent:
+            finished['agent'] = self.agent
+        if call.get('node_id'):
+            finished['node_id'] = call['node_id']
         if call.get('attempt_id'):
             finished['attempt_id'] = call['attempt_id']
         elif isinstance(parsed, dict) and parsed.get('attempt_id'):

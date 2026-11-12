@@ -1,0 +1,60 @@
+{
+  "case": "windows",
+  "path": "raw",
+  "question": "Assess whether Kobe Bryant's scoring in 2005-06 through 2007-08 was stronger than Stephen Curry's scoring in 2014-15 through 2016-17. Compare equal three-season windows, regular-season scoring volume, raw shooting efficiency and contemporaneous league-relative efficiency. Show which metric advantages change with the statistical lens.",
+  "started_at": "2026-11-11T03:42:45.166700+00:00",
+  "answer": "Comparing Kobe Bryant\u2019s three-season scoring peak from **2005-06 through 2007-08** to Stephen Curry\u2019s three-season scoring peak from **2014-15 through 2016-17** is one of the most fascinating debates in modern basketball analytics. It pits historic isolation volume and tough-shot conversion against unprecedented perimeter gravity, historic efficiency, and volume driven by the three-point revolution. \n\n---\n\n### 1. Regular-Season Scoring Volume\n\nWhen evaluating pure volume, Kobe Bryant and Stephen Curry approached scoring from different stylistic foundations, yet both produced historic outputs.\n\n*   **Kobe Bryant (2005-06 to 2007-08):**\n    *   *2005-06:* 35.4 PPG (The highest single-season average since Michael Jordan in 1986-87)\n    *   *2006-07:* 31.6 PPG (Led the NBA)\n    *   *2007-08:* 28.3 PPG\n    *   **Three-Season Total / Average:** **31.8 PPG**\n    *   *Volume Context:* Bryant carried a historically weak post-Shaq Lakers supporting cast, resulting in a massive usage rate (estimated at ~38.7% in 2005-06). He scored 2,832 points in 80 games during the 2005-06 season alone.\n\n*   **Stephen Curry (2014-15 to 2016-17):**\n    *   *2014-15:* 23.8 PPG \n    *   *2015-16:* 30.1 PPG (First unanimous MVP, highest PPG in the modern era on under 35 minutes per game)\n    *   *2016-17:* 25.3 PPG (Shared floor with high-volume scorer Kevin Durant)\n    *   **Three-Season Total / Average:** **26.4 PPG**\n    *   *Volume Context:* Curry\u2019s volume is suppressed by playing in Steve Kerr\u2019s ball-movement system and sitting out numerous fourth quarters due to blowout victories (especially in 73-win 2015-16). \n\n**Volume Advantage:** **Kobe Bryant.** Bryant outscored Curry by 5.4 points per game across the three-season window, playing significantly more total minutes and shouldering a heavier offensive burden as a primary isolation creator.\n\n---\n\n### 2. Raw Shooting Efficiency\n\nRaw efficiency measures the direct conversion of shots into points without adjusting for era or position. \n\n*   **Kobe Bryant (2005-06 to 2007-08):**\n    *   **FG%:** 45.1%\n    *   **3P%:** 34.7%\n    *   **FT%:** 85.3%\n    *   **True Shooting Percentage (TS%):** **56.3%**\n    *   *Raw Efficiency Context:* Bryant took an immense number of difficult, contested, late-shot-clock jump shots. Maintaining a 56.3% TS% while taking over 27 shots a game with virtually no spacing is an incredible feat of raw skill, though low by modern efficiency standards.\n\n*   **Stephen Curry (2014-15 to 2016-17):**\n    *   **FG%:** 50.4%\n    *   **3P%:** 43.6%\n    *   **FT%:** 90.8%\n    *   **True Shooting Percentage (TS%):** **62.7%**\n    *   *Raw Efficiency Context:* Curry achieved the holy grail of scoring: the 50/40/90 club in 2015-16 while averaging 30+ PPG. His effective field goal percentage (eFG%) was driven by historic volume and conversion from beyond the arc.\n\n**Raw Efficiency Advantage:** **Stephen Curry.** A +6.4% gap in True Shooting Percentage is a massive chasm in scoring efficiency, especially given that Curry's scoring was achieved on high volume.\n\n---\n\n### 3. Contemporaneous League-Relative Efficiency (rTS%)\n\nRaw shooting numbers favor modern players because modern spacing, rule changes (hand-checking ban evolution), and the three-point revolution have inflated league-wide efficiency. To level the playing field, we look at **True Shooting Relative to League Average (rTS%)**\u2014how much more efficient a player was compared to the average NBA player during their respective window.\n\n*   **League Average TS% (Mid-2000s vs. Mid-2010s):**\n    *   *2005-08 Average League TS%:* ~53.8% to 54.0%\n    *   *2014-17 Average League TS%:* ~53.4% to 55.2% (rising rapidly during this window)\n\n*   **Kobe Bryant (2005-06 to 2007-08):**\n    *    Bryant's TS%: ~56.3%\n    *   **Estimated rTS%:** **+2.3% to +2.5% above league average**\n\n*   **Stephen Curry (2014-15 to 2016-17):**\n    *   Curry's TS%: ~62.7%\n    *   **Estimated rTS%:** **+8.0% to +9.5% above league average** (Peak 2015-16 was roughly +11% above league average).\n\n**League-Relative Efficiency Advantage:** **Stephen Curry.** Even when adjusting for the tougher defensive eras and lower spacing of the mid-2000s, Curry remains historically superior in converting possessions into points relative to his peers.\n\n---\n\n### 4. How Metric Advantages Shift with the Statistical Lens\n\nThe conclusion of this comparison depends entirely on the analytical framework applied:\n\n#### Lens A: The Traditional & Isolation Lens (Favors Bryant)\n*   **Metrics used:** PPG, Usage Rate, Shot-Creation Difficulty, Playoff/Clutch ISO scoring.\n*   **The Argument:** Bryant generated his scoring entirely out of isolation and pick-and-rolls against set, packed-paint defenses designed specifically to stop him (due to a lack of floor-spacing teammates). He created his own shot from nothing at a higher volume. Curry benefited from a system, elite passing teammates (Draymond Green), and the threat of screens that forced defenses into compromised positions. \n*   **Verdict:** **Bryant wins.**\n\n#### Lens B: The Modern Analytics & Possession-Value Lens (Favors Curry)\n*   **Metrics used:** True Shooting Percentage (TS%), Points Per Possession (PPP), Offensive Rating impact, Gravity.\n*   **The Argument:** Basketball is ultimately about efficiency and maximizing expected value. Curry\u2019s 2015-16 season is statistically one of the three greatest offensive seasons in NBA history. Furthermore, Curry\u2019s \"gravity\"\u2014the sheer panic he caused defenses 35 feet from the basket\u2014created open shots for teammates in a way Bryant\u2019s ball-dominant style did not. Curry scored nearly as many points (30.1) on significantly fewer possessions, preserving team ball movement.\n*   **Verdict:** **Curry wins.**\n\n---\n\n### Final Assessment\n\n*   **Kobe Bryant\u2019s 2005-08 window** was a masterclass in **maximum individual volume and tough-shot creation**, producing one of the highest-scoring peaks ever witnessed under adverse roster conditions.\n*   **Stephen Curry\u2019s 2014-17 window** was a masterclass in **historic efficiency and spatial dominance**, turning perimeter shooting into an unprecedented offensive weapon.\n\n**Summary:** If you value the sheer weight of **points per game and self-created isolation volume**, **Kobe Bryant's** scoring peak was stronger. If you value **efficiency, value per possession, and overall offensive footprint**, **Stephen Curry's** scoring peak was stronger. Across modern analytical frameworks, Curry\u2019s historic efficiency gives him the edge, but Bryant remains the benchmark for high-usage, high-difficulty volume scoring.",
+  "status": "completed",
+  "ended_at": "2026-11-11T03:42:51.691076+00:00",
+  "seconds": 6.524,
+  "model_calls": [
+    {
+      "started_at": "2026-11-11T03:42:45.166754+00:00",
+      "parameters": {
+        "model": "vertex_ai/gemini-3.5-flash-lite",
+        "vertex_location": "global",
+        "max_tokens": 8192,
+        "timeout": 80,
+        "num_retries": 0
+      },
+      "temperature": "provider default, not overridden",
+      "message_roles": [
+        "user"
+      ],
+      "messages_sha256": "13862de5555507d86ce8e6ea9912282738288cc81691b9937a7c3efdc8eb3282",
+      "tool_names": [],
+      "index": 0,
+      "response_model": "gemini-3.5-flash-lite",
+      "response_id": "NeTzaszyEp6YotQP7rTPwQQ",
+      "finish_reasons": [
+        "stop"
+      ],
+      "truncated": false,
+      "usage": {
+        "completion_tokens": 1840,
+        "prompt_tokens": 85,
+        "total_tokens": 1925,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": null,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 1840,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": null,
+          "text_tokens": 85,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "cache_read_input_tokens": null
+      },
+      "seconds": 6.524,
+      "ended_at": "2026-11-11T03:42:51.690786+00:00"
+    }
+  ],
+  "any_model_truncated": false
+}

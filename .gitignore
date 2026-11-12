@@ -7,6 +7,16 @@ __pycache__/
 
 # Local secrets and config. Commit .env.example instead, never .env.
 .env
+.env.*
+!.env.example
+credentials/
+secrets/
+application_default_credentials.json
+*-service-account.json
+*.pem
+*.key
+.gcloud/
+.aws/
 
 # macOS
 .DS_Store
@@ -17,8 +27,27 @@ chat_history/
 # Vue dependencies (frontend/dist is committed for Cloud Run deployment)
 frontend/node_modules/
 
-# Historical NBA response cache
+# Writable NBA response cache; the reviewed deployment snapshot lives in data/.
 data_cache/
+*.sqlite3-wal
+*.sqlite3-shm
+*.sqlite3-journal
 
 # Local browser verification artifacts
 .playwright-cli/
+
+# Local live acceptance runs and screenshots; curated examples live in docs/.
+output/
+
+# Local submission planning; reproducible reports and evidence stay in docs/.
+docs/REMAINING.md
+
+# Editor, test and build caches
+.idea/
+.vscode/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.tsbuildinfo
+*.log

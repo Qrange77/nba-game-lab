@@ -23,6 +23,31 @@ CATALOG = [player(1, 'Stephen Curry'), player(2, 'Seth Curry'), player(3, 'LeBro
 
 
 class IdentityTests(unittest.TestCase):
+    def test_full_names_resolve_repeated_surnames_in_the_same_question(self):
+        catalog = [player(1, 'Michael Jordan'), player(2, 'LeBron James'),
+                   player(3, 'Jordan Bell'), player(4, 'James Harden')]
+        for text in (
+            "Compare Michael Jordan and LeBron James. Compare Jordan's 1990-91 scoring with James's 2011-12 scoring.",
+            "Compare Jordan's 1990-91 scoring with James's 2011-12 scoring; the subjects are Michael Jordan and LeBron James.",
+        ):
+            with self.subTest(text=text):
+                selected, pending = identify(text, [], catalog=catalog)
+                self.assertEqual({p['id'] for p in selected}, {1, 2})
+                self.assertFalse(pending)
+
+    def test_two_explicit_same_surname_players_keep_a_bare_mention_ambiguous(self):
+        catalog = [player(1, 'Stephen Curry'), player(2, 'Seth Curry')]
+        selected, pending = identify('Compare Stephen Curry and Seth Curry. How did Curry score?',
+                                     [catalog[0]], catalog=catalog)
+        self.assertEqual({p['id'] for p in selected}, {1, 2})
+        self.assertEqual([g['query'] for g in pending], ['Curry'])
+
+    def test_current_full_name_overrides_old_picker_for_repeated_surname(self):
+        selected, pending = identify("Stephen Curry's scoring: what was Curry's efficiency?",
+                                     [CATALOG[1]], catalog=CATALOG)
+        self.assertEqual([p['id'] for p in selected], [1])
+        self.assertFalse(pending)
+
     def test_full_names_aliases_and_ambiguous_surnames(self):
         for query in ('Compare curry and LeBron', 'Compare Curry and king james'):
             selected, pending = identify(query, [], catalog=CATALOG)
@@ -58,6 +83,28 @@ class BaselineSessions(unittest.TestCase):
             patcher.start()
             self.addCleanup(patcher.stop)
         self.client = TestClient(app.app)
+
+    def test_original_postseason_example_reaches_research_without_identity_confirmation(self):
+        catalog = [player(893, 'Michael Jordan'), player(2544, 'LeBron James'),
+                   player(1628395, 'Jordan Bell'), player(201935, 'James Harden')]
+        case = next(c for c in json.loads((Path(__file__).with_name('scoring_cases.json')).read_text()) if c['id'] == 'postseason')
+        with patch.object(app, 'player_catalog', return_value=catalog), \
+             patch.object(app, 'run_agent', return_value=('Scoped research answer.', [])) as agent:
+            result = self.client.post('/chat', json={'message': case['question']})
+        self.assertEqual(result.status_code, 200)
+        self.assertFalse(result.json()['player_clarifications'])
+        self.assertEqual(set(agent.call_args.kwargs['research'].names), {'893', '2544'})
+        agent.assert_called_once()
+
+    def test_repeated_ambiguous_mentions_ask_once_and_accept_a_full_name_reply(self):
+        question = "Compare Curry and LeBron James. How did curry score?"
+        first = self.client.post('/chat', json={'message': question}).json()
+        self.assertEqual(len(first['player_clarifications']), 1)
+        with patch.object(app, 'run_agent', return_value=('Scoped research answer.', [])) as agent:
+            second = self.client.post('/chat', json={'message': 'Stephen Curry', 'session_id': first['session_id']}).json()
+        self.assertFalse(second['player_clarifications'])
+        self.assertEqual(agent.call_args.args[0][-1]['content'], question)
+        self.assertEqual(set(agent.call_args.kwargs['research'].names), {'1', '3'})
 
     def test_ambiguous_chat_is_paused_and_resumed_without_duplicate_turn(self):
         with patch.object(app, 'run_agent') as agent:

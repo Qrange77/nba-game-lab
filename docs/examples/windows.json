@@ -1,0 +1,292 @@
+{
+  "id": "windows",
+  "question": "Assess whether Kobe Bryant's scoring in 2005-06 through 2007-08 was stronger than Stephen Curry's scoring in 2014-15 through 2016-17. Compare equal three-season windows, regular-season scoring volume, raw shooting efficiency and contemporaneous league-relative efficiency. Show which metric advantages change with the statistical lens.",
+  "expected": "metric_specific",
+  "response": "# Scoring Claim Review\n\n**Verdict: Conditional: the broad claim is not uniformly supported across the selected metrics.**\n\n> Kobe Bryant's scoring in 2005-06 through 2007-08 was stronger than Stephen Curry's scoring in 2014-15 through 2016-17 across regular-season scoring volume, raw shooting efficiency, and contemporaneous league-relative efficiency.\n\nThis adjudication concerns the selected scoring statistics. It does not rank overall players or establish innate ability, defensive impact, or championship causation.\n\n## Comparison contract\n\n- Subjects: **Kobe Bryant** and **Stephen Curry**.\n- Scope: 2005-06\u20132007-08 versus 2014-15\u20132016-17; Regular Season.\n- Statistical lens: overall scoring.\n- Completed-season cutoff: **2025-26**; ongoing seasons are excluded.\n- Percentages are recomputed from summed inputs. Missing observations remain missing.\n- Relative efficiency uses same-season, same-phase league TS; career aggregation weights each season by FGA + 0.44 \u00d7 FTA.\n\n## Evidence selected by the Writer\n\n- Regular Season / Accumulated points: Kobe Bryant has the larger observed value. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=977&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=201939&PerMode=Totals&LeagueID=00)\n- Regular Season / Points per game: Kobe Bryant has the larger observed value. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=977&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=201939&PerMode=Totals&LeagueID=00)\n- Regular Season / Raw true shooting: Stephen Curry has the larger observed value. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=977&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=201939&PerMode=Totals&LeagueID=00)\n- Regular Season / Contemporaneous relative true shooting: Stephen Curry has the larger observed value. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=977&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=201939&PerMode=Totals&LeagueID=00)\n\n## Comparable evidence\n\n| Phase | Statistical lens | Kobe Bryant | Stephen Curry | Observed advantage | Sources |\n|---|---|---:|---:|---|---|\n| Regular Season | Accumulated points (total) | 7,585 | 6,274 | Kobe Bryant | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=977&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=201939&PerMode=Totals&LeagueID=00) |\n| Regular Season | Points per game (per game) | 31.74 | 26.36 | Kobe Bryant | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=977&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=201939&PerMode=Totals&LeagueID=00) |\n| Regular Season | Raw true shooting (%) | 57.08 | 64.47 | Stephen Curry | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=977&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=201939&PerMode=Totals&LeagueID=00) |\n| Regular Season | Contemporaneous relative true shooting (percentage points) | 3.19 | 10.2 | Stephen Curry | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=977&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=201939&PerMode=Totals&LeagueID=00) |\n\n## Sensitivity and counterevidence\n\n- Regular Season: accumulation versus scoring rate does not change the observed direction in this sample. Agreement on these metrics is not proof of overall superiority. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=977&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=201939&PerMode=Totals&LeagueID=00)\n- Regular Season: raw versus contemporaneous relative efficiency does not change the observed direction in this sample. Agreement on these metrics is not proof of overall superiority. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=977&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=201939&PerMode=Totals&LeagueID=00)\n\n## Context boundary\n\nThis focused claim did not request a supporting-cast or Finals-opponent investigation. The statistical result does not establish a context-independent ability ranking.\n\n## Coverage and limits\n\n- **Personal: completed** \u2014 Required collection completed; bounded sample limitations still apply.\n- **Era: completed** \u2014 Required collection completed; bounded sample limitations still apply.\n- Stephen Curry, Regular Season: league-baseline shooting-opportunity coverage **100%**. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=201939&PerMode=Totals&LeagueID=00)\n- Kobe Bryant, Regular Season: league-baseline shooting-opportunity coverage **100%**. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=977&PerMode=Totals&LeagueID=00)\n- Era-relative TS is a descriptive benchmark, not a causal correction for rules, physicality, spacing or defensive difficulty.\n- True shooting uses the conventional 0.44 free-throw coefficient. It estimates shooting opportunities rather than counting actual possessions.\n- Supporting-cast cases and opponent records are contextual samples. No teammate-swap or championship-credit calculation is justified.\n- Linked evidence records retain exact scope, formulas, season inputs, original API parameters and retrieval timestamps. Aggregate citations use multiple API inputs; inspect the full source set in the evidence panel.\n- No total player score is produced. All displayed advantages are specific to a metric and sample.",
+  "tool_calls": [
+    {
+      "name": "confirm_scoring_contract",
+      "args": {},
+      "id": "Lead:1",
+      "status": "completed",
+      "agent": "Lead"
+    },
+    {
+      "name": "plan_research",
+      "args": {},
+      "id": "Lead:2",
+      "status": "completed",
+      "agent": "Lead"
+    },
+    {
+      "name": "collect_scoring_profile",
+      "args": {},
+      "id": "Researcher 1 \u00b7 personal:1",
+      "status": "completed",
+      "agent": "Researcher 1 \u00b7 personal"
+    },
+    {
+      "name": "collect_scoring_environment",
+      "args": {},
+      "id": "Researcher 2 \u00b7 era:1",
+      "status": "completed",
+      "agent": "Researcher 2 \u00b7 era"
+    },
+    {
+      "name": "review_research",
+      "args": {},
+      "id": "Lead:3",
+      "status": "completed",
+      "agent": "Lead"
+    },
+    {
+      "name": "compose_scoring_review",
+      "args": {},
+      "id": "Writer:1",
+      "status": "completed",
+      "agent": "Writer"
+    }
+  ],
+  "evidence_result": {
+    "verification": {
+      "status": "checked",
+      "checked_claims": 10,
+      "attempts": [
+        {
+          "valid": true,
+          "errors": []
+        }
+      ],
+      "note": "Published numeric values and comparison directions are server-derived and checked against scoped evidence. Missing source coverage is reported separately; descriptive context does not establish causation."
+    },
+    "research": {
+      "scope": "2005-06\u20132007-08 versus 2014-15\u20132016-17; Regular Season",
+      "criteria": "Cross-era scoring claim review",
+      "tasks": [
+        {
+          "agent": "Researcher 1 \u00b7 personal",
+          "dimension": "personal",
+          "question": "What were the regular-season scoring volume (points, minutes, games, points per game) and raw shooting efficiency (TS%, eFG%, shooting attempts) for Kobe Bryant in 2005-06, 2006-07, and 2007-08, and for Stephen Curry in 2014-15, 2015-16, and 2016-17?",
+          "round": 1,
+          "status": "completed"
+        },
+        {
+          "agent": "Researcher 2 \u00b7 era",
+          "dimension": "era",
+          "question": "What were the contemporaneous league-wide average offensive rating, true shooting percentage, and weighted relative true shooting benchmarks for the 2005-06 through 2007-08 seasons and the 2014-15 through 2016-17 seasons?",
+          "round": 1,
+          "status": "completed"
+        }
+      ],
+      "findings": [
+        {
+          "agent": "Researcher 1 \u00b7 personal",
+          "dimension": "personal",
+          "task": "What were the regular-season scoring volume (points, minutes, games, points per game) and raw shooting efficiency (TS%, eFG%, shooting attempts) for Kobe Bryant in 2005-06, 2006-07, and 2007-08, and for Stephen Curry in 2014-15, 2015-16, and 2016-17?",
+          "status": "completed",
+          "findings": "- **Kobe Bryant (2005-06 to 2007-08 Regular Seasons)**: Played 239 games, totaling 9,609 minutes, 7,585 points, and 31.74 points per game (ev_921d20ebdd28c129c624, ev_c1f0c2c9fe7ef644ab3f).\n- **Kobe Bryant Shooting Volume & Efficiency**: Accumulated 5,620 field goal attempts (23.51 FGA/g) with a 45.66% FG rate, 49.81% eFG%, and 57.08% TS% (ev_921d20ebdd28c129c624, ev_c1f0c2c9fe7ef644ab3f).\n- **Stephen Curry (2014-15 to 2016-17 Regular Seasons)**: Played 238 games, totaling 7,952 minutes, 6,274 points, and 26.36 points per game (ev_b6420fc6b924051c8896, ev_ea2c668085cdcdac9e43).\n- **Stephen Curry Shooting Volume & Efficiency**: Accumulated 4,382 field goal attempts (18.41 FGA/g) with a 48.68% FG rate, 60.22% eFG%, and 64.47% TS% (ev_b6420fc6b924051c8896, ev_ea2c668085cdcdac9e43).\n- **Volume Comparison**: Bryant registered higher totals in points, minutes played, FGA, and points per game across the three-season window (ev_921d20ebdd28c129c624, ev_b6420fc6b924051c8896).\n- **Efficiency Comparison**: Curry achieved substantially higher raw shooting efficiency, exceeding Bryant by over 10 percentage points in eFG% and more than 7 percentage points in TS% (ev_921d20ebdd28c129c624, ev_b6420fc6b924051c8896).\n- **Free Throw Profile**: Bryant attempted more than double the free throws (2,329 FTA vs. 1,099 FTA) and averaged 9.74 FTA per game compared to Curry's 4.62 FTA per game (ev_921d20ebdd28c129c624, ev_b6420fc6b924051c8896).",
+          "gaps": [],
+          "evidence_ids": [
+            "ev_921d20ebdd28c129c624",
+            "ev_b6420fc6b924051c8896",
+            "ev_c1f0c2c9fe7ef644ab3f",
+            "ev_ea2c668085cdcdac9e43"
+          ]
+        },
+        {
+          "agent": "Researcher 2 \u00b7 era",
+          "dimension": "era",
+          "task": "What were the contemporaneous league-wide average offensive rating, true shooting percentage, and weighted relative true shooting benchmarks for the 2005-06 through 2007-08 seasons and the 2014-15 through 2016-17 seasons?",
+          "status": "completed",
+          "findings": "- **2005-06 through 2007-08 League Scoring Environment:** Across the 2005-06, 2006-07, and 2007-08 regular seasons, the contemporaneous league-wide true shooting percentages were 53.56%, 54.15%, and 54.02% respectively (ev_a72b7d9d01f10f1f989e).\n- **2014-15 through 2016-17 League Scoring Environment:** Across the 2014-15, 2015-16, and 2016-17 regular seasons, the contemporaneous league-wide true shooting percentages were 53.42%, 54.12%, and 55.24% respectively (ev_ab58a35e174535e824b7).\n- **Kobe Bryant Raw Efficiency & Relative Baseline:** Bryant posted true shooting percentages of 55.89% (2005-06), 57.00% (2006-07), and 57.60% (2007-08), resulting in season-by-season relative true shooting figures of +2.34%, +3.85%, and +3.58% (ev_a72b7d9d01f10f1f989e).\n- **Stephen Curry Raw Efficiency & Relative Baseline:** Curry posted true shooting percentages of 63.79% (2014-15), 66.94% (2015-16), and 62.38% (2016-17), resulting in season-by-season relative true shooting figures of +10.37%, +12.82%, and +7.14% (ev_ab58a35e174535e824b7).\n- **Opportunity-Weighted Relative TS Comparison:** Bryant's shot-opportunity-weighted relative true shooting across 2005-06 through 2007-08 was +3.19 percentage points, whereas Curry's across 2014-15 through 2016-17 was +10.20 percentage points (ev_a72b7d9d01f10f1f989e, ev_ab58a35e174535e824b7).\n- **Shooting Volume Counterevidence:** Bryant accumulated 6,645 total shooting opportunities ($FGA + 0.44 \\times FTA$) over his 3-season window compared to Curry's 4,865.56 total shooting opportunities over his 3-season window (ev_a72b7d9d01f10f1f989e, ev_ab58a35e174535e824b7).\n- **Claim Assessment:** The claim that Bryant's scoring was stronger across raw shooting efficiency and contemporaneous league-relative efficiency is incorrect; Curry achieved substantially higher raw and relative true shooting across all paired seasons (ev_a72b7d9d01f10f1f989e, ev_ab58a35e174535e824b7).\n- **Coverage Limitations:** Analysis is restricted to regular-season scoring volume, raw shooting efficiency, and contemporaneous league-relative efficiency for the specified player-seasons without assessing defensive context or playoff performance (ev_a72b7d9d01f10f1f989e, ev_ab58a35e174535e824b7).",
+          "gaps": [],
+          "evidence_ids": [
+            "ev_a72b7d9d01f10f1f989e",
+            "ev_ab58a35e174535e824b7"
+          ]
+        }
+      ],
+      "coverage": "completed",
+      "coverage_cells": [
+        {
+          "dimension": "personal",
+          "status": "completed",
+          "reason": "Required collection completed; bounded sample limitations still apply."
+        },
+        {
+          "dimension": "era",
+          "status": "completed",
+          "reason": "Required collection completed; bounded sample limitations still apply."
+        }
+      ],
+      "elapsed_seconds": 8.4,
+      "api_requests": 0,
+      "tokens": {
+        "prompt": 13528,
+        "completion": 2415
+      },
+      "data_cutoff": "2026-11-10T23:02:19.492559+00:00",
+      "limits": {
+        "seconds": 240,
+        "researchers": 8,
+        "rounds": 3,
+        "parallel_workers": 4
+      }
+    },
+    "scoring": {
+      "contract": {
+        "action": "review",
+        "question": "",
+        "claim": "Kobe Bryant's scoring in 2005-06 through 2007-08 was stronger than Stephen Curry's scoring in 2014-15 through 2016-17 across regular-season scoring volume, raw shooting efficiency, and contemporaneous league-relative efficiency.",
+        "left_player": 977,
+        "right_player": 201939,
+        "period": "windows",
+        "left_start": 2005,
+        "left_end": 2007,
+        "right_start": 2014,
+        "right_end": 2016,
+        "phases": [
+          "Regular Season"
+        ],
+        "lens": "overall_scoring",
+        "include_context": false,
+        "cutoff": 2025
+      },
+      "verdict": "conditional",
+      "matrix": [
+        {
+          "phase": "Regular Season",
+          "metric": "PTS",
+          "basis": "totals",
+          "label": "Accumulated points",
+          "left": 7585.0,
+          "right": 6274.0,
+          "unit": "total",
+          "direction": "left",
+          "complete": true,
+          "left_id": "ev_921d20ebdd28c129c624",
+          "right_id": "ev_b6420fc6b924051c8896",
+          "left_scope": {
+            "start": 2005,
+            "end": 2007,
+            "phase": "Regular Season",
+            "basis": "totals"
+          },
+          "right_scope": {
+            "start": 2014,
+            "end": 2016,
+            "phase": "Regular Season",
+            "basis": "totals"
+          }
+        },
+        {
+          "phase": "Regular Season",
+          "metric": "PTS",
+          "basis": "per_game",
+          "label": "Points per game",
+          "left": 31.736401673640167,
+          "right": 26.361344537815125,
+          "unit": "per game",
+          "direction": "left",
+          "complete": true,
+          "left_id": "ev_c1f0c2c9fe7ef644ab3f",
+          "right_id": "ev_ea2c668085cdcdac9e43",
+          "left_scope": {
+            "start": 2005,
+            "end": 2007,
+            "phase": "Regular Season",
+            "basis": "per_game"
+          },
+          "right_scope": {
+            "start": 2014,
+            "end": 2016,
+            "phase": "Regular Season",
+            "basis": "per_game"
+          }
+        },
+        {
+          "phase": "Regular Season",
+          "metric": "TS_PCT",
+          "basis": "per_game",
+          "label": "Raw true shooting",
+          "left": 57.075048609731574,
+          "right": 64.47356522168054,
+          "unit": "%",
+          "direction": "right",
+          "complete": true,
+          "left_id": "ev_c1f0c2c9fe7ef644ab3f",
+          "right_id": "ev_ea2c668085cdcdac9e43",
+          "left_scope": {
+            "start": 2005,
+            "end": 2007,
+            "phase": "Regular Season",
+            "basis": "per_game"
+          },
+          "right_scope": {
+            "start": 2014,
+            "end": 2016,
+            "phase": "Regular Season",
+            "basis": "per_game"
+          }
+        },
+        {
+          "phase": "Regular Season",
+          "metric": "WEIGHTED_RTS",
+          "basis": "per_game",
+          "label": "Contemporaneous relative true shooting",
+          "left": 3.1896625563830763,
+          "right": 10.200510999538412,
+          "unit": "percentage points",
+          "direction": "right",
+          "complete": true,
+          "left_id": "ev_a72b7d9d01f10f1f989e",
+          "right_id": "ev_ab58a35e174535e824b7",
+          "left_scope": {
+            "start": 2005,
+            "end": 2007,
+            "phase": "Regular Season",
+            "basis": "per_game"
+          },
+          "right_scope": {
+            "start": 2014,
+            "end": 2016,
+            "phase": "Regular Season",
+            "basis": "per_game"
+          }
+        }
+      ],
+      "sensitivity": [
+        {
+          "phase": "Regular Season",
+          "test": "Accumulation versus scoring rate",
+          "result": "stable"
+        },
+        {
+          "phase": "Regular Season",
+          "test": "Raw versus contemporaneous relative efficiency",
+          "result": "stable"
+        }
+      ],
+      "support_samples": [],
+      "presentation": {
+        "emphasis": "tradeoff_first",
+        "highlight_rows": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "caveats": [
+          "noncausal",
+          "era_description",
+          "limited_context"
+        ]
+      }
+    }
+  },
+  "seconds": 8.41,
+  "model": "vertex_ai/gemini-3.5-flash-lite",
+  "controlled_gap_injected": false,
+  "no_tools_no_system_answer": "To assess whether Kobe Bryant\u2019s scoring peak from 2005\u201306 to 2007\u201308 was \"stronger\" than Stephen Curry\u2019s from 2014\u201315 to 2016\u201317, we must examine these windows through multiple statistical lenses. \n\nWhile both spans represent historically elite three-year scoring peaks, they embody two diametrically opposed offensive philosophies: **Bryant\u2019s high-volume, high-usage isolation scoring** versus **Curry\u2019s hyper-efficient, gravity-bending off-ball and perimeter scoring.**\n\n---\n\n### 1. The Raw Data: Equal Three-Season Windows\n\n#### **Kobe Bryant (2005\u201306 to 2007\u201308)**\n* **2005\u201306:** 35.4 PPG | 45.1 FG% | 34.7 3P% | 85.0 FT% | 55.9 TS% | 28.7 USG%\n* **2006\u201307:** 31.6 PPG | 46.3 FG% | 34.4 3P% | 86.8 FT% | 58.0 TS% | 33.5 USG%\n* **2007\u201308:** 28.3 PPG | 45.9 FG% | 36.1 3P% | 84.0 FT% | 57.6 TS% | 31.7 USG%\n* **3-Year Window Averages:** **31.8 PPG | 45.7 FG% | 35.1 3P% | 85.3 FT% | 57.2 TS% | ~31.3 USG%**\n\n#### **Stephen Curry (2014\u201315 to 2016\u201317)**\n* **2014\u201315:** 23.8 PPG | 487 FG% | 44.3 3P% | 91.4 FT% | 63.8 TS% | 28.9 USG%\n* **2015\u201316:** 30.1 PPG | 504 FG% | 45.4 3P% | 90.8 FT% | 66.9 TS% | 32.6 USG%\n* **2016\u201317:** 25.3 PPG | 46.8 FG% | 41.1 3P% | 89.8 FT% | 62.4 TS% | 30.1 USG%\n* **3-Year Window Averages:** **26.4 PPG | 48.6 FG% | 43.6 3P% | 90.7 FT% | 64.4 TS% | ~30.5 USG%**\n\n---\n\n### 2. Metric Comparisons & How the Lens Changes the Outcome\n\n#### **Lens A: Raw Scoring Volume (Advantage: Kobe Bryant)**\n* **The Metric:** Points Per Game (PPG) and total points scored.\n* **The Case for Bryant:** Bryant\u2019s three-year average of 31.8 PPG dwarfs Curry\u2019s 26.4 PPG over their respective windows. Bryant authored the highest-scoring individual season of the modern three-point era (35.4 PPG in 2005\u201306), highlighted by his 81-point game. If your definition of a \"stronger\" scorer is sheer offensive load-bearing and the ability to outscore the opponent single-handedly, Bryant holds a definitive 5.4 PPG advantage.\n\n#### **Lens B: Raw Shooting Efficiency (Advantage: Stephen Curry)**\n* **The Metric:** True Shooting Percentage (TS%), Effective Field Goal Percentage (eFG%), and shooting splits.\n* **The Case for Curry:** Curry operates in an entirely different stratosphere of efficiency. Over his three-year window, Curry posted a staggering **64.4% True Shooting**, anchored by 50/40/90-level shooting across high volume. Bryant\u2019s 57.2% TS% was elite for a high-usage wing guard in the mid-2000s, but it trails Curry by a massive **+7.2 percentage points**. Curry achieves greater output per possession used.\n\n#### **Lens C: Contemporaneous League-Relative Efficiency (Contextual Lens)**\nRaw percentages can be misleading because the eras had vastly different scoring environments:\n* **The Mid-2000s (Bryant):** The post-handcheck era was a defensive rock fight. In 2005\u201306, the league average offensive rating was roughly 106.2, and the average TS% was around 53.5%. Bryant's 57.2% TS was roughly **+3.7% above league average**.\n* **The Mid-2010s (Curry):** The pace-and-space era revolutionized efficiency. In 2015\u201316, the league average offensive rating was 106.4 (rising to 108.8 by 2016-17), and league average TS% was around 54.1% to 55.2%. Curry\u2019s 64.4% TS was roughly **+9.5 to +10.0% above league average**.\n\n* **The Verdict under this lens:** While Bryant was impressively efficient relative to his low-scoring, isolation-heavy era, **Curry\u2019s efficiency relative to his peers was historically unprecedented**, clearing league average by a wider margin than Bryant did.\n\n#### **Lens D: Playmaking Gravity and Spatial Distortion (Advantage: Stephen Curry)**\n* **The Metric:** Advanced offensive impact metrics (e.g., Offensive RAPM, Offensive Win Shares, On/Off differentials) and spatial gravity.\n* **The Case for Curry:** Box scores understate Curry\u2019s scoring impact because of his off-ball movement. Curry's \"gravity\"\u2014drawing double-teams 35 feet from the basket\u2014created wide-open layups and shots for teammates, driving historic team offenses (the 2015-16 Warriors had the best regular season record ever at 73-9). Curry\u2019s Offensive Win Shares and offensive rating impact during these three years represent some of the highest peaks in NBA history.\n\n---\n\n### Summary Assessment\n\n* **Choose Kobe Bryant if your metric lens is Pure Volume and Isolation Mastery:** Bryant carried a sub-par supporting cast through an arduous, slow-paced, physical defensive era, averaging nearly 32 points a game over three seasons with unmatched shot-creation versatility.\n* **Choose Stephen Curry if your metric lens is Efficiency, Modern Relative Value, and Team Impact:** Curry scored at an elite clip (including a historic 30.1 PPG unanimous MVP season) while maintaining efficiency that made him statistically one of the most anomalous point producers in basketball history, completely distorting opponent defensive schemes. \n\nUltimately, **Bryant won the battle of volume (31.8 PPG to 26.4 PPG), but Curry decisively won the battle of efficiency (+7.2% TS advantage) and relative league dominance.**",
+  "note": "Full numeric cards, original evidence and collector responses are retained in the ignored local output artifact. This snapshot preserves both complete answers, the comparison matrix and activity metadata."
+}

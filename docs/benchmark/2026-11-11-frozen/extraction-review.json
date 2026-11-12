@@ -1,0 +1,1356 @@
+{
+  "revision": 1,
+  "created_at": "2026-11-11T03:46:29.376415+00:00",
+  "review_script_sha256": "a925f864989d024ba62181ec0c613a04f5b8da46f95966399be325bb5273b967",
+  "post_run_revision": true,
+  "original_answers_and_audits_unchanged": true,
+  "rule": "Both paths receive identical Markdown/whitespace/comma quotation repairs. No source values are used during anchoring. Scope adjudication is explicit. Numerical tolerances and required targets are unchanged.",
+  "changes": [
+    {
+      "file": "career-raw.json",
+      "id": "893:Regular Season:PPG",
+      "before": {
+        "id": "893:Regular Season:PPG",
+        "quote": "Jordan played 15 NBA seasons, averaging **30.1 points per game (PPG)** for his career",
+        "number": "30.1",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan: Jordan played 15 NBA seasons, averaging 30.1 points per game (PPG) for his career",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "893:Regular Season:PPG",
+        "quote": "Jordan played 15 NBA seasons, averaging **30.1 points per game (PPG)** for his career",
+        "number": "30.1",
+        "scope": "other",
+        "scope_quote": "*(Note: Data is evaluated through the completed 2024-25 season and current 2025-26 trajectories.)*",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "career-raw.json",
+      "id": "893:Regular Season:TS",
+      "before": {
+        "id": "893:Regular Season:TS",
+        "quote": "His career regular-season True Shooting Percentage (**TS%**) was **56.9%**.",
+        "number": "56.9",
+        "scope": "requested",
+        "scope_quote": "His career regular-season True Shooting Percentage (TS%) was 56.9%.",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "893:Regular Season:TS",
+        "quote": "His career regular-season True Shooting Percentage (**TS%**) was **56.9%**.",
+        "number": "56.9",
+        "scope": "other",
+        "scope_quote": "*(Note: Data is evaluated through the completed 2024-25 season and current 2025-26 trajectories.)*",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "career-raw.json",
+      "id": "893:Playoffs:PPG",
+      "before": {
+        "id": "893:Playoffs:PPG",
+        "quote": "In 179 playoff games, Jordan averaged **33.4 PPG**",
+        "number": "33.4",
+        "scope": "requested",
+        "scope_quote": "In 179 playoff games, Jordan averaged 33.4 PPG",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "893:Playoffs:PPG",
+        "quote": "In 179 playoff games, Jordan averaged **33.4 PPG**",
+        "number": "33.4",
+        "scope": "other",
+        "scope_quote": "*(Note: Data is evaluated through the completed 2024-25 season and current 2025-26 trajectories.)*",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "career-raw.json",
+      "id": "893:Playoffs:TS",
+      "before": {
+        "id": "893:Playoffs:TS",
+        "quote": "on **56.8% TS**.",
+        "number": "56.8",
+        "scope": "requested",
+        "scope_quote": "In 179 playoff games, Jordan averaged 33.4 PPG on 56.8% TS.",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "893:Playoffs:TS",
+        "quote": "on **56.8% TS**.",
+        "number": "56.8",
+        "scope": "other",
+        "scope_quote": "*(Note: Data is evaluated through the completed 2024-25 season and current 2025-26 trajectories.)*",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "career-raw.json",
+      "id": "2544:Regular Season:PPG",
+      "before": {
+        "id": "2544:Regular Season:PPG",
+        "quote": "LeBron is the NBA\u2019s all-time leading scorer, playing 22+ seasons with a career regular-season average of approximately **27.1 PPG**.",
+        "number": "27.1",
+        "scope": "requested",
+        "scope_quote": "LeBron James: LeBron is the NBA\u2019s all-time leading scorer, playing 22+ seasons with a career regular-season average of approximately 27.1 PPG.",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "2544:Regular Season:PPG",
+        "quote": "LeBron is the NBA\u2019s all-time leading scorer, playing 22+ seasons with a career regular-season average of approximately **27.1 PPG**.",
+        "number": "27.1",
+        "scope": "other",
+        "scope_quote": "*(Note: Data is evaluated through the completed 2024-25 season and current 2025-26 trajectories.)*",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "career-raw.json",
+      "id": "2544:Regular Season:TS",
+      "before": {
+        "id": "2544:Regular Season:TS",
+        "quote": "His career regular-season **TS%** is significantly higher at **58.9%**.",
+        "number": "58.9",
+        "scope": "requested",
+        "scope_quote": "His career regular-season TS% is significantly higher at 58.9%.",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "2544:Regular Season:TS",
+        "quote": "His career regular-season **TS%** is significantly higher at **58.9%**.",
+        "number": "58.9",
+        "scope": "other",
+        "scope_quote": "*(Note: Data is evaluated through the completed 2024-25 season and current 2025-26 trajectories.)*",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "career-raw.json",
+      "id": "2544:Playoffs:PPG",
+      "before": {
+        "id": "2544:Playoffs:PPG",
+        "quote": "In nearly 300 playoff games, LeBron averaged **28.4 PPG**",
+        "number": "28.4",
+        "scope": "requested",
+        "scope_quote": "In nearly 300 playoff games, LeBron averaged 28.4 PPG",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "2544:Playoffs:PPG",
+        "quote": "In nearly 300 playoff games, LeBron averaged **28.4 PPG**",
+        "number": "28.4",
+        "scope": "other",
+        "scope_quote": "*(Note: Data is evaluated through the completed 2024-25 season and current 2025-26 trajectories.)*",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "career-raw.json",
+      "id": "2544:Playoffs:TS",
+      "before": {
+        "id": "2544:Playoffs:TS",
+        "quote": "on **58.3% TS**.",
+        "number": "58.3",
+        "scope": "requested",
+        "scope_quote": "In nearly 300 playoff games, LeBron averaged 28.4 PPG on 58.3% TS.",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "2544:Playoffs:TS",
+        "quote": "on **58.3% TS**.",
+        "number": "58.3",
+        "scope": "other",
+        "scope_quote": "*(Note: Data is evaluated through the completed 2024-25 season and current 2025-26 trajectories.)*",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "career-agent.json",
+      "id": "893:Regular Season:PTS",
+      "before": {
+        "id": "893:Regular Season:PTS",
+        "quote": "| Regular Season | Accumulated points (total) | 32,292 | 43,440 | LeBron James |",
+        "number": "32292",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Accumulated points (total) | 32,292 | 43,440 | LeBron James |",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "893:Regular Season:PTS",
+        "quote": "| Regular Season | Accumulated points (total) | 32,292 | 43,440 | LeBron James |",
+        "number": "32,292",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Accumulated points (total) | 32,292 | 43,440 | LeBron James |",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "career-agent.json",
+      "id": "893:Playoffs:PTS",
+      "before": {
+        "id": "893:Playoffs:PTS",
+        "quote": "| Playoffs | Accumulated points (total) | 5,987 | 8,521 | LeBron James |",
+        "number": "5987",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Accumulated points (total) | 5,987 | 8,521 | LeBron James |",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "893:Playoffs:PTS",
+        "quote": "| Playoffs | Accumulated points (total) | 5,987 | 8,521 | LeBron James |",
+        "number": "5,987",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Accumulated points (total) | 5,987 | 8,521 | LeBron James |",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "career-agent.json",
+      "id": "2544:Regular Season:PTS",
+      "before": {
+        "id": "2544:Regular Season:PTS",
+        "quote": "| Regular Season | Accumulated points (total) | 32,292 | 43,440 | LeBron James |",
+        "number": "43440",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Accumulated points (total) | 32,292 | 43,440 | LeBron James |",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "2544:Regular Season:PTS",
+        "quote": "| Regular Season | Accumulated points (total) | 32,292 | 43,440 | LeBron James |",
+        "number": "43,440",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Accumulated points (total) | 32,292 | 43,440 | LeBron James |",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "career-agent.json",
+      "id": "2544:Playoffs:PTS",
+      "before": {
+        "id": "2544:Playoffs:PTS",
+        "quote": "| Playoffs | Accumulated points (total) | 5,987 | 8,521 | LeBron James |",
+        "number": "8521",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Accumulated points (total) | 5,987 | 8,521 | LeBron James |",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "2544:Playoffs:PTS",
+        "quote": "| Playoffs | Accumulated points (total) | 5,987 | 8,521 | LeBron James |",
+        "number": "8,521",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Accumulated points (total) | 5,987 | 8,521 | LeBron James |",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "windows-raw.json",
+      "id": "977:Regular Season:PPG",
+      "before": {
+        "id": "977:Regular Season:PPG",
+        "quote": "Three-Season Total / Average: 31.8 PPG",
+        "number": "31.8",
+        "scope": "requested",
+        "scope_quote": "Kobe Bryant (2005-06 to 2007-08)",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "977:Regular Season:PPG",
+        "quote": "Three-Season Total / Average:** **31.8 PPG",
+        "number": "31.8",
+        "scope": "requested",
+        "scope_quote": "Kobe Bryant (2005-06 to 2007-08)",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "windows-raw.json",
+      "id": "977:Regular Season:TS",
+      "before": {
+        "id": "977:Regular Season:TS",
+        "quote": "True Shooting Percentage (TS%): 56.3%",
+        "number": "56.3",
+        "scope": "requested",
+        "scope_quote": "Kobe Bryant (2005-06 to 2007-08)",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "977:Regular Season:TS",
+        "quote": "True Shooting Percentage (TS%):** **56.3%",
+        "number": "56.3",
+        "scope": "requested",
+        "scope_quote": "Kobe Bryant (2005-06 to 2007-08)",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "windows-raw.json",
+      "id": "201939:Regular Season:PPG",
+      "before": {
+        "id": "201939:Regular Season:PPG",
+        "quote": "Three-Season Total / Average: 26.4 PPG",
+        "number": "26.4",
+        "scope": "requested",
+        "scope_quote": "Stephen Curry (2014-15 to 2016-17)",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "201939:Regular Season:PPG",
+        "quote": "Three-Season Total / Average:** **26.4 PPG",
+        "number": "26.4",
+        "scope": "requested",
+        "scope_quote": "Stephen Curry (2014-15 to 2016-17)",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "windows-raw.json",
+      "id": "201939:Regular Season:TS",
+      "before": {
+        "id": "201939:Regular Season:TS",
+        "quote": "True Shooting Percentage (TS%): 62.7%",
+        "number": "62.7",
+        "scope": "requested",
+        "scope_quote": "Stephen Curry (2014-15 to 2016-17)",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "201939:Regular Season:TS",
+        "quote": "True Shooting Percentage (TS%):** **62.7%",
+        "number": "62.7",
+        "scope": "requested",
+        "scope_quote": "Stephen Curry (2014-15 to 2016-17)",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "windows-agent.json",
+      "id": "977:Regular Season:PTS",
+      "before": {
+        "id": "977:Regular Season:PTS",
+        "quote": "| Regular Season | Accumulated points (total) | 7,585 | 6,274 | Kobe Bryant |",
+        "number": "7585",
+        "scope": "requested",
+        "scope_quote": "| Phase | Statistical lens | Kobe Bryant | Stephen Curry | Observed advantage | Sources |\n|---|---|---:|---:|---|---|\n| Regular Season | Accumulated points (total) | 7,585",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "977:Regular Season:PTS",
+        "quote": "| Regular Season | Accumulated points (total) | 7,585 | 6,274 | Kobe Bryant |",
+        "number": "7,585",
+        "scope": "requested",
+        "scope_quote": "| Phase | Statistical lens | Kobe Bryant | Stephen Curry | Observed advantage | Sources |\n|---|---|---:|---:|---|---|\n| Regular Season | Accumulated points (total) | 7,585",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "windows-agent.json",
+      "id": "201939:Regular Season:PTS",
+      "before": {
+        "id": "201939:Regular Season:PTS",
+        "quote": "| Regular Season | Accumulated points (total) | 7,585 | 6,274 | Kobe Bryant |",
+        "number": "6274",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Accumulated points (total) | 7,585 | 6,274 | Kobe Bryant |",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "201939:Regular Season:PTS",
+        "quote": "| Regular Season | Accumulated points (total) | 7,585 | 6,274 | Kobe Bryant |",
+        "number": "6,274",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Accumulated points (total) | 7,585 | 6,274 | Kobe Bryant |",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "postseason-raw.json",
+      "id": "893:Playoffs:PPG",
+      "before": {
+        "id": "893:Playoffs:PPG",
+        "quote": "Postseason PPG: 33.8",
+        "number": "33.8",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan (1990\u201391 to 1992\u201393)",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "893:Playoffs:PPG",
+        "quote": "Postseason PPG:** **33.8",
+        "number": "33.8",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan (1990\u201391 to 1992\u201393)",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "postseason-raw.json",
+      "id": "893:Playoffs:TS",
+      "before": {
+        "id": "893:Playoffs:TS",
+        "quote": "Postseason True Shooting Percentage (TS%): 56.6%",
+        "number": "56.6",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan (1990\u201391 to 1992\u201393)",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "893:Playoffs:TS",
+        "quote": "Postseason True Shooting Percentage (TS%):** **56.6%",
+        "number": "56.6",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan (1990\u201391 to 1992\u201393)",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "postseason-raw.json",
+      "id": "893:Playoffs minus Regular Season:PPG_CHANGE",
+      "before": {
+        "id": "893:Playoffs minus Regular Season:PPG_CHANGE",
+        "quote": "Scoring Change (Postseason PPG minus Regular Season PPG): +1.6",
+        "number": "+1.6",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan (1990\u201391 to 1992\u201393)",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "893:Playoffs minus Regular Season:PPG_CHANGE",
+        "quote": "Scoring Change (Postseason PPG minus Regular Season PPG):** **+1.6",
+        "number": "+1.6",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan (1990\u201391 to 1992\u201393)",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "postseason-raw.json",
+      "id": "893:Playoffs minus Regular Season:TS_CHANGE",
+      "before": {
+        "id": "893:Playoffs minus Regular Season:TS_CHANGE",
+        "quote": "Efficiency Change (Postseason TS% minus Regular Season TS%): -1.3%",
+        "number": "-1.3",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan (1990\u201391 to 1992\u201393)",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "893:Playoffs minus Regular Season:TS_CHANGE",
+        "quote": "Efficiency Change (Postseason TS% minus Regular Season TS%):** **-1.3%",
+        "number": "-1.3",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan (1990\u201391 to 1992\u201393)",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "postseason-raw.json",
+      "id": "2544:Playoffs:PPG",
+      "before": {
+        "id": "2544:Playoffs:PPG",
+        "quote": "Postseason PPG: 28.7",
+        "number": "28.7",
+        "scope": "requested",
+        "scope_quote": "LeBron James (2011\u201312 to 2013\u201314)",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "2544:Playoffs:PPG",
+        "quote": "Postseason PPG:** **28.7",
+        "number": "28.7",
+        "scope": "requested",
+        "scope_quote": "LeBron James (2011\u201312 to 2013\u201314)",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "postseason-raw.json",
+      "id": "2544:Playoffs:TS",
+      "before": {
+        "id": "2544:Playoffs:TS",
+        "quote": "Postseason True Shooting Percentage (TS%): 60.3%",
+        "number": "60.3",
+        "scope": "requested",
+        "scope_quote": "LeBron James (2011\u201312 to 2013\u201314)",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "2544:Playoffs:TS",
+        "quote": "Postseason True Shooting Percentage (TS%):** **60.3%",
+        "number": "60.3",
+        "scope": "requested",
+        "scope_quote": "LeBron James (2011\u201312 to 2013\u201314)",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "postseason-raw.json",
+      "id": "2544:Playoffs minus Regular Season:PPG_CHANGE",
+      "before": {
+        "id": "2544:Playoffs minus Regular Season:PPG_CHANGE",
+        "quote": "Scoring Change (Postseason PPG minus Regular Season PPG): +1.6",
+        "number": "+1.6",
+        "scope": "requested",
+        "scope_quote": "LeBron James (2011\u201312 to 2013\u201314)",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "2544:Playoffs minus Regular Season:PPG_CHANGE",
+        "quote": "Scoring Change (Postseason PPG minus Regular Season PPG):** **+1.6",
+        "number": "+1.6",
+        "scope": "requested",
+        "scope_quote": "LeBron James (2011\u201312 to 2013\u201314)",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "postseason-raw.json",
+      "id": "2544:Playoffs minus Regular Season:TS_CHANGE",
+      "before": {
+        "id": "2544:Playoffs minus Regular Season:TS_CHANGE",
+        "quote": "Efficiency Change (Postseason TS% minus Regular Season TS%): +2.3%",
+        "number": "+2.3",
+        "scope": "requested",
+        "scope_quote": "LeBron James (2011\u201312 to 2013\u201314)",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "2544:Playoffs minus Regular Season:TS_CHANGE",
+        "quote": "Efficiency Change (Postseason TS% minus Regular Season TS%):** **+2.3%",
+        "number": "+2.3",
+        "scope": "requested",
+        "scope_quote": "LeBron James (2011\u201312 to 2013\u201314)",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "postseason-agent.json",
+      "id": "893:Regular Season:PTS",
+      "before": {
+        "id": "893:Regular Season:PTS",
+        "quote": "7,525",
+        "number": "7525",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Accumulated points (total) | 7,525 |",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "893:Regular Season:PTS",
+        "quote": "7,525",
+        "number": "7,525",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Accumulated points (total) | 7,525 |",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "postseason-agent.json",
+      "id": "893:Playoffs:PTS",
+      "before": {
+        "id": "893:Playoffs:PTS",
+        "quote": "1,954",
+        "number": "1954",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Accumulated points (total) | 1,954 |",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "893:Playoffs:PTS",
+        "quote": "1,954",
+        "number": "1,954",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Accumulated points (total) | 1,954 |",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "postseason-agent.json",
+      "id": "2544:Regular Season:PTS",
+      "before": {
+        "id": "2544:Regular Season:PTS",
+        "quote": "5,808",
+        "number": "5808",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Accumulated points (total) | 7,525 | 5,808 |",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "2544:Regular Season:PTS",
+        "quote": "5,808",
+        "number": "5,808",
+        "scope": "requested",
+        "scope_quote": "| Regular Season | Accumulated points (total) | 7,525 | 5,808 |",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "postseason-agent.json",
+      "id": "2544:Playoffs:PTS",
+      "before": {
+        "id": "2544:Playoffs:PTS",
+        "quote": "1,841",
+        "number": "1841",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Accumulated points (total) | 1,954 | 1,841 |",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "2544:Playoffs:PTS",
+        "quote": "1,841",
+        "number": "1,841",
+        "scope": "requested",
+        "scope_quote": "| Playoffs | Accumulated points (total) | 1,954 | 1,841 |",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_volume-raw.json",
+      "id": "1495:Regular Season:PTS",
+      "before": {
+        "id": "1495:Regular Season:PTS",
+        "quote": "5,675 points",
+        "number": "5675",
+        "scope": "requested",
+        "scope_quote": "Tim Duncan (2000-01 to 2002-03)",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "1495:Regular Season:PTS",
+        "quote": "5,675 points",
+        "number": "5,675",
+        "scope": "requested",
+        "scope_quote": "Tim Duncan (2000-01 to 2002-03)",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_volume-raw.json",
+      "id": "1717:Regular Season:PTS",
+      "before": {
+        "id": "1717:Regular Season:PTS",
+        "quote": "6,496 points",
+        "number": "6496",
+        "scope": "requested",
+        "scope_quote": "Dirk Nowitzki (2004-05 to 2006-07)",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "1717:Regular Season:PTS",
+        "quote": "6,496 points",
+        "number": "6,496",
+        "scope": "requested",
+        "scope_quote": "Dirk Nowitzki (2004-05 to 2006-07)",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_volume-agent.json",
+      "id": "1495:Regular Season:PTS",
+      "before": {
+        "id": "1495:Regular Season:PTS",
+        "quote": "5,793",
+        "number": "5793",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Accumulated points (total) | 5,793",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "1495:Regular Season:PTS",
+        "quote": "5,793",
+        "number": "5,793",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Accumulated points (total) | 5,793",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_volume-agent.json",
+      "id": "1717:Regular Season:PTS",
+      "before": {
+        "id": "1717:Regular Season:PTS",
+        "quote": "6,099",
+        "number": "6099",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Accumulated points (total) | ... | 6,099",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "1717:Regular Season:PTS",
+        "quote": "6,099",
+        "number": "6,099",
+        "scope": "requested",
+        "scope_quote": "## Comparison contract\n\n- Subjects: **Tim Duncan** and **Dirk Nowitzki**.\n- Scope: 2000-01\u20132002-03 versus 2004-05\u20132006-07; Regular Season.\n- Statistical lens: volume.\n- Completed-season cutoff: **2025-26**; ongoing seasons are excluded.\n- Percentages are recomputed from summed inputs. Missing observations remain missing.\n- Relative efficiency uses same-season, same-phase league TS; career aggregation weights each season by FGA + 0.44 \u00d7 FTA.\n",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_volume-agent.json",
+      "id": "1717:Regular Season:PPG",
+      "before": {
+        "id": "1717:Regular Season:PPG",
+        "quote": "25.73",
+        "number": "25.73",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Points per game (per game) | ... | 25.73",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "1717:Regular Season:PPG",
+        "quote": "25.73",
+        "number": "25.73",
+        "scope": "requested",
+        "scope_quote": "## Comparison contract\n\n- Subjects: **Tim Duncan** and **Dirk Nowitzki**.\n- Scope: 2000-01\u20132002-03 versus 2004-05\u20132006-07; Regular Season.\n- Statistical lens: volume.\n- Completed-season cutoff: **2025-26**; ongoing seasons are excluded.\n- Percentages are recomputed from summed inputs. Missing observations remain missing.\n- Relative efficiency uses same-season, same-phase league TS; career aggregation weights each season by FGA + 0.44 \u00d7 FTA.\n",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_volume-agent.json",
+      "id": "1717:Regular Season:TS",
+      "before": {
+        "id": "1717:Regular Season:TS",
+        "quote": "59.02",
+        "number": "59.02",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Raw true shooting (%) | ... | 59.02",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "1717:Regular Season:TS",
+        "quote": "59.02",
+        "number": "59.02",
+        "scope": "requested",
+        "scope_quote": "## Comparison contract\n\n- Subjects: **Tim Duncan** and **Dirk Nowitzki**.\n- Scope: 2000-01\u20132002-03 versus 2004-05\u20132006-07; Regular Season.\n- Statistical lens: volume.\n- Completed-season cutoff: **2025-26**; ongoing seasons are excluded.\n- Percentages are recomputed from summed inputs. Missing observations remain missing.\n- Relative efficiency uses same-season, same-phase league TS; career aggregation weights each season by FGA + 0.44 \u00d7 FTA.\n",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_efficiency-raw.json",
+      "id": "201142:Regular Season:PTS",
+      "before": {
+        "id": "201142:Regular Season:PTS",
+        "quote": "Total PTS: 6,723",
+        "number": "6,723",
+        "scope": "requested",
+        "scope_quote": "Kevin Durant (2011-12 through 2013-14)",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "201142:Regular Season:PTS",
+        "quote": "Total PTS**: 6,723",
+        "number": "6,723",
+        "scope": "requested",
+        "scope_quote": "Kevin Durant (2011-12 through 2013-14)",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_efficiency-raw.json",
+      "id": "201142:Regular Season:TS",
+      "before": {
+        "id": "201142:Regular Season:TS",
+        "quote": "Kevin Durant leads with 64.9%",
+        "number": "64.9",
+        "scope": "requested",
+        "scope_quote": "Kevin Durant (2011-12 through 2013-14)",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "201142:Regular Season:TS",
+        "quote": "Kevin Durant** leads with **64.9%",
+        "number": "64.9",
+        "scope": "requested",
+        "scope_quote": "Kevin Durant (2011-12 through 2013-14)",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_efficiency-raw.json",
+      "id": "201142:Regular Season:RTS",
+      "before": {
+        "id": "201142:Regular Season:RTS",
+        "quote": "Kevin Durant leads at +9.71% above the league average",
+        "number": "9.71",
+        "scope": "requested",
+        "scope_quote": "Kevin Durant (2011-12 through 2013-14)",
+        "method": "attempt_weighted"
+      },
+      "after": {
+        "id": "201142:Regular Season:RTS",
+        "quote": "Kevin Durant** leads at **+9.71%** above the league average",
+        "number": "+9.71",
+        "scope": "requested",
+        "scope_quote": "Kevin Durant (2011-12 through 2013-14)",
+        "method": "attempt_weighted"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_efficiency-raw.json",
+      "id": "201935:Regular Season:PTS",
+      "before": {
+        "id": "201935:Regular Season:PTS",
+        "quote": "Total PTS: 7,365",
+        "number": "7,365",
+        "scope": "requested",
+        "scope_quote": "James Harden (2016-17 through 2018-19)",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "201935:Regular Season:PTS",
+        "quote": "Total PTS**: 7,365",
+        "number": "7,365",
+        "scope": "requested",
+        "scope_quote": "James Harden (2016-17 through 2018-19)",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_efficiency-raw.json",
+      "id": "201935:Regular Season:RTS",
+      "before": {
+        "id": "201935:Regular Season:RTS",
+        "quote": "James Harden's +5.98%",
+        "number": "5.98",
+        "scope": "requested",
+        "scope_quote": "James Harden (2016-17 through 2018-19)",
+        "method": "attempt_weighted"
+      },
+      "after": {
+        "id": "201935:Regular Season:RTS",
+        "quote": "James Harden's +5.98%",
+        "number": "+5.98",
+        "scope": "requested",
+        "scope_quote": "James Harden (2016-17 through 2018-19)",
+        "method": "attempt_weighted"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_efficiency-agent.json",
+      "id": "201142:Regular Season:PTS",
+      "before": {
+        "id": "201142:Regular Season:PTS",
+        "quote": "6,723",
+        "number": "6723",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Accumulated points (total) | 6,723",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "201142:Regular Season:PTS",
+        "quote": "6,723",
+        "number": "6,723",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Accumulated points (total) | 6,723",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_efficiency-agent.json",
+      "id": "201935:Regular Season:PTS",
+      "before": {
+        "id": "201935:Regular Season:PTS",
+        "quote": "7,365",
+        "number": "7365",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Accumulated points (total) | ... | 7,365",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "201935:Regular Season:PTS",
+        "quote": "7,365",
+        "number": "7,365",
+        "scope": "requested",
+        "scope_quote": "## Comparison contract\n\n- Subjects: **Kevin Durant** and **James Harden**.\n- Scope: 2011-12\u20132013-14 versus 2016-17\u20132018-19; Regular Season.\n- Statistical lens: efficiency.\n- Completed-season cutoff: **2025-26**; ongoing seasons are excluded.\n- Percentages are recomputed from summed inputs. Missing observations remain missing.\n- Relative efficiency uses same-season, same-phase league TS; career aggregation weights each season by FGA + 0.44 \u00d7 FTA.\n",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_efficiency-agent.json",
+      "id": "201935:Regular Season:PPG",
+      "before": {
+        "id": "201935:Regular Season:PPG",
+        "quote": "31.88",
+        "number": "31.88",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Points per game (per game) | ... | 31.88",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "201935:Regular Season:PPG",
+        "quote": "31.88",
+        "number": "31.88",
+        "scope": "requested",
+        "scope_quote": "## Comparison contract\n\n- Subjects: **Kevin Durant** and **James Harden**.\n- Scope: 2011-12\u20132013-14 versus 2016-17\u20132018-19; Regular Season.\n- Statistical lens: efficiency.\n- Completed-season cutoff: **2025-26**; ongoing seasons are excluded.\n- Percentages are recomputed from summed inputs. Missing observations remain missing.\n- Relative efficiency uses same-season, same-phase league TS; career aggregation weights each season by FGA + 0.44 \u00d7 FTA.\n",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_efficiency-agent.json",
+      "id": "201935:Regular Season:TS",
+      "before": {
+        "id": "201935:Regular Season:TS",
+        "quote": "61.62",
+        "number": "61.62",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Raw true shooting (%) | ... | 61.62",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "201935:Regular Season:TS",
+        "quote": "61.62",
+        "number": "61.62",
+        "scope": "requested",
+        "scope_quote": "## Comparison contract\n\n- Subjects: **Kevin Durant** and **James Harden**.\n- Scope: 2011-12\u20132013-14 versus 2016-17\u20132018-19; Regular Season.\n- Statistical lens: efficiency.\n- Completed-season cutoff: **2025-26**; ongoing seasons are excluded.\n- Percentages are recomputed from summed inputs. Missing observations remain missing.\n- Relative efficiency uses same-season, same-phase league TS; career aggregation weights each season by FGA + 0.44 \u00d7 FTA.\n",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_efficiency-agent.json",
+      "id": "201935:Regular Season:RTS",
+      "before": {
+        "id": "201935:Regular Season:RTS",
+        "quote": "6",
+        "number": "6",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Contemporaneous relative true shooting (percentage points) | ... | 6",
+        "method": "attempt_weighted"
+      },
+      "after": {
+        "id": "201935:Regular Season:RTS",
+        "quote": "6",
+        "number": "6",
+        "scope": "requested",
+        "scope_quote": "## Comparison contract\n\n- Subjects: **Kevin Durant** and **James Harden**.\n- Scope: 2011-12\u20132013-14 versus 2016-17\u20132018-19; Regular Season.\n- Statistical lens: efficiency.\n- Completed-season cutoff: **2025-26**; ongoing seasons are excluded.\n- Percentages are recomputed from summed inputs. Missing observations remain missing.\n- Relative efficiency uses same-season, same-phase league TS; career aggregation weights each season by FGA + 0.44 \u00d7 FTA.\n",
+        "method": "attempt_weighted"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_postseason-raw.json",
+      "id": "2548:Playoffs:PPG",
+      "before": {
+        "id": "2548:Playoffs:PPG",
+        "quote": "Playoff Points Per Game (PPG): 28.4",
+        "number": "28.4",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade (2005-06 Postseason)",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "2548:Playoffs:PPG",
+        "quote": "Playoff Points Per Game (PPG):** 28.4",
+        "number": "28.4",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade (2005-06 Postseason)",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_postseason-raw.json",
+      "id": "2548:Playoffs:TS",
+      "before": {
+        "id": "2548:Playoffs:TS",
+        "quote": "Playoff True Shooting Percentage (TS%): 57.3%",
+        "number": "57.3",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade (2005-06 Postseason)",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "2548:Playoffs:TS",
+        "quote": "Playoff True Shooting Percentage (TS%):** 57.3%",
+        "number": "57.3",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade (2005-06 Postseason)",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_postseason-raw.json",
+      "id": "2548:Playoffs minus Regular Season:PPG_CHANGE",
+      "before": {
+        "id": "2548:Playoffs minus Regular Season:PPG_CHANGE",
+        "quote": "PPG: +1.2",
+        "number": "+1.2",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade (2005-06 Postseason)",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "2548:Playoffs minus Regular Season:PPG_CHANGE",
+        "quote": "PPG:** +1.2",
+        "number": "+1.2",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade (2005-06 Postseason)",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_postseason-raw.json",
+      "id": "2548:Playoffs minus Regular Season:TS_CHANGE",
+      "before": {
+        "id": "2548:Playoffs minus Regular Season:TS_CHANGE",
+        "quote": "TS%: +0.6%",
+        "number": "+0.6",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade (2005-06 Postseason)",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "2548:Playoffs minus Regular Season:TS_CHANGE",
+        "quote": "TS%:** +0.6%",
+        "number": "+0.6",
+        "scope": "requested",
+        "scope_quote": "Dwyane Wade (2005-06 Postseason)",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_postseason-raw.json",
+      "id": "202695:Playoffs:PPG",
+      "before": {
+        "id": "202695:Playoffs:PPG",
+        "quote": "Playoff Points Per Game (PPG): 30.5",
+        "number": "30.5",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard (2018-19 Postseason)",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "202695:Playoffs:PPG",
+        "quote": "Playoff Points Per Game (PPG):** 30.5",
+        "number": "30.5",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard (2018-19 Postseason)",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_postseason-raw.json",
+      "id": "202695:Playoffs:TS",
+      "before": {
+        "id": "202695:Playoffs:TS",
+        "quote": "Playoff True Shooting Percentage (TS%): 61.9%",
+        "number": "61.9",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard (2018-19 Postseason)",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "202695:Playoffs:TS",
+        "quote": "Playoff True Shooting Percentage (TS%):** 61.9%",
+        "number": "61.9",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard (2018-19 Postseason)",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_postseason-raw.json",
+      "id": "202695:Playoffs minus Regular Season:PPG_CHANGE",
+      "before": {
+        "id": "202695:Playoffs minus Regular Season:PPG_CHANGE",
+        "quote": "PPG: +3.9",
+        "number": "+3.9",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard (2018-19 Postseason)",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "202695:Playoffs minus Regular Season:PPG_CHANGE",
+        "quote": "PPG:** +3.9",
+        "number": "+3.9",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard (2018-19 Postseason)",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_postseason-raw.json",
+      "id": "202695:Playoffs minus Regular Season:TS_CHANGE",
+      "before": {
+        "id": "202695:Playoffs minus Regular Season:TS_CHANGE",
+        "quote": "TS%: +4.7%",
+        "number": "+4.7",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard (2018-19 Postseason)",
+        "method": "unknown"
+      },
+      "after": {
+        "id": "202695:Playoffs minus Regular Season:TS_CHANGE",
+        "quote": "TS%:** +4.7%",
+        "number": "+4.7",
+        "scope": "requested",
+        "scope_quote": "Kawhi Leonard (2018-19 Postseason)",
+        "method": "unknown"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_postseason-agent.json",
+      "id": "2548:Regular Season:PTS",
+      "before": {
+        "id": "2548:Regular Season:PTS",
+        "quote": "2,040",
+        "number": "2040",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Accumulated points (total) | 2,040 | 1,596",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "2548:Regular Season:PTS",
+        "quote": "2,040",
+        "number": "2,040",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Accumulated points (total) | 2,040 | 1,596",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    },
+    {
+      "file": "new_postseason-agent.json",
+      "id": "202695:Regular Season:PTS",
+      "before": {
+        "id": "202695:Regular Season:PTS",
+        "quote": "1,596",
+        "number": "1596",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Accumulated points (total) | 2,040 | 1,596",
+        "method": "aggregate"
+      },
+      "after": {
+        "id": "202695:Regular Season:PTS",
+        "quote": "1,596",
+        "number": "1,596",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Accumulated points (total) | 2,040 | 1,596",
+        "method": "aggregate"
+      },
+      "reason": "Re-anchor formatting to exact answer text; career raw cutoff additionally adjudicated from its explicit note."
+    }
+  ],
+  "summary": [
+    {
+      "case": "career",
+      "path": "raw",
+      "required_count": 8,
+      "required_comparable": 0,
+      "required_correct": 0,
+      "required_missing": 0,
+      "required_scope_mismatches": 8,
+      "number_only": {
+        "correct": 7,
+        "checkable": 8,
+        "note": "Ignores scope only for diagnostic purposes; not scoped correctness."
+      }
+    },
+    {
+      "case": "career",
+      "path": "agent",
+      "required_count": 8,
+      "required_comparable": 8,
+      "required_correct": 8,
+      "required_missing": 0,
+      "required_scope_mismatches": 0,
+      "number_only": {
+        "correct": 8,
+        "checkable": 8,
+        "note": "Ignores scope only for diagnostic purposes; not scoped correctness."
+      }
+    },
+    {
+      "case": "windows",
+      "path": "raw",
+      "required_count": 4,
+      "required_comparable": 4,
+      "required_correct": 2,
+      "required_missing": 0,
+      "required_scope_mismatches": 0,
+      "number_only": {
+        "correct": 2,
+        "checkable": 4,
+        "note": "Ignores scope only for diagnostic purposes; not scoped correctness."
+      }
+    },
+    {
+      "case": "windows",
+      "path": "agent",
+      "required_count": 4,
+      "required_comparable": 4,
+      "required_correct": 4,
+      "required_missing": 0,
+      "required_scope_mismatches": 0,
+      "number_only": {
+        "correct": 4,
+        "checkable": 4,
+        "note": "Ignores scope only for diagnostic purposes; not scoped correctness."
+      }
+    },
+    {
+      "case": "postseason",
+      "path": "raw",
+      "required_count": 12,
+      "required_comparable": 12,
+      "required_correct": 3,
+      "required_missing": 0,
+      "required_scope_mismatches": 0,
+      "number_only": {
+        "correct": 3,
+        "checkable": 12,
+        "note": "Ignores scope only for diagnostic purposes; not scoped correctness."
+      }
+    },
+    {
+      "case": "postseason",
+      "path": "agent",
+      "required_count": 12,
+      "required_comparable": 12,
+      "required_correct": 12,
+      "required_missing": 0,
+      "required_scope_mismatches": 0,
+      "number_only": {
+        "correct": 12,
+        "checkable": 12,
+        "note": "Ignores scope only for diagnostic purposes; not scoped correctness."
+      }
+    },
+    {
+      "case": "new_volume",
+      "path": "raw",
+      "required_count": 4,
+      "required_comparable": 4,
+      "required_correct": 0,
+      "required_missing": 0,
+      "required_scope_mismatches": 0,
+      "number_only": {
+        "correct": 0,
+        "checkable": 4,
+        "note": "Ignores scope only for diagnostic purposes; not scoped correctness."
+      }
+    },
+    {
+      "case": "new_volume",
+      "path": "agent",
+      "required_count": 4,
+      "required_comparable": 4,
+      "required_correct": 4,
+      "required_missing": 0,
+      "required_scope_mismatches": 0,
+      "number_only": {
+        "correct": 4,
+        "checkable": 4,
+        "note": "Ignores scope only for diagnostic purposes; not scoped correctness."
+      }
+    },
+    {
+      "case": "new_efficiency",
+      "path": "raw",
+      "required_count": 4,
+      "required_comparable": 4,
+      "required_correct": 2,
+      "required_missing": 0,
+      "required_scope_mismatches": 0,
+      "number_only": {
+        "correct": 2,
+        "checkable": 4,
+        "note": "Ignores scope only for diagnostic purposes; not scoped correctness."
+      }
+    },
+    {
+      "case": "new_efficiency",
+      "path": "agent",
+      "required_count": 4,
+      "required_comparable": 4,
+      "required_correct": 4,
+      "required_missing": 0,
+      "required_scope_mismatches": 0,
+      "number_only": {
+        "correct": 4,
+        "checkable": 4,
+        "note": "Ignores scope only for diagnostic purposes; not scoped correctness."
+      }
+    },
+    {
+      "case": "new_postseason",
+      "path": "raw",
+      "required_count": 12,
+      "required_comparable": 12,
+      "required_correct": 7,
+      "required_missing": 0,
+      "required_scope_mismatches": 0,
+      "number_only": {
+        "correct": 7,
+        "checkable": 12,
+        "note": "Ignores scope only for diagnostic purposes; not scoped correctness."
+      }
+    },
+    {
+      "case": "new_postseason",
+      "path": "agent",
+      "required_count": 12,
+      "required_comparable": 12,
+      "required_correct": 12,
+      "required_missing": 0,
+      "required_scope_mismatches": 0,
+      "number_only": {
+        "correct": 12,
+        "checkable": 12,
+        "note": "Ignores scope only for diagnostic purposes; not scoped correctness."
+      }
+    }
+  ]
+}

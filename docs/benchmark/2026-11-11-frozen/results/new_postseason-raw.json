@@ -1,0 +1,60 @@
+{
+  "case": "new_postseason",
+  "path": "raw",
+  "question": "Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason scorers. For each player give whole-postseason points per game and true shooting, plus their changes from the corresponding regular season. Use the entire playoff run, not only the Finals, and limit the conclusion to these one-season samples.",
+  "started_at": "2026-11-11T03:43:34.589030+00:00",
+  "answer": "Here is the statistical comparison of Dwyane Wade\u2019s 2005-06 postseason run with Kawhi Leonard\u2019s 2018-19 postseason run, based on the entire playoff runs.\n\n### **Dwyane Wade (2005-06 Postseason)**\n* **Playoff Points Per Game (PPG):** 28.4 \n* **Playoff True Shooting Percentage (TS%):** 57.3%\n* **Change from Regular Season:**\n  * **PPG:** +1.2 (Regular Season: 27.2)\n  * **TS%:** +0.6% (Regular Season: 56.7%)\n\n### **Kawhi Leonard (2018-19 Postseason)**\n* **Playoff Points Per Game (PPG):** 30.5\n* **Playoff True Shooting Percentage (TS%):** 61.9%\n* **Change from Regular Season:**\n  * **PPG:** +3.9 (Regular Season: 26.6)\n  * **TS%:** +4.7% (Regular Season: 57.2%)\n\n---\n\n### **Conclusion**\nBased strictly on these one-season samples, Kawhi Leonard was the more prolific and efficient postseason scorer. While Dwyane Wade maintained his elite regular-season production while slightly improving his efficiency on a championship run, Kawhi Leonard elevated his scoring volume by nearly 4 points per game and experienced a massive spike in true shooting efficiency (+4.7%), operating as a historically efficient high-volume playoff scorer.",
+  "status": "completed",
+  "ended_at": "2026-11-11T03:43:36.097658+00:00",
+  "seconds": 1.509,
+  "model_calls": [
+    {
+      "started_at": "2026-11-11T03:43:34.589071+00:00",
+      "parameters": {
+        "model": "vertex_ai/gemini-3.5-flash-lite",
+        "vertex_location": "global",
+        "max_tokens": 8192,
+        "timeout": 80,
+        "num_retries": 0
+      },
+      "temperature": "provider default, not overridden",
+      "message_roles": [
+        "user"
+      ],
+      "messages_sha256": "bc599b63ad281910719256677052099a77318d870f2c1e224a1a6b2653b091c4",
+      "tool_names": [],
+      "index": 0,
+      "response_model": "gemini-3.5-flash-lite",
+      "response_id": "ZuTzaqbhLaDisbwPvr6nuQM",
+      "finish_reasons": [
+        "stop"
+      ],
+      "truncated": false,
+      "usage": {
+        "completion_tokens": 348,
+        "prompt_tokens": 77,
+        "total_tokens": 425,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": null,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 348,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": null,
+          "text_tokens": 77,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "cache_read_input_tokens": null
+      },
+      "seconds": 1.5085,
+      "ended_at": "2026-11-11T03:43:36.097596+00:00"
+    }
+  ],
+  "any_model_truncated": false
+}

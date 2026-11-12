@@ -1,0 +1,296 @@
+{
+  "checked_at": "2026-11-11T03:50:32.565762+00:00",
+  "production_tree_unchanged": true,
+  "frozen_archive_hash_verified": true,
+  "source_snapshots_verified": 80,
+  "complete_pairs": 6,
+  "all_completed": true,
+  "model_truncations": 0,
+  "required_agent_numeric_checks": 44,
+  "all_required_extractions_reviewable": true,
+  "offline_tests_passed": 321,
+  "original_answer_files": [
+    {
+      "file": "results/career-agent.json",
+      "sha256": "be1cb47b884f30dd418fa431484037e62193a900cf222f1f5468bb039e554a3c",
+      "seconds": 9.351,
+      "calls": 12,
+      "finish_reasons": [
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "tool_calls"
+        ],
+        [
+          "tool_calls"
+        ],
+        [
+          "tool_calls"
+        ],
+        [
+          "tool_calls"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ]
+      ]
+    },
+    {
+      "file": "results/career-raw.json",
+      "sha256": "266cdbe2f268f09f4fdc7a0c56f8fcbc0286877af11b18a08a5718d358d12a81",
+      "seconds": 7.196,
+      "calls": 1,
+      "finish_reasons": [
+        [
+          "stop"
+        ]
+      ]
+    },
+    {
+      "file": "results/new_efficiency-agent.json",
+      "sha256": "fcdd40acd65f11a5c416044f86de97c855971fed7bf09e957f4eb8d78259ab6a",
+      "seconds": 6.862,
+      "calls": 8,
+      "finish_reasons": [
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "tool_calls"
+        ],
+        [
+          "tool_calls"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ]
+      ]
+    },
+    {
+      "file": "results/new_efficiency-raw.json",
+      "sha256": "b6e43d3070848716942f410b95d96af2be4c1cbdad12c8b86079d30dba9d901d",
+      "seconds": 5.734,
+      "calls": 1,
+      "finish_reasons": [
+        [
+          "stop"
+        ]
+      ]
+    },
+    {
+      "file": "results/new_postseason-agent.json",
+      "sha256": "446fb7c40fdc6c82e3afa0cdf116484cbec48995c095ec32caccc0e009a26a07",
+      "seconds": 7.475,
+      "calls": 8,
+      "finish_reasons": [
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "tool_calls"
+        ],
+        [
+          "tool_calls"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ]
+      ]
+    },
+    {
+      "file": "results/new_postseason-raw.json",
+      "sha256": "47e995095c03c2f02c2412e3655fbb0bce87e030196938d7cc58a062c66ad264",
+      "seconds": 1.509,
+      "calls": 1,
+      "finish_reasons": [
+        [
+          "stop"
+        ]
+      ]
+    },
+    {
+      "file": "results/new_volume-agent.json",
+      "sha256": "ab109af879c304cdd53dafa16502ee11b1e00429a3baeeb37680c49c5a69c453",
+      "seconds": 8.351,
+      "calls": 9,
+      "finish_reasons": [
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "tool_calls"
+        ],
+        [
+          "tool_calls"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ]
+      ]
+    },
+    {
+      "file": "results/new_volume-raw.json",
+      "sha256": "b0bd5557a6473698b942f61231e1bc1017d129cae9ed229f9403df4937928abe",
+      "seconds": 1.591,
+      "calls": 1,
+      "finish_reasons": [
+        [
+          "stop"
+        ]
+      ]
+    },
+    {
+      "file": "results/postseason-agent.json",
+      "sha256": "574d93530696b5ff0f7ba2ba42b36147ab3b624f9ab20d0338a144e5ab8052db",
+      "seconds": 9.13,
+      "calls": 9,
+      "finish_reasons": [
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "tool_calls"
+        ],
+        [
+          "tool_calls"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ]
+      ]
+    },
+    {
+      "file": "results/postseason-raw.json",
+      "sha256": "543d41396570127aac66940cdd0b3ce43ded7d08ada0f45f620b9d737404093d",
+      "seconds": 3.641,
+      "calls": 1,
+      "finish_reasons": [
+        [
+          "stop"
+        ]
+      ]
+    },
+    {
+      "file": "results/windows-agent.json",
+      "sha256": "39286ac2551276a66e2b7595aeea6be49daa6f2f66d3ed884f49248f0bae3b2c",
+      "seconds": 9.595,
+      "calls": 10,
+      "finish_reasons": [
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "tool_calls"
+        ],
+        [
+          "tool_calls"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ],
+        [
+          "stop"
+        ]
+      ]
+    },
+    {
+      "file": "results/windows-raw.json",
+      "sha256": "3a6e8f8e30a76ea478d1018b9c29e1e8723f11783d4fece29e903d713f46547d",
+      "seconds": 6.524,
+      "calls": 1,
+      "finish_reasons": [
+        [
+          "stop"
+        ]
+      ]
+    }
+  ]
+}

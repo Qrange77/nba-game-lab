@@ -1,0 +1,3938 @@
+{
+  "question": "Whose team depended on him more in 2015-16: Curry or LeBron?",
+  "answer": "# On-Court Impact Review\n\n## Answer\n\n**My position: a reviewed overall preference is unavailable. The supported dimension-level findings below remain valid; this does not establish one overall winner or a tie.**\n\n## Dimension findings\n\n- **Team on/off context:** Regular Season: Stephen Curry has the higher on-minus-off net rating; Playoffs: LeBron James has the higher on-minus-off net rating. This describes team association, not an isolated player effect.\n\nThis position compares observed contributions, not innate ability. Team on/off is association rather than causation.\n\n**Scope:** 2015-16\u20132015-16 versus 2015-16\u20132015-16; Regular Season, Playoffs.\n\n## Key evidence\n\n- **Team on/off context / Regular Season:** Stephen Curry (2015 / Golden State Warriors): On-minus-off net rating **23.1** points / 100 possessions, ON min **2,700** minutes, OFF min **1,276** minutes; LeBron James (2015 / Cleveland Cavaliers): On-minus-off net rating **16.1** points / 100 possessions, ON min **2,709** minutes, OFF min **1,262** minutes. [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=201939&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/teamplayeronoffsummary?TeamID=1610612744&LastNGames=0&MeasureType=Base&Month=0&OpponentTeamID=0&PaceAdjust=N&PerMode=Totals&Period=0&PlusMinus=N&Rank=N&Season=2015-16&SeasonType=Regular+Season&DateFrom=&DateTo=&GameSegment=&LeagueID=00&Location=&Outcome=&SeasonSegment=&VsConference=&VsDivision=) [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/teamplayeronoffsummary?TeamID=1610612739&LastNGames=0&MeasureType=Base&Month=0&OpponentTeamID=0&PaceAdjust=N&PerMode=Totals&Period=0&PlusMinus=N&Rank=N&Season=2015-16&SeasonType=Regular+Season&DateFrom=&DateTo=&GameSegment=&LeagueID=00&Location=&Outcome=&SeasonSegment=&VsConference=&VsDivision=)\n\n## Evidence by dimension\n\n\n## Team on/off evidence\n\nEach row is a team-season and phase, not a career aggregate. Ratings are team points per 100 possessions. On-minus-off differences are not isolated player effects.\n\n| Player / season / phase / team | On MIN | Off MIN | On ORtg | Off ORtg | On DRtg | Off DRtg | On Net | Off Net | Net difference | Source |\n|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|\n| Stephen Curry / 2015 / Regular Season / Golden State Warriors | 2,700 | 1,276 | 117.5 | 102 | 99.8 | 107.4 | 17.7 | -5.4 | 23.1 | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=201939&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/teamplayeronoffsummary?TeamID=1610612744&LastNGames=0&MeasureType=Base&Month=0&OpponentTeamID=0&PaceAdjust=N&PerMode=Totals&Period=0&PlusMinus=N&Rank=N&Season=2015-16&SeasonType=Regular+Season&DateFrom=&DateTo=&GameSegment=&LeagueID=00&Location=&Outcome=&SeasonSegment=&VsConference=&VsDivision=) |\n| LeBron James / 2015 / Playoffs / Cleveland Cavaliers | 822 | 186 | 116.8 | 100.8 | 103.3 | 107.2 | 13.4 | -6.4 | 19.8 | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/teamplayeronoffsummary?TeamID=1610612739&LastNGames=0&MeasureType=Base&Month=0&OpponentTeamID=0&PaceAdjust=N&PerMode=Totals&Period=0&PlusMinus=N&Rank=N&Season=2015-16&SeasonType=Playoffs&DateFrom=&DateTo=&GameSegment=&LeagueID=00&Location=&Outcome=&SeasonSegment=&VsConference=&VsDivision=) |\n| Stephen Curry / 2015 / Playoffs / Golden State Warriors | 614 | 543 | 110 | 107 | 106.9 | 101 | 3.1 | 6 | -2.9 | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=201939&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/teamplayeronoffsummary?TeamID=1610612744&LastNGames=0&MeasureType=Base&Month=0&OpponentTeamID=0&PaceAdjust=N&PerMode=Totals&Period=0&PlusMinus=N&Rank=N&Season=2015-16&SeasonType=Playoffs&DateFrom=&DateTo=&GameSegment=&LeagueID=00&Location=&Outcome=&SeasonSegment=&VsConference=&VsDivision=) |\n| LeBron James / 2015 / Regular Season / Cleveland Cavaliers | 2,709 | 1,262 | 114 | 98.6 | 102.6 | 103.3 | 11.4 | -4.7 | 16.1 | [Evidence](https://stats.nba.com/stats/playercareerstats?PlayerID=2544&PerMode=Totals&LeagueID=00) [Evidence](https://stats.nba.com/stats/teamplayeronoffsummary?TeamID=1610612739&LastNGames=0&MeasureType=Base&Month=0&OpponentTeamID=0&PaceAdjust=N&PerMode=Totals&Period=0&PlusMinus=N&Rank=N&Season=2015-16&SeasonType=Regular+Season&DateFrom=&DateTo=&GameSegment=&LeagueID=00&Location=&Outcome=&SeasonSegment=&VsConference=&VsDivision=) |\n\n## Coverage and limits\n\n- Historical box-score evidence is not equivalent to modern tracking or lineup data. Missing historical coverage does not count against a player.\n- Steals, blocks and rebounds describe recorded activity; matchup difficulty, positioning, deterrence and defensive schemes are not measured here.\n- On/off comparisons are confounded by lineup, opponent and substitution choices. No causal team/winning impact is established.\n- Small or unequal appearance samples and stale API responses remain limitations. No synthetic overall impact score is used.",
+  "contract": {
+    "action": "review",
+    "question": "",
+    "clarification_kind": "custom",
+    "research_domain": "on_court",
+    "impact_dimensions": [
+      "team"
+    ],
+    "claim": "Assess whose team depended on him more in 2015-16: Stephen Curry or LeBron James",
+    "request_kind": "comparison",
+    "left_player": 201939,
+    "right_player": 2544,
+    "period": "windows",
+    "left_start": 2015,
+    "left_end": 2015,
+    "right_start": 2015,
+    "right_end": 2015,
+    "phases": [
+      "Regular Season",
+      "Playoffs"
+    ],
+    "lens": "overall_scoring",
+    "include_context": false,
+    "support_phases": [],
+    "cutoff": 2025
+  },
+  "evidence_result": {
+    "cards": [
+      {
+        "title": "NET_DIFF",
+        "player": "Stephen Curry",
+        "value": 23.1,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Regular Season \u00b7 per game \u00b7 Golden State Warriors",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "ON_NET_RATING - OFF_NET_RATING",
+        "inputs": {
+          "on": 17.7,
+          "off": -5.4
+        },
+        "date": null,
+        "matchup": null,
+        "label": "On-minus-off net rating",
+        "context": {
+          "team_id": 1610612744,
+          "team_name": "Golden State Warriors"
+        },
+        "team_games": null,
+        "player_id": 201939,
+        "evidence_id": "ev_8372c350488b997283ed",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201939/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201939,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201939,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T23:43:53.521588+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612744,
+              "season": "2015-16",
+              "season_type_all_star": "Regular Season",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612744,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Regular Season",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-11T23:43:54.798828+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "ON_MIN",
+        "player": "Stephen Curry",
+        "value": 2700.0,
+        "unit": "minutes",
+        "scope": "2015-16 \u00b7 Regular Season \u00b7 per game \u00b7 Golden State Warriors",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported MIN",
+        "inputs": {
+          "reported": 2700.0
+        },
+        "date": null,
+        "matchup": null,
+        "label": "ON min",
+        "context": {
+          "team_id": 1610612744,
+          "team_name": "Golden State Warriors"
+        },
+        "team_games": null,
+        "player_id": 201939,
+        "evidence_id": "ev_8372c350488b997283ed",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201939/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201939,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201939,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T23:43:53.521588+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612744,
+              "season": "2015-16",
+              "season_type_all_star": "Regular Season",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612744,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Regular Season",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-11T23:43:54.798828+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "OFF_MIN",
+        "player": "Stephen Curry",
+        "value": 1276.0,
+        "unit": "minutes",
+        "scope": "2015-16 \u00b7 Regular Season \u00b7 per game \u00b7 Golden State Warriors",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported MIN",
+        "inputs": {
+          "reported": 1276.0
+        },
+        "date": null,
+        "matchup": null,
+        "label": "OFF min",
+        "context": {
+          "team_id": 1610612744,
+          "team_name": "Golden State Warriors"
+        },
+        "team_games": null,
+        "player_id": 201939,
+        "evidence_id": "ev_8372c350488b997283ed",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201939/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201939,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201939,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T23:43:53.521588+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612744,
+              "season": "2015-16",
+              "season_type_all_star": "Regular Season",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612744,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Regular Season",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-11T23:43:54.798828+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "NET_DIFF",
+        "player": "LeBron James",
+        "value": 16.1,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Regular Season \u00b7 per game \u00b7 Cleveland Cavaliers",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "ON_NET_RATING - OFF_NET_RATING",
+        "inputs": {
+          "on": 11.4,
+          "off": -4.7
+        },
+        "date": null,
+        "matchup": null,
+        "label": "On-minus-off net rating",
+        "context": {
+          "team_id": 1610612739,
+          "team_name": "Cleveland Cavaliers"
+        },
+        "team_games": null,
+        "player_id": 2544,
+        "evidence_id": "ev_b82be1f5b6acfe67d825",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/2544/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 2544,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 2544,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T22:47:43.146672+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612739,
+              "season": "2015-16",
+              "season_type_all_star": "Regular Season",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612739,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Regular Season",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-11T23:44:10.669528+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "ON_MIN",
+        "player": "LeBron James",
+        "value": 2709.0,
+        "unit": "minutes",
+        "scope": "2015-16 \u00b7 Regular Season \u00b7 per game \u00b7 Cleveland Cavaliers",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported MIN",
+        "inputs": {
+          "reported": 2709.0
+        },
+        "date": null,
+        "matchup": null,
+        "label": "ON min",
+        "context": {
+          "team_id": 1610612739,
+          "team_name": "Cleveland Cavaliers"
+        },
+        "team_games": null,
+        "player_id": 2544,
+        "evidence_id": "ev_b82be1f5b6acfe67d825",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/2544/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 2544,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 2544,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T22:47:43.146672+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612739,
+              "season": "2015-16",
+              "season_type_all_star": "Regular Season",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612739,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Regular Season",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-11T23:44:10.669528+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "OFF_MIN",
+        "player": "LeBron James",
+        "value": 1262.0,
+        "unit": "minutes",
+        "scope": "2015-16 \u00b7 Regular Season \u00b7 per game \u00b7 Cleveland Cavaliers",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported MIN",
+        "inputs": {
+          "reported": 1262.0
+        },
+        "date": null,
+        "matchup": null,
+        "label": "OFF min",
+        "context": {
+          "team_id": 1610612739,
+          "team_name": "Cleveland Cavaliers"
+        },
+        "team_games": null,
+        "player_id": 2544,
+        "evidence_id": "ev_b82be1f5b6acfe67d825",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/2544/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 2544,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 2544,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T22:47:43.146672+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612739,
+              "season": "2015-16",
+              "season_type_all_star": "Regular Season",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612739,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Regular Season",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-11T23:44:10.669528+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "ON_OFF_RATING",
+        "player": "Stephen Curry",
+        "value": 117.5,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Regular Season \u00b7 per game \u00b7 Golden State Warriors",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported OFF_RATING",
+        "inputs": {
+          "reported": 117.5
+        },
+        "date": null,
+        "matchup": null,
+        "label": "ON off rating",
+        "context": {
+          "team_id": 1610612744,
+          "team_name": "Golden State Warriors"
+        },
+        "team_games": null,
+        "player_id": 201939,
+        "evidence_id": "ev_8372c350488b997283ed",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201939/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201939,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201939,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T23:43:53.521588+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612744,
+              "season": "2015-16",
+              "season_type_all_star": "Regular Season",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612744,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Regular Season",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-11T23:43:54.798828+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "OFF_OFF_RATING",
+        "player": "Stephen Curry",
+        "value": 102.0,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Regular Season \u00b7 per game \u00b7 Golden State Warriors",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported OFF_RATING",
+        "inputs": {
+          "reported": 102.0
+        },
+        "date": null,
+        "matchup": null,
+        "label": "OFF off rating",
+        "context": {
+          "team_id": 1610612744,
+          "team_name": "Golden State Warriors"
+        },
+        "team_games": null,
+        "player_id": 201939,
+        "evidence_id": "ev_8372c350488b997283ed",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201939/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201939,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201939,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T23:43:53.521588+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612744,
+              "season": "2015-16",
+              "season_type_all_star": "Regular Season",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612744,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Regular Season",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-11T23:43:54.798828+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "ON_DEF_RATING",
+        "player": "Stephen Curry",
+        "value": 99.8,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Regular Season \u00b7 per game \u00b7 Golden State Warriors",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported DEF_RATING",
+        "inputs": {
+          "reported": 99.8
+        },
+        "date": null,
+        "matchup": null,
+        "label": "ON def rating",
+        "context": {
+          "team_id": 1610612744,
+          "team_name": "Golden State Warriors"
+        },
+        "team_games": null,
+        "player_id": 201939,
+        "evidence_id": "ev_8372c350488b997283ed",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201939/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201939,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201939,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T23:43:53.521588+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612744,
+              "season": "2015-16",
+              "season_type_all_star": "Regular Season",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612744,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Regular Season",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-11T23:43:54.798828+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "OFF_DEF_RATING",
+        "player": "Stephen Curry",
+        "value": 107.4,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Regular Season \u00b7 per game \u00b7 Golden State Warriors",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported DEF_RATING",
+        "inputs": {
+          "reported": 107.4
+        },
+        "date": null,
+        "matchup": null,
+        "label": "OFF def rating",
+        "context": {
+          "team_id": 1610612744,
+          "team_name": "Golden State Warriors"
+        },
+        "team_games": null,
+        "player_id": 201939,
+        "evidence_id": "ev_8372c350488b997283ed",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201939/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201939,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201939,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T23:43:53.521588+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612744,
+              "season": "2015-16",
+              "season_type_all_star": "Regular Season",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612744,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Regular Season",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-11T23:43:54.798828+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "ON_NET_RATING",
+        "player": "Stephen Curry",
+        "value": 17.7,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Regular Season \u00b7 per game \u00b7 Golden State Warriors",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported NET_RATING",
+        "inputs": {
+          "reported": 17.7
+        },
+        "date": null,
+        "matchup": null,
+        "label": "ON net rating",
+        "context": {
+          "team_id": 1610612744,
+          "team_name": "Golden State Warriors"
+        },
+        "team_games": null,
+        "player_id": 201939,
+        "evidence_id": "ev_8372c350488b997283ed",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201939/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201939,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201939,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T23:43:53.521588+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612744,
+              "season": "2015-16",
+              "season_type_all_star": "Regular Season",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612744,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Regular Season",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-11T23:43:54.798828+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "OFF_NET_RATING",
+        "player": "Stephen Curry",
+        "value": -5.4,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Regular Season \u00b7 per game \u00b7 Golden State Warriors",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported NET_RATING",
+        "inputs": {
+          "reported": -5.4
+        },
+        "date": null,
+        "matchup": null,
+        "label": "OFF net rating",
+        "context": {
+          "team_id": 1610612744,
+          "team_name": "Golden State Warriors"
+        },
+        "team_games": null,
+        "player_id": 201939,
+        "evidence_id": "ev_8372c350488b997283ed",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201939/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201939,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201939,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T23:43:53.521588+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612744,
+              "season": "2015-16",
+              "season_type_all_star": "Regular Season",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612744,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Regular Season",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-11T23:43:54.798828+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "ON_MIN",
+        "player": "LeBron James",
+        "value": 822.0,
+        "unit": "minutes",
+        "scope": "2015-16 \u00b7 Playoffs \u00b7 per game \u00b7 Cleveland Cavaliers",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported MIN",
+        "inputs": {
+          "reported": 822.0
+        },
+        "date": null,
+        "matchup": null,
+        "label": "ON min",
+        "context": {
+          "team_id": 1610612739,
+          "team_name": "Cleveland Cavaliers"
+        },
+        "team_games": null,
+        "player_id": 2544,
+        "evidence_id": "ev_534669739ed0beee46da",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/2544/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 2544,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 2544,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T22:47:43.146672+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612739,
+              "season": "2015-16",
+              "season_type_all_star": "Playoffs",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612739,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Playoffs",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-12T02:17:26.431364+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "OFF_MIN",
+        "player": "LeBron James",
+        "value": 186.0,
+        "unit": "minutes",
+        "scope": "2015-16 \u00b7 Playoffs \u00b7 per game \u00b7 Cleveland Cavaliers",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported MIN",
+        "inputs": {
+          "reported": 186.0
+        },
+        "date": null,
+        "matchup": null,
+        "label": "OFF min",
+        "context": {
+          "team_id": 1610612739,
+          "team_name": "Cleveland Cavaliers"
+        },
+        "team_games": null,
+        "player_id": 2544,
+        "evidence_id": "ev_534669739ed0beee46da",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/2544/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 2544,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 2544,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T22:47:43.146672+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612739,
+              "season": "2015-16",
+              "season_type_all_star": "Playoffs",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612739,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Playoffs",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-12T02:17:26.431364+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "ON_OFF_RATING",
+        "player": "LeBron James",
+        "value": 116.8,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Playoffs \u00b7 per game \u00b7 Cleveland Cavaliers",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported OFF_RATING",
+        "inputs": {
+          "reported": 116.8
+        },
+        "date": null,
+        "matchup": null,
+        "label": "ON off rating",
+        "context": {
+          "team_id": 1610612739,
+          "team_name": "Cleveland Cavaliers"
+        },
+        "team_games": null,
+        "player_id": 2544,
+        "evidence_id": "ev_534669739ed0beee46da",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/2544/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 2544,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 2544,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T22:47:43.146672+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612739,
+              "season": "2015-16",
+              "season_type_all_star": "Playoffs",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612739,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Playoffs",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-12T02:17:26.431364+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "OFF_OFF_RATING",
+        "player": "LeBron James",
+        "value": 100.8,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Playoffs \u00b7 per game \u00b7 Cleveland Cavaliers",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported OFF_RATING",
+        "inputs": {
+          "reported": 100.8
+        },
+        "date": null,
+        "matchup": null,
+        "label": "OFF off rating",
+        "context": {
+          "team_id": 1610612739,
+          "team_name": "Cleveland Cavaliers"
+        },
+        "team_games": null,
+        "player_id": 2544,
+        "evidence_id": "ev_534669739ed0beee46da",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/2544/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 2544,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 2544,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T22:47:43.146672+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612739,
+              "season": "2015-16",
+              "season_type_all_star": "Playoffs",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612739,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Playoffs",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-12T02:17:26.431364+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "ON_DEF_RATING",
+        "player": "LeBron James",
+        "value": 103.3,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Playoffs \u00b7 per game \u00b7 Cleveland Cavaliers",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported DEF_RATING",
+        "inputs": {
+          "reported": 103.3
+        },
+        "date": null,
+        "matchup": null,
+        "label": "ON def rating",
+        "context": {
+          "team_id": 1610612739,
+          "team_name": "Cleveland Cavaliers"
+        },
+        "team_games": null,
+        "player_id": 2544,
+        "evidence_id": "ev_534669739ed0beee46da",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/2544/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 2544,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 2544,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T22:47:43.146672+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612739,
+              "season": "2015-16",
+              "season_type_all_star": "Playoffs",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612739,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Playoffs",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-12T02:17:26.431364+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "OFF_DEF_RATING",
+        "player": "LeBron James",
+        "value": 107.2,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Playoffs \u00b7 per game \u00b7 Cleveland Cavaliers",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported DEF_RATING",
+        "inputs": {
+          "reported": 107.2
+        },
+        "date": null,
+        "matchup": null,
+        "label": "OFF def rating",
+        "context": {
+          "team_id": 1610612739,
+          "team_name": "Cleveland Cavaliers"
+        },
+        "team_games": null,
+        "player_id": 2544,
+        "evidence_id": "ev_534669739ed0beee46da",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/2544/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 2544,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 2544,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T22:47:43.146672+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612739,
+              "season": "2015-16",
+              "season_type_all_star": "Playoffs",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612739,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Playoffs",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-12T02:17:26.431364+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "ON_NET_RATING",
+        "player": "LeBron James",
+        "value": 13.4,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Playoffs \u00b7 per game \u00b7 Cleveland Cavaliers",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported NET_RATING",
+        "inputs": {
+          "reported": 13.4
+        },
+        "date": null,
+        "matchup": null,
+        "label": "ON net rating",
+        "context": {
+          "team_id": 1610612739,
+          "team_name": "Cleveland Cavaliers"
+        },
+        "team_games": null,
+        "player_id": 2544,
+        "evidence_id": "ev_534669739ed0beee46da",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/2544/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 2544,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 2544,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T22:47:43.146672+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612739,
+              "season": "2015-16",
+              "season_type_all_star": "Playoffs",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612739,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Playoffs",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-12T02:17:26.431364+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "OFF_NET_RATING",
+        "player": "LeBron James",
+        "value": -6.4,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Playoffs \u00b7 per game \u00b7 Cleveland Cavaliers",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported NET_RATING",
+        "inputs": {
+          "reported": -6.4
+        },
+        "date": null,
+        "matchup": null,
+        "label": "OFF net rating",
+        "context": {
+          "team_id": 1610612739,
+          "team_name": "Cleveland Cavaliers"
+        },
+        "team_games": null,
+        "player_id": 2544,
+        "evidence_id": "ev_534669739ed0beee46da",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/2544/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 2544,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 2544,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T22:47:43.146672+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612739,
+              "season": "2015-16",
+              "season_type_all_star": "Playoffs",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612739,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Playoffs",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-12T02:17:26.431364+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "NET_DIFF",
+        "player": "LeBron James",
+        "value": 19.8,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Playoffs \u00b7 per game \u00b7 Cleveland Cavaliers",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "ON_NET_RATING - OFF_NET_RATING",
+        "inputs": {
+          "on": 13.4,
+          "off": -6.4
+        },
+        "date": null,
+        "matchup": null,
+        "label": "On-minus-off net rating",
+        "context": {
+          "team_id": 1610612739,
+          "team_name": "Cleveland Cavaliers"
+        },
+        "team_games": null,
+        "player_id": 2544,
+        "evidence_id": "ev_534669739ed0beee46da",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/2544/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 2544,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 2544,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T22:47:43.146672+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612739,
+              "season": "2015-16",
+              "season_type_all_star": "Playoffs",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612739,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Playoffs",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-12T02:17:26.431364+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "ON_MIN",
+        "player": "Stephen Curry",
+        "value": 614.0,
+        "unit": "minutes",
+        "scope": "2015-16 \u00b7 Playoffs \u00b7 per game \u00b7 Golden State Warriors",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported MIN",
+        "inputs": {
+          "reported": 614.0
+        },
+        "date": null,
+        "matchup": null,
+        "label": "ON min",
+        "context": {
+          "team_id": 1610612744,
+          "team_name": "Golden State Warriors"
+        },
+        "team_games": null,
+        "player_id": 201939,
+        "evidence_id": "ev_ca32b689ff5850bf7eb0",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201939/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201939,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201939,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T23:43:53.521588+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612744,
+              "season": "2015-16",
+              "season_type_all_star": "Playoffs",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612744,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Playoffs",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-12T02:17:24.843869+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "OFF_MIN",
+        "player": "Stephen Curry",
+        "value": 543.0,
+        "unit": "minutes",
+        "scope": "2015-16 \u00b7 Playoffs \u00b7 per game \u00b7 Golden State Warriors",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported MIN",
+        "inputs": {
+          "reported": 543.0
+        },
+        "date": null,
+        "matchup": null,
+        "label": "OFF min",
+        "context": {
+          "team_id": 1610612744,
+          "team_name": "Golden State Warriors"
+        },
+        "team_games": null,
+        "player_id": 201939,
+        "evidence_id": "ev_ca32b689ff5850bf7eb0",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201939/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201939,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201939,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T23:43:53.521588+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612744,
+              "season": "2015-16",
+              "season_type_all_star": "Playoffs",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612744,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Playoffs",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-12T02:17:24.843869+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "ON_OFF_RATING",
+        "player": "Stephen Curry",
+        "value": 110.0,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Playoffs \u00b7 per game \u00b7 Golden State Warriors",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported OFF_RATING",
+        "inputs": {
+          "reported": 110.0
+        },
+        "date": null,
+        "matchup": null,
+        "label": "ON off rating",
+        "context": {
+          "team_id": 1610612744,
+          "team_name": "Golden State Warriors"
+        },
+        "team_games": null,
+        "player_id": 201939,
+        "evidence_id": "ev_ca32b689ff5850bf7eb0",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201939/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201939,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201939,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T23:43:53.521588+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612744,
+              "season": "2015-16",
+              "season_type_all_star": "Playoffs",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612744,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Playoffs",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-12T02:17:24.843869+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "OFF_OFF_RATING",
+        "player": "Stephen Curry",
+        "value": 107.0,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Playoffs \u00b7 per game \u00b7 Golden State Warriors",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported OFF_RATING",
+        "inputs": {
+          "reported": 107.0
+        },
+        "date": null,
+        "matchup": null,
+        "label": "OFF off rating",
+        "context": {
+          "team_id": 1610612744,
+          "team_name": "Golden State Warriors"
+        },
+        "team_games": null,
+        "player_id": 201939,
+        "evidence_id": "ev_ca32b689ff5850bf7eb0",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201939/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201939,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201939,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T23:43:53.521588+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612744,
+              "season": "2015-16",
+              "season_type_all_star": "Playoffs",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612744,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Playoffs",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-12T02:17:24.843869+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "ON_DEF_RATING",
+        "player": "Stephen Curry",
+        "value": 106.9,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Playoffs \u00b7 per game \u00b7 Golden State Warriors",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported DEF_RATING",
+        "inputs": {
+          "reported": 106.9
+        },
+        "date": null,
+        "matchup": null,
+        "label": "ON def rating",
+        "context": {
+          "team_id": 1610612744,
+          "team_name": "Golden State Warriors"
+        },
+        "team_games": null,
+        "player_id": 201939,
+        "evidence_id": "ev_ca32b689ff5850bf7eb0",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201939/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201939,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201939,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T23:43:53.521588+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612744,
+              "season": "2015-16",
+              "season_type_all_star": "Playoffs",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612744,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Playoffs",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-12T02:17:24.843869+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "OFF_DEF_RATING",
+        "player": "Stephen Curry",
+        "value": 101.0,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Playoffs \u00b7 per game \u00b7 Golden State Warriors",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported DEF_RATING",
+        "inputs": {
+          "reported": 101.0
+        },
+        "date": null,
+        "matchup": null,
+        "label": "OFF def rating",
+        "context": {
+          "team_id": 1610612744,
+          "team_name": "Golden State Warriors"
+        },
+        "team_games": null,
+        "player_id": 201939,
+        "evidence_id": "ev_ca32b689ff5850bf7eb0",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201939/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201939,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201939,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T23:43:53.521588+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612744,
+              "season": "2015-16",
+              "season_type_all_star": "Playoffs",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612744,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Playoffs",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-12T02:17:24.843869+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "ON_NET_RATING",
+        "player": "Stephen Curry",
+        "value": 3.1,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Playoffs \u00b7 per game \u00b7 Golden State Warriors",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported NET_RATING",
+        "inputs": {
+          "reported": 3.1
+        },
+        "date": null,
+        "matchup": null,
+        "label": "ON net rating",
+        "context": {
+          "team_id": 1610612744,
+          "team_name": "Golden State Warriors"
+        },
+        "team_games": null,
+        "player_id": 201939,
+        "evidence_id": "ev_ca32b689ff5850bf7eb0",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201939/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201939,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201939,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T23:43:53.521588+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612744,
+              "season": "2015-16",
+              "season_type_all_star": "Playoffs",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612744,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Playoffs",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-12T02:17:24.843869+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "OFF_NET_RATING",
+        "player": "Stephen Curry",
+        "value": 6.0,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Playoffs \u00b7 per game \u00b7 Golden State Warriors",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported NET_RATING",
+        "inputs": {
+          "reported": 6.0
+        },
+        "date": null,
+        "matchup": null,
+        "label": "OFF net rating",
+        "context": {
+          "team_id": 1610612744,
+          "team_name": "Golden State Warriors"
+        },
+        "team_games": null,
+        "player_id": 201939,
+        "evidence_id": "ev_ca32b689ff5850bf7eb0",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201939/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201939,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201939,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T23:43:53.521588+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612744,
+              "season": "2015-16",
+              "season_type_all_star": "Playoffs",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612744,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Playoffs",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-12T02:17:24.843869+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "NET_DIFF",
+        "player": "Stephen Curry",
+        "value": -2.9,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Playoffs \u00b7 per game \u00b7 Golden State Warriors",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "ON_NET_RATING - OFF_NET_RATING",
+        "inputs": {
+          "on": 3.1,
+          "off": 6.0
+        },
+        "date": null,
+        "matchup": null,
+        "label": "On-minus-off net rating",
+        "context": {
+          "team_id": 1610612744,
+          "team_name": "Golden State Warriors"
+        },
+        "team_games": null,
+        "player_id": 201939,
+        "evidence_id": "ev_ca32b689ff5850bf7eb0",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201939/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201939,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201939,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T23:43:53.521588+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612744,
+              "season": "2015-16",
+              "season_type_all_star": "Playoffs",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612744,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Playoffs",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-12T02:17:24.843869+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "ON_OFF_RATING",
+        "player": "LeBron James",
+        "value": 114.0,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Regular Season \u00b7 per game \u00b7 Cleveland Cavaliers",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported OFF_RATING",
+        "inputs": {
+          "reported": 114.0
+        },
+        "date": null,
+        "matchup": null,
+        "label": "ON off rating",
+        "context": {
+          "team_id": 1610612739,
+          "team_name": "Cleveland Cavaliers"
+        },
+        "team_games": null,
+        "player_id": 2544,
+        "evidence_id": "ev_b82be1f5b6acfe67d825",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/2544/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 2544,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 2544,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T22:47:43.146672+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612739,
+              "season": "2015-16",
+              "season_type_all_star": "Regular Season",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612739,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Regular Season",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-11T23:44:10.669528+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "OFF_OFF_RATING",
+        "player": "LeBron James",
+        "value": 98.6,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Regular Season \u00b7 per game \u00b7 Cleveland Cavaliers",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported OFF_RATING",
+        "inputs": {
+          "reported": 98.6
+        },
+        "date": null,
+        "matchup": null,
+        "label": "OFF off rating",
+        "context": {
+          "team_id": 1610612739,
+          "team_name": "Cleveland Cavaliers"
+        },
+        "team_games": null,
+        "player_id": 2544,
+        "evidence_id": "ev_b82be1f5b6acfe67d825",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/2544/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 2544,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 2544,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T22:47:43.146672+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612739,
+              "season": "2015-16",
+              "season_type_all_star": "Regular Season",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612739,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Regular Season",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-11T23:44:10.669528+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "ON_DEF_RATING",
+        "player": "LeBron James",
+        "value": 102.6,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Regular Season \u00b7 per game \u00b7 Cleveland Cavaliers",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported DEF_RATING",
+        "inputs": {
+          "reported": 102.6
+        },
+        "date": null,
+        "matchup": null,
+        "label": "ON def rating",
+        "context": {
+          "team_id": 1610612739,
+          "team_name": "Cleveland Cavaliers"
+        },
+        "team_games": null,
+        "player_id": 2544,
+        "evidence_id": "ev_b82be1f5b6acfe67d825",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/2544/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 2544,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 2544,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T22:47:43.146672+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612739,
+              "season": "2015-16",
+              "season_type_all_star": "Regular Season",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612739,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Regular Season",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-11T23:44:10.669528+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "OFF_DEF_RATING",
+        "player": "LeBron James",
+        "value": 103.3,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Regular Season \u00b7 per game \u00b7 Cleveland Cavaliers",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported DEF_RATING",
+        "inputs": {
+          "reported": 103.3
+        },
+        "date": null,
+        "matchup": null,
+        "label": "OFF def rating",
+        "context": {
+          "team_id": 1610612739,
+          "team_name": "Cleveland Cavaliers"
+        },
+        "team_games": null,
+        "player_id": 2544,
+        "evidence_id": "ev_b82be1f5b6acfe67d825",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/2544/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 2544,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 2544,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T22:47:43.146672+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612739,
+              "season": "2015-16",
+              "season_type_all_star": "Regular Season",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612739,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Regular Season",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-11T23:44:10.669528+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "ON_NET_RATING",
+        "player": "LeBron James",
+        "value": 11.4,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Regular Season \u00b7 per game \u00b7 Cleveland Cavaliers",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported NET_RATING",
+        "inputs": {
+          "reported": 11.4
+        },
+        "date": null,
+        "matchup": null,
+        "label": "ON net rating",
+        "context": {
+          "team_id": 1610612739,
+          "team_name": "Cleveland Cavaliers"
+        },
+        "team_games": null,
+        "player_id": 2544,
+        "evidence_id": "ev_b82be1f5b6acfe67d825",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/2544/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 2544,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 2544,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T22:47:43.146672+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612739,
+              "season": "2015-16",
+              "season_type_all_star": "Regular Season",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612739,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Regular Season",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-11T23:44:10.669528+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      },
+      {
+        "title": "OFF_NET_RATING",
+        "player": "LeBron James",
+        "value": -4.7,
+        "unit": "points / 100 possessions",
+        "scope": "2015-16 \u00b7 Regular Season \u00b7 per game \u00b7 Cleveland Cavaliers",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "NBA reported NET_RATING",
+        "inputs": {
+          "reported": -4.7
+        },
+        "date": null,
+        "matchup": null,
+        "label": "OFF net rating",
+        "context": {
+          "team_id": 1610612739,
+          "team_name": "Cleveland Cavaliers"
+        },
+        "team_games": null,
+        "player_id": 2544,
+        "evidence_id": "ev_b82be1f5b6acfe67d825",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/2544/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 2544,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 2544,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T22:47:43.146672+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+            "parameters": {
+              "team_id": 1610612739,
+              "season": "2015-16",
+              "season_type_all_star": "Regular Season",
+              "per_mode_detailed": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "TeamID": 1610612739,
+              "LastNGames": "0",
+              "MeasureType": "Base",
+              "Month": "0",
+              "OpponentTeamID": 0,
+              "PaceAdjust": "N",
+              "PerMode": "Totals",
+              "Period": "0",
+              "PlusMinus": "N",
+              "Rank": "N",
+              "Season": "2015-16",
+              "SeasonType": "Regular Season",
+              "DateFrom": "",
+              "DateTo": "",
+              "GameSegment": "",
+              "LeagueID": "00",
+              "Location": "",
+              "Outcome": "",
+              "SeasonSegment": "",
+              "VsConference": "",
+              "VsDivision": ""
+            },
+            "fetched_at": "2026-11-11T23:44:10.669528+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation."
+        ]
+      }
+    ],
+    "comparisons": [],
+    "sources": [
+      {
+        "provider": "NBA.com",
+        "url": "https://www.nba.com/stats/player/201939/traditional",
+        "endpoint": "https://stats.nba.com/stats/playercareerstats",
+        "parameters": {
+          "player_id": 201939,
+          "per_mode36": "Totals",
+          "league_id_nullable": "00"
+        },
+        "request_parameters": {
+          "PlayerID": 201939,
+          "PerMode": "Totals",
+          "LeagueID": "00"
+        },
+        "fetched_at": "2026-11-11T23:43:53.521588+00:00",
+        "stale": false,
+        "warning": null
+      },
+      {
+        "provider": "NBA.com",
+        "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+        "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+        "parameters": {
+          "team_id": 1610612744,
+          "season": "2015-16",
+          "season_type_all_star": "Regular Season",
+          "per_mode_detailed": "Totals",
+          "league_id_nullable": "00"
+        },
+        "request_parameters": {
+          "TeamID": 1610612744,
+          "LastNGames": "0",
+          "MeasureType": "Base",
+          "Month": "0",
+          "OpponentTeamID": 0,
+          "PaceAdjust": "N",
+          "PerMode": "Totals",
+          "Period": "0",
+          "PlusMinus": "N",
+          "Rank": "N",
+          "Season": "2015-16",
+          "SeasonType": "Regular Season",
+          "DateFrom": "",
+          "DateTo": "",
+          "GameSegment": "",
+          "LeagueID": "00",
+          "Location": "",
+          "Outcome": "",
+          "SeasonSegment": "",
+          "VsConference": "",
+          "VsDivision": ""
+        },
+        "fetched_at": "2026-11-11T23:43:54.798828+00:00",
+        "stale": false,
+        "warning": null
+      },
+      {
+        "provider": "NBA.com",
+        "url": "https://www.nba.com/stats/player/2544/traditional",
+        "endpoint": "https://stats.nba.com/stats/playercareerstats",
+        "parameters": {
+          "player_id": 2544,
+          "per_mode36": "Totals",
+          "league_id_nullable": "00"
+        },
+        "request_parameters": {
+          "PlayerID": 2544,
+          "PerMode": "Totals",
+          "LeagueID": "00"
+        },
+        "fetched_at": "2026-11-11T22:47:43.146672+00:00",
+        "stale": false,
+        "warning": null
+      },
+      {
+        "provider": "NBA.com",
+        "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+        "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+        "parameters": {
+          "team_id": 1610612739,
+          "season": "2015-16",
+          "season_type_all_star": "Playoffs",
+          "per_mode_detailed": "Totals",
+          "league_id_nullable": "00"
+        },
+        "request_parameters": {
+          "TeamID": 1610612739,
+          "LastNGames": "0",
+          "MeasureType": "Base",
+          "Month": "0",
+          "OpponentTeamID": 0,
+          "PaceAdjust": "N",
+          "PerMode": "Totals",
+          "Period": "0",
+          "PlusMinus": "N",
+          "Rank": "N",
+          "Season": "2015-16",
+          "SeasonType": "Playoffs",
+          "DateFrom": "",
+          "DateTo": "",
+          "GameSegment": "",
+          "LeagueID": "00",
+          "Location": "",
+          "Outcome": "",
+          "SeasonSegment": "",
+          "VsConference": "",
+          "VsDivision": ""
+        },
+        "fetched_at": "2026-11-12T02:17:26.431364+00:00",
+        "stale": false,
+        "warning": null
+      },
+      {
+        "provider": "NBA.com",
+        "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+        "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+        "parameters": {
+          "team_id": 1610612744,
+          "season": "2015-16",
+          "season_type_all_star": "Playoffs",
+          "per_mode_detailed": "Totals",
+          "league_id_nullable": "00"
+        },
+        "request_parameters": {
+          "TeamID": 1610612744,
+          "LastNGames": "0",
+          "MeasureType": "Base",
+          "Month": "0",
+          "OpponentTeamID": 0,
+          "PaceAdjust": "N",
+          "PerMode": "Totals",
+          "Period": "0",
+          "PlusMinus": "N",
+          "Rank": "N",
+          "Season": "2015-16",
+          "SeasonType": "Playoffs",
+          "DateFrom": "",
+          "DateTo": "",
+          "GameSegment": "",
+          "LeagueID": "00",
+          "Location": "",
+          "Outcome": "",
+          "SeasonSegment": "",
+          "VsConference": "",
+          "VsDivision": ""
+        },
+        "fetched_at": "2026-11-12T02:17:24.843869+00:00",
+        "stale": false,
+        "warning": null
+      },
+      {
+        "provider": "NBA.com",
+        "url": "https://stats.nba.com/stats/teamplayeronoffsummary",
+        "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+        "parameters": {
+          "team_id": 1610612739,
+          "season": "2015-16",
+          "season_type_all_star": "Regular Season",
+          "per_mode_detailed": "Totals",
+          "league_id_nullable": "00"
+        },
+        "request_parameters": {
+          "TeamID": 1610612739,
+          "LastNGames": "0",
+          "MeasureType": "Base",
+          "Month": "0",
+          "OpponentTeamID": 0,
+          "PaceAdjust": "N",
+          "PerMode": "Totals",
+          "Period": "0",
+          "PlusMinus": "N",
+          "Rank": "N",
+          "Season": "2015-16",
+          "SeasonType": "Regular Season",
+          "DateFrom": "",
+          "DateTo": "",
+          "GameSegment": "",
+          "LeagueID": "00",
+          "Location": "",
+          "Outcome": "",
+          "SeasonSegment": "",
+          "VsConference": "",
+          "VsDivision": ""
+        },
+        "fetched_at": "2026-11-11T23:44:10.669528+00:00",
+        "stale": false,
+        "warning": null
+      }
+    ],
+    "limitations": [],
+    "verification": {
+      "status": "checked",
+      "checked_claims": 36,
+      "attempts": [
+        {
+          "valid": true,
+          "errors": []
+        }
+      ],
+      "note": "Numbers are checked against scoped source records. This does not certify causal impact or a complete defensive ranking."
+    },
+    "research": {
+      "scope": "2015-16\u20132015-16 versus 2015-16\u20132015-16; Regular Season, Playoffs",
+      "criteria": "Observed on-court contributions",
+      "tasks": [
+        {
+          "agent": "Researcher 1 \u00b7 team",
+          "dimension": "team",
+          "question": "Retrieve each scoped team stint and phase on/off ratings and minutes; preserve missing coverage and do not average ratings across stints.",
+          "round": 1,
+          "status": "completed"
+        }
+      ],
+      "findings": [
+        {
+          "dimension": "team",
+          "status": "completed",
+          "notes": "### Evidence Gaps Report\n- No evidence gaps identified; all requested team on/off ratings, minutes, stints, and phases for Stephen Curry and LeBron James in the 2015-16 season were successfully retrieved.\n\n---\n\n### Team Stint & Phase On/Off Ratings and Minutes (2015-16)\n\n#### 1. Stephen Curry (Golden State Warriors)\n* **Regular Season**\n  * **On-Court:** 2,700 Minutes | Offense Rating: 117.5 | Defense Rating: 99.8 | Net Rating: +17.7\n  * **Off-Court:** 1,276 Minutes | Offense Rating: 102.0 | Defense Rating: 107.4 | Net Rating: -5.4\n  * **On-Minus-Off Net Differential:** +23.1 points / 100 possessions\n\n* **Playoffs**\n  * **On-Court:** 614 Minutes | Offense Rating: 110.0 | Defense Rating: 106.9 | Net Rating: +3.1\n  * **Off-Court:** 543 Minutes | Offense Rating: 107.0 | Defense Rating: 101.0 | Net Rating: +6.0\n  * **On-Minus-Off Net Differential:** -2.9 points / 100 possessions\n\n---\n\n#### 2. LeBron James (Cleveland Cavaliers)\n* **Regular Season**\n  * **On-Court:** 2,709 Minutes | Offense Rating: 114.0 | Defense Rating: 102.6 | Net Rating: +11.4\n  * **Off-Court:** 1,262 Minutes | Offense Rating: 98.6 | Defense Rating: 103.3 | Net Rating: -4.7\n  * **On-Minus-Off Net Differential:** +16.1 points / 100 possessions\n\n* **Playoffs**\n  * **On-Court:** 822 Minutes | Offense Rating: 116.8 | Defense Rating: 103.3 | Net Rating: +13.4\n  * **Off-Court:** 186 Minutes | Offense Rating: 100.8 | Defense Rating: 107.2 | Net Rating: -6.4\n  * **On-Minus-Off Net Differential:** +19.8 points / 100 possessions",
+          "evidence_ids": [
+            "ev_8372c350488b997283ed",
+            "ev_534669739ed0beee46da",
+            "ev_ca32b689ff5850bf7eb0",
+            "ev_b82be1f5b6acfe67d825"
+          ]
+        }
+      ],
+      "coverage": "completed",
+      "content_checks": [],
+      "elapsed_seconds": 9.73,
+      "api_requests": 0
+    },
+    "impact": {
+      "judgement": null,
+      "judgement_review": [
+        {
+          "proposal": {
+            "position": "left",
+            "criterion": "Observed on/off association during the 2015-16 regular season.",
+            "reason": "Stephen Curry registered a higher on-minus-off net rating of 23.1 points / 100 possessions compared to LeBron James's 16.1 points / 100 possessions during the regular season, reflecting a larger observed performance drop when off the floor.",
+            "support": [
+              "team:Regular Season:NET_DIFF"
+            ],
+            "counterevidence": [
+              "team:Playoffs:NET_DIFF"
+            ],
+            "counterargument": "LeBron James recorded a substantially higher on-minus-off net rating of 19.8 points / 100 possessions in the playoffs compared to Stephen Curry's -2.9 points / 100 possessions, which shows heavier postseason team dependence.",
+            "tradeoff": "Regular season on/off association favors Stephen Curry, while playoff on/off association favors LeBron James.",
+            "sensitivity": "Inclusion of postseason samples or weighting the playoffs equally would reverse the preference to LeBron James; additional evidence on lineup contexts could also alter this assessment."
+          },
+          "issues": [
+            "Keep prose qualitative; published numbers must come from the evidence renderer.",
+            "Keep prose qualitative; published numbers must come from the evidence renderer."
+          ],
+          "accepted": false
+        },
+        {
+          "proposal": {
+            "position": "left",
+            "criterion": "On-off association reflects team dependence based on observed sample differentials.",
+            "reason": "Stephen Curry demonstrated a greater observed on-minus-off net rating differential during the regular season, indicating a larger team swing when he was on the floor compared to LeBron James. This observed association forms the basis of the preference.",
+            "support": [
+              "team:Regular Season:NET_DIFF"
+            ],
+            "counterevidence": [
+              "team:Playoffs:NET_DIFF"
+            ],
+            "counterargument": "The playoff on-minus-off net rating differential heavily favors LeBron James, showing a larger team swing during the postseason sample. This counterargument does not change the preference because the regular season sample shows a larger overall dependence for Stephen Curry across the combined dataset's primary indicator.",
+            "tradeoff": "Relying on observed on/off association describes statistical impact rather than causal dependence or unmeasured roster context.",
+            "sensitivity": "Additional playoff samples or broader lineup context data could reverse this preference if postseason weighting is prioritized."
+          },
+          "issues": [
+            "The proposal arbitrarily dismisses the opposing playoff evidence by favoring the regular season without justification.",
+            "It treats a split indicator as a definitive win for one side without adequate conditional reconciliation.",
+            "The sensitivity statement is trivial and fails to provide a meaningful reversal condition tied to specific performance metrics."
+          ],
+          "accepted": false
+        }
+      ],
+      "contract": {
+        "action": "review",
+        "question": "",
+        "clarification_kind": "custom",
+        "research_domain": "on_court",
+        "impact_dimensions": [
+          "team"
+        ],
+        "claim": "Assess whose team depended on him more in 2015-16: Stephen Curry or LeBron James",
+        "request_kind": "comparison",
+        "left_player": 201939,
+        "right_player": 2544,
+        "period": "windows",
+        "left_start": 2015,
+        "left_end": 2015,
+        "right_start": 2015,
+        "right_end": 2015,
+        "phases": [
+          "Regular Season",
+          "Playoffs"
+        ],
+        "lens": "overall_scoring",
+        "include_context": false,
+        "support_phases": [],
+        "cutoff": 2025
+      },
+      "advantages": {},
+      "coverage_gaps": [],
+      "followups": []
+    }
+  },
+  "model_calls": [
+    {
+      "started_at": "2026-11-12T02:21:28.848825+00:00",
+      "parameters": {
+        "model": "vertex_ai/gemini-3.5-flash-lite",
+        "vertex_location": "global",
+        "timeout": 40,
+        "num_retries": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "max_tokens": 5000
+      },
+      "temperature": "provider default, not overridden",
+      "message_roles": [
+        "system"
+      ],
+      "messages_sha256": "9aa3977ec40301a7c7cd66b380b0e22348003047a6ebba8b393acb261416cafb",
+      "tool_names": [],
+      "index": 0,
+      "response_model": "gemini-3.5-flash-lite",
+      "response_id": "qCL1aq_COYqTotQPjsnkmAk",
+      "finish_reasons": [
+        "stop"
+      ],
+      "truncated": false,
+      "usage": {
+        "completion_tokens": 179,
+        "prompt_tokens": 2139,
+        "total_tokens": 2318,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": null,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 179,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": null,
+          "text_tokens": 2139,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "cache_read_input_tokens": null
+      },
+      "seconds": 0.8336,
+      "ended_at": "2026-11-12T02:21:29.682491+00:00"
+    },
+    {
+      "started_at": "2026-11-12T02:21:29.683532+00:00",
+      "parameters": {
+        "model": "vertex_ai/gemini-3.5-flash-lite",
+        "vertex_location": "global",
+        "timeout": 40,
+        "num_retries": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "max_tokens": 5000
+      },
+      "temperature": "provider default, not overridden",
+      "message_roles": [
+        "system"
+      ],
+      "messages_sha256": "d83ead0784ff38a301c09dfa8628f1c941723927ea4724c5e066e3e136f8d9bf",
+      "tool_names": [],
+      "index": 1,
+      "response_model": "gemini-3.5-flash-lite",
+      "response_id": "qSL1aqLmL5zGsbwPx8m56QQ",
+      "finish_reasons": [
+        "stop"
+      ],
+      "truncated": false,
+      "usage": {
+        "completion_tokens": 108,
+        "prompt_tokens": 411,
+        "total_tokens": 519,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": null,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 108,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": null,
+          "text_tokens": 411,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "cache_read_input_tokens": null
+      },
+      "seconds": 0.7843,
+      "ended_at": "2026-11-12T02:21:30.467946+00:00"
+    },
+    {
+      "started_at": "2026-11-12T02:21:30.468062+00:00",
+      "parameters": {
+        "model": "vertex_ai/gemini-3.5-flash-lite",
+        "vertex_location": "global",
+        "timeout": 40,
+        "num_retries": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "max_tokens": 5000
+      },
+      "temperature": "provider default, not overridden",
+      "message_roles": [
+        "system",
+        "assistant",
+        "user"
+      ],
+      "messages_sha256": "88d047944d1aa4e3430458edf8f150f84f6e09a79e8320becd4014aa778a7a46",
+      "tool_names": [],
+      "index": 2,
+      "response_model": "gemini-3.5-flash-lite",
+      "response_id": "qiL1aruMIviGsbwP4uWpsQo",
+      "finish_reasons": [
+        "stop"
+      ],
+      "truncated": false,
+      "usage": {
+        "completion_tokens": 89,
+        "prompt_tokens": 605,
+        "total_tokens": 694,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": null,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 89,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": null,
+          "text_tokens": 605,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "cache_read_input_tokens": null
+      },
+      "seconds": 0.7012,
+      "ended_at": "2026-11-12T02:21:31.169329+00:00"
+    },
+    {
+      "started_at": "2026-11-12T02:21:31.169937+00:00",
+      "parameters": {
+        "model": "vertex_ai/gemini-3.5-flash-lite",
+        "vertex_location": "global",
+        "timeout": 40,
+        "num_retries": 0,
+        "tool_choice": {
+          "type": "function",
+          "function": {
+            "name": "collect_impact_team"
+          }
+        },
+        "max_tokens": 1200
+      },
+      "temperature": "provider default, not overridden",
+      "message_roles": [
+        "system",
+        "user"
+      ],
+      "messages_sha256": "954c5556f0b90a2f608b5f7d59e998c959b6c76c0103da8986fa9f30a61c2df6",
+      "tool_names": [
+        "collect_impact_team"
+      ],
+      "index": 3,
+      "response_model": "gemini-3.5-flash-lite",
+      "response_id": "qyL1arS8EMiootQPrrPe2AI",
+      "finish_reasons": [
+        "tool_calls"
+      ],
+      "truncated": false,
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 355,
+        "total_tokens": 367,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": null,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 12,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": null,
+          "text_tokens": 355,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "cache_read_input_tokens": null
+      },
+      "seconds": 0.7259,
+      "ended_at": "2026-11-12T02:21:31.895904+00:00"
+    },
+    {
+      "started_at": "2026-11-12T02:21:31.914660+00:00",
+      "parameters": {
+        "model": "vertex_ai/gemini-3.5-flash-lite",
+        "vertex_location": "global",
+        "timeout": 40,
+        "num_retries": 0,
+        "max_tokens": 650
+      },
+      "temperature": "provider default, not overridden",
+      "message_roles": [
+        "system",
+        "user",
+        "assistant",
+        "tool"
+      ],
+      "messages_sha256": "1b1bf2bc63215e685068a4fc2d195dc74c628bf5ab06739b4b19de4c5f43073d",
+      "tool_names": [],
+      "index": 4,
+      "response_model": "gemini-3.5-flash-lite",
+      "response_id": "rCL1ap8DxN2xvA_RsrDYAQ",
+      "finish_reasons": [
+        "stop"
+      ],
+      "truncated": false,
+      "usage": {
+        "completion_tokens": 560,
+        "prompt_tokens": 3596,
+        "total_tokens": 4156,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": null,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 560,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": null,
+          "text_tokens": 3596,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "cache_read_input_tokens": null
+      },
+      "seconds": 1.8601,
+      "ended_at": "2026-11-12T02:21:33.774898+00:00"
+    },
+    {
+      "started_at": "2026-11-12T02:21:33.776421+00:00",
+      "parameters": {
+        "model": "vertex_ai/gemini-3.5-flash-lite",
+        "vertex_location": "global",
+        "timeout": 40,
+        "num_retries": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "max_tokens": 5000
+      },
+      "temperature": "provider default, not overridden",
+      "message_roles": [
+        "system"
+      ],
+      "messages_sha256": "3a372a53e791272a2fd6b4721c5315743c29189bfb19a32179ae8f95aec94c04",
+      "tool_names": [],
+      "index": 5,
+      "response_model": "gemini-3.5-flash-lite",
+      "response_id": "rSL1atmRNMesotQP9fCwyAg",
+      "finish_reasons": [
+        "stop"
+      ],
+      "truncated": false,
+      "usage": {
+        "completion_tokens": 6,
+        "prompt_tokens": 100,
+        "total_tokens": 106,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": null,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 6,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": null,
+          "text_tokens": 100,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "cache_read_input_tokens": null
+      },
+      "seconds": 0.5672,
+      "ended_at": "2026-11-12T02:21:34.343686+00:00"
+    },
+    {
+      "started_at": "2026-11-12T02:21:34.345046+00:00",
+      "parameters": {
+        "model": "vertex_ai/gemini-3.5-flash-lite",
+        "vertex_location": "global",
+        "timeout": 40,
+        "num_retries": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "max_tokens": 5000
+      },
+      "temperature": "provider default, not overridden",
+      "message_roles": [
+        "system"
+      ],
+      "messages_sha256": "e5e663a70fe56155780411e3a41ac885ea963ca27ec47a390866c4a36e6d05f5",
+      "tool_names": [],
+      "index": 6,
+      "response_model": "gemini-3.5-flash-lite",
+      "response_id": "riL1apaSGt-ZotQP0KKUwAo",
+      "finish_reasons": [
+        "stop"
+      ],
+      "truncated": false,
+      "usage": {
+        "completion_tokens": 96,
+        "prompt_tokens": 3438,
+        "total_tokens": 3534,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": null,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 96,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": null,
+          "text_tokens": 3438,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "cache_read_input_tokens": null
+      },
+      "seconds": 0.8829,
+      "ended_at": "2026-11-12T02:21:35.228073+00:00"
+    },
+    {
+      "started_at": "2026-11-12T02:21:35.228639+00:00",
+      "parameters": {
+        "model": "vertex_ai/gemini-3.5-flash-lite",
+        "vertex_location": "global",
+        "timeout": 40,
+        "num_retries": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "max_tokens": 5000
+      },
+      "temperature": "provider default, not overridden",
+      "message_roles": [
+        "system"
+      ],
+      "messages_sha256": "d6f69055f7f12566bf416bedb62a50c7ed28a1a8de76ff180b13bae2a4c52056",
+      "tool_names": [],
+      "index": 7,
+      "response_model": "gemini-3.5-flash-lite",
+      "response_id": "ryL1aun_Eo6motQPzc-nsQo",
+      "finish_reasons": [
+        "stop"
+      ],
+      "truncated": false,
+      "usage": {
+        "completion_tokens": 238,
+        "prompt_tokens": 1354,
+        "total_tokens": 1592,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": null,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 238,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": null,
+          "text_tokens": 1354,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "cache_read_input_tokens": null
+      },
+      "seconds": 1.261,
+      "ended_at": "2026-11-12T02:21:36.489650+00:00"
+    },
+    {
+      "started_at": "2026-11-12T02:21:36.490520+00:00",
+      "parameters": {
+        "model": "vertex_ai/gemini-3.5-flash-lite",
+        "vertex_location": "global",
+        "timeout": 40,
+        "num_retries": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "max_tokens": 5000
+      },
+      "temperature": "provider default, not overridden",
+      "message_roles": [
+        "system"
+      ],
+      "messages_sha256": "6ef63f2783c014a68a7e9af9d4c0d033aa316704835249684630d85960e9aab3",
+      "tool_names": [],
+      "index": 8,
+      "response_model": "gemini-3.5-flash-lite",
+      "response_id": "sCL1auuFIoCYotQP65-QaQ",
+      "finish_reasons": [
+        "stop"
+      ],
+      "truncated": false,
+      "usage": {
+        "completion_tokens": 209,
+        "prompt_tokens": 1381,
+        "total_tokens": 1590,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": null,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 209,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": null,
+          "text_tokens": 1381,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "cache_read_input_tokens": null
+      },
+      "seconds": 1.256,
+      "ended_at": "2026-11-12T02:21:37.747233+00:00"
+    },
+    {
+      "started_at": "2026-11-12T02:21:37.747891+00:00",
+      "parameters": {
+        "model": "vertex_ai/gemini-3.5-flash-lite",
+        "vertex_location": "global",
+        "timeout": 40,
+        "num_retries": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "max_tokens": 5000
+      },
+      "temperature": "provider default, not overridden",
+      "message_roles": [
+        "system"
+      ],
+      "messages_sha256": "e844721c146fa5a6627ea0c75bc116e96a2f5708fd6d0bf5e7449ba673faf798",
+      "tool_names": [],
+      "index": 9,
+      "response_model": "gemini-3.5-flash-lite",
+      "response_id": "sSL1aobTMuinotQPpJmMmQc",
+      "finish_reasons": [
+        "stop"
+      ],
+      "truncated": false,
+      "usage": {
+        "completion_tokens": 65,
+        "prompt_tokens": 1078,
+        "total_tokens": 1143,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": null,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 65,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": null,
+          "text_tokens": 1078,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "cache_read_input_tokens": null
+      },
+      "seconds": 0.8211,
+      "ended_at": "2026-11-12T02:21:38.569084+00:00"
+    }
+  ],
+  "tool_calls": [
+    {
+      "name": "confirm_scoring_contract",
+      "args": {},
+      "result": "{\"action\": \"review\", \"question\": \"\", \"clarification_kind\": \"custom\", \"research_domain\": \"on_court\", \"impact_dimensions\": [\"team\"], \"claim\": \"Assess whose team depended on him more in 2015-16: Stephen Curry or LeBron James\", \"request_kind\": \"comparison\", \"left_player\": 201939, \"right_player\": 2544, \"period\": \"windows\", \"left_start\": 2015, \"left_end\": 2015, \"right_start\": 2015, \"right_end\": 2015, \"phases\": [\"Regular Season\", \"Playoffs\"], \"lens\": \"overall_scoring\", \"include_context\": false, \"support_phases\": [], \"cutoff\": 2025}",
+      "id": "Lead:1",
+      "status": "completed",
+      "agent": "Lead",
+      "node_id": "lead"
+    },
+    {
+      "name": "plan_impact_research",
+      "args": {},
+      "result": "{\"tasks\": [{\"dimension\": \"team\", \"question\": \"Retrieve each scoped team stint and phase on/off ratings and minutes; preserve missing coverage and do not average ratings across stints.\"}], \"scope\": \"2015-16\\u20132015-16 versus 2015-16\\u20132015-16; Regular Season, Playoffs\"}",
+      "id": "Lead:2",
+      "status": "completed",
+      "agent": "Lead",
+      "node_id": "lead"
+    },
+    {
+      "name": "collect_impact_team",
+      "args": {},
+      "result": "{\"records\": [{\"kind\": \"impact_team\", \"player_id\": 201939, \"player_name\": \"Stephen Curry\", \"scope\": {\"start\": 2015, \"end\": 2015, \"phase\": \"Regular Season\", \"basis\": \"per_game\"}, \"context\": {\"team_id\": 1610612744, \"team_name\": \"Golden State Warriors\"}, \"values\": {\"ON_MIN\": {\"value\": 2700.0, \"label\": \"ON min\", \"unit\": \"minutes\", \"formula\": \"NBA reported MIN\", \"inputs\": {\"reported\": 2700.0}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"ON_OFF_RATING\": {\"value\": 117.5, \"label\": \"ON off rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported OFF_RATING\", \"inputs\": {\"reported\": 117.5}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"ON_DEF_RATING\": {\"value\": 99.8, \"label\": \"ON def rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported DEF_RATING\", \"inputs\": {\"reported\": 99.8}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"ON_NET_RATING\": {\"value\": 17.7, \"label\": \"ON net rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported NET_RATING\", \"inputs\": {\"reported\": 17.7}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"OFF_MIN\": {\"value\": 1276.0, \"label\": \"OFF min\", \"unit\": \"minutes\", \"formula\": \"NBA reported MIN\", \"inputs\": {\"reported\": 1276.0}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"OFF_OFF_RATING\": {\"value\": 102.0, \"label\": \"OFF off rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported OFF_RATING\", \"inputs\": {\"reported\": 102.0}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"OFF_DEF_RATING\": {\"value\": 107.4, \"label\": \"OFF def rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported DEF_RATING\", \"inputs\": {\"reported\": 107.4}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"OFF_NET_RATING\": {\"value\": -5.4, \"label\": \"OFF net rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported NET_RATING\", \"inputs\": {\"reported\": -5.4}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"NET_DIFF\": {\"value\": 23.1, \"label\": \"On-minus-off net rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"ON_NET_RATING - OFF_NET_RATING\", \"inputs\": {\"on\": 17.7, \"off\": -5.4}, \"complete\": true, \"games\": null, \"covered_seasons\": []}}, \"sources\": [{\"provider\": \"NBA.com\", \"url\": \"https://www.nba.com/stats/player/201939/traditional\", \"endpoint\": \"https://stats.nba.com/stats/playercareerstats\", \"parameters\": {\"player_id\": 201939, \"per_mode36\": \"Totals\", \"league_id_nullable\": \"00\"}, \"request_parameters\": {\"PlayerID\": 201939, \"PerMode\": \"Totals\", \"LeagueID\": \"00\"}, \"fetched_at\": \"2026-11-11T23:43:53.521588+00:00\", \"stale\": false, \"warning\": null}, {\"provider\": \"NBA.com\", \"url\": \"https://stats.nba.com/stats/teamplayeronoffsummary\", \"endpoint\": \"https://stats.nba.com/stats/teamplayeronoffsummary\", \"parameters\": {\"team_id\": 1610612744, \"season\": \"2015-16\", \"season_type_all_star\": \"Regular Season\", \"per_mode_detailed\": \"Totals\", \"league_id_nullable\": \"00\"}, \"request_parameters\": {\"TeamID\": 1610612744, \"LastNGames\": \"0\", \"MeasureType\": \"Base\", \"Month\": \"0\", \"OpponentTeamID\": 0, \"PaceAdjust\": \"N\", \"PerMode\": \"Totals\", \"Period\": \"0\", \"PlusMinus\": \"N\", \"Rank\": \"N\", \"Season\": \"2015-16\", \"SeasonType\": \"Regular Season\", \"DateFrom\": \"\", \"DateTo\": \"\", \"GameSegment\": \"\", \"LeagueID\": \"00\", \"Location\": \"\", \"Outcome\": \"\", \"SeasonSegment\": \"\", \"VsConference\": \"\", \"VsDivision\": \"\"}, \"fetched_at\": \"2026-11-11T23:43:54.798828+00:00\", \"stale\": false, \"warning\": null}], \"limitations\": [\"Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation.\"], \"id\": \"ev_8372c350488b997283ed\"}, {\"kind\": \"impact_team\", \"player_id\": 201939, \"player_name\": \"Stephen Curry\", \"scope\": {\"start\": 2015, \"end\": 2015, \"phase\": \"Playoffs\", \"basis\": \"per_game\"}, \"context\": {\"team_id\": 1610612744, \"team_name\": \"Golden State Warriors\"}, \"values\": {\"ON_MIN\": {\"value\": 614.0, \"label\": \"ON min\", \"unit\": \"minutes\", \"formula\": \"NBA reported MIN\", \"inputs\": {\"reported\": 614.0}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"ON_OFF_RATING\": {\"value\": 110.0, \"label\": \"ON off rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported OFF_RATING\", \"inputs\": {\"reported\": 110.0}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"ON_DEF_RATING\": {\"value\": 106.9, \"label\": \"ON def rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported DEF_RATING\", \"inputs\": {\"reported\": 106.9}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"ON_NET_RATING\": {\"value\": 3.1, \"label\": \"ON net rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported NET_RATING\", \"inputs\": {\"reported\": 3.1}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"OFF_MIN\": {\"value\": 543.0, \"label\": \"OFF min\", \"unit\": \"minutes\", \"formula\": \"NBA reported MIN\", \"inputs\": {\"reported\": 543.0}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"OFF_OFF_RATING\": {\"value\": 107.0, \"label\": \"OFF off rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported OFF_RATING\", \"inputs\": {\"reported\": 107.0}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"OFF_DEF_RATING\": {\"value\": 101.0, \"label\": \"OFF def rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported DEF_RATING\", \"inputs\": {\"reported\": 101.0}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"OFF_NET_RATING\": {\"value\": 6.0, \"label\": \"OFF net rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported NET_RATING\", \"inputs\": {\"reported\": 6.0}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"NET_DIFF\": {\"value\": -2.9, \"label\": \"On-minus-off net rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"ON_NET_RATING - OFF_NET_RATING\", \"inputs\": {\"on\": 3.1, \"off\": 6.0}, \"complete\": true, \"games\": null, \"covered_seasons\": []}}, \"sources\": [{\"provider\": \"NBA.com\", \"url\": \"https://www.nba.com/stats/player/201939/traditional\", \"endpoint\": \"https://stats.nba.com/stats/playercareerstats\", \"parameters\": {\"player_id\": 201939, \"per_mode36\": \"Totals\", \"league_id_nullable\": \"00\"}, \"request_parameters\": {\"PlayerID\": 201939, \"PerMode\": \"Totals\", \"LeagueID\": \"00\"}, \"fetched_at\": \"2026-11-11T23:43:53.521588+00:00\", \"stale\": false, \"warning\": null}, {\"provider\": \"NBA.com\", \"url\": \"https://stats.nba.com/stats/teamplayeronoffsummary\", \"endpoint\": \"https://stats.nba.com/stats/teamplayeronoffsummary\", \"parameters\": {\"team_id\": 1610612744, \"season\": \"2015-16\", \"season_type_all_star\": \"Playoffs\", \"per_mode_detailed\": \"Totals\", \"league_id_nullable\": \"00\"}, \"request_parameters\": {\"TeamID\": 1610612744, \"LastNGames\": \"0\", \"MeasureType\": \"Base\", \"Month\": \"0\", \"OpponentTeamID\": 0, \"PaceAdjust\": \"N\", \"PerMode\": \"Totals\", \"Period\": \"0\", \"PlusMinus\": \"N\", \"Rank\": \"N\", \"Season\": \"2015-16\", \"SeasonType\": \"Playoffs\", \"DateFrom\": \"\", \"DateTo\": \"\", \"GameSegment\": \"\", \"LeagueID\": \"00\", \"Location\": \"\", \"Outcome\": \"\", \"SeasonSegment\": \"\", \"VsConference\": \"\", \"VsDivision\": \"\"}, \"fetched_at\": \"2026-11-12T02:17:24.843869+00:00\", \"stale\": false, \"warning\": null}], \"limitations\": [\"Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation.\"], \"id\": \"ev_ca32b689ff5850bf7eb0\"}, {\"kind\": \"impact_team\", \"player_id\": 2544, \"player_name\": \"LeBron James\", \"scope\": {\"start\": 2015, \"end\": 2015, \"phase\": \"Regular Season\", \"basis\": \"per_game\"}, \"context\": {\"team_id\": 1610612739, \"team_name\": \"Cleveland Cavaliers\"}, \"values\": {\"ON_MIN\": {\"value\": 2709.0, \"label\": \"ON min\", \"unit\": \"minutes\", \"formula\": \"NBA reported MIN\", \"inputs\": {\"reported\": 2709.0}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"ON_OFF_RATING\": {\"value\": 114.0, \"label\": \"ON off rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported OFF_RATING\", \"inputs\": {\"reported\": 114.0}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"ON_DEF_RATING\": {\"value\": 102.6, \"label\": \"ON def rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported DEF_RATING\", \"inputs\": {\"reported\": 102.6}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"ON_NET_RATING\": {\"value\": 11.4, \"label\": \"ON net rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported NET_RATING\", \"inputs\": {\"reported\": 11.4}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"OFF_MIN\": {\"value\": 1262.0, \"label\": \"OFF min\", \"unit\": \"minutes\", \"formula\": \"NBA reported MIN\", \"inputs\": {\"reported\": 1262.0}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"OFF_OFF_RATING\": {\"value\": 98.6, \"label\": \"OFF off rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported OFF_RATING\", \"inputs\": {\"reported\": 98.6}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"OFF_DEF_RATING\": {\"value\": 103.3, \"label\": \"OFF def rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported DEF_RATING\", \"inputs\": {\"reported\": 103.3}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"OFF_NET_RATING\": {\"value\": -4.7, \"label\": \"OFF net rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported NET_RATING\", \"inputs\": {\"reported\": -4.7}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"NET_DIFF\": {\"value\": 16.1, \"label\": \"On-minus-off net rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"ON_NET_RATING - OFF_NET_RATING\", \"inputs\": {\"on\": 11.4, \"off\": -4.7}, \"complete\": true, \"games\": null, \"covered_seasons\": []}}, \"sources\": [{\"provider\": \"NBA.com\", \"url\": \"https://www.nba.com/stats/player/2544/traditional\", \"endpoint\": \"https://stats.nba.com/stats/playercareerstats\", \"parameters\": {\"player_id\": 2544, \"per_mode36\": \"Totals\", \"league_id_nullable\": \"00\"}, \"request_parameters\": {\"PlayerID\": 2544, \"PerMode\": \"Totals\", \"LeagueID\": \"00\"}, \"fetched_at\": \"2026-11-11T22:47:43.146672+00:00\", \"stale\": false, \"warning\": null}, {\"provider\": \"NBA.com\", \"url\": \"https://stats.nba.com/stats/teamplayeronoffsummary\", \"endpoint\": \"https://stats.nba.com/stats/teamplayeronoffsummary\", \"parameters\": {\"team_id\": 1610612739, \"season\": \"2015-16\", \"season_type_all_star\": \"Regular Season\", \"per_mode_detailed\": \"Totals\", \"league_id_nullable\": \"00\"}, \"request_parameters\": {\"TeamID\": 1610612739, \"LastNGames\": \"0\", \"MeasureType\": \"Base\", \"Month\": \"0\", \"OpponentTeamID\": 0, \"PaceAdjust\": \"N\", \"PerMode\": \"Totals\", \"Period\": \"0\", \"PlusMinus\": \"N\", \"Rank\": \"N\", \"Season\": \"2015-16\", \"SeasonType\": \"Regular Season\", \"DateFrom\": \"\", \"DateTo\": \"\", \"GameSegment\": \"\", \"LeagueID\": \"00\", \"Location\": \"\", \"Outcome\": \"\", \"SeasonSegment\": \"\", \"VsConference\": \"\", \"VsDivision\": \"\"}, \"fetched_at\": \"2026-11-11T23:44:10.669528+00:00\", \"stale\": false, \"warning\": null}], \"limitations\": [\"Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation.\"], \"id\": \"ev_b82be1f5b6acfe67d825\"}, {\"kind\": \"impact_team\", \"player_id\": 2544, \"player_name\": \"LeBron James\", \"scope\": {\"start\": 2015, \"end\": 2015, \"phase\": \"Playoffs\", \"basis\": \"per_game\"}, \"context\": {\"team_id\": 1610612739, \"team_name\": \"Cleveland Cavaliers\"}, \"values\": {\"ON_MIN\": {\"value\": 822.0, \"label\": \"ON min\", \"unit\": \"minutes\", \"formula\": \"NBA reported MIN\", \"inputs\": {\"reported\": 822.0}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"ON_OFF_RATING\": {\"value\": 116.8, \"label\": \"ON off rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported OFF_RATING\", \"inputs\": {\"reported\": 116.8}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"ON_DEF_RATING\": {\"value\": 103.3, \"label\": \"ON def rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported DEF_RATING\", \"inputs\": {\"reported\": 103.3}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"ON_NET_RATING\": {\"value\": 13.4, \"label\": \"ON net rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported NET_RATING\", \"inputs\": {\"reported\": 13.4}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"OFF_MIN\": {\"value\": 186.0, \"label\": \"OFF min\", \"unit\": \"minutes\", \"formula\": \"NBA reported MIN\", \"inputs\": {\"reported\": 186.0}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"OFF_OFF_RATING\": {\"value\": 100.8, \"label\": \"OFF off rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported OFF_RATING\", \"inputs\": {\"reported\": 100.8}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"OFF_DEF_RATING\": {\"value\": 107.2, \"label\": \"OFF def rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported DEF_RATING\", \"inputs\": {\"reported\": 107.2}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"OFF_NET_RATING\": {\"value\": -6.4, \"label\": \"OFF net rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"NBA reported NET_RATING\", \"inputs\": {\"reported\": -6.4}, \"complete\": true, \"games\": null, \"covered_seasons\": []}, \"NET_DIFF\": {\"value\": 19.8, \"label\": \"On-minus-off net rating\", \"unit\": \"points / 100 possessions\", \"formula\": \"ON_NET_RATING - OFF_NET_RATING\", \"inputs\": {\"on\": 13.4, \"off\": -6.4}, \"complete\": true, \"games\": null, \"covered_seasons\": []}}, \"sources\": [{\"provider\": \"NBA.com\", \"url\": \"https://www.nba.com/stats/player/2544/traditional\", \"endpoint\": \"https://stats.nba.com/stats/playercareerstats\", \"parameters\": {\"player_id\": 2544, \"per_mode36\": \"Totals\", \"league_id_nullable\": \"00\"}, \"request_parameters\": {\"PlayerID\": 2544, \"PerMode\": \"Totals\", \"LeagueID\": \"00\"}, \"fetched_at\": \"2026-11-11T22:47:43.146672+00:00\", \"stale\": false, \"warning\": null}, {\"provider\": \"NBA.com\", \"url\": \"https://stats.nba.com/stats/teamplayeronoffsummary\", \"endpoint\": \"https://stats.nba.com/stats/teamplayeronoffsummary\", \"parameters\": {\"team_id\": 1610612739, \"season\": \"2015-16\", \"season_type_all_star\": \"Playoffs\", \"per_mode_detailed\": \"Totals\", \"league_id_nullable\": \"00\"}, \"request_parameters\": {\"TeamID\": 1610612739, \"LastNGames\": \"0\", \"MeasureType\": \"Base\", \"Month\": \"0\", \"OpponentTeamID\": 0, \"PaceAdjust\": \"N\", \"PerMode\": \"Totals\", \"Period\": \"0\", \"PlusMinus\": \"N\", \"Rank\": \"N\", \"Season\": \"2015-16\", \"SeasonType\": \"Playoffs\", \"DateFrom\": \"\", \"DateTo\": \"\", \"GameSegment\": \"\", \"LeagueID\": \"00\", \"Location\": \"\", \"Outcome\": \"\", \"SeasonSegment\": \"\", \"VsConference\": \"\", \"VsDivision\": \"\"}, \"fetched_at\": \"2026-11-12T02:17:26.431364+00:00\", \"stale\": false, \"warning\": null}], \"limitations\": [\"Team on/off association is confounded by teammates, opponents, substitutions and role; it is not an isolated player effect. Separate team stints are not averaged. Off-court minutes may include games without player participation.\"], \"id\": \"ev_534669739ed0beee46da\"}], \"gaps\": []}",
+      "id": "Researcher 1 \u00b7 team:1",
+      "status": "completed",
+      "agent": "Researcher 1 \u00b7 team",
+      "node_id": "researcher-1"
+    },
+    {
+      "name": "review_impact_evidence",
+      "args": {},
+      "result": "{\"findings\": [], \"requested_followups\": [], \"budget_remaining\": 7}",
+      "id": "Lead:3",
+      "status": "completed",
+      "agent": "Lead",
+      "node_id": "lead"
+    },
+    {
+      "name": "review_impact_judgement",
+      "args": {},
+      "result": "{\"attempts\": [{\"proposal\": {\"position\": \"left\", \"criterion\": \"Observed on/off association during the 2015-16 regular season.\", \"reason\": \"Stephen Curry registered a higher on-minus-off net rating of 23.1 points / 100 possessions compared to LeBron James's 16.1 points / 100 possessions during the regular season, reflecting a larger observed performance drop when off the floor.\", \"support\": [\"team:Regular Season:NET_DIFF\"], \"counterevidence\": [\"team:Playoffs:NET_DIFF\"], \"counterargument\": \"LeBron James recorded a substantially higher on-minus-off net rating of 19.8 points / 100 possessions in the playoffs compared to Stephen Curry's -2.9 points / 100 possessions, which shows heavier postseason team dependence.\", \"tradeoff\": \"Regular season on/off association favors Stephen Curry, while playoff on/off association favors LeBron James.\", \"sensitivity\": \"Inclusion of postseason samples or weighting the playoffs equally would reverse the preference to LeBron James; additional evidence on lineup contexts could also alter this assessment.\"}, \"issues\": [\"Keep prose qualitative; published numbers must come from the evidence renderer.\", \"Keep prose qualitative; published numbers must come from the evidence renderer.\"], \"accepted\": false}, {\"proposal\": {\"position\": \"left\", \"criterion\": \"On-off association reflects team dependence based on observed sample differentials.\", \"reason\": \"Stephen Curry demonstrated a greater observed on-minus-off net rating differential during the regular season, indicating a larger team swing when he was on the floor compared to LeBron James. This observed association forms the basis of the preference.\", \"support\": [\"team:Regular Season:NET_DIFF\"], \"counterevidence\": [\"team:Playoffs:NET_DIFF\"], \"counterargument\": \"The playoff on-minus-off net rating differential heavily favors LeBron James, showing a larger team swing during the postseason sample. This counterargument does not change the preference because the regular season sample shows a larger overall dependence for Stephen Curry across the combined dataset's primary indicator.\", \"tradeoff\": \"Relying on observed on/off association describes statistical impact rather than causal dependence or unmeasured roster context.\", \"sensitivity\": \"Additional playoff samples or broader lineup context data could reverse this preference if postseason weighting is prioritized.\"}, \"issues\": [\"The proposal arbitrarily dismisses the opposing playoff evidence by favoring the regular season without justification.\", \"It treats a split indicator as a definitive win for one side without adequate conditional reconciliation.\", \"The sensitivity statement is trivial and fails to provide a meaningful reversal condition tied to specific performance metrics.\"], \"accepted\": false}], \"accepted\": false}",
+      "id": "Lead:4",
+      "status": "completed",
+      "agent": "Lead",
+      "node_id": "lead"
+    },
+    {
+      "name": "compose_impact_review",
+      "args": {},
+      "result": "{\"valid\": true, \"checked_claims\": 36, \"edges\": {}}",
+      "id": "Writer:1",
+      "status": "completed",
+      "agent": "Writer",
+      "node_id": "writer"
+    }
+  ]
+}

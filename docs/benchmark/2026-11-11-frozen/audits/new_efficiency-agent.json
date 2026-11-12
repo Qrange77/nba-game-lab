@@ -1,0 +1,305 @@
+{
+  "status": "audited",
+  "checks": [
+    {
+      "id": "201142:Regular Season:PTS",
+      "required": false,
+      "expected": 6723,
+      "tolerance": 1,
+      "unit": "points",
+      "extraction": {
+        "id": "201142:Regular Season:PTS",
+        "quote": "6,723",
+        "number": "6723",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Accumulated points (total) | 6,723",
+        "method": "aggregate"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "201142:Regular Season:PPG",
+      "required": false,
+      "expected": 29.486842105263158,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "201142:Regular Season:PPG",
+        "quote": "29.49",
+        "number": "29.49",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Points per game (per game) | 29.49",
+        "method": "aggregate"
+      },
+      "observed": 29.49,
+      "status": "correct"
+    },
+    {
+      "id": "201142:Regular Season:TS",
+      "required": true,
+      "expected": 63.154750274299964,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "201142:Regular Season:TS",
+        "quote": "63.15",
+        "number": "63.15",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Raw true shooting (%) | 63.15",
+        "method": "aggregate"
+      },
+      "observed": 63.15,
+      "status": "correct"
+    },
+    {
+      "id": "201142:Regular Season:RTS",
+      "required": true,
+      "expected": 9.66715027410465,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "201142:Regular Season:RTS",
+        "quote": "9.67",
+        "number": "9.67",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Contemporaneous relative true shooting (percentage points) | 9.67",
+        "method": "attempt_weighted"
+      },
+      "observed": 9.67,
+      "status": "correct"
+    },
+    {
+      "id": "201935:Regular Season:PTS",
+      "required": false,
+      "expected": 7365,
+      "tolerance": 1,
+      "unit": "points",
+      "extraction": {
+        "id": "201935:Regular Season:PTS",
+        "quote": "7,365",
+        "number": "7365",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Accumulated points (total) | ... | 7,365",
+        "method": "aggregate"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "201935:Regular Season:PPG",
+      "required": false,
+      "expected": 31.883116883116884,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "201935:Regular Season:PPG",
+        "quote": "31.88",
+        "number": "31.88",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Points per game (per game) | ... | 31.88",
+        "method": "aggregate"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "201935:Regular Season:TS",
+      "required": true,
+      "expected": 61.621073486790586,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "201935:Regular Season:TS",
+        "quote": "61.62",
+        "number": "61.62",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Raw true shooting (%) | ... | 61.62",
+        "method": "aggregate"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "201935:Regular Season:RTS",
+      "required": true,
+      "expected": 5.995444586910076,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "201935:Regular Season:RTS",
+        "quote": "6",
+        "number": "6",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Contemporaneous relative true shooting (percentage points) | ... | 6",
+        "method": "attempt_weighted"
+      },
+      "status": "unverifiable_extraction"
+    }
+  ],
+  "required_count": 4,
+  "required_comparable": 2,
+  "required_correct": 2,
+  "required_missing": 0,
+  "required_scope_mismatches": 0,
+  "advisory_model_review": {
+    "question_coverage": {
+      "status": "complete",
+      "reason": "",
+      "quote": "Regular Season | Accumulated points (total) | 6,723 | 7,365 | James Harden",
+      "quote_verified": true
+    },
+    "scope": {
+      "status": "respected",
+      "reason": "",
+      "quote": "Regular Season",
+      "quote_verified": true
+    },
+    "conclusion_limits": {
+      "status": "respected",
+      "reason": "",
+      "quote": "This focused claim did not request a supporting-cast or Finals-opponent investigation.",
+      "quote_verified": true
+    }
+  },
+  "note": "Only extracted, quote-verified numeric claims are scored. Missing facts are coverage gaps, not numeric errors. Semantic review is model-judged and advisory.",
+  "extracted": {
+    "claims": [
+      {
+        "id": "201142:Regular Season:PTS",
+        "quote": "6,723",
+        "number": "6723",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Accumulated points (total) | 6,723",
+        "method": "aggregate"
+      },
+      {
+        "id": "201142:Regular Season:PPG",
+        "quote": "29.49",
+        "number": "29.49",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Points per game (per game) | 29.49",
+        "method": "aggregate"
+      },
+      {
+        "id": "201142:Regular Season:TS",
+        "quote": "63.15",
+        "number": "63.15",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Raw true shooting (%) | 63.15",
+        "method": "aggregate"
+      },
+      {
+        "id": "201142:Regular Season:RTS",
+        "quote": "9.67",
+        "number": "9.67",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Contemporaneous relative true shooting (percentage points) | 9.67",
+        "method": "attempt_weighted"
+      },
+      {
+        "id": "201935:Regular Season:PTS",
+        "quote": "7,365",
+        "number": "7365",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Accumulated points (total) | ... | 7,365",
+        "method": "aggregate"
+      },
+      {
+        "id": "201935:Regular Season:PPG",
+        "quote": "31.88",
+        "number": "31.88",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Points per game (per game) | ... | 31.88",
+        "method": "aggregate"
+      },
+      {
+        "id": "201935:Regular Season:TS",
+        "quote": "61.62",
+        "number": "61.62",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Raw true shooting (%) | ... | 61.62",
+        "method": "aggregate"
+      },
+      {
+        "id": "201935:Regular Season:RTS",
+        "quote": "6",
+        "number": "6",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Contemporaneous relative true shooting (percentage points) | ... | 6",
+        "method": "attempt_weighted"
+      }
+    ],
+    "review": {
+      "question_coverage": {
+        "status": "complete",
+        "reason": "",
+        "quote": "Regular Season | Accumulated points (total) | 6,723 | 7,365 | James Harden",
+        "quote_verified": true
+      },
+      "scope": {
+        "status": "respected",
+        "reason": "",
+        "quote": "Regular Season",
+        "quote_verified": true
+      },
+      "conclusion_limits": {
+        "status": "respected",
+        "reason": "",
+        "quote": "This focused claim did not request a supporting-cast or Finals-opponent investigation.",
+        "quote_verified": true
+      }
+    }
+  },
+  "extractor_response": "{\"claims\": [{\"id\": \"201142:Regular Season:PTS\", \"quote\": \"6,723\", \"number\": \"6723\", \"scope\": \"requested\", \"scope_quote\": \"Regular Season | Accumulated points (total) | 6,723\", \"method\": \"aggregate\"}, {\"id\": \"201142:Regular Season:PPG\", \"quote\": \"29.49\", \"number\": \"29.49\", \"scope\": \"requested\", \"scope_quote\": \"Regular Season | Points per game (per game) | 29.49\", \"method\": \"aggregate\"}, {\"id\": \"201142:Regular Season:TS\", \"quote\": \"63.15\", \"number\": \"63.15\", \"scope\": \"requested\", \"scope_quote\": \"Regular Season | Raw true shooting (%) | 63.15\", \"method\": \"aggregate\"}, {\"id\": \"201142:Regular Season:RTS\", \"quote\": \"9.67\", \"number\": \"9.67\", \"scope\": \"requested\", \"scope_quote\": \"Regular Season | Contemporaneous relative true shooting (percentage points) | 9.67\", \"method\": \"attempt_weighted\"}, {\"id\": \"201935:Regular Season:PTS\", \"quote\": \"7,365\", \"number\": \"7365\", \"scope\": \"requested\", \"scope_quote\": \"Regular Season | Accumulated points (total) | ... | 7,365\", \"method\": \"aggregate\"}, {\"id\": \"201935:Regular Season:PPG\", \"quote\": \"31.88\", \"number\": \"31.88\", \"scope\": \"requested\", \"scope_quote\": \"Regular Season | Points per game (per game) | ... | 31.88\", \"method\": \"aggregate\"}, {\"id\": \"201935:Regular Season:TS\", \"quote\": \"61.62\", \"number\": \"61.62\", \"scope\": \"requested\", \"scope_quote\": \"Regular Season | Raw true shooting (%) | ... | 61.62\", \"method\": \"aggregate\"}, {\"id\": \"201935:Regular Season:RTS\", \"quote\": \"6\", \"number\": \"6\", \"scope\": \"requested\", \"scope_quote\": \"Regular Season | Contemporaneous relative true shooting (percentage points) | ... | 6\", \"method\": \"attempt_weighted\"}], \"review\": {\"question_coverage\": {\"status\": \"complete\", \"reason\": \"\", \"quote\": \"Regular Season | Accumulated points (total) | 6,723 | 7,365 | James Harden\"}, \"scope\": {\"status\": \"respected\", \"reason\": \"\", \"quote\": \"Regular Season\"}, \"conclusion_limits\": {\"status\": \"respected\", \"reason\": \"\", \"quote\": \"This focused claim did not request a supporting-cast or Finals-opponent investigation.\"}}}",
+  "model_calls": [
+    {
+      "started_at": "2026-11-11T03:44:20.548527+00:00",
+      "parameters": {
+        "model": "vertex_ai/gemini-3.5-flash-lite",
+        "vertex_location": "global",
+        "response_format": {
+          "type": "json_object"
+        },
+        "temperature": 0,
+        "max_tokens": 16000,
+        "timeout": 100,
+        "num_retries": 0
+      },
+      "temperature": 0,
+      "message_roles": [
+        "system",
+        "user"
+      ],
+      "messages_sha256": "16c55af43ccd3f532d1d4344f43e18f8eb5a3f3efd2f326cb5c7550fce1930da",
+      "tool_names": [],
+      "index": 0,
+      "response_model": "gemini-3.5-flash-lite",
+      "response_id": "lOTzaq7LJ5vFsbwPtY6F2Ac",
+      "finish_reasons": [
+        "stop"
+      ],
+      "truncated": false,
+      "usage": {
+        "completion_tokens": 677,
+        "prompt_tokens": 2910,
+        "total_tokens": 3587,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": null,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 677,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": null,
+          "text_tokens": 2910,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "cache_read_input_tokens": null
+      },
+      "seconds": 2.0235,
+      "ended_at": "2026-11-11T03:44:22.572156+00:00"
+    }
+  ]
+}

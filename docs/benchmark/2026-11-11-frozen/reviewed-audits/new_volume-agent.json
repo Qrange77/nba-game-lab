@@ -1,0 +1,211 @@
+{
+  "checks": [
+    {
+      "id": "1495:Regular Season:PTS",
+      "required": true,
+      "expected": 5793,
+      "tolerance": 1,
+      "unit": "points",
+      "extraction": {
+        "id": "1495:Regular Season:PTS",
+        "quote": "5,793",
+        "number": "5,793",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Accumulated points (total) | 5,793",
+        "method": "aggregate"
+      },
+      "observed": 5793.0,
+      "status": "correct"
+    },
+    {
+      "id": "1495:Regular Season:PPG",
+      "required": true,
+      "expected": 23.644897959183673,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "1495:Regular Season:PPG",
+        "quote": "23.64",
+        "number": "23.64",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Points per game (per game) | 23.64",
+        "method": "aggregate"
+      },
+      "observed": 23.64,
+      "status": "correct"
+    },
+    {
+      "id": "1495:Regular Season:TS",
+      "required": false,
+      "expected": 55.90964892639576,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "1495:Regular Season:TS",
+        "quote": "55.91",
+        "number": "55.91",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Raw true shooting (%) | 55.91",
+        "method": "aggregate"
+      },
+      "observed": 55.91,
+      "status": "correct"
+    },
+    {
+      "id": "1717:Regular Season:PTS",
+      "required": true,
+      "expected": 6099,
+      "tolerance": 1,
+      "unit": "points",
+      "extraction": {
+        "id": "1717:Regular Season:PTS",
+        "quote": "6,099",
+        "number": "6,099",
+        "scope": "requested",
+        "scope_quote": "## Comparison contract\n\n- Subjects: **Tim Duncan** and **Dirk Nowitzki**.\n- Scope: 2000-01\u20132002-03 versus 2004-05\u20132006-07; Regular Season.\n- Statistical lens: volume.\n- Completed-season cutoff: **2025-26**; ongoing seasons are excluded.\n- Percentages are recomputed from summed inputs. Missing observations remain missing.\n- Relative efficiency uses same-season, same-phase league TS; career aggregation weights each season by FGA + 0.44 \u00d7 FTA.\n",
+        "method": "aggregate"
+      },
+      "observed": 6099.0,
+      "status": "correct"
+    },
+    {
+      "id": "1717:Regular Season:PPG",
+      "required": true,
+      "expected": 25.734177215189874,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "1717:Regular Season:PPG",
+        "quote": "25.73",
+        "number": "25.73",
+        "scope": "requested",
+        "scope_quote": "## Comparison contract\n\n- Subjects: **Tim Duncan** and **Dirk Nowitzki**.\n- Scope: 2000-01\u20132002-03 versus 2004-05\u20132006-07; Regular Season.\n- Statistical lens: volume.\n- Completed-season cutoff: **2025-26**; ongoing seasons are excluded.\n- Percentages are recomputed from summed inputs. Missing observations remain missing.\n- Relative efficiency uses same-season, same-phase league TS; career aggregation weights each season by FGA + 0.44 \u00d7 FTA.\n",
+        "method": "aggregate"
+      },
+      "observed": 25.73,
+      "status": "correct"
+    },
+    {
+      "id": "1717:Regular Season:TS",
+      "required": false,
+      "expected": 59.01785921642398,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "1717:Regular Season:TS",
+        "quote": "59.02",
+        "number": "59.02",
+        "scope": "requested",
+        "scope_quote": "## Comparison contract\n\n- Subjects: **Tim Duncan** and **Dirk Nowitzki**.\n- Scope: 2000-01\u20132002-03 versus 2004-05\u20132006-07; Regular Season.\n- Statistical lens: volume.\n- Completed-season cutoff: **2025-26**; ongoing seasons are excluded.\n- Percentages are recomputed from summed inputs. Missing observations remain missing.\n- Relative efficiency uses same-season, same-phase league TS; career aggregation weights each season by FGA + 0.44 \u00d7 FTA.\n",
+        "method": "aggregate"
+      },
+      "observed": 59.02,
+      "status": "correct"
+    }
+  ],
+  "required_count": 4,
+  "required_comparable": 4,
+  "required_correct": 4,
+  "required_missing": 0,
+  "required_scope_mismatches": 0,
+  "advisory_model_review": {
+    "question_coverage": {
+      "status": "complete",
+      "reason": "",
+      "quote": "Tim Duncan leads total points and points per game over 2000-01 through 2002-03 compared to Dirk Nowitzki over 2004-05 through 2006-07 as a regular-season scorer.",
+      "quote_verified": true
+    },
+    "scope": {
+      "status": "respected",
+      "reason": "",
+      "quote": "Regular Season",
+      "quote_verified": true
+    },
+    "conclusion_limits": {
+      "status": "respected",
+      "reason": "",
+      "quote": "Keep the conclusion specific to scoring volume; teammate and opponent context is not needed.",
+      "quote_verified": false
+    }
+  },
+  "note": "Only extracted, quote-verified numeric claims are scored. Missing facts are coverage gaps, not numeric errors. Semantic review is model-judged and advisory.",
+  "number_only": {
+    "correct": 4,
+    "checkable": 4,
+    "note": "Ignores scope only for diagnostic purposes; not scoped correctness."
+  },
+  "status": "audited",
+  "original_audit_sha256": "b6db0a365150c0fed887488e0e9aba6d753ed7d57e9f198b11c058446cff564f",
+  "extracted": {
+    "claims": [
+      {
+        "id": "1495:Regular Season:PTS",
+        "quote": "5,793",
+        "number": "5,793",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Accumulated points (total) | 5,793",
+        "method": "aggregate"
+      },
+      {
+        "id": "1495:Regular Season:PPG",
+        "quote": "23.64",
+        "number": "23.64",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Points per game (per game) | 23.64",
+        "method": "aggregate"
+      },
+      {
+        "id": "1495:Regular Season:TS",
+        "quote": "55.91",
+        "number": "55.91",
+        "scope": "requested",
+        "scope_quote": "Regular Season | Raw true shooting (%) | 55.91",
+        "method": "aggregate"
+      },
+      {
+        "id": "1717:Regular Season:PTS",
+        "quote": "6,099",
+        "number": "6,099",
+        "scope": "requested",
+        "scope_quote": "## Comparison contract\n\n- Subjects: **Tim Duncan** and **Dirk Nowitzki**.\n- Scope: 2000-01\u20132002-03 versus 2004-05\u20132006-07; Regular Season.\n- Statistical lens: volume.\n- Completed-season cutoff: **2025-26**; ongoing seasons are excluded.\n- Percentages are recomputed from summed inputs. Missing observations remain missing.\n- Relative efficiency uses same-season, same-phase league TS; career aggregation weights each season by FGA + 0.44 \u00d7 FTA.\n",
+        "method": "aggregate"
+      },
+      {
+        "id": "1717:Regular Season:PPG",
+        "quote": "25.73",
+        "number": "25.73",
+        "scope": "requested",
+        "scope_quote": "## Comparison contract\n\n- Subjects: **Tim Duncan** and **Dirk Nowitzki**.\n- Scope: 2000-01\u20132002-03 versus 2004-05\u20132006-07; Regular Season.\n- Statistical lens: volume.\n- Completed-season cutoff: **2025-26**; ongoing seasons are excluded.\n- Percentages are recomputed from summed inputs. Missing observations remain missing.\n- Relative efficiency uses same-season, same-phase league TS; career aggregation weights each season by FGA + 0.44 \u00d7 FTA.\n",
+        "method": "aggregate"
+      },
+      {
+        "id": "1717:Regular Season:TS",
+        "quote": "59.02",
+        "number": "59.02",
+        "scope": "requested",
+        "scope_quote": "## Comparison contract\n\n- Subjects: **Tim Duncan** and **Dirk Nowitzki**.\n- Scope: 2000-01\u20132002-03 versus 2004-05\u20132006-07; Regular Season.\n- Statistical lens: volume.\n- Completed-season cutoff: **2025-26**; ongoing seasons are excluded.\n- Percentages are recomputed from summed inputs. Missing observations remain missing.\n- Relative efficiency uses same-season, same-phase league TS; career aggregation weights each season by FGA + 0.44 \u00d7 FTA.\n",
+        "method": "aggregate"
+      }
+    ],
+    "review": {
+      "question_coverage": {
+        "status": "complete",
+        "reason": "",
+        "quote": "Tim Duncan leads total points and points per game over 2000-01 through 2002-03 compared to Dirk Nowitzki over 2004-05 through 2006-07 as a regular-season scorer.",
+        "quote_verified": true
+      },
+      "scope": {
+        "status": "respected",
+        "reason": "",
+        "quote": "Regular Season",
+        "quote_verified": true
+      },
+      "conclusion_limits": {
+        "status": "respected",
+        "reason": "",
+        "quote": "Keep the conclusion specific to scoring volume; teammate and opponent context is not needed.",
+        "quote_verified": false
+      }
+    }
+  }
+}

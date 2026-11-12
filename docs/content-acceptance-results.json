@@ -1,0 +1,23 @@
+{
+  "content_case": {
+    "fault_injected": false,
+    "first_round_completed_collectors": 4,
+    "additional_researchers": 1,
+    "rounds": 2,
+    "trigger": "Sparse helper appearances found in retrieved evidence",
+    "original_kevin_love_playoff_gp": 4,
+    "rotation_reference_gp": 20.0,
+    "added_kevin_love_regular_gp": 75,
+    "matched_baselines_for_both_subjects": true,
+    "original_samples_preserved": true,
+    "independent_helper_metric_checks": 32,
+    "content_gap_status": "completed",
+    "published_numeric_claims_checked": 66
+  },
+  "sufficient_case": {
+    "rounds": 1,
+    "extra_researchers": 0,
+    "content_gaps": 0
+  },
+  "method": "Original cached NBA resultSets checked independently of production scoring helpers. Sparse appearance screening is a declared adequacy heuristic, not an injury explanation or teammate-quality ranking."
+}

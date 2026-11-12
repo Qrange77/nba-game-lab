@@ -1,0 +1,435 @@
+{
+  "id": "controlled_source_unavailable",
+  "controlled_fault": true,
+  "fault": "All statistical fetches raise DataUnavailable; model calls remain live. Empty temporary cache; no network/cache substitution.",
+  "question": "Compare Kobe Bryant's regular-season scoring volume and shooting efficiency in 2005-06 through 2007-08 with Stephen Curry's in 2014-15 through 2016-17. Use equal three-season windows and disclose missing source data.",
+  "response": "# Scoring Comparison\n\n## Answer\n\n**The available evidence cannot fully settle this comparison.**\n\n**Scope:** 2005-06\u20132007-08 versus 2014-15\u20132016-17; Regular Season.\n\n\n## What changes the interpretation?\n\n- Some requested evidence remains incomplete. Read the coverage details before treating the available findings as a full answer.\n\nThese findings compare the selected scoring measures; they do not establish overall ability or explain championship outcomes.\n\n## Comparable evidence\n\n| Phase | Statistical lens | Kobe Bryant | Stephen Curry | Observed advantage | Sources |\n|---|---|---:|---:|---|---|\n| Regular Season | Accumulated points () | Unavailable | Unavailable | Not fully comparable |  |\n| Regular Season | Points per game () | Unavailable | Unavailable | Not fully comparable |  |\n| Regular Season | Raw true shooting () | Unavailable | Unavailable | Not fully comparable |  |\n| Regular Season | Contemporaneous relative true shooting () | Unavailable | Unavailable | Not fully comparable |  |\n\n## Sensitivity and counterevidence\n\n- Regular Season: accumulation versus scoring rate cannot be fully tested because the required comparable evidence is incomplete. \n- Regular Season: raw versus contemporaneous relative efficiency cannot be fully tested because the required comparable evidence is incomplete. \n\n## Coverage and limits\n\n- **Personal: unavailable** \u2014 Specific source/participation gaps remain after available API alternatives.\n- **Era: unavailable** \u2014 Specific source/participation gaps remain after available API alternatives.\n- 977/Regular Season: Controlled acceptance: upstream unavailable and no cached evidence.\n- 201939/Regular Season: Controlled acceptance: upstream unavailable and no cached evidence.\n- 977/Regular Season: Controlled acceptance: upstream unavailable and no cached evidence.\n- 201939/Regular Season: Controlled acceptance: upstream unavailable and no cached evidence.\n- Era-relative TS is a descriptive benchmark, not a causal correction for rules, physicality, spacing or defensive difficulty.\n- True shooting uses the conventional 0.44 free-throw coefficient. It estimates shooting opportunities rather than counting actual possessions.\n- Linked evidence records retain exact scope, formulas, season inputs, original API parameters and retrieval timestamps. Aggregate citations use multiple API inputs; inspect the full source set in the evidence panel.\n- No total player score is produced. All displayed advantages are specific to a metric and sample.\n\n## Scope and methods\n\n> Compare Kobe Bryant's regular-season scoring volume and shooting efficiency in 2005-06 through 2007-08 with Stephen Curry's in 2014-15 through 2016-17.\n\n- Subjects: **Kobe Bryant** and **Stephen Curry**.\n- Scope: 2005-06\u20132007-08 versus 2014-15\u20132016-17; Regular Season.\n- Statistical lens: overall scoring.\n- Completed-season cutoff: **2025-26**; ongoing seasons are excluded.\n- Metrics use summed source inputs. Missing observations remain missing.\n- Relative efficiency uses same-season, same-phase league TS; aggregation weights each season by FGA + 0.44 \u00d7 FTA.",
+  "tool_calls": [
+    {
+      "name": "confirm_scoring_contract",
+      "args": {},
+      "result": "{\"action\": \"review\", \"question\": \"\", \"claim\": \"Compare Kobe Bryant's regular-season scoring volume and shooting efficiency in 2005-06 through 2007-08 with Stephen Curry's in 2014-15 through 2016-17.\", \"request_kind\": \"comparison\", \"left_player\": 977, \"right_player\": 201939, \"period\": \"windows\", \"left_start\": 2005, \"left_end\": 2007, \"right_start\": 2014, \"right_end\": 2016, \"phases\": [\"Regular Season\"], \"lens\": \"overall_scoring\", \"include_context\": false, \"support_phases\": [], \"cutoff\": 2025}",
+      "id": "Lead:1",
+      "status": "completed",
+      "agent": "Lead",
+      "node_id": "lead"
+    },
+    {
+      "name": "repair_research_plan",
+      "args": {},
+      "result": "{\"reason\": \"The proposed plan violated required task coverage; repaired to the approved contract.\", \"dimensions\": [{\"dimension\": \"personal\"}, {\"dimension\": \"era\"}]}",
+      "id": "Lead:2",
+      "status": "completed",
+      "agent": "Lead",
+      "node_id": "lead"
+    },
+    {
+      "name": "plan_research",
+      "args": {},
+      "result": "{\"action\": \"research\", \"question\": \"\", \"scope\": \"2005-06\\u20132007-08 versus 2014-15\\u20132016-17; Regular Season\", \"criteria\": \"Scoring volume, raw and contemporaneous relative efficiency; bounded context; no overall score.\", \"comprehensive\": false, \"tasks\": [{\"dimension\": \"personal\", \"question\": \"Compare scoring totals, per-game production and raw shooting efficiency for both subjects inside the locked scope.\", \"gap_id\": \"\"}, {\"dimension\": \"era\", \"question\": \"Compare same-season, same-phase league shooting benchmarks and weighted relative TS, with explicit missing-baseline coverage.\", \"gap_id\": \"\"}]}",
+      "id": "Lead:3",
+      "status": "completed",
+      "agent": "Lead",
+      "node_id": "lead"
+    },
+    {
+      "name": "collect_scoring_profile",
+      "args": {},
+      "result": "{\"records\": [], \"gaps\": [{\"dimension\": \"personal\", \"subject\": \"977/Regular Season\", \"reason\": \"Controlled acceptance: upstream unavailable and no cached evidence.\", \"status\": \"unavailable\"}, {\"dimension\": \"personal\", \"subject\": \"201939/Regular Season\", \"reason\": \"Controlled acceptance: upstream unavailable and no cached evidence.\", \"status\": \"unavailable\"}], \"status\": \"partial\", \"collector\": \"collect_scoring_profile\"}",
+      "id": "Researcher 1 \u00b7 personal:1",
+      "status": "completed",
+      "agent": "Researcher 1 \u00b7 personal",
+      "node_id": "researcher-1"
+    },
+    {
+      "name": "collect_scoring_environment",
+      "args": {},
+      "result": "{\"records\": [], \"season_inputs\": [], \"gaps\": [{\"dimension\": \"era\", \"subject\": \"977/Regular Season\", \"reason\": \"Controlled acceptance: upstream unavailable and no cached evidence.\", \"status\": \"unavailable\"}, {\"dimension\": \"era\", \"subject\": \"201939/Regular Season\", \"reason\": \"Controlled acceptance: upstream unavailable and no cached evidence.\", \"status\": \"unavailable\"}], \"status\": \"partial\", \"collector\": \"collect_scoring_environment\"}",
+      "id": "Researcher 2 \u00b7 era:1",
+      "status": "completed",
+      "agent": "Researcher 2 \u00b7 era",
+      "node_id": "researcher-2"
+    },
+    {
+      "name": "review_content_evidence",
+      "args": {},
+      "result": "{\"status\": \"reviewed\", \"checks\": []}",
+      "id": "Lead:4",
+      "status": "completed",
+      "agent": "Lead",
+      "node_id": "review-1"
+    },
+    {
+      "name": "review_research",
+      "args": {},
+      "result": "{\"action\": \"finish\", \"question\": \"\", \"scope\": \"2005-06\\u20132007-08 versus 2014-15\\u20132016-17; Regular Season\", \"criteria\": \"Scoring volume, raw and contemporaneous relative efficiency; bounded context; no overall score.\", \"comprehensive\": false, \"tasks\": []}",
+      "id": "Lead:5",
+      "status": "completed",
+      "agent": "Lead",
+      "node_id": "review-1"
+    },
+    {
+      "name": "compose_scoring_review",
+      "args": {},
+      "result": "{\"verdict\": \"insufficient_data\", \"valid\": true, \"checked_claims\": 0, \"presentation\": {\"emphasis\": \"coverage_first\", \"highlight_rows\": [], \"caveats\": [\"partial_coverage\"]}, \"errors\": []}",
+      "id": "Writer:1",
+      "status": "completed",
+      "agent": "Writer",
+      "node_id": "writer"
+    }
+  ],
+  "evidence_result": {
+    "cards": [],
+    "comparisons": [],
+    "sources": [],
+    "limitations": [],
+    "verification": {
+      "status": "not_submitted",
+      "checked_claims": 0,
+      "attempts": [
+        {
+          "valid": true,
+          "errors": []
+        }
+      ],
+      "note": "Published numeric values and comparison directions are server-derived and checked against scoped evidence. Missing source coverage is reported separately; descriptive context does not establish causation."
+    },
+    "research": {
+      "scope": "2005-06\u20132007-08 versus 2014-15\u20132016-17; Regular Season",
+      "criteria": "Cross-era scoring claim review",
+      "tasks": [
+        {
+          "agent": "Researcher 1 \u00b7 personal",
+          "dimension": "personal",
+          "question": "Compare scoring totals, per-game production and raw shooting efficiency for both subjects inside the locked scope.",
+          "round": 1,
+          "status": "partial"
+        },
+        {
+          "agent": "Researcher 2 \u00b7 era",
+          "dimension": "era",
+          "question": "Compare same-season, same-phase league shooting benchmarks and weighted relative TS, with explicit missing-baseline coverage.",
+          "round": 1,
+          "status": "partial"
+        }
+      ],
+      "findings": [
+        {
+          "agent": "Researcher 1 \u00b7 personal",
+          "dimension": "personal",
+          "task": "Compare scoring totals, per-game production and raw shooting efficiency for both subjects inside the locked scope.",
+          "status": "partial",
+          "notes_status": "Working notes only; Lead content checks and final report facts use verified scoped evidence.",
+          "findings": "* The scoring collection endpoint for the locked player comparison (Kobe Bryant 2005-06 through 2007-08 and Stephen Curry 2014-15 through 2016-17) returned partial status with unavailable records.\n* Consequently, no empirical comparative claims regarding scoring volume or shooting efficiency can be generated for this session.",
+          "gaps": [
+            {
+              "dimension": "personal",
+              "subject": "977/Regular Season",
+              "reason": "Controlled acceptance: upstream unavailable and no cached evidence.",
+              "status": "unavailable"
+            },
+            {
+              "dimension": "personal",
+              "subject": "201939/Regular Season",
+              "reason": "Controlled acceptance: upstream unavailable and no cached evidence.",
+              "status": "unavailable"
+            }
+          ],
+          "evidence_ids": []
+        },
+        {
+          "agent": "Researcher 2 \u00b7 era",
+          "dimension": "era",
+          "task": "Compare same-season, same-phase league shooting benchmarks and weighted relative TS, with explicit missing-baseline coverage.",
+          "status": "partial",
+          "notes_status": "Working notes only; Lead content checks and final report facts use verified scoped evidence.",
+          "findings": "* Upstream collector returned partial status with unavailable gaps for both Kobe Bryant (2005-06 through 2007-08) and Stephen Curry (2014-15 through 2016-17) regular-season scoring environments.\n* In accordance with the research rules, missing baseline evidence cannot be replaced from memory, interpolated, or inferred.\n* Consequently, numerical comparisons of weighted relative TS between the two player windows cannot be calculated or verified.\n* The analysis is strictly limited by the unavailable scoring environment data for both locked player-season sets.",
+          "gaps": [
+            {
+              "dimension": "era",
+              "subject": "977/Regular Season",
+              "reason": "Controlled acceptance: upstream unavailable and no cached evidence.",
+              "status": "unavailable"
+            },
+            {
+              "dimension": "era",
+              "subject": "201939/Regular Season",
+              "reason": "Controlled acceptance: upstream unavailable and no cached evidence.",
+              "status": "unavailable"
+            }
+          ],
+          "evidence_ids": []
+        }
+      ],
+      "coverage": "partial",
+      "content_checks": [],
+      "coverage_cells": [
+        {
+          "dimension": "personal",
+          "status": "unavailable",
+          "reason": "Specific source/participation gaps remain after available API alternatives.",
+          "gaps": [
+            {
+              "dimension": "personal",
+              "subject": "977/Regular Season",
+              "reason": "Controlled acceptance: upstream unavailable and no cached evidence.",
+              "status": "unavailable"
+            },
+            {
+              "dimension": "personal",
+              "subject": "201939/Regular Season",
+              "reason": "Controlled acceptance: upstream unavailable and no cached evidence.",
+              "status": "unavailable"
+            }
+          ]
+        },
+        {
+          "dimension": "era",
+          "status": "unavailable",
+          "reason": "Specific source/participation gaps remain after available API alternatives.",
+          "gaps": [
+            {
+              "dimension": "era",
+              "subject": "977/Regular Season",
+              "reason": "Controlled acceptance: upstream unavailable and no cached evidence.",
+              "status": "unavailable"
+            },
+            {
+              "dimension": "era",
+              "subject": "201939/Regular Season",
+              "reason": "Controlled acceptance: upstream unavailable and no cached evidence.",
+              "status": "unavailable"
+            }
+          ]
+        }
+      ],
+      "elapsed_seconds": 8.72,
+      "api_requests": 0,
+      "tokens": {
+        "prompt": 10392,
+        "completion": 1096
+      },
+      "data_cutoff": "2026-11-11T06:50:14.864283+00:00",
+      "limits": {
+        "seconds": 240,
+        "researchers": 8,
+        "rounds": 3,
+        "parallel_workers": 4
+      }
+    },
+    "scoring": {
+      "contract": {
+        "action": "review",
+        "question": "",
+        "claim": "Compare Kobe Bryant's regular-season scoring volume and shooting efficiency in 2005-06 through 2007-08 with Stephen Curry's in 2014-15 through 2016-17.",
+        "request_kind": "comparison",
+        "left_player": 977,
+        "right_player": 201939,
+        "period": "windows",
+        "left_start": 2005,
+        "left_end": 2007,
+        "right_start": 2014,
+        "right_end": 2016,
+        "phases": [
+          "Regular Season"
+        ],
+        "lens": "overall_scoring",
+        "include_context": false,
+        "support_phases": [],
+        "cutoff": 2025
+      },
+      "verdict": "insufficient_data",
+      "matrix": [
+        {
+          "phase": "Regular Season",
+          "metric": "PTS",
+          "basis": "totals",
+          "label": "Accumulated points",
+          "left": null,
+          "right": null,
+          "unit": "",
+          "direction": "unavailable",
+          "complete": false,
+          "left_id": null,
+          "right_id": null,
+          "left_scope": null,
+          "right_scope": null
+        },
+        {
+          "phase": "Regular Season",
+          "metric": "PTS",
+          "basis": "per_game",
+          "label": "Points per game",
+          "left": null,
+          "right": null,
+          "unit": "",
+          "direction": "unavailable",
+          "complete": false,
+          "left_id": null,
+          "right_id": null,
+          "left_scope": null,
+          "right_scope": null
+        },
+        {
+          "phase": "Regular Season",
+          "metric": "TS_PCT",
+          "basis": "per_game",
+          "label": "Raw true shooting",
+          "left": null,
+          "right": null,
+          "unit": "",
+          "direction": "unavailable",
+          "complete": false,
+          "left_id": null,
+          "right_id": null,
+          "left_scope": null,
+          "right_scope": null
+        },
+        {
+          "phase": "Regular Season",
+          "metric": "WEIGHTED_RTS",
+          "basis": "per_game",
+          "label": "Contemporaneous relative true shooting",
+          "left": null,
+          "right": null,
+          "unit": "",
+          "direction": "unavailable",
+          "complete": false,
+          "left_id": null,
+          "right_id": null,
+          "left_scope": null,
+          "right_scope": null
+        }
+      ],
+      "sensitivity": [
+        {
+          "phase": "Regular Season",
+          "test": "Accumulation versus scoring rate",
+          "result": "insufficient"
+        },
+        {
+          "phase": "Regular Season",
+          "test": "Raw versus contemporaneous relative efficiency",
+          "result": "insufficient"
+        }
+      ],
+      "support_samples": [],
+      "presentation": {
+        "emphasis": "coverage_first",
+        "highlight_rows": [],
+        "caveats": [
+          "partial_coverage"
+        ]
+      }
+    }
+  },
+  "research_flow": {
+    "version": 13,
+    "status": "partial",
+    "elapsed_ms": 8725,
+    "peak_parallel": 2,
+    "nodes": [
+      {
+        "id": "lead",
+        "label": "Lead",
+        "role": "lead",
+        "agent": "Lead",
+        "depends_on": [],
+        "description": "Confirm the scoring claim, identities and scope; plan independent investigations.",
+        "round": 0,
+        "status": "completed",
+        "started_ms": 0,
+        "ended_ms": 5105,
+        "tool_ids": [
+          "Lead:1",
+          "Lead:2",
+          "Lead:3"
+        ],
+        "summary": "2005-06\u20132007-08 versus 2014-15\u20132016-17; Regular Season"
+      },
+      {
+        "id": "researcher-1",
+        "label": "Scoring evidence",
+        "role": "researcher",
+        "agent": "Researcher 1 \u00b7 personal",
+        "depends_on": [
+          "lead"
+        ],
+        "description": "Compare scoring totals, per-game production and raw shooting efficiency for both subjects inside the locked scope.",
+        "round": 1,
+        "status": "partial",
+        "started_ms": 5105,
+        "ended_ms": 6885,
+        "tool_ids": [
+          "Researcher 1 \u00b7 personal:1"
+        ],
+        "summary": "Evidence gaps remain; inspect the collector output and subsequent Lead review."
+      },
+      {
+        "id": "researcher-2",
+        "label": "Era benchmarks",
+        "role": "researcher",
+        "agent": "Researcher 2 \u00b7 era",
+        "depends_on": [
+          "lead"
+        ],
+        "description": "Compare same-season, same-phase league shooting benchmarks and weighted relative TS, with explicit missing-baseline coverage.",
+        "round": 1,
+        "status": "partial",
+        "started_ms": 5105,
+        "ended_ms": 7235,
+        "tool_ids": [
+          "Researcher 2 \u00b7 era:1"
+        ],
+        "summary": "Evidence gaps remain; inspect the collector output and subsequent Lead review."
+      },
+      {
+        "id": "review-1",
+        "label": "Lead review",
+        "role": "review",
+        "agent": "Lead",
+        "depends_on": [
+          "researcher-1",
+          "researcher-2"
+        ],
+        "description": "Inspect collected evidence and decide whether targeted follow-up is needed.",
+        "round": 1,
+        "status": "completed",
+        "started_ms": 7236,
+        "ended_ms": 7950,
+        "tool_ids": [
+          "Lead:4",
+          "Lead:5"
+        ],
+        "summary": "Evidence review complete; proceed with the available coverage and disclosed gaps."
+      },
+      {
+        "id": "writer",
+        "label": "Writer",
+        "role": "writer",
+        "agent": "Writer",
+        "depends_on": [
+          "review-1"
+        ],
+        "description": "Select evidence and counterevidence; render and audit the sourced report.",
+        "round": 0,
+        "status": "completed",
+        "started_ms": 7950,
+        "ended_ms": 8725,
+        "tool_ids": [
+          "Writer:1"
+        ],
+        "summary": "The report passed its numerical evidence checks."
+      }
+    ]
+  },
+  "fetch_attempts": 4,
+  "seconds": 8.72,
+  "checks": {
+    "insufficient_verdict": true,
+    "no_numeric_claims": true,
+    "no_complete_matrix_rows": true,
+    "no_active_nodes": true
+  },
+  "audit_note": "The first harness assertion incorrectly required an empty matrix; unavailable placeholder rows are legitimate. This rerun checks for no complete rows and retains the full result before asserting."
+}

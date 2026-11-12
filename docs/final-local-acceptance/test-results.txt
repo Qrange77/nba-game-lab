@@ -1,0 +1,6 @@
+Python unittest discover: 363 passed.
+Frontend node tests: 15 passed, zero failures.
+Frontend vue-tsc and Vite production build: passed.
+uv lock --check: passed.
+Archived independent acceptance replay: passed.
+Known non-blocking build advisory: bundle exceeds 500 kB.

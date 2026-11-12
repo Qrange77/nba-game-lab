@@ -7,7 +7,7 @@ const props = defineProps<{ modelValue: PlayerChoice[]; disabled: boolean }>()
 const emit = defineEmits<{ 'update:modelValue': [players: PlayerChoice[]] }>()
 const expanded = ref(false)
 function add(player: PlayerChoice | null) {
-  if (!player || props.modelValue.some(p => p.id === player.id) || props.modelValue.length >= 8) return
+  if (!player || props.modelValue.some(p => p.id === player.id) || props.modelValue.length >= 2) return
   emit('update:modelValue', [...props.modelValue, player])
 }
 </script>
@@ -18,8 +18,8 @@ function add(player: PlayerChoice | null) {
       <span v-for="player in modelValue" :key="player.id" class="player-chip" :title="`NBA ID ${player.id}`">{{ player.name }}<button type="button" :aria-label="`Remove ${player.name}`" :disabled="disabled" @click="emit('update:modelValue', modelValue.filter(p => p.id !== player.id))"><X :size="13" /></button></span>
     </div>
     <div v-if="expanded" class="research-player-search">
-      <PlayerPicker :model-value="null" clear-on-select label="Add a player" :disabled="disabled || modelValue.length >= 8" @update:model-value="add" />
-      <p class="picker-note">Select up to eight players, or name them in your question. Ambiguous names require confirmation. You can change these selections during the conversation.</p>
+      <PlayerPicker :model-value="null" clear-on-select label="Add a comparison player" :disabled="disabled || modelValue.length >= 2" @update:model-value="add" />
+      <p class="picker-note">Select two players, or name both in your claim. Ambiguous names require confirmation. Career scope is supported from 1984-85 onward.</p>
     </div>
   </section>
 </template>

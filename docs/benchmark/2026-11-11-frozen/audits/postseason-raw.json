@@ -1,0 +1,434 @@
+{
+  "status": "audited",
+  "checks": [
+    {
+      "id": "893:Regular Season:PTS",
+      "required": false,
+      "expected": 7525,
+      "tolerance": 1,
+      "unit": "points",
+      "status": "not_stated"
+    },
+    {
+      "id": "893:Regular Season:PPG",
+      "required": true,
+      "expected": 31.354166666666668,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "893:Regular Season:PPG",
+        "quote": "Reg Season: 32.2 PPG",
+        "number": "32.2",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan (1990\u201391 to 1992\u201393)",
+        "method": "unknown"
+      },
+      "observed": 32.2,
+      "status": "incorrect"
+    },
+    {
+      "id": "893:Regular Season:TS",
+      "required": true,
+      "expected": 58.214197301646244,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "893:Regular Season:TS",
+        "quote": "Reg Season: 57.9% TS",
+        "number": "57.9",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan (1990\u201391 to 1992\u201393)",
+        "method": "unknown"
+      },
+      "observed": 57.9,
+      "status": "incorrect"
+    },
+    {
+      "id": "893:Playoffs:PTS",
+      "required": false,
+      "expected": 1954,
+      "tolerance": 1,
+      "unit": "points",
+      "status": "not_stated"
+    },
+    {
+      "id": "893:Playoffs:PPG",
+      "required": true,
+      "expected": 33.689655172413794,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "893:Playoffs:PPG",
+        "quote": "Postseason PPG: 33.8",
+        "number": "33.8",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan (1990\u201391 to 1992\u201393)",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "893:Playoffs:TS",
+      "required": true,
+      "expected": 57.213464196200604,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "893:Playoffs:TS",
+        "quote": "Postseason True Shooting Percentage (TS%): 56.6%",
+        "number": "56.6",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan (1990\u201391 to 1992\u201393)",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "893:Playoffs minus Regular Season:PPG_CHANGE",
+      "required": true,
+      "expected": 2.3354885057471257,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "893:Playoffs minus Regular Season:PPG_CHANGE",
+        "quote": "Scoring Change (Postseason PPG minus Regular Season PPG): +1.6",
+        "number": "+1.6",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan (1990\u201391 to 1992\u201393)",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "893:Playoffs minus Regular Season:TS_CHANGE",
+      "required": true,
+      "expected": -1.00073310544564,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "893:Playoffs minus Regular Season:TS_CHANGE",
+        "quote": "Efficiency Change (Postseason TS% minus Regular Season TS%): -1.3%",
+        "number": "-1.3",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan (1990\u201391 to 1992\u201393)",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "2544:Regular Season:PTS",
+      "required": false,
+      "expected": 5808,
+      "tolerance": 1,
+      "unit": "points",
+      "status": "not_stated"
+    },
+    {
+      "id": "2544:Regular Season:PPG",
+      "required": true,
+      "expected": 27.013953488372092,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "2544:Regular Season:PPG",
+        "quote": "Reg Season: 27.1 PPG",
+        "number": "27.1",
+        "scope": "requested",
+        "scope_quote": "LeBron James (2011\u201312 to 2013\u201314)",
+        "method": "unknown"
+      },
+      "observed": 27.1,
+      "status": "correct"
+    },
+    {
+      "id": "2544:Regular Season:TS",
+      "required": true,
+      "expected": 63.272385002876014,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "2544:Regular Season:TS",
+        "quote": "Reg Season: 58.0% TS",
+        "number": "58.0",
+        "scope": "requested",
+        "scope_quote": "LeBron James (2011\u201312 to 2013\u201314)",
+        "method": "unknown"
+      },
+      "observed": 58.0,
+      "status": "incorrect"
+    },
+    {
+      "id": "2544:Playoffs:PTS",
+      "required": false,
+      "expected": 1841,
+      "tolerance": 1,
+      "unit": "points",
+      "status": "not_stated"
+    },
+    {
+      "id": "2544:Playoffs:PPG",
+      "required": true,
+      "expected": 27.893939393939394,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "2544:Playoffs:PPG",
+        "quote": "Postseason PPG: 28.7",
+        "number": "28.7",
+        "scope": "requested",
+        "scope_quote": "LeBron James (2011\u201312 to 2013\u201314)",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "2544:Playoffs:TS",
+      "required": true,
+      "expected": 60.38599805820147,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "2544:Playoffs:TS",
+        "quote": "Postseason True Shooting Percentage (TS%): 60.3%",
+        "number": "60.3",
+        "scope": "requested",
+        "scope_quote": "LeBron James (2011\u201312 to 2013\u201314)",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "2544:Playoffs minus Regular Season:PPG_CHANGE",
+      "required": true,
+      "expected": 0.8799859055673025,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "2544:Playoffs minus Regular Season:PPG_CHANGE",
+        "quote": "Scoring Change (Postseason PPG minus Regular Season PPG): +1.6",
+        "number": "+1.6",
+        "scope": "requested",
+        "scope_quote": "LeBron James (2011\u201312 to 2013\u201314)",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "2544:Playoffs minus Regular Season:TS_CHANGE",
+      "required": true,
+      "expected": -2.886386944674541,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "2544:Playoffs minus Regular Season:TS_CHANGE",
+        "quote": "Efficiency Change (Postseason TS% minus Regular Season TS%): +2.3%",
+        "number": "+2.3",
+        "scope": "requested",
+        "scope_quote": "LeBron James (2011\u201312 to 2013\u201314)",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    }
+  ],
+  "required_count": 12,
+  "required_comparable": 4,
+  "required_correct": 1,
+  "required_missing": 0,
+  "required_scope_mismatches": 0,
+  "advisory_model_review": {
+    "question_coverage": {
+      "status": "partial",
+      "reason": "Total points (PTS) for regular season and playoffs for both players were not provided, only per-game and percentage metrics.",
+      "quote": "",
+      "quote_verified": true
+    },
+    "scope": {
+      "status": "respected",
+      "reason": "All extracted values correspond strictly to the requested three-season samples for both players.",
+      "quote": "Michael Jordan (1990\u201391 to 1992\u201393) and LeBron James (2011\u201312 to 2013\u201314)",
+      "quote_verified": false
+    },
+    "conclusion_limits": {
+      "status": "respected",
+      "reason": "Conclusions are appropriately limited to the specified samples and metrics.",
+      "quote": "Within the limits of these two specific three-season samples:",
+      "quote_verified": true
+    }
+  },
+  "note": "Only extracted, quote-verified numeric claims are scored. Missing facts are coverage gaps, not numeric errors. Semantic review is model-judged and advisory.",
+  "extracted": {
+    "claims": [
+      {
+        "id": "893:Regular Season:PPG",
+        "quote": "Reg Season: 32.2 PPG",
+        "number": "32.2",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan (1990\u201391 to 1992\u201393)",
+        "method": "unknown"
+      },
+      {
+        "id": "893:Regular Season:TS",
+        "quote": "Reg Season: 57.9% TS",
+        "number": "57.9",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan (1990\u201391 to 1992\u201393)",
+        "method": "unknown"
+      },
+      {
+        "id": "893:Playoffs:PPG",
+        "quote": "Postseason PPG: 33.8",
+        "number": "33.8",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan (1990\u201391 to 1992\u201393)",
+        "method": "unknown"
+      },
+      {
+        "id": "893:Playoffs:TS",
+        "quote": "Postseason True Shooting Percentage (TS%): 56.6%",
+        "number": "56.6",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan (1990\u201391 to 1992\u201393)",
+        "method": "unknown"
+      },
+      {
+        "id": "893:Playoffs minus Regular Season:PPG_CHANGE",
+        "quote": "Scoring Change (Postseason PPG minus Regular Season PPG): +1.6",
+        "number": "+1.6",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan (1990\u201391 to 1992\u201393)",
+        "method": "unknown"
+      },
+      {
+        "id": "893:Playoffs minus Regular Season:TS_CHANGE",
+        "quote": "Efficiency Change (Postseason TS% minus Regular Season TS%): -1.3%",
+        "number": "-1.3",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan (1990\u201391 to 1992\u201393)",
+        "method": "unknown"
+      },
+      {
+        "id": "2544:Regular Season:PPG",
+        "quote": "Reg Season: 27.1 PPG",
+        "number": "27.1",
+        "scope": "requested",
+        "scope_quote": "LeBron James (2011\u201312 to 2013\u201314)",
+        "method": "unknown"
+      },
+      {
+        "id": "2544:Regular Season:TS",
+        "quote": "Reg Season: 58.0% TS",
+        "number": "58.0",
+        "scope": "requested",
+        "scope_quote": "LeBron James (2011\u201312 to 2013\u201314)",
+        "method": "unknown"
+      },
+      {
+        "id": "2544:Playoffs:PPG",
+        "quote": "Postseason PPG: 28.7",
+        "number": "28.7",
+        "scope": "requested",
+        "scope_quote": "LeBron James (2011\u201312 to 2013\u201314)",
+        "method": "unknown"
+      },
+      {
+        "id": "2544:Playoffs:TS",
+        "quote": "Postseason True Shooting Percentage (TS%): 60.3%",
+        "number": "60.3",
+        "scope": "requested",
+        "scope_quote": "LeBron James (2011\u201312 to 2013\u201314)",
+        "method": "unknown"
+      },
+      {
+        "id": "2544:Playoffs minus Regular Season:PPG_CHANGE",
+        "quote": "Scoring Change (Postseason PPG minus Regular Season PPG): +1.6",
+        "number": "+1.6",
+        "scope": "requested",
+        "scope_quote": "LeBron James (2011\u201312 to 2013\u201314)",
+        "method": "unknown"
+      },
+      {
+        "id": "2544:Playoffs minus Regular Season:TS_CHANGE",
+        "quote": "Efficiency Change (Postseason TS% minus Regular Season TS%): +2.3%",
+        "number": "+2.3",
+        "scope": "requested",
+        "scope_quote": "LeBron James (2011\u201312 to 2013\u201314)",
+        "method": "unknown"
+      }
+    ],
+    "review": {
+      "question_coverage": {
+        "status": "partial",
+        "reason": "Total points (PTS) for regular season and playoffs for both players were not provided, only per-game and percentage metrics.",
+        "quote": "",
+        "quote_verified": true
+      },
+      "scope": {
+        "status": "respected",
+        "reason": "All extracted values correspond strictly to the requested three-season samples for both players.",
+        "quote": "Michael Jordan (1990\u201391 to 1992\u201393) and LeBron James (2011\u201312 to 2013\u201314)",
+        "quote_verified": false
+      },
+      "conclusion_limits": {
+        "status": "respected",
+        "reason": "Conclusions are appropriately limited to the specified samples and metrics.",
+        "quote": "Within the limits of these two specific three-season samples:",
+        "quote_verified": true
+      }
+    }
+  },
+  "extractor_response": "{\n  \"claims\": [\n    {\n      \"id\": \"893:Regular Season:PPG\",\n      \"quote\": \"Reg Season: 32.2 PPG\",\n      \"number\": \"32.2\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"Michael Jordan (1990\u201391 to 1992\u201393)\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"893:Regular Season:TS\",\n      \"quote\": \"Reg Season: 57.9% TS\",\n      \"number\": \"57.9\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"Michael Jordan (1990\u201391 to 1992\u201393)\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"893:Playoffs:PPG\",\n      \"quote\": \"Postseason PPG: 33.8\",\n      \"number\": \"33.8\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"Michael Jordan (1990\u201391 to 1992\u201393)\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"893:Playoffs:TS\",\n      \"quote\": \"Postseason True Shooting Percentage (TS%): 56.6%\",\n      \"number\": \"56.6\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"Michael Jordan (1990\u201391 to 1992\u201393)\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"893:Playoffs minus Regular Season:PPG_CHANGE\",\n      \"quote\": \"Scoring Change (Postseason PPG minus Regular Season PPG): +1.6\",\n      \"number\": \"+1.6\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"Michael Jordan (1990\u201391 to 1992\u201393)\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"893:Playoffs minus Regular Season:TS_CHANGE\",\n      \"quote\": \"Efficiency Change (Postseason TS% minus Regular Season TS%): -1.3%\",\n      \"number\": \"-1.3\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"Michael Jordan (1990\u201391 to 1992\u201393)\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"2544:Regular Season:PPG\",\n      \"quote\": \"Reg Season: 27.1 PPG\",\n      \"number\": \"27.1\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"LeBron James (2011\u201312 to 2013\u201314)\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"2544:Regular Season:TS\",\n      \"quote\": \"Reg Season: 58.0% TS\",\n      \"number\": \"58.0\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"LeBron James (2011\u201312 to 2013\u201314)\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"2544:Playoffs:PPG\",\n      \"quote\": \"Postseason PPG: 28.7\",\n      \"number\": \"28.7\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"LeBron James (2011\u201312 to 2013\u201314)\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"2544:Playoffs:TS\",\n      \"quote\": \"Postseason True Shooting Percentage (TS%): 60.3%\",\n      \"number\": \"60.3\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"LeBron James (2011\u201312 to 2013\u201314)\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"2544:Playoffs minus Regular Season:PPG_CHANGE\",\n      \"quote\": \"Scoring Change (Postseason PPG minus Regular Season PPG): +1.6\",\n      \"number\": \"+1.6\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"LeBron James (2011\u201312 to 2013\u201314)\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"2544:Playoffs minus Regular Season:TS_CHANGE\",\n      \"quote\": \"Efficiency Change (Postseason TS% minus Regular Season TS%): +2.3%\",\n      \"number\": \"+2.3\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"LeBron James (2011\u201312 to 2013\u201314)\",\n      \"method\": \"unknown\"\n    }\n  ],\n  \"review\": {\n    \"question_coverage\": {\n      \"status\": \"partial\",\n      \"reason\": \"Total points (PTS) for regular season and playoffs for both players were not provided, only per-game and percentage metrics.\",\n      \"quote\": \"\"\n    },\n    \"scope\": {\n      \"status\": \"respected\",\n      \"reason\": \"All extracted values correspond strictly to the requested three-season samples for both players.\",\n      \"quote\": \"Michael Jordan (1990\u201391 to 1992\u201393) and LeBron James (2011\u201312 to 2013\u201314)\"\n    },\n    \"conclusion_limits\": {\n      \"status\": \"respected\",\n      \"reason\": \"Conclusions are appropriately limited to the specified samples and metrics.\",\n      \"quote\": \"Within the limits of these two specific three-season samples:\"\n    }\n  }\n}",
+  "model_calls": [
+    {
+      "started_at": "2026-11-11T03:44:08.003699+00:00",
+      "parameters": {
+        "model": "vertex_ai/gemini-3.5-flash-lite",
+        "vertex_location": "global",
+        "response_format": {
+          "type": "json_object"
+        },
+        "temperature": 0,
+        "max_tokens": 16000,
+        "timeout": 100,
+        "num_retries": 0
+      },
+      "temperature": 0,
+      "message_roles": [
+        "system",
+        "user"
+      ],
+      "messages_sha256": "86d55080a14d58660fa1964ba53902e2092de7687b03ebe43234678ebebce6b4",
+      "tool_names": [],
+      "index": 0,
+      "response_model": "gemini-3.5-flash-lite",
+      "response_id": "iOTzaomyB9X_sbwPlNCP0AE",
+      "finish_reasons": [
+        "stop"
+      ],
+      "truncated": false,
+      "usage": {
+        "completion_tokens": 1397,
+        "prompt_tokens": 2963,
+        "total_tokens": 4360,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": null,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 1397,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": null,
+          "text_tokens": 2963,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "cache_read_input_tokens": null
+      },
+      "seconds": 3.448,
+      "ended_at": "2026-11-11T03:44:11.451799+00:00"
+    }
+  ]
+}

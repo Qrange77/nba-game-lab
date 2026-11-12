@@ -55,7 +55,9 @@ def evidence_scope_text(record):
     suffix = ' · ' + record['context']['team_name'] if record.get('context') else ''
     if record.get('award_categories'):
         return scope_text(record['scope']).split(' · ')[0] + ' · honors by award season' + suffix
-    return scope_text(record['scope']) + suffix
+    detail = ' · NBA Finals only' if record.get('kind') == 'finals_series' else (
+        ' · single game '+str(record.get('date','')) if record.get('kind') == 'game_team' else '')
+    return scope_text(record['scope']) + suffix + detail
 
 
 class DebateTools:

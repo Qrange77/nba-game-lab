@@ -1,0 +1,2063 @@
+{
+  "id": "new_efficiency",
+  "question": "Compare Kevin Durant in 2011-12 through 2013-14 with James Harden in 2016-17 through 2018-19 on regular-season shooting efficiency. Compute TS% from summed points, field-goal attempts and free-throw attempts, using 0.44 for free throws. Also compare each player with the contemporaneous league: weight each season's player-minus-league TS difference by that player's FGA + 0.44 * FTA. Which player leads each efficiency measure? Limit the conclusion to these windows; do not infer overall scoring or player superiority.",
+  "response": "# Scoring Comparison\n\n## Answer\n\n**Regular Season: Kevin Durant leads true shooting, league-relative efficiency.**\n\n**Scope:** 2011-12\u20132013-14 versus 2016-17\u20132018-19; Regular Season.\n\n## Key evidence\n\n- **Regular Season / Raw true shooting (%)**: Kevin Durant **63.15**; James Harden **61.62**. [Evidence](/sessions/8cc4f9a7-f509-49bd-970c-1a7bae37e1b4/evidence/ev_004f278c1da846599ee2) [Evidence](/sessions/8cc4f9a7-f509-49bd-970c-1a7bae37e1b4/evidence/ev_8f40930e07a8b4a37331)\n- **Regular Season / Contemporaneous relative true shooting (percentage points)**: Kevin Durant **9.67**; James Harden **6**. [Evidence](/sessions/8cc4f9a7-f509-49bd-970c-1a7bae37e1b4/evidence/ev_8bc42d6bd614c9235391) [Evidence](/sessions/8cc4f9a7-f509-49bd-970c-1a7bae37e1b4/evidence/ev_94ebe2939b0ed6a9e88e)\n\nThese findings compare the selected scoring measures; they do not establish overall ability or explain championship outcomes.\n\n## Comparable evidence\n\n| Phase | Statistical lens | Kevin Durant | James Harden | Observed advantage | Sources |\n|---|---|---:|---:|---|---|\n| Regular Season | Raw true shooting (%) | 63.15 | 61.62 | Kevin Durant | [Evidence](/sessions/8cc4f9a7-f509-49bd-970c-1a7bae37e1b4/evidence/ev_004f278c1da846599ee2) [Evidence](/sessions/8cc4f9a7-f509-49bd-970c-1a7bae37e1b4/evidence/ev_8f40930e07a8b4a37331) |\n| Regular Season | Contemporaneous relative true shooting (percentage points) | 9.67 | 6 | Kevin Durant | [Evidence](/sessions/8cc4f9a7-f509-49bd-970c-1a7bae37e1b4/evidence/ev_8bc42d6bd614c9235391) [Evidence](/sessions/8cc4f9a7-f509-49bd-970c-1a7bae37e1b4/evidence/ev_94ebe2939b0ed6a9e88e) |\n\n## Sensitivity and counterevidence\n\n- Regular Season: the raw true shooting comparison favors Kevin Durant; the contemporaneous relative true shooting comparison favors Kevin Durant. Raw conversion and performance above the contemporary league answer different questions. [Evidence](/sessions/8cc4f9a7-f509-49bd-970c-1a7bae37e1b4/evidence/ev_004f278c1da846599ee2) [Evidence](/sessions/8cc4f9a7-f509-49bd-970c-1a7bae37e1b4/evidence/ev_8f40930e07a8b4a37331) [Evidence](/sessions/8cc4f9a7-f509-49bd-970c-1a7bae37e1b4/evidence/ev_8bc42d6bd614c9235391) [Evidence](/sessions/8cc4f9a7-f509-49bd-970c-1a7bae37e1b4/evidence/ev_94ebe2939b0ed6a9e88e)\n\n## Coverage and limits\n\n- **Personal: completed** \u2014 Required collection completed; bounded sample limitations still apply.\n- **Era: completed** \u2014 Required collection completed; bounded sample limitations still apply.\n- Kevin Durant, Regular Season: league-baseline shooting-opportunity coverage **100%**. [Evidence](/sessions/8cc4f9a7-f509-49bd-970c-1a7bae37e1b4/evidence/ev_8bc42d6bd614c9235391)\n- James Harden, Regular Season: league-baseline shooting-opportunity coverage **100%**. [Evidence](/sessions/8cc4f9a7-f509-49bd-970c-1a7bae37e1b4/evidence/ev_94ebe2939b0ed6a9e88e)\n- Era-relative TS is a descriptive benchmark, not a causal correction for rules, physicality, spacing or defensive difficulty.\n- True shooting uses the conventional 0.44 free-throw coefficient. It estimates shooting opportunities rather than counting actual possessions.\n- Linked evidence records retain exact scope, formulas, season inputs, original API parameters and retrieval timestamps. Aggregate citations use multiple API inputs; inspect the full source set in the evidence panel.\n- No total player score is produced. All displayed advantages are specific to a metric and sample.\n\n## Scope and methods\n\n> Compare Kevin Durant in 2011-12 through 2013-14 with James Harden in 2016-17 through 2018-19 on regular-season shooting efficiency.\n\n- Subjects: **Kevin Durant** and **James Harden**.\n- Scope: 2011-12\u20132013-14 versus 2016-17\u20132018-19; Regular Season.\n- Statistical lens: efficiency.\n- Completed-season cutoff: **2025-26**; ongoing seasons are excluded.\n- Metrics use summed source inputs. Missing observations remain missing.\n- Relative efficiency uses same-season, same-phase league TS; aggregation weights each season by FGA + 0.44 \u00d7 FTA.",
+  "tool_calls": [
+    {
+      "name": "confirm_scoring_contract",
+      "args": {},
+      "result": "{\"action\": \"review\", \"question\": \"\", \"claim\": \"Compare Kevin Durant in 2011-12 through 2013-14 with James Harden in 2016-17 through 2018-19 on regular-season shooting efficiency.\", \"request_kind\": \"comparison\", \"left_player\": 201142, \"right_player\": 201935, \"period\": \"windows\", \"left_start\": 2011, \"left_end\": 2013, \"right_start\": 2016, \"right_end\": 2018, \"phases\": [\"Regular Season\"], \"lens\": \"efficiency\", \"include_context\": false, \"support_phases\": [], \"cutoff\": 2025}",
+      "id": "Lead:1",
+      "status": "completed",
+      "agent": "Lead",
+      "node_id": "lead"
+    },
+    {
+      "name": "plan_research",
+      "args": {},
+      "result": "{\"action\": \"research\", \"question\": \"\", \"scope\": \"2011-12\\u20132013-14 versus 2016-17\\u20132018-19; Regular Season\", \"criteria\": \"Scoring volume, raw and contemporaneous relative efficiency; bounded context; no overall score.\", \"comprehensive\": false, \"tasks\": [{\"dimension\": \"personal\", \"question\": \"Investigate Kevin Durant's regular-season scoring volume, shooting percentages, and true shooting efficiency in 2011-12 through 2013-14, alongside James Harden's corresponding metrics in 2016-17 through 2018-19.\", \"gap_id\": \"\"}, {\"dimension\": \"era\", \"question\": \"Examine contemporaneous league-wide scoring and shooting efficiency benchmarks for the 2011-12 through 2013-14 and 2016-17 through 2018-19 periods.\", \"gap_id\": \"\"}]}",
+      "id": "Lead:2",
+      "status": "completed",
+      "agent": "Lead",
+      "node_id": "lead"
+    },
+    {
+      "name": "collect_scoring_profile",
+      "args": {},
+      "result": "{\"records\": [{\"kind\": \"scoring_stats\", \"player_id\": 201142, \"player_name\": \"Kevin Durant\", \"scope\": {\"start\": 2011, \"end\": 2013, \"phase\": \"Regular Season\", \"basis\": \"totals\"}, \"seasons\": [\"2011-12\", \"2012-13\", \"2013-14\"], \"scoring_role\": \"personal\", \"cutoff\": 2025, \"sources\": [{\"provider\": \"NBA.com\", \"url\": \"https://www.nba.com/stats/player/201142/traditional\", \"endpoint\": \"https://stats.nba.com/stats/playercareerstats\", \"parameters\": {\"player_id\": 201142, \"per_mode36\": \"Totals\", \"league_id_nullable\": \"00\"}, \"request_parameters\": {\"PlayerID\": 201142, \"PerMode\": \"Totals\", \"LeagueID\": \"00\"}, \"fetched_at\": \"2026-11-11T03:42:08.390758+00:00\", \"stale\": false, \"warning\": null}], \"missing_seasons\": [], \"limitations\": [\"Counts cover returned NBA participation, not hypothetical full seasons.\", \"Playoff samples include Finals and only recorded appearances; missing postseason participation is not a zero-performance game.\"], \"id\": \"ev_54ea4a45c9c1022f0763\", \"values\": {\"GP\": {\"value\": 228.0, \"unit\": \"games\", \"complete\": true, \"formula\": \"sum(GP)\"}, \"PTS\": {\"value\": 6723.0, \"unit\": \"total\", \"complete\": true, \"formula\": \"sum(PTS)\"}, \"MIN\": {\"value\": 8787.0, \"unit\": \"total\", \"complete\": true, \"formula\": \"sum(MIN)\"}, \"FGM\": {\"value\": 2223.0, \"unit\": \"total\", \"complete\": true, \"formula\": \"sum(FGM)\"}, \"FGA\": {\"value\": 4418.0, \"unit\": \"total\", \"complete\": true, \"formula\": \"sum(FGA)\"}, \"FG3M\": {\"value\": 464.0, \"unit\": \"total\", \"complete\": true, \"formula\": \"sum(FG3M)\"}, \"FG3A\": {\"value\": 1169.0, \"unit\": \"total\", \"complete\": true, \"formula\": \"sum(FG3A)\"}, \"FTM\": {\"value\": 1813.0, \"unit\": \"total\", \"complete\": true, \"formula\": \"sum(FTM)\"}, \"FTA\": {\"value\": 2056.0, \"unit\": \"total\", \"complete\": true, \"formula\": \"sum(FTA)\"}, \"FG_PCT\": {\"value\": 50.3168854685378, \"unit\": \"%\", \"complete\": true, \"formula\": \"100 * FGM / FGA\"}, \"FG3_PCT\": {\"value\": 39.69204448246364, \"unit\": \"%\", \"complete\": true, \"formula\": \"100 * FG3M / FG3A\"}, \"FT_PCT\": {\"value\": 88.18093385214007, \"unit\": \"%\", \"complete\": true, \"formula\": \"100 * FTM / FTA\"}, \"TS_PCT\": {\"value\": 63.154750274299964, \"unit\": \"%\", \"complete\": true, \"formula\": \"100 * PTS / (2 * (FGA + 0.44 * FTA))\"}, \"EFG_PCT\": {\"value\": 55.56813037573563, \"unit\": \"%\", \"complete\": true, \"formula\": \"100 * (FGM + 0.5 * FG3M) / FGA\"}}}, {\"kind\": \"scoring_stats\", \"player_id\": 201142, \"player_name\": \"Kevin Durant\", \"scope\": {\"start\": 2011, \"end\": 2013, \"phase\": \"Regular Season\", \"basis\": \"per_game\"}, \"seasons\": [\"2011-12\", \"2012-13\", \"2013-14\"], \"scoring_role\": \"personal\", \"cutoff\": 2025, \"sources\": [{\"provider\": \"NBA.com\", \"url\": \"https://www.nba.com/stats/player/201142/traditional\", \"endpoint\": \"https://stats.nba.com/stats/playercareerstats\", \"parameters\": {\"player_id\": 201142, \"per_mode36\": \"Totals\", \"league_id_nullable\": \"00\"}, \"request_parameters\": {\"PlayerID\": 201142, \"PerMode\": \"Totals\", \"LeagueID\": \"00\"}, \"fetched_at\": \"2026-11-11T03:42:08.390758+00:00\", \"stale\": false, \"warning\": null}], \"missing_seasons\": [], \"limitations\": [\"Counts cover returned NBA participation, not hypothetical full seasons.\", \"Playoff samples include Finals and only recorded appearances; missing postseason participation is not a zero-performance game.\"], \"id\": \"ev_004f278c1da846599ee2\", \"values\": {\"GP\": {\"value\": 228.0, \"unit\": \"games\", \"complete\": true, \"formula\": \"sum(GP)\"}, \"PTS\": {\"value\": 29.486842105263158, \"unit\": \"per game\", \"complete\": true, \"formula\": \"PTS / GP\"}, \"MIN\": {\"value\": 38.53947368421053, \"unit\": \"per game\", \"complete\": true, \"formula\": \"MIN / GP\"}, \"FGM\": {\"value\": 9.75, \"unit\": \"per game\", \"complete\": true, \"formula\": \"FGM / GP\"}, \"FGA\": {\"value\": 19.37719298245614, \"unit\": \"per game\", \"complete\": true, \"formula\": \"FGA / GP\"}, \"FG3M\": {\"value\": 2.0350877192982457, \"unit\": \"per game\", \"complete\": true, \"formula\": \"FG3M / GP\"}, \"FG3A\": {\"value\": 5.12719298245614, \"unit\": \"per game\", \"complete\": true, \"formula\": \"FG3A / GP\"}, \"FTM\": {\"value\": 7.951754385964913, \"unit\": \"per game\", \"complete\": true, \"formula\": \"FTM / GP\"}, \"FTA\": {\"value\": 9.017543859649123, \"unit\": \"per game\", \"complete\": true, \"formula\": \"FTA / GP\"}, \"FG_PCT\": {\"value\": 50.3168854685378, \"unit\": \"%\", \"complete\": true, \"formula\": \"100 * FGM / FGA\"}, \"FG3_PCT\": {\"value\": 39.69204448246364, \"unit\": \"%\", \"complete\": true, \"formula\": \"100 * FG3M / FG3A\"}, \"FT_PCT\": {\"value\": 88.18093385214007, \"unit\": \"%\", \"complete\": true, \"formula\": \"100 * FTM / FTA\"}, \"TS_PCT\": {\"value\": 63.154750274299964, \"unit\": \"%\", \"complete\": true, \"formula\": \"100 * PTS / (2 * (FGA + 0.44 * FTA))\"}, \"EFG_PCT\": {\"value\": 55.56813037573563, \"unit\": \"%\", \"complete\": true, \"formula\": \"100 * (FGM + 0.5 * FG3M) / FGA\"}}}, {\"kind\": \"scoring_stats\", \"player_id\": 201935, \"player_name\": \"James Harden\", \"scope\": {\"start\": 2016, \"end\": 2018, \"phase\": \"Regular Season\", \"basis\": \"totals\"}, \"seasons\": [\"2016-17\", \"2017-18\", \"2018-19\"], \"scoring_role\": \"personal\", \"cutoff\": 2025, \"sources\": [{\"provider\": \"NBA.com\", \"url\": \"https://www.nba.com/stats/player/201935/traditional\", \"endpoint\": \"https://stats.nba.com/stats/playercareerstats\", \"parameters\": {\"player_id\": 201935, \"per_mode36\": \"Totals\", \"league_id_nullable\": \"00\"}, \"request_parameters\": {\"PlayerID\": 201935, \"PerMode\": \"Totals\", \"LeagueID\": \"00\"}, \"fetched_at\": \"2026-11-11T03:42:08.627540+00:00\", \"stale\": false, \"warning\": null}], \"missing_seasons\": [], \"limitations\": [\"Counts cover returned NBA participation, not hypothetical full seasons.\", \"Playoff samples include Finals and only recorded appearances; missing postseason participation is not a zero-performance game.\"], \"id\": \"ev_fd2b54862dc9a7e2178c\", \"values\": {\"GP\": {\"value\": 231.0, \"unit\": \"games\", \"complete\": true, \"formula\": \"sum(GP)\"}, \"PTS\": {\"value\": 7365.0, \"unit\": \"total\", \"complete\": true, \"formula\": \"sum(PTS)\"}, \"MIN\": {\"value\": 8365.0, \"unit\": \"total\", \"complete\": true, \"formula\": \"sum(MIN)\"}, \"FGM\": {\"value\": 2168.0, \"unit\": \"total\", \"complete\": true, \"formula\": \"sum(FGM)\"}, \"FGA\": {\"value\": 4891.0, \"unit\": \"total\", \"complete\": true, \"formula\": \"sum(FGA)\"}, \"FG3M\": {\"value\": 905.0, \"unit\": \"total\", \"complete\": true, \"formula\": \"sum(FG3M)\"}, \"FG3A\": {\"value\": 2506.0, \"unit\": \"total\", \"complete\": true, \"formula\": \"sum(FG3A)\"}, \"FTM\": {\"value\": 2124.0, \"unit\": \"total\", \"complete\": true, \"formula\": \"sum(FTM)\"}, \"FTA\": {\"value\": 2466.0, \"unit\": \"total\", \"complete\": true, \"formula\": \"sum(FTA)\"}, \"FG_PCT\": {\"value\": 44.326313637292984, \"unit\": \"%\", \"complete\": true, \"formula\": \"100 * FGM / FGA\"}, \"FG3_PCT\": {\"value\": 36.11332801276935, \"unit\": \"%\", \"complete\": true, \"formula\": \"100 * FG3M / FG3A\"}, \"FT_PCT\": {\"value\": 86.13138686131387, \"unit\": \"%\", \"complete\": true, \"formula\": \"100 * FTM / FTA\"}, \"TS_PCT\": {\"value\": 61.621073486790586, \"unit\": \"%\", \"complete\": true, \"formula\": \"100 * PTS / (2 * (FGA + 0.44 * FTA))\"}, \"EFG_PCT\": {\"value\": 53.578000408914335, \"unit\": \"%\", \"complete\": true, \"formula\": \"100 * (FGM + 0.5 * FG3M) / FGA\"}}}, {\"kind\": \"scoring_stats\", \"player_id\": 201935, \"player_name\": \"James Harden\", \"scope\": {\"start\": 2016, \"end\": 2018, \"phase\": \"Regular Season\", \"basis\": \"per_game\"}, \"seasons\": [\"2016-17\", \"2017-18\", \"2018-19\"], \"scoring_role\": \"personal\", \"cutoff\": 2025, \"sources\": [{\"provider\": \"NBA.com\", \"url\": \"https://www.nba.com/stats/player/201935/traditional\", \"endpoint\": \"https://stats.nba.com/stats/playercareerstats\", \"parameters\": {\"player_id\": 201935, \"per_mode36\": \"Totals\", \"league_id_nullable\": \"00\"}, \"request_parameters\": {\"PlayerID\": 201935, \"PerMode\": \"Totals\", \"LeagueID\": \"00\"}, \"fetched_at\": \"2026-11-11T03:42:08.627540+00:00\", \"stale\": false, \"warning\": null}], \"missing_seasons\": [], \"limitations\": [\"Counts cover returned NBA participation, not hypothetical full seasons.\", \"Playoff samples include Finals and only recorded appearances; missing postseason participation is not a zero-performance game.\"], \"id\": \"ev_8f40930e07a8b4a37331\", \"values\": {\"GP\": {\"value\": 231.0, \"unit\": \"games\", \"complete\": true, \"formula\": \"sum(GP)\"}, \"PTS\": {\"value\": 31.883116883116884, \"unit\": \"per game\", \"complete\": true, \"formula\": \"PTS / GP\"}, \"MIN\": {\"value\": 36.21212121212121, \"unit\": \"per game\", \"complete\": true, \"formula\": \"MIN / GP\"}, \"FGM\": {\"value\": 9.385281385281385, \"unit\": \"per game\", \"complete\": true, \"formula\": \"FGM / GP\"}, \"FGA\": {\"value\": 21.173160173160174, \"unit\": \"per game\", \"complete\": true, \"formula\": \"FGA / GP\"}, \"FG3M\": {\"value\": 3.9177489177489178, \"unit\": \"per game\", \"complete\": true, \"formula\": \"FG3M / GP\"}, \"FG3A\": {\"value\": 10.848484848484848, \"unit\": \"per game\", \"complete\": true, \"formula\": \"FG3A / GP\"}, \"FTM\": {\"value\": 9.194805194805195, \"unit\": \"per game\", \"complete\": true, \"formula\": \"FTM / GP\"}, \"FTA\": {\"value\": 10.675324675324676, \"unit\": \"per game\", \"complete\": true, \"formula\": \"FTA / GP\"}, \"FG_PCT\": {\"value\": 44.326313637292984, \"unit\": \"%\", \"complete\": true, \"formula\": \"100 * FGM / FGA\"}, \"FG3_PCT\": {\"value\": 36.11332801276935, \"unit\": \"%\", \"complete\": true, \"formula\": \"100 * FG3M / FG3A\"}, \"FT_PCT\": {\"value\": 86.13138686131387, \"unit\": \"%\", \"complete\": true, \"formula\": \"100 * FTM / FTA\"}, \"TS_PCT\": {\"value\": 61.621073486790586, \"unit\": \"%\", \"complete\": true, \"formula\": \"100 * PTS / (2 * (FGA + 0.44 * FTA))\"}, \"EFG_PCT\": {\"value\": 53.578000408914335, \"unit\": \"%\", \"complete\": true, \"formula\": \"100 * (FGM + 0.5 * FG3M) / FGA\"}}}], \"gaps\": [], \"status\": \"completed\", \"collector\": \"collect_scoring_profile\"}",
+      "id": "Researcher 1 \u00b7 personal:1",
+      "status": "completed",
+      "agent": "Researcher 1 \u00b7 personal",
+      "node_id": "researcher-1"
+    },
+    {
+      "name": "collect_scoring_environment",
+      "args": {},
+      "result": "{\"records\": [{\"kind\": \"scoring_relative\", \"player_id\": 201142, \"player_name\": \"Kevin Durant\", \"scope\": {\"start\": 2011, \"end\": 2013, \"phase\": \"Regular Season\", \"basis\": \"per_game\"}, \"scoring_role\": \"era\", \"sources\": [{\"provider\": \"NBA.com\", \"url\": \"https://www.nba.com/stats/player/201142/traditional\", \"endpoint\": \"https://stats.nba.com/stats/playercareerstats\", \"parameters\": {\"player_id\": 201142, \"per_mode36\": \"Totals\", \"league_id_nullable\": \"00\"}, \"request_parameters\": {\"PlayerID\": 201142, \"PerMode\": \"Totals\", \"LeagueID\": \"00\"}, \"fetched_at\": \"2026-11-11T03:42:08.390758+00:00\", \"stale\": false, \"warning\": null}, {\"provider\": \"NBA.com\", \"url\": \"https://stats.nba.com/stats/leaguegamelog\", \"endpoint\": \"https://stats.nba.com/stats/leaguegamelog\", \"parameters\": {\"season\": \"2011-12\", \"season_type_all_star\": \"Regular Season\", \"player_or_team_abbreviation\": \"T\"}, \"request_parameters\": {\"Counter\": 0, \"Direction\": \"ASC\", \"LeagueID\": \"00\", \"PlayerOrTeam\": \"T\", \"Season\": \"2011-12\", \"SeasonType\": \"Regular Season\", \"Sorter\": \"DATE\", \"DateFrom\": \"\", \"DateTo\": \"\"}, \"fetched_at\": \"2026-11-10T22:48:26.191418+00:00\", \"stale\": false, \"warning\": null}, {\"provider\": \"NBA.com\", \"url\": \"https://stats.nba.com/stats/leaguegamelog\", \"endpoint\": \"https://stats.nba.com/stats/leaguegamelog\", \"parameters\": {\"season\": \"2012-13\", \"season_type_all_star\": \"Regular Season\", \"player_or_team_abbreviation\": \"T\"}, \"request_parameters\": {\"Counter\": 0, \"Direction\": \"ASC\", \"LeagueID\": \"00\", \"PlayerOrTeam\": \"T\", \"Season\": \"2012-13\", \"SeasonType\": \"Regular Season\", \"Sorter\": \"DATE\", \"DateFrom\": \"\", \"DateTo\": \"\"}, \"fetched_at\": \"2026-11-10T22:48:26.269859+00:00\", \"stale\": false, \"warning\": null}, {\"provider\": \"NBA.com\", \"url\": \"https://stats.nba.com/stats/leaguegamelog\", \"endpoint\": \"https://stats.nba.com/stats/leaguegamelog\", \"parameters\": {\"season\": \"2013-14\", \"season_type_all_star\": \"Regular Season\", \"player_or_team_abbreviation\": \"T\"}, \"request_parameters\": {\"Counter\": 0, \"Direction\": \"ASC\", \"LeagueID\": \"00\", \"PlayerOrTeam\": \"T\", \"Season\": \"2013-14\", \"SeasonType\": \"Regular Season\", \"Sorter\": \"DATE\", \"DateFrom\": \"\", \"DateTo\": \"\"}, \"fetched_at\": \"2026-11-10T22:33:53.037272+00:00\", \"stale\": false, \"warning\": null}], \"missing_seasons\": [], \"season_inputs\": [{\"season\": \"2011-12\", \"player_ts\": 60.95792914382117, \"league_ts\": 52.71065178081325, \"relative_ts\": 8.247277363007917, \"shooting_opportunities\": 1517.44}, {\"season\": \"2012-13\", \"player_ts\": 64.66250709018718, \"league_ts\": 53.46171017189803, \"relative_ts\": 11.20079691828915, \"shooting_opportunities\": 1763.0}, {\"season\": \"2013-14\", \"player_ts\": 63.48545686024875, \"league_ts\": 54.08725530981595, \"relative_ts\": 9.398201550432802, \"shooting_opportunities\": 2042.2}], \"limitations\": [\"Weighted relative TS is an explicit descriptive comparison, not an official NBA impact metric or a causal era correction.\", \"League baselines use the same season and phase as the player sample. No interpolation is used.\"], \"id\": \"ev_8bc42d6bd614c9235391\", \"values\": {\"WEIGHTED_RTS\": {\"value\": 9.66715027410465, \"label\": \"Shot-opportunity-weighted relative TS\", \"unit\": \"percentage points\", \"formula\": \"sum((player season TS% - league season TS%) * (FGA + 0.44*FTA)) / sum(FGA + 0.44*FTA)\", \"complete\": true}, \"ERA_COVERAGE\": {\"value\": 100.0, \"label\": \"Shooting-opportunity coverage\", \"unit\": \"%\", \"formula\": \"100 * covered shooting opportunities / total returned shooting opportunities\", \"complete\": true}, \"SEASONS_COVERED\": {\"value\": 3, \"label\": \"Covered league-baseline seasons\", \"unit\": \"seasons\", \"formula\": \"count(verified season baselines)\", \"complete\": true}}}, {\"kind\": \"scoring_relative\", \"player_id\": 201935, \"player_name\": \"James Harden\", \"scope\": {\"start\": 2016, \"end\": 2018, \"phase\": \"Regular Season\", \"basis\": \"per_game\"}, \"scoring_role\": \"era\", \"sources\": [{\"provider\": \"NBA.com\", \"url\": \"https://www.nba.com/stats/player/201935/traditional\", \"endpoint\": \"https://stats.nba.com/stats/playercareerstats\", \"parameters\": {\"player_id\": 201935, \"per_mode36\": \"Totals\", \"league_id_nullable\": \"00\"}, \"request_parameters\": {\"PlayerID\": 201935, \"PerMode\": \"Totals\", \"LeagueID\": \"00\"}, \"fetched_at\": \"2026-11-11T03:42:08.627540+00:00\", \"stale\": false, \"warning\": null}, {\"provider\": \"NBA.com\", \"url\": \"https://stats.nba.com/stats/leaguegamelog\", \"endpoint\": \"https://stats.nba.com/stats/leaguegamelog\", \"parameters\": {\"season\": \"2016-17\", \"season_type_all_star\": \"Regular Season\", \"player_or_team_abbreviation\": \"T\"}, \"request_parameters\": {\"Counter\": 0, \"Direction\": \"ASC\", \"LeagueID\": \"00\", \"PlayerOrTeam\": \"T\", \"Season\": \"2016-17\", \"SeasonType\": \"Regular Season\", \"Sorter\": \"DATE\", \"DateFrom\": \"\", \"DateTo\": \"\"}, \"fetched_at\": \"2026-11-10T22:33:47.255933+00:00\", \"stale\": false, \"warning\": null}, {\"provider\": \"NBA.com\", \"url\": \"https://stats.nba.com/stats/leaguegamelog\", \"endpoint\": \"https://stats.nba.com/stats/leaguegamelog\", \"parameters\": {\"season\": \"2017-18\", \"season_type_all_star\": \"Regular Season\", \"player_or_team_abbreviation\": \"T\"}, \"request_parameters\": {\"Counter\": 0, \"Direction\": \"ASC\", \"LeagueID\": \"00\", \"PlayerOrTeam\": \"T\", \"Season\": \"2017-18\", \"SeasonType\": \"Regular Season\", \"Sorter\": \"DATE\", \"DateFrom\": \"\", \"DateTo\": \"\"}, \"fetched_at\": \"2026-11-10T22:48:26.626877+00:00\", \"stale\": false, \"warning\": null}, {\"provider\": \"NBA.com\", \"url\": \"https://stats.nba.com/stats/leaguegamelog\", \"endpoint\": \"https://stats.nba.com/stats/leaguegamelog\", \"parameters\": {\"season\": \"2018-19\", \"season_type_all_star\": \"Regular Season\", \"player_or_team_abbreviation\": \"T\"}, \"request_parameters\": {\"Counter\": 0, \"Direction\": \"ASC\", \"LeagueID\": \"00\", \"PlayerOrTeam\": \"T\", \"Season\": \"2018-19\", \"SeasonType\": \"Regular Season\", \"Sorter\": \"DATE\", \"DateFrom\": \"\", \"DateTo\": \"\"}, \"fetched_at\": \"2026-11-10T22:48:26.569753+00:00\", \"stale\": false, \"warning\": null}], \"missing_seasons\": [], \"season_inputs\": [{\"season\": \"2016-17\", \"player_ts\": 61.33372209263579, \"league_ts\": 55.235992654282605, \"relative_ts\": 6.097729438353184, \"shooting_opportunities\": 1920.6399999999999}, {\"season\": \"2017-18\", \"player_ts\": 61.931843878612455, \"league_ts\": 55.61508695837054, \"relative_ts\": 6.3167569202419145, \"shooting_opportunities\": 1768.88}, {\"season\": \"2018-19\", \"player_ts\": 61.622028235047146, \"league_ts\": 55.961072450885226, \"relative_ts\": 5.660955784161921, \"shooting_opportunities\": 2286.52}], \"limitations\": [\"Weighted relative TS is an explicit descriptive comparison, not an official NBA impact metric or a causal era correction.\", \"League baselines use the same season and phase as the player sample. No interpolation is used.\"], \"id\": \"ev_94ebe2939b0ed6a9e88e\", \"values\": {\"WEIGHTED_RTS\": {\"value\": 5.995444586910076, \"label\": \"Shot-opportunity-weighted relative TS\", \"unit\": \"percentage points\", \"formula\": \"sum((player season TS% - league season TS%) * (FGA + 0.44*FTA)) / sum(FGA + 0.44*FTA)\", \"complete\": true}, \"ERA_COVERAGE\": {\"value\": 100.0, \"label\": \"Shooting-opportunity coverage\", \"unit\": \"%\", \"formula\": \"100 * covered shooting opportunities / total returned shooting opportunities\", \"complete\": true}, \"SEASONS_COVERED\": {\"value\": 3, \"label\": \"Covered league-baseline seasons\", \"unit\": \"seasons\", \"formula\": \"count(verified season baselines)\", \"complete\": true}}}], \"season_inputs\": [{\"season\": \"2011-12\", \"player_ts\": 60.95792914382117, \"league_ts\": 52.71065178081325, \"relative_ts\": 8.247277363007917, \"shooting_opportunities\": 1517.44, \"player_id\": 201142, \"phase\": \"Regular Season\"}, {\"season\": \"2012-13\", \"player_ts\": 64.66250709018718, \"league_ts\": 53.46171017189803, \"relative_ts\": 11.20079691828915, \"shooting_opportunities\": 1763.0, \"player_id\": 201142, \"phase\": \"Regular Season\"}, {\"season\": \"2013-14\", \"player_ts\": 63.48545686024875, \"league_ts\": 54.08725530981595, \"relative_ts\": 9.398201550432802, \"shooting_opportunities\": 2042.2, \"player_id\": 201142, \"phase\": \"Regular Season\"}, {\"season\": \"2016-17\", \"player_ts\": 61.33372209263579, \"league_ts\": 55.235992654282605, \"relative_ts\": 6.097729438353184, \"shooting_opportunities\": 1920.6399999999999, \"player_id\": 201935, \"phase\": \"Regular Season\"}, {\"season\": \"2017-18\", \"player_ts\": 61.931843878612455, \"league_ts\": 55.61508695837054, \"relative_ts\": 6.3167569202419145, \"shooting_opportunities\": 1768.88, \"player_id\": 201935, \"phase\": \"Regular Season\"}, {\"season\": \"2018-19\", \"player_ts\": 61.622028235047146, \"league_ts\": 55.961072450885226, \"relative_ts\": 5.660955784161921, \"shooting_opportunities\": 2286.52, \"player_id\": 201935, \"phase\": \"Regular Season\"}], \"gaps\": [], \"status\": \"completed\", \"collector\": \"collect_scoring_environment\"}",
+      "id": "Researcher 2 \u00b7 era:1",
+      "status": "completed",
+      "agent": "Researcher 2 \u00b7 era",
+      "node_id": "researcher-2"
+    },
+    {
+      "name": "review_content_evidence",
+      "args": {},
+      "result": "{\"status\": \"reviewed\", \"checks\": []}",
+      "id": "Lead:3",
+      "status": "completed",
+      "agent": "Lead",
+      "node_id": "review-1"
+    },
+    {
+      "name": "review_research",
+      "args": {},
+      "result": "{\"action\": \"finish\", \"question\": \"\", \"scope\": \"2011-12\\u20132013-14 versus 2016-17\\u20132018-19; Regular Season\", \"criteria\": \"Scoring volume, raw and contemporaneous relative efficiency; bounded context; no overall score.\", \"comprehensive\": false, \"tasks\": []}",
+      "id": "Lead:4",
+      "status": "completed",
+      "agent": "Lead",
+      "node_id": "review-1"
+    },
+    {
+      "name": "compose_scoring_review",
+      "args": {},
+      "result": "{\"verdict\": \"comparison\", \"valid\": true, \"checked_claims\": 6, \"presentation\": {\"emphasis\": \"tradeoff_first\", \"highlight_rows\": [0, 1], \"caveats\": [\"noncausal\"]}, \"errors\": []}",
+      "id": "Writer:1",
+      "status": "completed",
+      "agent": "Writer",
+      "node_id": "writer"
+    }
+  ],
+  "evidence": {
+    "ev_94ebe2939b0ed6a9e88e": {
+      "kind": "scoring_relative",
+      "player_id": 201935,
+      "player_name": "James Harden",
+      "scope": {
+        "start": 2016,
+        "end": 2018,
+        "phase": "Regular Season",
+        "basis": "per_game"
+      },
+      "scoring_role": "era",
+      "values": {
+        "WEIGHTED_RTS": {
+          "value": 5.995444586910076,
+          "label": "Shot-opportunity-weighted relative TS",
+          "unit": "percentage points",
+          "formula": "sum((player season TS% - league season TS%) * (FGA + 0.44*FTA)) / sum(FGA + 0.44*FTA)",
+          "inputs": {
+            "season_inputs": [
+              {
+                "season": "2016-17",
+                "player_ts": 61.33372209263579,
+                "league_ts": 55.235992654282605,
+                "relative_ts": 6.097729438353184,
+                "shooting_opportunities": 1920.6399999999999
+              },
+              {
+                "season": "2017-18",
+                "player_ts": 61.931843878612455,
+                "league_ts": 55.61508695837054,
+                "relative_ts": 6.3167569202419145,
+                "shooting_opportunities": 1768.88
+              },
+              {
+                "season": "2018-19",
+                "player_ts": 61.622028235047146,
+                "league_ts": 55.961072450885226,
+                "relative_ts": 5.660955784161921,
+                "shooting_opportunities": 2286.52
+              }
+            ]
+          },
+          "complete": true,
+          "games": null,
+          "covered_seasons": []
+        },
+        "ERA_COVERAGE": {
+          "value": 100.0,
+          "label": "Shooting-opportunity coverage",
+          "unit": "%",
+          "formula": "100 * covered shooting opportunities / total returned shooting opportunities",
+          "inputs": {},
+          "complete": true,
+          "games": null,
+          "covered_seasons": []
+        },
+        "SEASONS_COVERED": {
+          "value": 3,
+          "label": "Covered league-baseline seasons",
+          "unit": "seasons",
+          "formula": "count(verified season baselines)",
+          "inputs": {},
+          "complete": true,
+          "games": null,
+          "covered_seasons": []
+        }
+      },
+      "sources": [
+        {
+          "provider": "NBA.com",
+          "url": "https://www.nba.com/stats/player/201935/traditional",
+          "endpoint": "https://stats.nba.com/stats/playercareerstats",
+          "parameters": {
+            "player_id": 201935,
+            "per_mode36": "Totals",
+            "league_id_nullable": "00"
+          },
+          "request_parameters": {
+            "PlayerID": 201935,
+            "PerMode": "Totals",
+            "LeagueID": "00"
+          },
+          "fetched_at": "2026-11-11T03:42:08.627540+00:00",
+          "stale": false,
+          "warning": null
+        },
+        {
+          "provider": "NBA.com",
+          "url": "https://stats.nba.com/stats/leaguegamelog",
+          "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+          "parameters": {
+            "season": "2016-17",
+            "season_type_all_star": "Regular Season",
+            "player_or_team_abbreviation": "T"
+          },
+          "request_parameters": {
+            "Counter": 0,
+            "Direction": "ASC",
+            "LeagueID": "00",
+            "PlayerOrTeam": "T",
+            "Season": "2016-17",
+            "SeasonType": "Regular Season",
+            "Sorter": "DATE",
+            "DateFrom": "",
+            "DateTo": ""
+          },
+          "fetched_at": "2026-11-10T22:33:47.255933+00:00",
+          "stale": false,
+          "warning": null
+        },
+        {
+          "provider": "NBA.com",
+          "url": "https://stats.nba.com/stats/leaguegamelog",
+          "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+          "parameters": {
+            "season": "2017-18",
+            "season_type_all_star": "Regular Season",
+            "player_or_team_abbreviation": "T"
+          },
+          "request_parameters": {
+            "Counter": 0,
+            "Direction": "ASC",
+            "LeagueID": "00",
+            "PlayerOrTeam": "T",
+            "Season": "2017-18",
+            "SeasonType": "Regular Season",
+            "Sorter": "DATE",
+            "DateFrom": "",
+            "DateTo": ""
+          },
+          "fetched_at": "2026-11-10T22:48:26.626877+00:00",
+          "stale": false,
+          "warning": null
+        },
+        {
+          "provider": "NBA.com",
+          "url": "https://stats.nba.com/stats/leaguegamelog",
+          "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+          "parameters": {
+            "season": "2018-19",
+            "season_type_all_star": "Regular Season",
+            "player_or_team_abbreviation": "T"
+          },
+          "request_parameters": {
+            "Counter": 0,
+            "Direction": "ASC",
+            "LeagueID": "00",
+            "PlayerOrTeam": "T",
+            "Season": "2018-19",
+            "SeasonType": "Regular Season",
+            "Sorter": "DATE",
+            "DateFrom": "",
+            "DateTo": ""
+          },
+          "fetched_at": "2026-11-10T22:48:26.569753+00:00",
+          "stale": false,
+          "warning": null
+        }
+      ],
+      "missing_seasons": [],
+      "season_inputs": [
+        {
+          "season": "2016-17",
+          "player_ts": 61.33372209263579,
+          "league_ts": 55.235992654282605,
+          "relative_ts": 6.097729438353184,
+          "shooting_opportunities": 1920.6399999999999
+        },
+        {
+          "season": "2017-18",
+          "player_ts": 61.931843878612455,
+          "league_ts": 55.61508695837054,
+          "relative_ts": 6.3167569202419145,
+          "shooting_opportunities": 1768.88
+        },
+        {
+          "season": "2018-19",
+          "player_ts": 61.622028235047146,
+          "league_ts": 55.961072450885226,
+          "relative_ts": 5.660955784161921,
+          "shooting_opportunities": 2286.52
+        }
+      ],
+      "limitations": [
+        "Weighted relative TS is an explicit descriptive comparison, not an official NBA impact metric or a causal era correction.",
+        "League baselines use the same season and phase as the player sample. No interpolation is used."
+      ],
+      "id": "ev_94ebe2939b0ed6a9e88e"
+    },
+    "ev_8bc42d6bd614c9235391": {
+      "kind": "scoring_relative",
+      "player_id": 201142,
+      "player_name": "Kevin Durant",
+      "scope": {
+        "start": 2011,
+        "end": 2013,
+        "phase": "Regular Season",
+        "basis": "per_game"
+      },
+      "scoring_role": "era",
+      "values": {
+        "WEIGHTED_RTS": {
+          "value": 9.66715027410465,
+          "label": "Shot-opportunity-weighted relative TS",
+          "unit": "percentage points",
+          "formula": "sum((player season TS% - league season TS%) * (FGA + 0.44*FTA)) / sum(FGA + 0.44*FTA)",
+          "inputs": {
+            "season_inputs": [
+              {
+                "season": "2011-12",
+                "player_ts": 60.95792914382117,
+                "league_ts": 52.71065178081325,
+                "relative_ts": 8.247277363007917,
+                "shooting_opportunities": 1517.44
+              },
+              {
+                "season": "2012-13",
+                "player_ts": 64.66250709018718,
+                "league_ts": 53.46171017189803,
+                "relative_ts": 11.20079691828915,
+                "shooting_opportunities": 1763.0
+              },
+              {
+                "season": "2013-14",
+                "player_ts": 63.48545686024875,
+                "league_ts": 54.08725530981595,
+                "relative_ts": 9.398201550432802,
+                "shooting_opportunities": 2042.2
+              }
+            ]
+          },
+          "complete": true,
+          "games": null,
+          "covered_seasons": []
+        },
+        "ERA_COVERAGE": {
+          "value": 100.0,
+          "label": "Shooting-opportunity coverage",
+          "unit": "%",
+          "formula": "100 * covered shooting opportunities / total returned shooting opportunities",
+          "inputs": {},
+          "complete": true,
+          "games": null,
+          "covered_seasons": []
+        },
+        "SEASONS_COVERED": {
+          "value": 3,
+          "label": "Covered league-baseline seasons",
+          "unit": "seasons",
+          "formula": "count(verified season baselines)",
+          "inputs": {},
+          "complete": true,
+          "games": null,
+          "covered_seasons": []
+        }
+      },
+      "sources": [
+        {
+          "provider": "NBA.com",
+          "url": "https://www.nba.com/stats/player/201142/traditional",
+          "endpoint": "https://stats.nba.com/stats/playercareerstats",
+          "parameters": {
+            "player_id": 201142,
+            "per_mode36": "Totals",
+            "league_id_nullable": "00"
+          },
+          "request_parameters": {
+            "PlayerID": 201142,
+            "PerMode": "Totals",
+            "LeagueID": "00"
+          },
+          "fetched_at": "2026-11-11T03:42:08.390758+00:00",
+          "stale": false,
+          "warning": null
+        },
+        {
+          "provider": "NBA.com",
+          "url": "https://stats.nba.com/stats/leaguegamelog",
+          "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+          "parameters": {
+            "season": "2011-12",
+            "season_type_all_star": "Regular Season",
+            "player_or_team_abbreviation": "T"
+          },
+          "request_parameters": {
+            "Counter": 0,
+            "Direction": "ASC",
+            "LeagueID": "00",
+            "PlayerOrTeam": "T",
+            "Season": "2011-12",
+            "SeasonType": "Regular Season",
+            "Sorter": "DATE",
+            "DateFrom": "",
+            "DateTo": ""
+          },
+          "fetched_at": "2026-11-10T22:48:26.191418+00:00",
+          "stale": false,
+          "warning": null
+        },
+        {
+          "provider": "NBA.com",
+          "url": "https://stats.nba.com/stats/leaguegamelog",
+          "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+          "parameters": {
+            "season": "2012-13",
+            "season_type_all_star": "Regular Season",
+            "player_or_team_abbreviation": "T"
+          },
+          "request_parameters": {
+            "Counter": 0,
+            "Direction": "ASC",
+            "LeagueID": "00",
+            "PlayerOrTeam": "T",
+            "Season": "2012-13",
+            "SeasonType": "Regular Season",
+            "Sorter": "DATE",
+            "DateFrom": "",
+            "DateTo": ""
+          },
+          "fetched_at": "2026-11-10T22:48:26.269859+00:00",
+          "stale": false,
+          "warning": null
+        },
+        {
+          "provider": "NBA.com",
+          "url": "https://stats.nba.com/stats/leaguegamelog",
+          "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+          "parameters": {
+            "season": "2013-14",
+            "season_type_all_star": "Regular Season",
+            "player_or_team_abbreviation": "T"
+          },
+          "request_parameters": {
+            "Counter": 0,
+            "Direction": "ASC",
+            "LeagueID": "00",
+            "PlayerOrTeam": "T",
+            "Season": "2013-14",
+            "SeasonType": "Regular Season",
+            "Sorter": "DATE",
+            "DateFrom": "",
+            "DateTo": ""
+          },
+          "fetched_at": "2026-11-10T22:33:53.037272+00:00",
+          "stale": false,
+          "warning": null
+        }
+      ],
+      "missing_seasons": [],
+      "season_inputs": [
+        {
+          "season": "2011-12",
+          "player_ts": 60.95792914382117,
+          "league_ts": 52.71065178081325,
+          "relative_ts": 8.247277363007917,
+          "shooting_opportunities": 1517.44
+        },
+        {
+          "season": "2012-13",
+          "player_ts": 64.66250709018718,
+          "league_ts": 53.46171017189803,
+          "relative_ts": 11.20079691828915,
+          "shooting_opportunities": 1763.0
+        },
+        {
+          "season": "2013-14",
+          "player_ts": 63.48545686024875,
+          "league_ts": 54.08725530981595,
+          "relative_ts": 9.398201550432802,
+          "shooting_opportunities": 2042.2
+        }
+      ],
+      "limitations": [
+        "Weighted relative TS is an explicit descriptive comparison, not an official NBA impact metric or a causal era correction.",
+        "League baselines use the same season and phase as the player sample. No interpolation is used."
+      ],
+      "id": "ev_8bc42d6bd614c9235391"
+    },
+    "ev_004f278c1da846599ee2": {
+      "kind": "scoring_stats",
+      "player_id": 201142,
+      "player_name": "Kevin Durant",
+      "scope": {
+        "start": 2011,
+        "end": 2013,
+        "phase": "Regular Season",
+        "basis": "per_game"
+      },
+      "values": {
+        "GP": {
+          "value": 228.0,
+          "unit": "games",
+          "games": 228.0,
+          "covered_seasons": [
+            "2011-12",
+            "2012-13",
+            "2013-14"
+          ],
+          "complete": true,
+          "formula": "sum(GP)",
+          "inputs": {
+            "GP": 228.0
+          }
+        },
+        "PTS": {
+          "value": 29.486842105263158,
+          "unit": "per game",
+          "games": 228.0,
+          "covered_seasons": [
+            "2011-12",
+            "2012-13",
+            "2013-14"
+          ],
+          "complete": true,
+          "formula": "PTS / GP",
+          "inputs": {
+            "PTS": 6723.0,
+            "GP": 228.0
+          }
+        },
+        "MIN": {
+          "value": 38.53947368421053,
+          "unit": "per game",
+          "games": 228.0,
+          "covered_seasons": [
+            "2011-12",
+            "2012-13",
+            "2013-14"
+          ],
+          "complete": true,
+          "formula": "MIN / GP",
+          "inputs": {
+            "MIN": 8787.0,
+            "GP": 228.0
+          }
+        },
+        "FGM": {
+          "value": 9.75,
+          "unit": "per game",
+          "games": 228.0,
+          "covered_seasons": [
+            "2011-12",
+            "2012-13",
+            "2013-14"
+          ],
+          "complete": true,
+          "formula": "FGM / GP",
+          "inputs": {
+            "FGM": 2223.0,
+            "GP": 228.0
+          }
+        },
+        "FGA": {
+          "value": 19.37719298245614,
+          "unit": "per game",
+          "games": 228.0,
+          "covered_seasons": [
+            "2011-12",
+            "2012-13",
+            "2013-14"
+          ],
+          "complete": true,
+          "formula": "FGA / GP",
+          "inputs": {
+            "FGA": 4418.0,
+            "GP": 228.0
+          }
+        },
+        "FG3M": {
+          "value": 2.0350877192982457,
+          "unit": "per game",
+          "games": 228.0,
+          "covered_seasons": [
+            "2011-12",
+            "2012-13",
+            "2013-14"
+          ],
+          "complete": true,
+          "formula": "FG3M / GP",
+          "inputs": {
+            "FG3M": 464.0,
+            "GP": 228.0
+          }
+        },
+        "FG3A": {
+          "value": 5.12719298245614,
+          "unit": "per game",
+          "games": 228.0,
+          "covered_seasons": [
+            "2011-12",
+            "2012-13",
+            "2013-14"
+          ],
+          "complete": true,
+          "formula": "FG3A / GP",
+          "inputs": {
+            "FG3A": 1169.0,
+            "GP": 228.0
+          }
+        },
+        "FTM": {
+          "value": 7.951754385964913,
+          "unit": "per game",
+          "games": 228.0,
+          "covered_seasons": [
+            "2011-12",
+            "2012-13",
+            "2013-14"
+          ],
+          "complete": true,
+          "formula": "FTM / GP",
+          "inputs": {
+            "FTM": 1813.0,
+            "GP": 228.0
+          }
+        },
+        "FTA": {
+          "value": 9.017543859649123,
+          "unit": "per game",
+          "games": 228.0,
+          "covered_seasons": [
+            "2011-12",
+            "2012-13",
+            "2013-14"
+          ],
+          "complete": true,
+          "formula": "FTA / GP",
+          "inputs": {
+            "FTA": 2056.0,
+            "GP": 228.0
+          }
+        },
+        "FG_PCT": {
+          "value": 50.3168854685378,
+          "unit": "%",
+          "games": 228.0,
+          "covered_seasons": [
+            "2011-12",
+            "2012-13",
+            "2013-14"
+          ],
+          "complete": true,
+          "formula": "100 * FGM / FGA",
+          "inputs": {
+            "FGM": 2223.0,
+            "FGA": 4418.0
+          }
+        },
+        "FG3_PCT": {
+          "value": 39.69204448246364,
+          "unit": "%",
+          "games": 228.0,
+          "covered_seasons": [
+            "2011-12",
+            "2012-13",
+            "2013-14"
+          ],
+          "complete": true,
+          "formula": "100 * FG3M / FG3A",
+          "inputs": {
+            "FG3M": 464.0,
+            "FG3A": 1169.0
+          }
+        },
+        "FT_PCT": {
+          "value": 88.18093385214007,
+          "unit": "%",
+          "games": 228.0,
+          "covered_seasons": [
+            "2011-12",
+            "2012-13",
+            "2013-14"
+          ],
+          "complete": true,
+          "formula": "100 * FTM / FTA",
+          "inputs": {
+            "FTM": 1813.0,
+            "FTA": 2056.0
+          }
+        },
+        "TS_PCT": {
+          "value": 63.154750274299964,
+          "unit": "%",
+          "games": 228.0,
+          "covered_seasons": [
+            "2011-12",
+            "2012-13",
+            "2013-14"
+          ],
+          "complete": true,
+          "formula": "100 * PTS / (2 * (FGA + 0.44 * FTA))",
+          "inputs": {
+            "PTS": 6723.0,
+            "FGA": 4418.0,
+            "FTA": 2056.0
+          }
+        },
+        "EFG_PCT": {
+          "value": 55.56813037573563,
+          "unit": "%",
+          "games": 228.0,
+          "covered_seasons": [
+            "2011-12",
+            "2012-13",
+            "2013-14"
+          ],
+          "complete": true,
+          "formula": "100 * (FGM + 0.5 * FG3M) / FGA",
+          "inputs": {
+            "FGM": 2223.0,
+            "FG3M": 464.0,
+            "FGA": 4418.0
+          }
+        }
+      },
+      "seasons": [
+        "2011-12",
+        "2012-13",
+        "2013-14"
+      ],
+      "scoring_role": "personal",
+      "cutoff": 2025,
+      "sources": [
+        {
+          "provider": "NBA.com",
+          "url": "https://www.nba.com/stats/player/201142/traditional",
+          "endpoint": "https://stats.nba.com/stats/playercareerstats",
+          "parameters": {
+            "player_id": 201142,
+            "per_mode36": "Totals",
+            "league_id_nullable": "00"
+          },
+          "request_parameters": {
+            "PlayerID": 201142,
+            "PerMode": "Totals",
+            "LeagueID": "00"
+          },
+          "fetched_at": "2026-11-11T03:42:08.390758+00:00",
+          "stale": false,
+          "warning": null
+        }
+      ],
+      "missing_seasons": [],
+      "limitations": [
+        "Counts cover returned NBA participation, not hypothetical full seasons.",
+        "Playoff samples include Finals and only recorded appearances; missing postseason participation is not a zero-performance game."
+      ],
+      "id": "ev_004f278c1da846599ee2"
+    },
+    "ev_8f40930e07a8b4a37331": {
+      "kind": "scoring_stats",
+      "player_id": 201935,
+      "player_name": "James Harden",
+      "scope": {
+        "start": 2016,
+        "end": 2018,
+        "phase": "Regular Season",
+        "basis": "per_game"
+      },
+      "values": {
+        "GP": {
+          "value": 231.0,
+          "unit": "games",
+          "games": 231.0,
+          "covered_seasons": [
+            "2016-17",
+            "2017-18",
+            "2018-19"
+          ],
+          "complete": true,
+          "formula": "sum(GP)",
+          "inputs": {
+            "GP": 231.0
+          }
+        },
+        "PTS": {
+          "value": 31.883116883116884,
+          "unit": "per game",
+          "games": 231.0,
+          "covered_seasons": [
+            "2016-17",
+            "2017-18",
+            "2018-19"
+          ],
+          "complete": true,
+          "formula": "PTS / GP",
+          "inputs": {
+            "PTS": 7365.0,
+            "GP": 231.0
+          }
+        },
+        "MIN": {
+          "value": 36.21212121212121,
+          "unit": "per game",
+          "games": 231.0,
+          "covered_seasons": [
+            "2016-17",
+            "2017-18",
+            "2018-19"
+          ],
+          "complete": true,
+          "formula": "MIN / GP",
+          "inputs": {
+            "MIN": 8365.0,
+            "GP": 231.0
+          }
+        },
+        "FGM": {
+          "value": 9.385281385281385,
+          "unit": "per game",
+          "games": 231.0,
+          "covered_seasons": [
+            "2016-17",
+            "2017-18",
+            "2018-19"
+          ],
+          "complete": true,
+          "formula": "FGM / GP",
+          "inputs": {
+            "FGM": 2168.0,
+            "GP": 231.0
+          }
+        },
+        "FGA": {
+          "value": 21.173160173160174,
+          "unit": "per game",
+          "games": 231.0,
+          "covered_seasons": [
+            "2016-17",
+            "2017-18",
+            "2018-19"
+          ],
+          "complete": true,
+          "formula": "FGA / GP",
+          "inputs": {
+            "FGA": 4891.0,
+            "GP": 231.0
+          }
+        },
+        "FG3M": {
+          "value": 3.9177489177489178,
+          "unit": "per game",
+          "games": 231.0,
+          "covered_seasons": [
+            "2016-17",
+            "2017-18",
+            "2018-19"
+          ],
+          "complete": true,
+          "formula": "FG3M / GP",
+          "inputs": {
+            "FG3M": 905.0,
+            "GP": 231.0
+          }
+        },
+        "FG3A": {
+          "value": 10.848484848484848,
+          "unit": "per game",
+          "games": 231.0,
+          "covered_seasons": [
+            "2016-17",
+            "2017-18",
+            "2018-19"
+          ],
+          "complete": true,
+          "formula": "FG3A / GP",
+          "inputs": {
+            "FG3A": 2506.0,
+            "GP": 231.0
+          }
+        },
+        "FTM": {
+          "value": 9.194805194805195,
+          "unit": "per game",
+          "games": 231.0,
+          "covered_seasons": [
+            "2016-17",
+            "2017-18",
+            "2018-19"
+          ],
+          "complete": true,
+          "formula": "FTM / GP",
+          "inputs": {
+            "FTM": 2124.0,
+            "GP": 231.0
+          }
+        },
+        "FTA": {
+          "value": 10.675324675324676,
+          "unit": "per game",
+          "games": 231.0,
+          "covered_seasons": [
+            "2016-17",
+            "2017-18",
+            "2018-19"
+          ],
+          "complete": true,
+          "formula": "FTA / GP",
+          "inputs": {
+            "FTA": 2466.0,
+            "GP": 231.0
+          }
+        },
+        "FG_PCT": {
+          "value": 44.326313637292984,
+          "unit": "%",
+          "games": 231.0,
+          "covered_seasons": [
+            "2016-17",
+            "2017-18",
+            "2018-19"
+          ],
+          "complete": true,
+          "formula": "100 * FGM / FGA",
+          "inputs": {
+            "FGM": 2168.0,
+            "FGA": 4891.0
+          }
+        },
+        "FG3_PCT": {
+          "value": 36.11332801276935,
+          "unit": "%",
+          "games": 231.0,
+          "covered_seasons": [
+            "2016-17",
+            "2017-18",
+            "2018-19"
+          ],
+          "complete": true,
+          "formula": "100 * FG3M / FG3A",
+          "inputs": {
+            "FG3M": 905.0,
+            "FG3A": 2506.0
+          }
+        },
+        "FT_PCT": {
+          "value": 86.13138686131387,
+          "unit": "%",
+          "games": 231.0,
+          "covered_seasons": [
+            "2016-17",
+            "2017-18",
+            "2018-19"
+          ],
+          "complete": true,
+          "formula": "100 * FTM / FTA",
+          "inputs": {
+            "FTM": 2124.0,
+            "FTA": 2466.0
+          }
+        },
+        "TS_PCT": {
+          "value": 61.621073486790586,
+          "unit": "%",
+          "games": 231.0,
+          "covered_seasons": [
+            "2016-17",
+            "2017-18",
+            "2018-19"
+          ],
+          "complete": true,
+          "formula": "100 * PTS / (2 * (FGA + 0.44 * FTA))",
+          "inputs": {
+            "PTS": 7365.0,
+            "FGA": 4891.0,
+            "FTA": 2466.0
+          }
+        },
+        "EFG_PCT": {
+          "value": 53.578000408914335,
+          "unit": "%",
+          "games": 231.0,
+          "covered_seasons": [
+            "2016-17",
+            "2017-18",
+            "2018-19"
+          ],
+          "complete": true,
+          "formula": "100 * (FGM + 0.5 * FG3M) / FGA",
+          "inputs": {
+            "FGM": 2168.0,
+            "FG3M": 905.0,
+            "FGA": 4891.0
+          }
+        }
+      },
+      "seasons": [
+        "2016-17",
+        "2017-18",
+        "2018-19"
+      ],
+      "scoring_role": "personal",
+      "cutoff": 2025,
+      "sources": [
+        {
+          "provider": "NBA.com",
+          "url": "https://www.nba.com/stats/player/201935/traditional",
+          "endpoint": "https://stats.nba.com/stats/playercareerstats",
+          "parameters": {
+            "player_id": 201935,
+            "per_mode36": "Totals",
+            "league_id_nullable": "00"
+          },
+          "request_parameters": {
+            "PlayerID": 201935,
+            "PerMode": "Totals",
+            "LeagueID": "00"
+          },
+          "fetched_at": "2026-11-11T03:42:08.627540+00:00",
+          "stale": false,
+          "warning": null
+        }
+      ],
+      "missing_seasons": [],
+      "limitations": [
+        "Counts cover returned NBA participation, not hypothetical full seasons.",
+        "Playoff samples include Finals and only recorded appearances; missing postseason participation is not a zero-performance game."
+      ],
+      "id": "ev_8f40930e07a8b4a37331"
+    }
+  },
+  "evidence_result": {
+    "cards": [
+      {
+        "title": "TS_PCT",
+        "player": "Kevin Durant",
+        "value": 63.154750274299964,
+        "unit": "%",
+        "scope": "2011-12 through 2013-14 \u00b7 Regular Season \u00b7 per game",
+        "games": 228.0,
+        "covered_seasons": [
+          "2011-12",
+          "2012-13",
+          "2013-14"
+        ],
+        "formula": "100 * PTS / (2 * (FGA + 0.44 * FTA))",
+        "inputs": {
+          "PTS": 6723.0,
+          "FGA": 4418.0,
+          "FTA": 2056.0
+        },
+        "date": null,
+        "matchup": null,
+        "player_id": 201142,
+        "evidence_id": "ev_004f278c1da846599ee2",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201142/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201142,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201142,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T03:42:08.390758+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Counts cover returned NBA participation, not hypothetical full seasons.",
+          "Playoff samples include Finals and only recorded appearances; missing postseason participation is not a zero-performance game."
+        ]
+      },
+      {
+        "title": "TS_PCT",
+        "player": "James Harden",
+        "value": 61.621073486790586,
+        "unit": "%",
+        "scope": "2016-17 through 2018-19 \u00b7 Regular Season \u00b7 per game",
+        "games": 231.0,
+        "covered_seasons": [
+          "2016-17",
+          "2017-18",
+          "2018-19"
+        ],
+        "formula": "100 * PTS / (2 * (FGA + 0.44 * FTA))",
+        "inputs": {
+          "PTS": 7365.0,
+          "FGA": 4891.0,
+          "FTA": 2466.0
+        },
+        "date": null,
+        "matchup": null,
+        "player_id": 201935,
+        "evidence_id": "ev_8f40930e07a8b4a37331",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201935/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201935,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201935,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T03:42:08.627540+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Counts cover returned NBA participation, not hypothetical full seasons.",
+          "Playoff samples include Finals and only recorded appearances; missing postseason participation is not a zero-performance game."
+        ]
+      },
+      {
+        "title": "WEIGHTED_RTS",
+        "player": "Kevin Durant",
+        "value": 9.66715027410465,
+        "unit": "percentage points",
+        "scope": "2011-12 through 2013-14 \u00b7 Regular Season \u00b7 per game",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "sum((player season TS% - league season TS%) * (FGA + 0.44*FTA)) / sum(FGA + 0.44*FTA)",
+        "inputs": {
+          "season_inputs": [
+            {
+              "season": "2011-12",
+              "player_ts": 60.95792914382117,
+              "league_ts": 52.71065178081325,
+              "relative_ts": 8.247277363007917,
+              "shooting_opportunities": 1517.44
+            },
+            {
+              "season": "2012-13",
+              "player_ts": 64.66250709018718,
+              "league_ts": 53.46171017189803,
+              "relative_ts": 11.20079691828915,
+              "shooting_opportunities": 1763.0
+            },
+            {
+              "season": "2013-14",
+              "player_ts": 63.48545686024875,
+              "league_ts": 54.08725530981595,
+              "relative_ts": 9.398201550432802,
+              "shooting_opportunities": 2042.2
+            }
+          ]
+        },
+        "date": null,
+        "matchup": null,
+        "label": "Shot-opportunity-weighted relative TS",
+        "player_id": 201142,
+        "evidence_id": "ev_8bc42d6bd614c9235391",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201142/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201142,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201142,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T03:42:08.390758+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/leaguegamelog",
+            "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+            "parameters": {
+              "season": "2011-12",
+              "season_type_all_star": "Regular Season",
+              "player_or_team_abbreviation": "T"
+            },
+            "request_parameters": {
+              "Counter": 0,
+              "Direction": "ASC",
+              "LeagueID": "00",
+              "PlayerOrTeam": "T",
+              "Season": "2011-12",
+              "SeasonType": "Regular Season",
+              "Sorter": "DATE",
+              "DateFrom": "",
+              "DateTo": ""
+            },
+            "fetched_at": "2026-11-10T22:48:26.191418+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/leaguegamelog",
+            "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+            "parameters": {
+              "season": "2012-13",
+              "season_type_all_star": "Regular Season",
+              "player_or_team_abbreviation": "T"
+            },
+            "request_parameters": {
+              "Counter": 0,
+              "Direction": "ASC",
+              "LeagueID": "00",
+              "PlayerOrTeam": "T",
+              "Season": "2012-13",
+              "SeasonType": "Regular Season",
+              "Sorter": "DATE",
+              "DateFrom": "",
+              "DateTo": ""
+            },
+            "fetched_at": "2026-11-10T22:48:26.269859+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/leaguegamelog",
+            "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+            "parameters": {
+              "season": "2013-14",
+              "season_type_all_star": "Regular Season",
+              "player_or_team_abbreviation": "T"
+            },
+            "request_parameters": {
+              "Counter": 0,
+              "Direction": "ASC",
+              "LeagueID": "00",
+              "PlayerOrTeam": "T",
+              "Season": "2013-14",
+              "SeasonType": "Regular Season",
+              "Sorter": "DATE",
+              "DateFrom": "",
+              "DateTo": ""
+            },
+            "fetched_at": "2026-11-10T22:33:53.037272+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Weighted relative TS is an explicit descriptive comparison, not an official NBA impact metric or a causal era correction.",
+          "League baselines use the same season and phase as the player sample. No interpolation is used."
+        ]
+      },
+      {
+        "title": "WEIGHTED_RTS",
+        "player": "James Harden",
+        "value": 5.995444586910076,
+        "unit": "percentage points",
+        "scope": "2016-17 through 2018-19 \u00b7 Regular Season \u00b7 per game",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "sum((player season TS% - league season TS%) * (FGA + 0.44*FTA)) / sum(FGA + 0.44*FTA)",
+        "inputs": {
+          "season_inputs": [
+            {
+              "season": "2016-17",
+              "player_ts": 61.33372209263579,
+              "league_ts": 55.235992654282605,
+              "relative_ts": 6.097729438353184,
+              "shooting_opportunities": 1920.6399999999999
+            },
+            {
+              "season": "2017-18",
+              "player_ts": 61.931843878612455,
+              "league_ts": 55.61508695837054,
+              "relative_ts": 6.3167569202419145,
+              "shooting_opportunities": 1768.88
+            },
+            {
+              "season": "2018-19",
+              "player_ts": 61.622028235047146,
+              "league_ts": 55.961072450885226,
+              "relative_ts": 5.660955784161921,
+              "shooting_opportunities": 2286.52
+            }
+          ]
+        },
+        "date": null,
+        "matchup": null,
+        "label": "Shot-opportunity-weighted relative TS",
+        "player_id": 201935,
+        "evidence_id": "ev_94ebe2939b0ed6a9e88e",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201935/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201935,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201935,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T03:42:08.627540+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/leaguegamelog",
+            "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+            "parameters": {
+              "season": "2016-17",
+              "season_type_all_star": "Regular Season",
+              "player_or_team_abbreviation": "T"
+            },
+            "request_parameters": {
+              "Counter": 0,
+              "Direction": "ASC",
+              "LeagueID": "00",
+              "PlayerOrTeam": "T",
+              "Season": "2016-17",
+              "SeasonType": "Regular Season",
+              "Sorter": "DATE",
+              "DateFrom": "",
+              "DateTo": ""
+            },
+            "fetched_at": "2026-11-10T22:33:47.255933+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/leaguegamelog",
+            "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+            "parameters": {
+              "season": "2017-18",
+              "season_type_all_star": "Regular Season",
+              "player_or_team_abbreviation": "T"
+            },
+            "request_parameters": {
+              "Counter": 0,
+              "Direction": "ASC",
+              "LeagueID": "00",
+              "PlayerOrTeam": "T",
+              "Season": "2017-18",
+              "SeasonType": "Regular Season",
+              "Sorter": "DATE",
+              "DateFrom": "",
+              "DateTo": ""
+            },
+            "fetched_at": "2026-11-10T22:48:26.626877+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/leaguegamelog",
+            "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+            "parameters": {
+              "season": "2018-19",
+              "season_type_all_star": "Regular Season",
+              "player_or_team_abbreviation": "T"
+            },
+            "request_parameters": {
+              "Counter": 0,
+              "Direction": "ASC",
+              "LeagueID": "00",
+              "PlayerOrTeam": "T",
+              "Season": "2018-19",
+              "SeasonType": "Regular Season",
+              "Sorter": "DATE",
+              "DateFrom": "",
+              "DateTo": ""
+            },
+            "fetched_at": "2026-11-10T22:48:26.569753+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Weighted relative TS is an explicit descriptive comparison, not an official NBA impact metric or a causal era correction.",
+          "League baselines use the same season and phase as the player sample. No interpolation is used."
+        ]
+      },
+      {
+        "title": "ERA_COVERAGE",
+        "player": "Kevin Durant",
+        "value": 100.0,
+        "unit": "%",
+        "scope": "2011-12 through 2013-14 \u00b7 Regular Season \u00b7 per game",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "100 * covered shooting opportunities / total returned shooting opportunities",
+        "inputs": {},
+        "date": null,
+        "matchup": null,
+        "label": "Shooting-opportunity coverage",
+        "player_id": 201142,
+        "evidence_id": "ev_8bc42d6bd614c9235391",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201142/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201142,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201142,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T03:42:08.390758+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/leaguegamelog",
+            "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+            "parameters": {
+              "season": "2011-12",
+              "season_type_all_star": "Regular Season",
+              "player_or_team_abbreviation": "T"
+            },
+            "request_parameters": {
+              "Counter": 0,
+              "Direction": "ASC",
+              "LeagueID": "00",
+              "PlayerOrTeam": "T",
+              "Season": "2011-12",
+              "SeasonType": "Regular Season",
+              "Sorter": "DATE",
+              "DateFrom": "",
+              "DateTo": ""
+            },
+            "fetched_at": "2026-11-10T22:48:26.191418+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/leaguegamelog",
+            "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+            "parameters": {
+              "season": "2012-13",
+              "season_type_all_star": "Regular Season",
+              "player_or_team_abbreviation": "T"
+            },
+            "request_parameters": {
+              "Counter": 0,
+              "Direction": "ASC",
+              "LeagueID": "00",
+              "PlayerOrTeam": "T",
+              "Season": "2012-13",
+              "SeasonType": "Regular Season",
+              "Sorter": "DATE",
+              "DateFrom": "",
+              "DateTo": ""
+            },
+            "fetched_at": "2026-11-10T22:48:26.269859+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/leaguegamelog",
+            "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+            "parameters": {
+              "season": "2013-14",
+              "season_type_all_star": "Regular Season",
+              "player_or_team_abbreviation": "T"
+            },
+            "request_parameters": {
+              "Counter": 0,
+              "Direction": "ASC",
+              "LeagueID": "00",
+              "PlayerOrTeam": "T",
+              "Season": "2013-14",
+              "SeasonType": "Regular Season",
+              "Sorter": "DATE",
+              "DateFrom": "",
+              "DateTo": ""
+            },
+            "fetched_at": "2026-11-10T22:33:53.037272+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Weighted relative TS is an explicit descriptive comparison, not an official NBA impact metric or a causal era correction.",
+          "League baselines use the same season and phase as the player sample. No interpolation is used."
+        ]
+      },
+      {
+        "title": "ERA_COVERAGE",
+        "player": "James Harden",
+        "value": 100.0,
+        "unit": "%",
+        "scope": "2016-17 through 2018-19 \u00b7 Regular Season \u00b7 per game",
+        "games": null,
+        "covered_seasons": [],
+        "formula": "100 * covered shooting opportunities / total returned shooting opportunities",
+        "inputs": {},
+        "date": null,
+        "matchup": null,
+        "label": "Shooting-opportunity coverage",
+        "player_id": 201935,
+        "evidence_id": "ev_94ebe2939b0ed6a9e88e",
+        "sources": [
+          {
+            "provider": "NBA.com",
+            "url": "https://www.nba.com/stats/player/201935/traditional",
+            "endpoint": "https://stats.nba.com/stats/playercareerstats",
+            "parameters": {
+              "player_id": 201935,
+              "per_mode36": "Totals",
+              "league_id_nullable": "00"
+            },
+            "request_parameters": {
+              "PlayerID": 201935,
+              "PerMode": "Totals",
+              "LeagueID": "00"
+            },
+            "fetched_at": "2026-11-11T03:42:08.627540+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/leaguegamelog",
+            "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+            "parameters": {
+              "season": "2016-17",
+              "season_type_all_star": "Regular Season",
+              "player_or_team_abbreviation": "T"
+            },
+            "request_parameters": {
+              "Counter": 0,
+              "Direction": "ASC",
+              "LeagueID": "00",
+              "PlayerOrTeam": "T",
+              "Season": "2016-17",
+              "SeasonType": "Regular Season",
+              "Sorter": "DATE",
+              "DateFrom": "",
+              "DateTo": ""
+            },
+            "fetched_at": "2026-11-10T22:33:47.255933+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/leaguegamelog",
+            "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+            "parameters": {
+              "season": "2017-18",
+              "season_type_all_star": "Regular Season",
+              "player_or_team_abbreviation": "T"
+            },
+            "request_parameters": {
+              "Counter": 0,
+              "Direction": "ASC",
+              "LeagueID": "00",
+              "PlayerOrTeam": "T",
+              "Season": "2017-18",
+              "SeasonType": "Regular Season",
+              "Sorter": "DATE",
+              "DateFrom": "",
+              "DateTo": ""
+            },
+            "fetched_at": "2026-11-10T22:48:26.626877+00:00",
+            "stale": false,
+            "warning": null
+          },
+          {
+            "provider": "NBA.com",
+            "url": "https://stats.nba.com/stats/leaguegamelog",
+            "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+            "parameters": {
+              "season": "2018-19",
+              "season_type_all_star": "Regular Season",
+              "player_or_team_abbreviation": "T"
+            },
+            "request_parameters": {
+              "Counter": 0,
+              "Direction": "ASC",
+              "LeagueID": "00",
+              "PlayerOrTeam": "T",
+              "Season": "2018-19",
+              "SeasonType": "Regular Season",
+              "Sorter": "DATE",
+              "DateFrom": "",
+              "DateTo": ""
+            },
+            "fetched_at": "2026-11-10T22:48:26.569753+00:00",
+            "stale": false,
+            "warning": null
+          }
+        ],
+        "limitations": [
+          "Weighted relative TS is an explicit descriptive comparison, not an official NBA impact metric or a causal era correction.",
+          "League baselines use the same season and phase as the player sample. No interpolation is used."
+        ]
+      }
+    ],
+    "comparisons": [],
+    "sources": [
+      {
+        "provider": "NBA.com",
+        "url": "https://www.nba.com/stats/player/201142/traditional",
+        "endpoint": "https://stats.nba.com/stats/playercareerstats",
+        "parameters": {
+          "player_id": 201142,
+          "per_mode36": "Totals",
+          "league_id_nullable": "00"
+        },
+        "request_parameters": {
+          "PlayerID": 201142,
+          "PerMode": "Totals",
+          "LeagueID": "00"
+        },
+        "fetched_at": "2026-11-11T03:42:08.390758+00:00",
+        "stale": false,
+        "warning": null
+      },
+      {
+        "provider": "NBA.com",
+        "url": "https://stats.nba.com/stats/leaguegamelog",
+        "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+        "parameters": {
+          "season": "2011-12",
+          "season_type_all_star": "Regular Season",
+          "player_or_team_abbreviation": "T"
+        },
+        "request_parameters": {
+          "Counter": 0,
+          "Direction": "ASC",
+          "LeagueID": "00",
+          "PlayerOrTeam": "T",
+          "Season": "2011-12",
+          "SeasonType": "Regular Season",
+          "Sorter": "DATE",
+          "DateFrom": "",
+          "DateTo": ""
+        },
+        "fetched_at": "2026-11-10T22:48:26.191418+00:00",
+        "stale": false,
+        "warning": null
+      },
+      {
+        "provider": "NBA.com",
+        "url": "https://stats.nba.com/stats/leaguegamelog",
+        "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+        "parameters": {
+          "season": "2012-13",
+          "season_type_all_star": "Regular Season",
+          "player_or_team_abbreviation": "T"
+        },
+        "request_parameters": {
+          "Counter": 0,
+          "Direction": "ASC",
+          "LeagueID": "00",
+          "PlayerOrTeam": "T",
+          "Season": "2012-13",
+          "SeasonType": "Regular Season",
+          "Sorter": "DATE",
+          "DateFrom": "",
+          "DateTo": ""
+        },
+        "fetched_at": "2026-11-10T22:48:26.269859+00:00",
+        "stale": false,
+        "warning": null
+      },
+      {
+        "provider": "NBA.com",
+        "url": "https://stats.nba.com/stats/leaguegamelog",
+        "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+        "parameters": {
+          "season": "2013-14",
+          "season_type_all_star": "Regular Season",
+          "player_or_team_abbreviation": "T"
+        },
+        "request_parameters": {
+          "Counter": 0,
+          "Direction": "ASC",
+          "LeagueID": "00",
+          "PlayerOrTeam": "T",
+          "Season": "2013-14",
+          "SeasonType": "Regular Season",
+          "Sorter": "DATE",
+          "DateFrom": "",
+          "DateTo": ""
+        },
+        "fetched_at": "2026-11-10T22:33:53.037272+00:00",
+        "stale": false,
+        "warning": null
+      },
+      {
+        "provider": "NBA.com",
+        "url": "https://www.nba.com/stats/player/201935/traditional",
+        "endpoint": "https://stats.nba.com/stats/playercareerstats",
+        "parameters": {
+          "player_id": 201935,
+          "per_mode36": "Totals",
+          "league_id_nullable": "00"
+        },
+        "request_parameters": {
+          "PlayerID": 201935,
+          "PerMode": "Totals",
+          "LeagueID": "00"
+        },
+        "fetched_at": "2026-11-11T03:42:08.627540+00:00",
+        "stale": false,
+        "warning": null
+      },
+      {
+        "provider": "NBA.com",
+        "url": "https://stats.nba.com/stats/leaguegamelog",
+        "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+        "parameters": {
+          "season": "2016-17",
+          "season_type_all_star": "Regular Season",
+          "player_or_team_abbreviation": "T"
+        },
+        "request_parameters": {
+          "Counter": 0,
+          "Direction": "ASC",
+          "LeagueID": "00",
+          "PlayerOrTeam": "T",
+          "Season": "2016-17",
+          "SeasonType": "Regular Season",
+          "Sorter": "DATE",
+          "DateFrom": "",
+          "DateTo": ""
+        },
+        "fetched_at": "2026-11-10T22:33:47.255933+00:00",
+        "stale": false,
+        "warning": null
+      },
+      {
+        "provider": "NBA.com",
+        "url": "https://stats.nba.com/stats/leaguegamelog",
+        "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+        "parameters": {
+          "season": "2017-18",
+          "season_type_all_star": "Regular Season",
+          "player_or_team_abbreviation": "T"
+        },
+        "request_parameters": {
+          "Counter": 0,
+          "Direction": "ASC",
+          "LeagueID": "00",
+          "PlayerOrTeam": "T",
+          "Season": "2017-18",
+          "SeasonType": "Regular Season",
+          "Sorter": "DATE",
+          "DateFrom": "",
+          "DateTo": ""
+        },
+        "fetched_at": "2026-11-10T22:48:26.626877+00:00",
+        "stale": false,
+        "warning": null
+      },
+      {
+        "provider": "NBA.com",
+        "url": "https://stats.nba.com/stats/leaguegamelog",
+        "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+        "parameters": {
+          "season": "2018-19",
+          "season_type_all_star": "Regular Season",
+          "player_or_team_abbreviation": "T"
+        },
+        "request_parameters": {
+          "Counter": 0,
+          "Direction": "ASC",
+          "LeagueID": "00",
+          "PlayerOrTeam": "T",
+          "Season": "2018-19",
+          "SeasonType": "Regular Season",
+          "Sorter": "DATE",
+          "DateFrom": "",
+          "DateTo": ""
+        },
+        "fetched_at": "2026-11-10T22:48:26.569753+00:00",
+        "stale": false,
+        "warning": null
+      }
+    ],
+    "limitations": [
+      "Weighted relative TS is an explicit descriptive comparison, not an official NBA impact metric or a causal era correction.",
+      "League baselines use the same season and phase as the player sample. No interpolation is used.",
+      "Counts cover returned NBA participation, not hypothetical full seasons.",
+      "Playoff samples include Finals and only recorded appearances; missing postseason participation is not a zero-performance game."
+    ],
+    "verification": {
+      "status": "checked",
+      "checked_claims": 6,
+      "attempts": [
+        {
+          "valid": true,
+          "errors": []
+        }
+      ],
+      "note": "Published numeric values and comparison directions are server-derived and checked against scoped evidence. Missing source coverage is reported separately; descriptive context does not establish causation."
+    },
+    "research": {
+      "scope": "2011-12\u20132013-14 versus 2016-17\u20132018-19; Regular Season",
+      "criteria": "Cross-era scoring claim review",
+      "tasks": [
+        {
+          "agent": "Researcher 1 \u00b7 personal",
+          "dimension": "personal",
+          "question": "Investigate Kevin Durant's regular-season scoring volume, shooting percentages, and true shooting efficiency in 2011-12 through 2013-14, alongside James Harden's corresponding metrics in 2016-17 through 2018-19.",
+          "round": 1,
+          "status": "completed"
+        },
+        {
+          "agent": "Researcher 2 \u00b7 era",
+          "dimension": "era",
+          "question": "Examine contemporaneous league-wide scoring and shooting efficiency benchmarks for the 2011-12 through 2013-14 and 2016-17 through 2018-19 periods.",
+          "round": 1,
+          "status": "completed"
+        }
+      ],
+      "findings": [
+        {
+          "agent": "Researcher 1 \u00b7 personal",
+          "dimension": "personal",
+          "task": "Investigate Kevin Durant's regular-season scoring volume, shooting percentages, and true shooting efficiency in 2011-12 through 2013-14, alongside James Harden's corresponding metrics in 2016-17 through 2018-19.",
+          "status": "completed",
+          "notes_status": "Working notes only; Lead content checks and final report facts use verified scoped evidence.",
+          "findings": "- Kevin Durant played 228 regular-season games across 2011-12 through 2013-14, averaging 38.5 minutes and 29.49 points per game (`ev_004f278c1da846599ee2`).\n- Durant's shooting splits across the 2011-12 through 2013-14 regular seasons were 50.32% FG, 39.69% on 5.13 three-point attempts per game, and 88.18% FT (`ev_004f278c1da846599ee2`).\n- Durant achieved an effective field goal percentage (eFG%) of 55.57% and a true shooting percentage (TS%) of 63.15% in his 2011-12 through 2013-14 regular-season window (`ev_004f278c1da846599ee2`).\n- James Harden played 231 regular-season games across 2016-17 through 2018-19, averaging 36.2 minutes and 31.88 points per game (`ev_8f40930e07a8b4a37331`).\n- Harden's shooting splits across the 2016-17 through 2018-19 regular seasons were 44.33% FG, 36.11% on 10.85 three-point attempts per game, and 86.13% FT (`ev_8f40930e07a8b4a37331`).\n- Harden achieved an effective field goal percentage (eFG%) of 53.58% and a true shooting percentage (TS%) of 61.62% in his 2016-17 through 2018-19 regular-season window (`ev_8f40930e07a8b4a37331`).\n- Counts cover returned NBA regular-season participation only and do not include postseason games or hypothetical full-season projections (`ev_54ea4a45c9c1022f0763`, `ev_fd2b54862dc9a7e2178c`).",
+          "gaps": [],
+          "evidence_ids": [
+            "ev_004f278c1da846599ee2",
+            "ev_54ea4a45c9c1022f0763",
+            "ev_8f40930e07a8b4a37331",
+            "ev_fd2b54862dc9a7e2178c"
+          ]
+        },
+        {
+          "agent": "Researcher 2 \u00b7 era",
+          "dimension": "era",
+          "task": "Examine contemporaneous league-wide scoring and shooting efficiency benchmarks for the 2011-12 through 2013-14 and 2016-17 through 2018-19 periods.",
+          "status": "completed",
+          "notes_status": "Working notes only; Lead content checks and final report facts use verified scoped evidence.",
+          "findings": "* For Kevin Durant across the 2011-12 through 2013-14 regular seasons, contemporaneous league true shooting percentages were 52.71% (2011-12), 53.46% (2012-13), and 54.09% (2013-14) [ev_8bc42d6bd614c9235391].\n* Kevin Durant's true shooting percentages across the same span were 60.96% (2011-12), 64.66% (2012-13), and 63.49% (2013-14), yielding relative true shooting marks of +8.25%, +11.20%, and +9.40% percentage points [ev_8bc42d6bd614c9235391].\n* Durant's shot-opportunity-weighted relative true shooting over his 3-season window was +9.67 percentage points across 5,322.6 total shooting opportunities [ev_8bc42d6bd614c9235391].\n* For James Harden across the 2016-17 through 2018-19 regular seasons, contemporaneous league true shooting percentages were 55.24% (2016-17), 55.62% (2017-18), and 55.96% (2018-19) [ev_94ebe2939b0ed6a9e88e].\n* James Harden's true shooting percentages across the same span were 61.33% (2016-17), 61.93% (2017-18), and 61.62% (2018-19), yielding relative true shooting marks of +6.10%, +6.32%, and +5.66 percentage points [ev_94ebe2939b0ed6a9e88e].\n* Harden's shot-opportunity-weighted relative true shooting over his 3-season window was +6.00 percentage points across 5,976.04 total shooting opportunities [ev_94ebe2939b0ed6a9e88e].\n* League scoring efficiency rose between the two periods, with league true shooting increasing from a range of 52.71%-54.09% in Durant's window to 55.24%-55.96% in Harden's window [ev_8bc42d6bd614c9235391, ev_94ebe2939b0ed6a9e88e].\n* Coverage is 100% for all specified player-seasons with no interpolated data or missing baseline seasons [ev_8bc42d6bd614c9235391, ev_94ebe2939b0ed6a9e88e].",
+          "gaps": [],
+          "evidence_ids": [
+            "ev_8bc42d6bd614c9235391",
+            "ev_94ebe2939b0ed6a9e88e"
+          ]
+        }
+      ],
+      "coverage": "completed",
+      "content_checks": [],
+      "coverage_cells": [
+        {
+          "dimension": "personal",
+          "status": "completed",
+          "reason": "Required collection completed; bounded sample limitations still apply."
+        },
+        {
+          "dimension": "era",
+          "status": "completed",
+          "reason": "Required collection completed; bounded sample limitations still apply."
+        }
+      ],
+      "elapsed_seconds": 10.14,
+      "api_requests": 0,
+      "tokens": {
+        "prompt": 17232,
+        "completion": 2396
+      },
+      "data_cutoff": "2026-11-11T06:58:36.070778+00:00",
+      "limits": {
+        "seconds": 240,
+        "researchers": 8,
+        "rounds": 3,
+        "parallel_workers": 4
+      }
+    },
+    "scoring": {
+      "contract": {
+        "action": "review",
+        "question": "",
+        "claim": "Compare Kevin Durant in 2011-12 through 2013-14 with James Harden in 2016-17 through 2018-19 on regular-season shooting efficiency.",
+        "request_kind": "comparison",
+        "left_player": 201142,
+        "right_player": 201935,
+        "period": "windows",
+        "left_start": 2011,
+        "left_end": 2013,
+        "right_start": 2016,
+        "right_end": 2018,
+        "phases": [
+          "Regular Season"
+        ],
+        "lens": "efficiency",
+        "include_context": false,
+        "support_phases": [],
+        "cutoff": 2025
+      },
+      "verdict": "comparison",
+      "matrix": [
+        {
+          "phase": "Regular Season",
+          "metric": "TS_PCT",
+          "basis": "per_game",
+          "label": "Raw true shooting",
+          "left": 63.154750274299964,
+          "right": 61.621073486790586,
+          "unit": "%",
+          "direction": "left",
+          "complete": true,
+          "left_id": "ev_004f278c1da846599ee2",
+          "right_id": "ev_8f40930e07a8b4a37331",
+          "left_scope": {
+            "start": 2011,
+            "end": 2013,
+            "phase": "Regular Season",
+            "basis": "per_game"
+          },
+          "right_scope": {
+            "start": 2016,
+            "end": 2018,
+            "phase": "Regular Season",
+            "basis": "per_game"
+          }
+        },
+        {
+          "phase": "Regular Season",
+          "metric": "WEIGHTED_RTS",
+          "basis": "per_game",
+          "label": "Contemporaneous relative true shooting",
+          "left": 9.66715027410465,
+          "right": 5.995444586910076,
+          "unit": "percentage points",
+          "direction": "left",
+          "complete": true,
+          "left_id": "ev_8bc42d6bd614c9235391",
+          "right_id": "ev_94ebe2939b0ed6a9e88e",
+          "left_scope": {
+            "start": 2011,
+            "end": 2013,
+            "phase": "Regular Season",
+            "basis": "per_game"
+          },
+          "right_scope": {
+            "start": 2016,
+            "end": 2018,
+            "phase": "Regular Season",
+            "basis": "per_game"
+          }
+        }
+      ],
+      "sensitivity": [
+        {
+          "phase": "Regular Season",
+          "test": "Raw versus contemporaneous relative efficiency",
+          "result": "stable"
+        }
+      ],
+      "support_samples": [],
+      "presentation": {
+        "emphasis": "tradeoff_first",
+        "highlight_rows": [
+          0,
+          1
+        ],
+        "caveats": [
+          "noncausal"
+        ]
+      }
+    }
+  },
+  "research_flow": {
+    "version": 13,
+    "status": "completed",
+    "elapsed_ms": 10140,
+    "peak_parallel": 2,
+    "nodes": [
+      {
+        "id": "lead",
+        "label": "Lead",
+        "role": "lead",
+        "agent": "Lead",
+        "depends_on": [],
+        "description": "Confirm the scoring claim, identities and scope; plan independent investigations.",
+        "round": 0,
+        "status": "completed",
+        "started_ms": 0,
+        "ended_ms": 5433,
+        "tool_ids": [
+          "Lead:1",
+          "Lead:2"
+        ],
+        "summary": "2011-12\u20132013-14 versus 2016-17\u20132018-19; Regular Season"
+      },
+      {
+        "id": "researcher-1",
+        "label": "Scoring evidence",
+        "role": "researcher",
+        "agent": "Researcher 1 \u00b7 personal",
+        "depends_on": [
+          "lead"
+        ],
+        "description": "Investigate Kevin Durant's regular-season scoring volume, shooting percentages, and true shooting efficiency in 2011-12 through 2013-14, alongside James Harden's corresponding metrics in 2016-17 through 2018-19.",
+        "round": 1,
+        "status": "completed",
+        "started_ms": 5435,
+        "ended_ms": 8330,
+        "tool_ids": [
+          "Researcher 1 \u00b7 personal:1"
+        ],
+        "summary": "Required collection completed."
+      },
+      {
+        "id": "researcher-2",
+        "label": "Era benchmarks",
+        "role": "researcher",
+        "agent": "Researcher 2 \u00b7 era",
+        "depends_on": [
+          "lead"
+        ],
+        "description": "Examine contemporaneous league-wide scoring and shooting efficiency benchmarks for the 2011-12 through 2013-14 and 2016-17 through 2018-19 periods.",
+        "round": 1,
+        "status": "completed",
+        "started_ms": 5449,
+        "ended_ms": 8939,
+        "tool_ids": [
+          "Researcher 2 \u00b7 era:1"
+        ],
+        "summary": "Required collection completed."
+      },
+      {
+        "id": "review-1",
+        "label": "Lead review",
+        "role": "review",
+        "agent": "Lead",
+        "depends_on": [
+          "researcher-1",
+          "researcher-2"
+        ],
+        "description": "Inspect collected evidence and decide whether targeted follow-up is needed.",
+        "round": 1,
+        "status": "completed",
+        "started_ms": 8940,
+        "ended_ms": 9516,
+        "tool_ids": [
+          "Lead:3",
+          "Lead:4"
+        ],
+        "summary": "Evidence review complete; proceed with the available coverage and disclosed gaps."
+      },
+      {
+        "id": "writer",
+        "label": "Writer",
+        "role": "writer",
+        "agent": "Writer",
+        "depends_on": [
+          "review-1"
+        ],
+        "description": "Select evidence and counterevidence; render and audit the sourced report.",
+        "round": 0,
+        "status": "completed",
+        "started_ms": 9517,
+        "ended_ms": 10140,
+        "tool_ids": [
+          "Writer:1"
+        ],
+        "summary": "The report passed its numerical evidence checks."
+      }
+    ]
+  },
+  "seconds": 10.36,
+  "model": "vertex_ai/gemini-3.5-flash-lite",
+  "api_checks": {
+    "chat_status": 200,
+    "project1_required_response_fields_preserved": true,
+    "own_evidence_status": 200,
+    "other_browser_evidence_status": 404
+  }
+}

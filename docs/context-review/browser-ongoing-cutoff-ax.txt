@@ -1,0 +1,186 @@
+Browser tab: 15, Title: "NBA Game Lab · Scoring Review", URL: "http://127.0.0.1:8767/".
+0 AXWebArea NBA Game Lab · Scoring Review, URL: 127.0.0.1:8767/
+	1 container app
+		2 container Description: Conversation history, ID: conversation-sidebar
+			3 text NBA 
+			4 text GAME LAB
+			5 text A NEW ANGLE ON THE GAME
+			6 button New conversation ↗
+				7 image
+				8 text New conversation
+				187 text ↗
+			10 container
+				11 image
+				12 search text field (settable) Search conversations
+			13 text YOUR CONVERSATIONS 20
+			14 container
+				15 heading Today, Value: 2
+					16 text Today
+				188 container
+					189 button Compare Michael Jordan and LeBron James over their entire scoring careers. Compa
+						190 image
+						191 text Compare Michael Jordan and LeBron James over their entire scoring careers. Compa
+					192 button Help: Delete conversation, Description: Delete conversation: Compare Michael Jordan and LeBron James over their entire scoring careers. Compa
+						193 image
+				17 container
+					18 button Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+						19 image
+						20 text Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+					21 button Help: Delete conversation, Description: Delete conversation: Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+						22 image
+				23 container
+					24 button Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+						25 image
+						26 text Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+					27 button Help: Delete conversation, Description: Delete conversation: Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+						28 image
+				29 container
+					30 button Assess the claim that Michael Jordan's scoring in 1990-91 was stronger than LeBr
+						31 image
+						32 text Assess the claim that Michael Jordan's scoring in 1990-91 was stronger than LeBr
+					33 button Help: Delete conversation, Description: Delete conversation: Assess the claim that Michael Jordan's scoring in 1990-91 was stronger than LeBr
+						34 image
+				35 heading Previous 7 days, Value: 2
+					36 text Previous 7 days
+				37 container
+					38 button Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+						39 image
+						40 text Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+					41 button Help: Delete conversation, Description: Delete conversation: Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+						42 image
+				43 container
+					44 button Assess the claim that Michael Jordan’s scoring in 1990-91 was stronger than LeBr
+						45 image
+						46 text Assess the claim that Michael Jordan’s scoring in 1990-91 was stronger than LeBr
+					47 button Help: Delete conversation, Description: Delete conversation: Assess the claim that Michael Jordan’s scoring in 1990-91 was stronger than LeBr
+						48 image
+				49 container
+					50 button Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+						51 image
+						52 text Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+					53 button Help: Delete conversation, Description: Delete conversation: Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+						54 image
+				55 container
+					56 button Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+						57 image
+						58 text Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+					59 button Help: Delete conversation, Description: Delete conversation: Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+						60 image
+				61 container
+					62 button Compare Kevin Durant in 2011-12 through 2013-14 with James Harden in 2016-17 thr
+						63 image
+						64 text Compare Kevin Durant in 2011-12 through 2013-14 with James Harden in 2016-17 thr
+					65 button Help: Delete conversation, Description: Delete conversation: Compare Kevin Durant in 2011-12 through 2013-14 with James Harden in 2016-17 thr
+						66 image
+				67 container
+					68 button Compare Tim Duncan in 2000-01 through 2002-03 with Dirk Nowitzki in 2004-05 thro
+						69 image
+						70 text Compare Tim Duncan in 2000-01 through 2002-03 with Dirk Nowitzki in 2004-05 thro
+					71 button Help: Delete conversation, Description: Delete conversation: Compare Tim Duncan in 2000-01 through 2002-03 with Dirk Nowitzki in 2004-05 thro
+						72 image
+				73 container
+					74 button Compare Tim Duncan in 2000-01 through 2002-03 with Dirk Nowitzki in 2004-05 thro
+						75 image
+						76 text Compare Tim Duncan in 2000-01 through 2002-03 with Dirk Nowitzki in 2004-05 thro
+					77 button Help: Delete conversation, Description: Delete conversation: Compare Tim Duncan in 2000-01 through 2002-03 with Dirk Nowitzki in 2004-05 thro
+						78 image
+				79 container
+					80 button Assess the claim that Michael Jordan’s scoring in 1990-91 was stronger than LeBr
+						81 image
+						82 text Assess the claim that Michael Jordan’s scoring in 1990-91 was stronger than LeBr
+					83 button Help: Delete conversation, Description: Delete conversation: Assess the claim that Michael Jordan’s scoring in 1990-91 was stronger than LeBr
+						84 image
+				85 container
+					86 button Flow Graph acceptance: Assess the claim that Michael Jordan was a stronger score
+						87 image
+						88 text Flow Graph acceptance: Assess the claim that Michael Jordan was a stronger score
+					89 button Help: Delete conversation, Description: Delete conversation: Flow Graph acceptance: Assess the claim that Michael Jordan was a stronger score
+						90 image
+				91 container
+					92 button Controlled follow-up acceptance: Assess whether Kobe Bryant's scoring in 2005-06
+						93 image
+						94 text Controlled follow-up acceptance: Assess whether Kobe Bryant's scoring in 2005-06
+					95 button Help: Delete conversation, Description: Delete conversation: Controlled follow-up acceptance: Assess whether Kobe Bryant's scoring in 2005-06
+						96 image
+				97 container
+					98 button Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+						99 image
+						100 text Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+					101 button Help: Delete conversation, Description: Delete conversation: Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+						102 image
+				103 container
+					104 button Jordan or LeBron: who is better?
+						105 image
+						106 text Jordan or LeBron: who is better?
+					107 button Description: Delete conversation: Jordan or LeBron: who is better?, Help: Delete conversation
+						108 image
+				109 container
+					110 button Investigate Orlando against Memphis on January 15, 2026. Compare team scoring, s
+						111 image
+						112 text Investigate Orlando against Memphis on January 15, 2026. Compare team scoring, s
+					113 button Help: Delete conversation, Description: Delete conversation: Investigate Orlando against Memphis on January 15, 2026. Compare team scoring, s
+						114 image
+				115 container
+					116 button Compare Michael Jordan and LeBron James. Who is better?
+						117 image
+						118 text Compare Michael Jordan and LeBron James. Who is better?
+					119 button Description: Delete conversation: Compare Michael Jordan and LeBron James. Who is better?, Help: Delete conversation
+						120 image
+				121 container
+					122 button Compare Michael Jordan and LeBron James. Who is better?
+						123 image
+						124 text Compare Michael Jordan and LeBron James. Who is better?
+					125 button Description: Delete conversation: Compare Michael Jordan and LeBron James. Who is better?, Help: Delete conversation
+						126 image
+				127 container
+					128 button What was Curry's points per game in the 2015-16 regular season? Show sources.
+						129 image
+						130 text What was Curry's points per game in the 2015-16 regular season? Show sources.
+					131 button Description: Delete conversation: What was Curry's points per game in the 2015-16 regular season? Show sources., Help: Delete conversation
+						132 image
+		133 container
+			134 text SCORING CLAIM REVIEW
+			135 heading Compare Michael Jordan and LeBron James over their entire scoring careers. Compa, Value: 1
+				194 text Compare Michael Jordan and LeBron James over their entire scoring careers. Compa
+			137 text NBA API evidence
+			138 button Switch to light theme
+				139 image
+			183 container
+				184 text YOU Compare Michael Jordan and LeBron James over their entire scoring careers. Compare regular-season and playoff volume and efficiency. Use completed seasons through 2026-27.
+				185 text Game Lab
+				186 text ASSISTANT
+				195 button (collapsed) Research workspace, Secondary Actions: Expand
+					196 image
+					197 text Research workspace
+					198 text Needs clarification
+					199 image
+				200 button (collapsed) Research activity · 1 tool call, Secondary Actions: Expand
+					201 image
+					202 text Research activity
+					203 text · 1 tool call
+					204 image
+				205 text That season is ongoing or in the future. Choose completed seasons through 2025-26 or an earlier cutoff.
+				206 button Copy reply
+			170 container Research players
+				171 button (collapsed) Research players 2, Secondary Actions: Expand
+					172 image
+					173 text Research players
+					207 text 2
+				208 container NBA ID 893
+					209 text Michael Jordan
+					210 button Remove Michael Jordan
+						211 image
+				212 container NBA ID 2544
+					213 text LeBron James
+					214 button Remove LeBron James
+						215 image
+			175 container
+				176 text Your message
+				177 text entry area (settable) Your message, ID: message
+				178 image
+				179 text Scoring Review RESEARCH ↵ to send
+				180 button (disabled) Send message
+					181 image
+			182 text AI can make mistakes. Inspect the evidence and scope. Shift + Enter for a new line
+
+The focused UI element is 177 text entry area (settable) Your message, ID: message

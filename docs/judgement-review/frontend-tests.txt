@@ -1,0 +1,35 @@
+
+> nba-game-lab-ui@1.0.0 test
+> node --test test/*.test.mjs
+
+✔ structured clarification shows period choices only with two confirmed players (0.95975ms)
+✔ completed reports, identity questions and failed replies cannot produce scope actions (0.163625ms)
+✔ legacy period questions remain clickable, other old prompts stay free text (0.391708ms)
+✔ malformed metadata falls back to the original readable reply (0.227458ms)
+✔ equal windows create a plain user clarification with exact identities and seasons (1.006917ms)
+✔ invalid, incomplete, unequal and unsupported windows cannot submit (0.320958ms)
+✔ renders the offensive rating formula from the reported reply (5.136208ms)
+✔ supports inline and display math with both delimiter styles (0.915875ms)
+✔ metric label compatibility preserves real subscripts and escaped text (0.244ms)
+✔ leaves code, escaped dollars and normal currency literal (0.254292ms)
+✔ invalid or unfinished math cannot break the rest of the reply (0.21525ms)
+✔ math does not enable HTML or external image injection (2.225833ms)
+✔ new reports keep the answer, key evidence and qualifications visible (0.540541ms)
+✔ legacy history and clarification replies are not reformatted (0.769ms)
+✔ only known detail sections collapse and nested headings stay attached (0.115208ms)
+✔ heading-like content in a fenced example cannot create a section (0.324875ms)
+✔ evidence-driven follow-up stays visible before detailed tables (0.298292ms)
+✔ impact reports preserve conclusions and follow-up while folding detailed evidence (0.09025ms)
+✔ initial Lead renders alone with no speculative future nodes (0.602417ms)
+✔ four researchers share a column with no overlaps and converge on review (0.188375ms)
+✔ second-round work follows the first review without repeating completed branches (0.10325ms)
+✔ out-of-order stream snapshots cannot regress visible execution (0.065834ms)
+✔ disconnect preserves successful work and stops claiming active execution (0.69275ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 125.284083

@@ -1,0 +1,60 @@
+{
+  "case": "postseason",
+  "path": "raw",
+  "question": "Assess the claim that Michael Jordan had stronger postseason scoring than LeBron James. Compare Jordan's 1990-91 through 1992-93 with James's 2011-12 through 2013-14, using postseason points per game, true shooting and their changes from the corresponding regular seasons. Limit conclusions to these equal three-season samples.",
+  "started_at": "2026-11-11T03:42:51.714707+00:00",
+  "answer": "To assess the claim that Michael Jordan had stronger postseason scoring than LeBron James, we can compare their statistics across two specific, highly dominant three-season peaks: Michael Jordan\u2019s first three-peat span (1990\u201391 to 1992\u201393) and LeBron James\u2019s first three championship seasons (2011\u201312 to 2013\u201314). \n\nBelow is the statistical breakdown using postseason points per game (PPG), true shooting percentage (TS%), and the differential (change) between their postseason performance and the corresponding regular seasons.\n\n---\n\n### Data Summary (Averages across the 3-season samples)\n\n#### **Michael Jordan (1990\u201391 to 1992\u201393)**\n* **Postseason PPG:** **33.8**\n* **Postseason True Shooting Percentage (TS%):** **56.6%**\n* **Scoring Change (Postseason PPG minus Regular Season PPG):** **+1.6** *(Reg Season: 32.2 PPG)*\n* **Efficiency Change (Postseason TS% minus Regular Season TS%):** **-1.3%** *(Reg Season: 57.9% TS)*\n\n#### **LeBron James (2011\u201312 to 2013\u201314)**\n* **Postseason PPG:** **28.7**\n* **Postseason True Shooting Percentage (TS%):** **60.3%**\n* **Scoring Change (Postseason PPG minus Regular Season PPG):** **+1.6** *(Reg Season: 27.1 PPG)*\n* **Efficiency Change (Postseason TS% minus Regular Season TS%):** **+2.3%** *(Reg Season: 58.0% TS)*\n\n---\n\n### Comparative Assessment\n\n#### 1. Postseason Points Per Game (Volume)\n* **Advantage: Michael Jordan**\n* **Analysis:** Jordan holds a decisive edge in raw scoring volume. During this three-season window, Jordan averaged **33.8 PPG** in the playoffs, compared to James\u2019s **28.7 PPG**\u2014a difference of 5.1 points per game. Jordan's scoring load was historically heavy, including a 1992 postseason where he averaged 34.5 PPG and a 1993 finals performance where he averaged a record 41.0 PPG against the Phoenix Suns. \n\n#### 2. True Shooting Percentage (Scoring Efficiency)\n* **Advantage: LeBron James**\n* **Analysis:** James was the more efficient postseason scorer during their respective samples. James posted a **60.3% TS**, while Jordan sat at **56.6% TS**. While Jordan\u2019s efficiency was elite for a high-volume guard in the early 1990s (surpassing league averages significantly), James benefited from playing in an era with more spacing and maintaining a higher proportion of shots at the rim and from behind the arc. \n\n#### 3. Change from Regular Season (Contextual Escalation)\n* **Volume Escalation (Tie):** Both players elevated their scoring volume by the exact same margin when transitioning from the regular season to the playoffs. Both Jordan and James increased their scoring output by **+1.6 PPG** in the postseason compared to their regular-season baselines.\n* **Efficiency Escalation (Advantage: LeBron James):** James actually became *more* efficient in the postseason compared to his regular season during this window, seeing his True Shooting rise by **+2.3%**. Conversely, Jordan experienced a slight dip in efficiency in the postseason, with his TS% dropping by **-1.3%** relative to his regular season, largely due to the increased defensive intensity and physicality playoff opponents directed at him as the primary offensive focal point.\n\n---\n\n### Conclusion\n\nWithin the limits of these two specific three-season samples:\n\n* **Michael Jordan** had the stronger postseason scoring **volume**, outscoring James by over five points per game while matching James's ability to elevate his scoring output relative to the regular season.\n* **LeBron James** had the stronger postseason scoring **efficiency**, maintaining a significantly higher True Shooting percentage and actually improving his efficiency from the regular season to the playoffs, whereas Jordan's efficiency dipped slightly. \n\nTherefore, whether Jordan's scoring was \"stronger\" depends entirely on how one weighs volume versus efficiency: **Jordan was a more prolific postseason scorer, while James was a more efficient one.**",
+  "status": "completed",
+  "ended_at": "2026-11-11T03:42:55.355867+00:00",
+  "seconds": 3.641,
+  "model_calls": [
+    {
+      "started_at": "2026-11-11T03:42:51.714738+00:00",
+      "parameters": {
+        "model": "vertex_ai/gemini-3.5-flash-lite",
+        "vertex_location": "global",
+        "max_tokens": 8192,
+        "timeout": 80,
+        "num_retries": 0
+      },
+      "temperature": "provider default, not overridden",
+      "message_roles": [
+        "user"
+      ],
+      "messages_sha256": "9b8613ad03695fe96e0389f29de9c060dc2af66badc5c167a8a4846eb28418c4",
+      "tool_names": [],
+      "index": 0,
+      "response_model": "gemini-3.5-flash-lite",
+      "response_id": "O-TzatnfMu3YsbwP14S6uA0",
+      "finish_reasons": [
+        "stop"
+      ],
+      "truncated": false,
+      "usage": {
+        "completion_tokens": 963,
+        "prompt_tokens": 84,
+        "total_tokens": 1047,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": null,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 963,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": null,
+          "text_tokens": 84,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "cache_read_input_tokens": null
+      },
+      "seconds": 3.641,
+      "ended_at": "2026-11-11T03:42:55.355802+00:00"
+    }
+  ],
+  "any_model_truncated": false
+}

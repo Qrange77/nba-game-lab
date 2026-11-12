@@ -65,20 +65,34 @@ def identify(message, selected, choices=None, catalog=None):
     catalog = player_catalog() if catalog is None else catalog
     choices = choices or {}
     resolved, pending = [], []
+    unique = {}
     for query in mentions(message, catalog):
-        result = resolve_name(query, catalog)
+        unique.setdefault(normalize(query), query)
+    queries = [(query, resolve_name(query, catalog)) for query in unique.values()]
+    explicit = {}
+    # Full names/unique aliases anywhere in this message establish identity for
+    # repeated surnames, including forward references. Old selections cannot
+    # disambiguate a surname shared by two explicitly named current subjects.
+    for query, result in queries:
         candidates = result['players']
         chosen = choices.get(query)
         if chosen is not None:
             match = next((p for p in candidates if p['id'] == chosen), None)
             if match is None:
                 raise ValueError('Select a player from the candidates for this name.')
-            resolved.append(match)
+            explicit[query] = match
         elif result['resolved']:
-            resolved.append(candidates[0])
+            explicit[query] = candidates[0]
+    for query, result in queries:
+        if query in explicit:
+            resolved.append(explicit[query])
         else:
-            selected_matches = [p for p in selected if p['id'] in {c['id'] for c in candidates}]
-            if len(selected_matches) == 1:
+            candidate_ids = {p['id'] for p in result['players']}
+            current = list({p['id']: p for p in explicit.values() if p['id'] in candidate_ids}.values())
+            selected_matches = [p for p in selected if p['id'] in candidate_ids]
+            if len(current) == 1:
+                resolved.append(current[0])
+            elif not current and len(selected_matches) == 1:
                 resolved.append(selected_matches[0])
             else:
                 pending.append({'query': query, **result})

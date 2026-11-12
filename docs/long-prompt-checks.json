@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-11-11T05:21:24.379322+00:00",
+  "execution": "Actual browser UI on the local service; no injected collector failure or forced research round.",
+  "selected_case": "support_findings",
+  "cases": [
+    {
+      "id": "support_findings",
+      "question": "Assess the claim that Michael Jordan's scoring in 1990-91 was stronger than LeBron James's scoring in 2014-15. Compare regular-season and playoff scoring volume and shooting efficiency relative to the league. Compare teammates: core helpers first, then rotation scoring, minutes and recorded games. Check whether the per-game helper leaders adequately represent the supporting cast's recorded availability. Keep original samples and qualify any limited context.",
+      "initial_attempt": "completed",
+      "rounds": 2,
+      "peak_parallel_researchers": 4,
+      "researcher_starts": 5,
+      "graph_nodes": 9,
+      "numeric_claims_checked_by_production": 66
+    },
+    {
+      "id": "career",
+      "question": "Assess the claim that Michael Jordan was a stronger scorer than LeBron James over their entire NBA careers. Compare regular-season and playoff scoring volume and efficiency, efficiency relative to each season's league, and bounded teammate and Finals-opponent context. Use completed seasons through 2025-26. Give a conditional judgement, not an overall-player ranking.",
+      "initial_attempt": "unnecessary completed-season cutoff clarification",
+      "user_confirmation": "Use the completed 2025-26 cutoff already requested, meaning season start year 2025. Keep Michael Jordan and LeBron James and all comparison dimensions from my original question.",
+      "after_confirmation": "completed",
+      "rounds_after_confirmation": 1,
+      "numeric_claims_checked_by_production": 136
+    }
+  ],
+  "screenshot": "images/multi-agent-research.jpg",
+  "screenshot_sha256": "1ccd47955041d6acb84cdd84c17b257282a0e9f627c12866dc789e5e6a83a092",
+  "prior_paired_benchmark_unchanged": true,
+  "production_code_changed": false,
+  "readme_visual": "images/multi-agent-research.svg",
+  "visual_type": "Vector export of the recorded execution; not an application screenshot",
+  "vector_export": {
+    "checked_at": "2026-11-11T05:31:26.820910+00:00",
+    "svg_sha256": "fa6327739975513e32f3ba97e1b549c668920003026066d9fa318691b040a08f",
+    "source": "images/multi-agent-research.flow.json",
+    "source_sha256": "9471a235375eac20213879c9f54a153a1d8a469ea52edf12af7f658e96619c31",
+    "generator": "../scripts/export_demo_flow_svg.py",
+    "generator_sha256": "0b191deb31e916735a26066cde00950a68c2b5b51a4d2a49730f6d64d7132114",
+    "browser_render_verified": true,
+    "sidebar_included": false,
+    "embedded_raster_images": false,
+    "source_nodes": 9,
+    "source_edges": 11
+  }
+}

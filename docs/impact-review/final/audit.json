@@ -1,0 +1,23 @@
+{
+  "checks": [
+    {
+      "case": "historical",
+      "checked_records": 18,
+      "checked_values": 110,
+      "context_values": 736,
+      "truncated_agent_calls": [
+        6
+      ],
+      "raw_calls": 1
+    },
+    {
+      "case": "team",
+      "checked_records": 2,
+      "checked_values": 18,
+      "context_values": 0,
+      "truncated_agent_calls": [],
+      "raw_calls": 1
+    }
+  ],
+  "method": "Direct arithmetic from original NBA resultSets, independent of production aggregation. Covers all returned impact records; not unmeasured defense, causality or general agent superiority."
+}

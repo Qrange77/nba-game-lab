@@ -1,0 +1,366 @@
+{
+  "status": "audited",
+  "checks": [
+    {
+      "id": "893:Regular Season:PTS",
+      "required": false,
+      "expected": 32292,
+      "tolerance": 1,
+      "unit": "points",
+      "status": "not_stated"
+    },
+    {
+      "id": "893:Regular Season:PPG",
+      "required": true,
+      "expected": 30.12313432835821,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "893:Regular Season:PPG",
+        "quote": "Jordan played 15 NBA seasons, averaging **30.1 points per game (PPG)** for his career",
+        "number": "30.1",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan: Jordan played 15 NBA seasons, averaging 30.1 points per game (PPG) for his career",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "893:Regular Season:TS",
+      "required": true,
+      "expected": 56.85875954512992,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "893:Regular Season:TS",
+        "quote": "His career regular-season True Shooting Percentage (**TS%**) was **56.9%**.",
+        "number": "56.9",
+        "scope": "requested",
+        "scope_quote": "His career regular-season True Shooting Percentage (TS%) was 56.9%.",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "893:Regular Season:RTS",
+      "required": false,
+      "expected": 3.4228828513230507,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "status": "not_stated"
+    },
+    {
+      "id": "893:Playoffs:PTS",
+      "required": false,
+      "expected": 5987,
+      "tolerance": 1,
+      "unit": "points",
+      "status": "not_stated"
+    },
+    {
+      "id": "893:Playoffs:PPG",
+      "required": true,
+      "expected": 33.44692737430167,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "893:Playoffs:PPG",
+        "quote": "In 179 playoff games, Jordan averaged **33.4 PPG**",
+        "number": "33.4",
+        "scope": "requested",
+        "scope_quote": "In 179 playoff games, Jordan averaged 33.4 PPG",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "893:Playoffs:TS",
+      "required": true,
+      "expected": 56.75914479222759,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "893:Playoffs:TS",
+        "quote": "on **56.8% TS**.",
+        "number": "56.8",
+        "scope": "requested",
+        "scope_quote": "In 179 playoff games, Jordan averaged 33.4 PPG on 56.8% TS.",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "893:Playoffs:RTS",
+      "required": false,
+      "expected": 2.8593753711264585,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "status": "not_stated"
+    },
+    {
+      "id": "2544:Regular Season:PTS",
+      "required": false,
+      "expected": 43440,
+      "tolerance": 1,
+      "unit": "points",
+      "status": "not_stated"
+    },
+    {
+      "id": "2544:Regular Season:PPG",
+      "required": true,
+      "expected": 26.781750924784216,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "2544:Regular Season:PPG",
+        "quote": "LeBron is the NBA\u2019s all-time leading scorer, playing 22+ seasons with a career regular-season average of approximately **27.1 PPG**.",
+        "number": "27.1",
+        "scope": "requested",
+        "scope_quote": "LeBron James: LeBron is the NBA\u2019s all-time leading scorer, playing 22+ seasons with a career regular-season average of approximately 27.1 PPG.",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "2544:Regular Season:TS",
+      "required": true,
+      "expected": 59.01461888837325,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "2544:Regular Season:TS",
+        "quote": "His career regular-season **TS%** is significantly higher at **58.9%**.",
+        "number": "58.9",
+        "scope": "requested",
+        "scope_quote": "His career regular-season TS% is significantly higher at 58.9%.",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "2544:Regular Season:RTS",
+      "required": false,
+      "expected": 4.194453747305901,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "status": "not_stated"
+    },
+    {
+      "id": "2544:Playoffs:PTS",
+      "required": false,
+      "expected": 8521,
+      "tolerance": 1,
+      "unit": "points",
+      "status": "not_stated"
+    },
+    {
+      "id": "2544:Playoffs:PPG",
+      "required": true,
+      "expected": 28.21523178807947,
+      "tolerance": 0.2,
+      "unit": "points per game",
+      "extraction": {
+        "id": "2544:Playoffs:PPG",
+        "quote": "In nearly 300 playoff games, LeBron averaged **28.4 PPG**",
+        "number": "28.4",
+        "scope": "requested",
+        "scope_quote": "In nearly 300 playoff games, LeBron averaged 28.4 PPG",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "2544:Playoffs:TS",
+      "required": true,
+      "expected": 58.338399688898384,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "extraction": {
+        "id": "2544:Playoffs:TS",
+        "quote": "on **58.3% TS**.",
+        "number": "58.3",
+        "scope": "requested",
+        "scope_quote": "In nearly 300 playoff games, LeBron averaged 28.4 PPG on 58.3% TS.",
+        "method": "unknown"
+      },
+      "status": "unverifiable_extraction"
+    },
+    {
+      "id": "2544:Playoffs:RTS",
+      "required": false,
+      "expected": 4.006400118690391,
+      "tolerance": 0.2,
+      "unit": "percentage points",
+      "status": "not_stated"
+    }
+  ],
+  "required_count": 8,
+  "required_comparable": 0,
+  "required_correct": 0,
+  "required_missing": 0,
+  "required_scope_mismatches": 0,
+  "advisory_model_review": {
+    "question_coverage": {
+      "status": "partial",
+      "reason": "The answer provides PPG and TS% for both players in both the regular season and playoffs, but omits total cumulative points (PTS) and relative true shooting (RTS) metrics.",
+      "quote": "Michael Jordan: Jordan played 15 NBA seasons, averaging 30.1 points per game (PPG)... His career regular-season True Shooting Percentage (TS%) was 56.9%... In 179 playoff games, Jordan averaged 33.4 PPG on 56.8% TS.",
+      "quote_verified": false
+    },
+    "scope": {
+      "status": "respected",
+      "reason": "The extracted metrics correspond directly to the requested players, phases, and career windows.",
+      "quote": "Michael Jordan... Regular Season... Playoffs... LeBron James... Regular Season... Playoffs",
+      "quote_verified": false
+    },
+    "conclusion_limits": {
+      "status": "respected",
+      "reason": "The answer evaluates the claims through conditional lenses without overreaching into unproven causal assertions or overall-player rankings outside of scoring strength.",
+      "quote": "Whether Michael Jordan was a \"stronger scorer\" than LeBron James depends entirely on how one defines scoring strength",
+      "quote_verified": true
+    }
+  },
+  "note": "Only extracted, quote-verified numeric claims are scored. Missing facts are coverage gaps, not numeric errors. Semantic review is model-judged and advisory.",
+  "extracted": {
+    "claims": [
+      {
+        "id": "893:Regular Season:PPG",
+        "quote": "Jordan played 15 NBA seasons, averaging **30.1 points per game (PPG)** for his career",
+        "number": "30.1",
+        "scope": "requested",
+        "scope_quote": "Michael Jordan: Jordan played 15 NBA seasons, averaging 30.1 points per game (PPG) for his career",
+        "method": "unknown"
+      },
+      {
+        "id": "893:Regular Season:TS",
+        "quote": "His career regular-season True Shooting Percentage (**TS%**) was **56.9%**.",
+        "number": "56.9",
+        "scope": "requested",
+        "scope_quote": "His career regular-season True Shooting Percentage (TS%) was 56.9%.",
+        "method": "unknown"
+      },
+      {
+        "id": "893:Playoffs:PPG",
+        "quote": "In 179 playoff games, Jordan averaged **33.4 PPG**",
+        "number": "33.4",
+        "scope": "requested",
+        "scope_quote": "In 179 playoff games, Jordan averaged 33.4 PPG",
+        "method": "unknown"
+      },
+      {
+        "id": "893:Playoffs:TS",
+        "quote": "on **56.8% TS**.",
+        "number": "56.8",
+        "scope": "requested",
+        "scope_quote": "In 179 playoff games, Jordan averaged 33.4 PPG on 56.8% TS.",
+        "method": "unknown"
+      },
+      {
+        "id": "2544:Regular Season:PPG",
+        "quote": "LeBron is the NBA\u2019s all-time leading scorer, playing 22+ seasons with a career regular-season average of approximately **27.1 PPG**.",
+        "number": "27.1",
+        "scope": "requested",
+        "scope_quote": "LeBron James: LeBron is the NBA\u2019s all-time leading scorer, playing 22+ seasons with a career regular-season average of approximately 27.1 PPG.",
+        "method": "unknown"
+      },
+      {
+        "id": "2544:Regular Season:TS",
+        "quote": "His career regular-season **TS%** is significantly higher at **58.9%**.",
+        "number": "58.9",
+        "scope": "requested",
+        "scope_quote": "His career regular-season TS% is significantly higher at 58.9%.",
+        "method": "unknown"
+      },
+      {
+        "id": "2544:Playoffs:PPG",
+        "quote": "In nearly 300 playoff games, LeBron averaged **28.4 PPG**",
+        "number": "28.4",
+        "scope": "requested",
+        "scope_quote": "In nearly 300 playoff games, LeBron averaged 28.4 PPG",
+        "method": "unknown"
+      },
+      {
+        "id": "2544:Playoffs:TS",
+        "quote": "on **58.3% TS**.",
+        "number": "58.3",
+        "scope": "requested",
+        "scope_quote": "In nearly 300 playoff games, LeBron averaged 28.4 PPG on 58.3% TS.",
+        "method": "unknown"
+      }
+    ],
+    "review": {
+      "question_coverage": {
+        "status": "partial",
+        "reason": "The answer provides PPG and TS% for both players in both the regular season and playoffs, but omits total cumulative points (PTS) and relative true shooting (RTS) metrics.",
+        "quote": "Michael Jordan: Jordan played 15 NBA seasons, averaging 30.1 points per game (PPG)... His career regular-season True Shooting Percentage (TS%) was 56.9%... In 179 playoff games, Jordan averaged 33.4 PPG on 56.8% TS.",
+        "quote_verified": false
+      },
+      "scope": {
+        "status": "respected",
+        "reason": "The extracted metrics correspond directly to the requested players, phases, and career windows.",
+        "quote": "Michael Jordan... Regular Season... Playoffs... LeBron James... Regular Season... Playoffs",
+        "quote_verified": false
+      },
+      "conclusion_limits": {
+        "status": "respected",
+        "reason": "The answer evaluates the claims through conditional lenses without overreaching into unproven causal assertions or overall-player rankings outside of scoring strength.",
+        "quote": "Whether Michael Jordan was a \"stronger scorer\" than LeBron James depends entirely on how one defines scoring strength",
+        "quote_verified": true
+      }
+    }
+  },
+  "extractor_response": "{\n  \"claims\": [\n    {\n      \"id\": \"893:Regular Season:PPG\",\n      \"quote\": \"Jordan played 15 NBA seasons, averaging **30.1 points per game (PPG)** for his career\",\n      \"number\": \"30.1\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"Michael Jordan: Jordan played 15 NBA seasons, averaging 30.1 points per game (PPG) for his career\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"893:Regular Season:TS\",\n      \"quote\": \"His career regular-season True Shooting Percentage (**TS%**) was **56.9%**.\",\n      \"number\": \"56.9\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"His career regular-season True Shooting Percentage (TS%) was 56.9%.\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"893:Playoffs:PPG\",\n      \"quote\": \"In 179 playoff games, Jordan averaged **33.4 PPG**\",\n      \"number\": \"33.4\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"In 179 playoff games, Jordan averaged 33.4 PPG\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"893:Playoffs:TS\",\n      \"quote\": \"on **56.8% TS**.\",\n      \"number\": \"56.8\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"In 179 playoff games, Jordan averaged 33.4 PPG on 56.8% TS.\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"2544:Regular Season:PPG\",\n      \"quote\": \"LeBron is the NBA\u2019s all-time leading scorer, playing 22+ seasons with a career regular-season average of approximately **27.1 PPG**.\",\n      \"number\": \"27.1\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"LeBron James: LeBron is the NBA\u2019s all-time leading scorer, playing 22+ seasons with a career regular-season average of approximately 27.1 PPG.\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"2544:Regular Season:TS\",\n      \"quote\": \"His career regular-season **TS%** is significantly higher at **58.9%**.\",\n      \"number\": \"58.9\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"His career regular-season TS% is significantly higher at 58.9%.\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"2544:Playoffs:PPG\",\n      \"quote\": \"In nearly 300 playoff games, LeBron averaged **28.4 PPG**\",\n      \"number\": \"28.4\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"In nearly 300 playoff games, LeBron averaged 28.4 PPG\",\n      \"method\": \"unknown\"\n    },\n    {\n      \"id\": \"2544:Playoffs:TS\",\n      \"quote\": \"on **58.3% TS**.\",\n      \"number\": \"58.3\",\n      \"scope\": \"requested\",\n      \"scope_quote\": \"In nearly 300 playoff games, LeBron averaged 28.4 PPG on 58.3% TS.\",\n      \"method\": \"unknown\"\n    }\n  ],\n  \"review\": {\n    \"question_coverage\": {\n      \"status\": \"partial\",\n      \"reason\": \"The answer provides PPG and TS% for both players in both the regular season and playoffs, but omits total cumulative points (PTS) and relative true shooting (RTS) metrics.\",\n      \"quote\": \"Michael Jordan: Jordan played 15 NBA seasons, averaging 30.1 points per game (PPG)... His career regular-season True Shooting Percentage (TS%) was 56.9%... In 179 playoff games, Jordan averaged 33.4 PPG on 56.8% TS.\"\n    },\n    \"scope\": {\n      \"status\": \"respected\",\n      \"reason\": \"The extracted metrics correspond directly to the requested players, phases, and career windows.\",\n      \"quote\": \"Michael Jordan... Regular Season... Playoffs... LeBron James... Regular Season... Playoffs\"\n    },\n    \"conclusion_limits\": {\n      \"status\": \"respected\",\n      \"reason\": \"The answer evaluates the claims through conditional lenses without overreaching into unproven causal assertions or overall-player rankings outside of scoring strength.\",\n      \"quote\": \"Whether Michael Jordan was a \\\"stronger scorer\\\" than LeBron James depends entirely on how one defines scoring strength\"\n    }\n  }\n}",
+  "model_calls": [
+    {
+      "started_at": "2026-11-11T03:43:54.854621+00:00",
+      "parameters": {
+        "model": "vertex_ai/gemini-3.5-flash-lite",
+        "vertex_location": "global",
+        "response_format": {
+          "type": "json_object"
+        },
+        "temperature": 0,
+        "max_tokens": 16000,
+        "timeout": 100,
+        "num_retries": 0
+      },
+      "temperature": 0,
+      "message_roles": [
+        "system",
+        "user"
+      ],
+      "messages_sha256": "4274a03c3c66fefa611556ec91a984ae4b415bd2620c3299e5c0674d136c468b",
+      "tool_names": [],
+      "index": 0,
+      "response_model": "gemini-3.5-flash-lite",
+      "response_id": "e-TzaoG-KdHisbwPgsPk2Q8",
+      "finish_reasons": [
+        "stop"
+      ],
+      "truncated": false,
+      "usage": {
+        "completion_tokens": 1150,
+        "prompt_tokens": 3514,
+        "total_tokens": 4664,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": null,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 1150,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": null,
+          "text_tokens": 3514,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "cache_read_input_tokens": null
+      },
+      "seconds": 3.9917,
+      "ended_at": "2026-11-11T03:43:58.846377+00:00"
+    }
+  ]
+}

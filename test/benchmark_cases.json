@@ -1,0 +1,233 @@
+[
+  {
+    "id": "career",
+    "players": [
+      [
+        893,
+        "Michael Jordan"
+      ],
+      [
+        2544,
+        "LeBron James"
+      ]
+    ],
+    "question": "Assess the claim that Michael Jordan was a stronger scorer than LeBron James over their entire NBA careers. Compare regular-season and playoff scoring volume and efficiency, efficiency relative to each season's league, and bounded teammate and Finals-opponent context. Use completed seasons through 2025-26. Give a conditional judgement, not an overall-player ranking.",
+    "cohort": "original",
+    "windows": [
+      {
+        "player_id": 893,
+        "name": "Michael Jordan",
+        "start": 1984,
+        "end": 2025
+      },
+      {
+        "player_id": 2544,
+        "name": "LeBron James",
+        "start": 1984,
+        "end": 2025
+      }
+    ],
+    "phases": [
+      "Regular Season",
+      "Playoffs"
+    ],
+    "required_metrics": [
+      "PPG",
+      "TS"
+    ],
+    "relative_method_required": false,
+    "phase_changes": false
+  },
+  {
+    "id": "windows",
+    "players": [
+      [
+        977,
+        "Kobe Bryant"
+      ],
+      [
+        201939,
+        "Stephen Curry"
+      ]
+    ],
+    "question": "Assess whether Kobe Bryant's scoring in 2005-06 through 2007-08 was stronger than Stephen Curry's scoring in 2014-15 through 2016-17. Compare equal three-season windows, regular-season scoring volume, raw shooting efficiency and contemporaneous league-relative efficiency. Show which metric advantages change with the statistical lens.",
+    "cohort": "original",
+    "windows": [
+      {
+        "player_id": 977,
+        "name": "Kobe Bryant",
+        "start": 2005,
+        "end": 2007
+      },
+      {
+        "player_id": 201939,
+        "name": "Stephen Curry",
+        "start": 2014,
+        "end": 2016
+      }
+    ],
+    "phases": [
+      "Regular Season"
+    ],
+    "required_metrics": [
+      "PPG",
+      "TS"
+    ],
+    "relative_method_required": false,
+    "phase_changes": false
+  },
+  {
+    "id": "postseason",
+    "players": [
+      [
+        893,
+        "Michael Jordan"
+      ],
+      [
+        2544,
+        "LeBron James"
+      ]
+    ],
+    "question": "Assess the claim that Michael Jordan had stronger postseason scoring than LeBron James. Compare Jordan's 1990-91 through 1992-93 with James's 2011-12 through 2013-14, using postseason points per game, true shooting and their changes from the corresponding regular seasons. Limit conclusions to these equal three-season samples.",
+    "cohort": "original",
+    "windows": [
+      {
+        "player_id": 893,
+        "name": "Michael Jordan",
+        "start": 1990,
+        "end": 1992
+      },
+      {
+        "player_id": 2544,
+        "name": "LeBron James",
+        "start": 2011,
+        "end": 2013
+      }
+    ],
+    "phases": [
+      "Regular Season",
+      "Playoffs"
+    ],
+    "required_metrics": [
+      "PPG",
+      "TS"
+    ],
+    "relative_method_required": false,
+    "phase_changes": true
+  },
+  {
+    "id": "new_volume",
+    "cohort": "additional_frozen",
+    "players": [
+      [
+        1495,
+        "Tim Duncan"
+      ],
+      [
+        1717,
+        "Dirk Nowitzki"
+      ]
+    ],
+    "question": "Compare Tim Duncan in 2000-01 through 2002-03 with Dirk Nowitzki in 2004-05 through 2006-07 as regular-season scorers. Which player leads total points and points per game over these equal three-season windows? Keep the conclusion specific to scoring volume; teammate and opponent context is not needed.",
+    "windows": [
+      {
+        "player_id": 1495,
+        "name": "Tim Duncan",
+        "start": 2000,
+        "end": 2002
+      },
+      {
+        "player_id": 1717,
+        "name": "Dirk Nowitzki",
+        "start": 2004,
+        "end": 2006
+      }
+    ],
+    "phases": [
+      "Regular Season"
+    ],
+    "required_metrics": [
+      "PTS",
+      "PPG"
+    ],
+    "relative_method_required": false,
+    "phase_changes": false
+  },
+  {
+    "id": "new_efficiency",
+    "cohort": "additional_frozen",
+    "players": [
+      [
+        201142,
+        "Kevin Durant"
+      ],
+      [
+        201935,
+        "James Harden"
+      ]
+    ],
+    "question": "Compare Kevin Durant in 2011-12 through 2013-14 with James Harden in 2016-17 through 2018-19 on regular-season shooting efficiency. Compute TS% from summed points, field-goal attempts and free-throw attempts, using 0.44 for free throws. Also compare each player with the contemporaneous league: weight each season's player-minus-league TS difference by that player's FGA + 0.44 * FTA. Which player leads each efficiency measure? Limit the conclusion to these windows; do not infer overall scoring or player superiority.",
+    "windows": [
+      {
+        "player_id": 201142,
+        "name": "Kevin Durant",
+        "start": 2011,
+        "end": 2013
+      },
+      {
+        "player_id": 201935,
+        "name": "James Harden",
+        "start": 2016,
+        "end": 2018
+      }
+    ],
+    "phases": [
+      "Regular Season"
+    ],
+    "required_metrics": [
+      "TS",
+      "RTS"
+    ],
+    "relative_method_required": true,
+    "phase_changes": false
+  },
+  {
+    "id": "new_postseason",
+    "cohort": "additional_frozen",
+    "players": [
+      [
+        2548,
+        "Dwyane Wade"
+      ],
+      [
+        202695,
+        "Kawhi Leonard"
+      ]
+    ],
+    "question": "Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason scorers. For each player give whole-postseason points per game and true shooting, plus their changes from the corresponding regular season. Use the entire playoff run, not only the Finals, and limit the conclusion to these one-season samples.",
+    "windows": [
+      {
+        "player_id": 2548,
+        "name": "Dwyane Wade",
+        "start": 2005,
+        "end": 2005
+      },
+      {
+        "player_id": 202695,
+        "name": "Kawhi Leonard",
+        "start": 2018,
+        "end": 2018
+      }
+    ],
+    "phases": [
+      "Regular Season",
+      "Playoffs"
+    ],
+    "required_metrics": [
+      "PPG",
+      "TS"
+    ],
+    "relative_method_required": false,
+    "phase_changes": true
+  }
+]

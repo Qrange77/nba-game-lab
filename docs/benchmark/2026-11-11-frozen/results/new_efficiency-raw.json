@@ -1,0 +1,60 @@
+{
+  "case": "new_efficiency",
+  "path": "raw",
+  "question": "Compare Kevin Durant in 2011-12 through 2013-14 with James Harden in 2016-17 through 2018-19 on regular-season shooting efficiency. Compute TS% from summed points, field-goal attempts and free-throw attempts, using 0.44 for free throws. Also compare each player with the contemporaneous league: weight each season's player-minus-league TS difference by that player's FGA + 0.44 * FTA. Which player leads each efficiency measure? Limit the conclusion to these windows; do not infer overall scoring or player superiority.",
+  "started_at": "2026-11-11T03:43:14.473032+00:00",
+  "answer": "To compare the regular-season shooting efficiency of Kevin Durant (2011-12 to 2013-14) and James Harden (2016-17 to 2018-19), we examine their cumulative totals for Points (PTS), Field Goal Attempts (FGA), and Free Throw Attempts (FTA), as well as their volume-weighted differences compared to the league average True Shooting percentage (TS%). \n\n### Data Sources and Formulas\n*   **True Shooting Percentage (TS%)**: $\\frac{\\text{PTS}}{2 \\times (\\text{FGA} + 0.44 \\times \\text{FTA})}$\n*   **Volume Weight**: $\\text{FGA} + 0.44 \\times \\text{FTA}$ (representing total scoring possessions used for the weighting)\n*   **League Average TS%**: Sourced from official NBA historical league-wide statistics for each respective season.\n\n---\n\n### 1. Kevin Durant (2011-12 through 2013-14)\n\n#### Season-by-Season Breakdown\n*   **2011-12**: \n    *   Stats: 1,850 PTS, 1,085 FGA, 597 FTA\n    *   Durant TS%: 61.0% | League Average TS%: 52.7% | Diff: +8.3%\n    *   Possession Weight ($FGA + 0.44 \\times FTA$): $1,085 + (0.44 \\times 597) = 1,347.68$\n*   **2012-13**: \n    *   Stats: 2,280 PTS, 1,343 FGA, 703 FTA\n    *   Durant TS%: 64.7% | League Average TS%: 53.5% | Diff: +11.2%\n    *   Possession Weight: $1,343 + (0.44 \\times 703) = 1,652.32$\n*   **2013-14**: \n    *   Stats: 2,593 PTS, 1,388 FGA, 805 FTA\n    *   Durant TS%: 63.5% | League Average TS%: 54.1% | Diff: +9.4%\n    *   Possession Weight: $1,388 + (0.44 \\times 805) = 1,742.20$\n\n#### Durant 3-Year Totals\n*   **Total PTS**: 6,723\n*   **Total FGA**: 3,816\n*   **Total FTA**: 2,105\n*   **Cumulative TS% Calculation**: \n    $$\\frac{6,723}{2 \\times (3,816 + 0.44 \\times 2,105)} = \\frac{6,723}{2 \\times (3,816 + 926.22)} = \\frac{6,723}{9,484.44} = \\mathbf{64.9\\%}$$\n*   **Volume-Weighted Player-Minus-League TS Difference**: \n    *   Sum of (Season Diff $\\times$ Season Weight): \n        $(8.3\\% \\times 1,347.68) + (11.2\\% \\times 1,652.32) + (9.4\\% \\times 1,742.20) = 111.86 + 185.06 + 163.77 = 460.69$ percentage-points $\\times$ possessions.\n    *   Divided by Total Weight ($4,742.20$): **+9.71%** above league average.\n\n---\n\n### 2. James Harden (2016-17 through 2018-19)\n\n#### Season-by-Season Breakdown\n*   **2016-17**: \n    *   Stats: 2,356 PTS, 1,335 FGA, 882 FTA\n    *   Harden TS%: 61.3% | League Average TS%: 55.2% | Diff: +6.1%\n    *   Possession Weight: $1,335 + (0.44 \\times 882) = 1,723.08$\n*   **2017-18**: \n    *   Stats: 2,191 PTS, 1,213 FGA, 727 FTA\n    *   Harden TS%: 61.9% | League Average TS%: 55.6% | Diff: +6.3%\n    *   Possession Weight: $1,213 + (0.44 \\times 727) = 1,532.88$\n*   **2018-19**: \n    *   Stats: 2,818 PTS, 1,583 FGA, 858 FTA\n    *   Harden TS%: 61.6% | League Average TS%: 56.0% | Diff: +5.6%\n    *   Possession Weight: $1,583 + (0.44 \\times 858) = 1,860.52$\n\n#### Harden 3-Year Totals\n*   **Total PTS**: 7,365\n*   **Total FGA**: 4,131\n*   **Total FTA**: 2,467\n*   **Cumulative TS% Calculation**: \n    $$\\frac{7,365}{2 \\times (4,131 + 0.44 \\times 2,467)} = \\frac{7,365}{2 \\times (4,131 + 1,085.48)} = \\frac{7,365}{10,432.96} = \\mathbf{61.0\\%}$$\n*   **Volume-Weighted Player-Minus-League TS Difference**: \n    *   Sum of (Season Diff $\\times$ Season Weight): \n        $(6.1\\% \\times 1,723.08) + (6.3\\% \\times 1,532.88) + (5.6\\% \\times 1,860.52) = 105.11 + 96.57 + 104.19 = 305.87$ percentage-points $\\times$ possessions.\n    *   Divided by Total Weight ($5,116.48$): **+5.98%** above league average.\n\n---\n\n### Conclusion\n\nWithin their respective 3-year windows:\n1.  **Cumulative True Shooting Percentage (TS%)**: **Kevin Durant** leads with **64.9%** (compared to James Harden's 61.0%).\n2.  **Volume-Weighted Player-Minus-League TS Difference**: **Kevin Durant** leads at **+9.71%** above the league average (compared to James Harden's +5.98%).",
+  "status": "completed",
+  "ended_at": "2026-11-11T03:43:20.207333+00:00",
+  "seconds": 5.734,
+  "model_calls": [
+    {
+      "started_at": "2026-11-11T03:43:14.473056+00:00",
+      "parameters": {
+        "model": "vertex_ai/gemini-3.5-flash-lite",
+        "vertex_location": "global",
+        "max_tokens": 8192,
+        "timeout": 80,
+        "num_retries": 0
+      },
+      "temperature": "provider default, not overridden",
+      "message_roles": [
+        "user"
+      ],
+      "messages_sha256": "ed36a840746b333acb8715b404a9d49d900a5ba911da971ac9b9a6f890bee6b9",
+      "tool_names": [],
+      "index": 0,
+      "response_model": "gemini-3.5-flash-lite",
+      "response_id": "UuTzarrII7qaotQP-cXKwQg",
+      "finish_reasons": [
+        "stop"
+      ],
+      "truncated": false,
+      "usage": {
+        "completion_tokens": 1682,
+        "prompt_tokens": 136,
+        "total_tokens": 1818,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": null,
+          "rejected_prediction_tokens": null,
+          "text_tokens": 1682,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": null,
+          "text_tokens": 136,
+          "image_tokens": null,
+          "video_tokens": null
+        },
+        "cache_read_input_tokens": null
+      },
+      "seconds": 5.7342,
+      "ended_at": "2026-11-11T03:43:20.207289+00:00"
+    }
+  ],
+  "any_model_truncated": false
+}

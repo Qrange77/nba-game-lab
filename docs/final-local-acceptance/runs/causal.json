@@ -1,0 +1,118 @@
+{
+  "id": "causal",
+  "question": "Prove that Michael Jordan would have won more championships than LeBron James if their teammates were swapped, using their career scoring and teammate data.",
+  "expected": "causal_limit",
+  "response": "Scoring and teammate statistics cannot prove hypothetical championship outcomes after swapping teammates. I can review an observed scoring claim and describe bounded supporting-cast context instead.",
+  "research_flow": {
+    "version": 3,
+    "status": "outside_scope",
+    "elapsed_ms": 0,
+    "peak_parallel": 0,
+    "nodes": [
+      {
+        "id": "lead",
+        "label": "Lead",
+        "role": "lead",
+        "agent": "Lead",
+        "depends_on": [],
+        "description": "Confirm the scoring claim, identities and scope; plan independent investigations.",
+        "round": 0,
+        "status": "completed",
+        "started_ms": 0,
+        "ended_ms": 0,
+        "tool_ids": [
+          "Lead:1"
+        ],
+        "summary": "Scoring and teammate statistics cannot prove hypothetical championship outcomes after swapping teammates. I can review an observed scoring claim and describe bounded supporting-cast context instead."
+      }
+    ]
+  },
+  "flow_events": [
+    {
+      "version": 1,
+      "status": "running",
+      "elapsed_ms": 0,
+      "peak_parallel": 0,
+      "nodes": [
+        {
+          "id": "lead",
+          "label": "Lead",
+          "role": "lead",
+          "agent": "Lead",
+          "depends_on": [],
+          "description": "Confirm the scoring claim, identities and scope; plan independent investigations.",
+          "round": 0,
+          "status": "running",
+          "started_ms": 0,
+          "ended_ms": null,
+          "tool_ids": [],
+          "summary": ""
+        }
+      ]
+    },
+    {
+      "version": 2,
+      "status": "running",
+      "elapsed_ms": 0,
+      "peak_parallel": 0,
+      "nodes": [
+        {
+          "id": "lead",
+          "label": "Lead",
+          "role": "lead",
+          "agent": "Lead",
+          "depends_on": [],
+          "description": "Confirm the scoring claim, identities and scope; plan independent investigations.",
+          "round": 0,
+          "status": "completed",
+          "started_ms": 0,
+          "ended_ms": 0,
+          "tool_ids": [
+            "Lead:1"
+          ],
+          "summary": "Scoring and teammate statistics cannot prove hypothetical championship outcomes after swapping teammates. I can review an observed scoring claim and describe bounded supporting-cast context instead."
+        }
+      ]
+    },
+    {
+      "version": 3,
+      "status": "outside_scope",
+      "elapsed_ms": 0,
+      "peak_parallel": 0,
+      "nodes": [
+        {
+          "id": "lead",
+          "label": "Lead",
+          "role": "lead",
+          "agent": "Lead",
+          "depends_on": [],
+          "description": "Confirm the scoring claim, identities and scope; plan independent investigations.",
+          "round": 0,
+          "status": "completed",
+          "started_ms": 0,
+          "ended_ms": 0,
+          "tool_ids": [
+            "Lead:1"
+          ],
+          "summary": "Scoring and teammate statistics cannot prove hypothetical championship outcomes after swapping teammates. I can review an observed scoring claim and describe bounded supporting-cast context instead."
+        }
+      ]
+    }
+  ],
+  "tool_calls": [
+    {
+      "name": "confirm_scoring_contract",
+      "args": {},
+      "result": "{\"action\": \"causal_limit\", \"question\": \"\", \"claim\": \"\", \"request_kind\": \"claim\", \"left_player\": null, \"right_player\": null, \"period\": \"career\", \"left_start\": null, \"left_end\": null, \"right_start\": null, \"right_end\": null, \"phases\": [\"Regular Season\", \"Playoffs\"], \"lens\": \"overall_scoring\", \"include_context\": true, \"support_phases\": [], \"cutoff\": 2025}",
+      "id": "Lead:1",
+      "status": "completed",
+      "agent": "Lead",
+      "node_id": "lead"
+    }
+  ],
+  "evidence": {},
+  "evidence_result": null,
+  "seconds": 0.0,
+  "model": "vertex_ai/gemini-3.5-flash-lite",
+  "controlled_gap_injected": false
+}

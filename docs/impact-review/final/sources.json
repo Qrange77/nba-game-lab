@@ -1,0 +1,349 @@
+{
+  "[\"on_off\", {\"league_id_nullable\": \"00\", \"per_mode_detailed\": \"Totals\", \"season\": \"2014-15\", \"season_type_all_star\": \"Regular Season\", \"team_id\": 1610612739}]": {
+    "file": "sources/5af2770fe80c1eb494db3da696a2ea1b6eec21f1138bc1e1fa7bcd7b22d5b67a.json.gz",
+    "sha256": "5af2770fe80c1eb494db3da696a2ea1b6eec21f1138bc1e1fa7bcd7b22d5b67a",
+    "fetched_at": "2026-11-11T23:43:33.939397+00:00",
+    "parameters": {
+      "team_id": 1610612739,
+      "season": "2014-15",
+      "season_type_all_star": "Regular Season",
+      "per_mode_detailed": "Totals",
+      "league_id_nullable": "00"
+    },
+    "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+    "stale": false
+  },
+  "[\"on_off\", {\"league_id_nullable\": \"00\", \"per_mode_detailed\": \"Totals\", \"season\": \"2014-15\", \"season_type_all_star\": \"Playoffs\", \"team_id\": 1610612739}]": {
+    "file": "sources/2272944bf9386f309393994452e64ace981db7085d276b3c620cb9f759715490.json.gz",
+    "sha256": "2272944bf9386f309393994452e64ace981db7085d276b3c620cb9f759715490",
+    "fetched_at": "2026-11-11T23:43:34.725537+00:00",
+    "parameters": {
+      "team_id": 1610612739,
+      "season": "2014-15",
+      "season_type_all_star": "Playoffs",
+      "per_mode_detailed": "Totals",
+      "league_id_nullable": "00"
+    },
+    "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 893}]": {
+    "file": "sources/63783b5a1f71f08431cda92f596576c716d04313f6f733dc19c738960c1477d0.json.gz",
+    "sha256": "63783b5a1f71f08431cda92f596576c716d04313f6f733dc19c738960c1477d0",
+    "fetched_at": "2026-11-11T22:47:42.924042+00:00",
+    "parameters": {
+      "player_id": 893,
+      "per_mode36": "Totals",
+      "league_id_nullable": "00"
+    },
+    "endpoint": "https://stats.nba.com/stats/playercareerstats",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 2544}]": {
+    "file": "sources/11783d9e1b336a09067aaa7ed0396da11dd433f20cf045a8872b034a84b6ed72.json.gz",
+    "sha256": "11783d9e1b336a09067aaa7ed0396da11dd433f20cf045a8872b034a84b6ed72",
+    "fetched_at": "2026-11-11T22:47:43.146672+00:00",
+    "parameters": {
+      "player_id": 2544,
+      "per_mode36": "Totals",
+      "league_id_nullable": "00"
+    },
+    "endpoint": "https://stats.nba.com/stats/playercareerstats",
+    "stale": false
+  },
+  "[\"team_history\", {\"league_id\": \"00\", \"per_mode_simple\": \"Totals\", \"team_id\": 1610612741}]": {
+    "file": "sources/11428b12c5624b9a7d0b21587278f877150221083871799916784d20bcba05a3.json.gz",
+    "sha256": "11428b12c5624b9a7d0b21587278f877150221083871799916784d20bcba05a3",
+    "fetched_at": "2026-11-11T22:47:43.149425+00:00",
+    "parameters": {
+      "team_id": 1610612741,
+      "league_id": "00",
+      "per_mode_simple": "Totals"
+    },
+    "endpoint": "https://stats.nba.com/stats/teamyearbyyearstats",
+    "stale": false
+  },
+  "[\"team_history\", {\"league_id\": \"00\", \"per_mode_simple\": \"Totals\", \"team_id\": 1610612747}]": {
+    "file": "sources/96c6aff6ce1edd874d0c2823c90093ae5f23939cfc358f1d01078f04c33313c0.json.gz",
+    "sha256": "96c6aff6ce1edd874d0c2823c90093ae5f23939cfc358f1d01078f04c33313c0",
+    "fetched_at": "2026-11-11T22:47:43.401440+00:00",
+    "parameters": {
+      "team_id": 1610612747,
+      "league_id": "00",
+      "per_mode_simple": "Totals"
+    },
+    "endpoint": "https://stats.nba.com/stats/teamyearbyyearstats",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1990-91\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/f6b551fb624d95b1559f2d995a9fd3595ab615ee8c065a39092e97e512aa582a.json.gz",
+    "sha256": "f6b551fb624d95b1559f2d995a9fd3595ab615ee8c065a39092e97e512aa582a",
+    "fetched_at": "2026-11-11T22:47:43.111954+00:00",
+    "parameters": {
+      "season": "1990-91",
+      "season_type_all_star": "Playoffs",
+      "player_or_team_abbreviation": "T"
+    },
+    "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+    "stale": false
+  },
+  "[\"games\", {\"player_id\": 893, \"season\": \"1990-91\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/23b5cc13218bfaed01b1721cf92722f680314f66b1560d8c8267a23cda0dfe45.json.gz",
+    "sha256": "23b5cc13218bfaed01b1721cf92722f680314f66b1560d8c8267a23cda0dfe45",
+    "fetched_at": "2026-11-09T09:50:27.124039+00:00",
+    "parameters": {
+      "player_id": 893,
+      "season": "1990-91",
+      "season_type_all_star": "Playoffs"
+    },
+    "endpoint": "https://stats.nba.com/stats/playergamelog",
+    "stale": false
+  },
+  "[\"roster\", {\"season\": \"1990-91\", \"team_id\": 1610612741}]": {
+    "file": "sources/b9288df642910943ade9a31e713f21037900a57cd449a7655dc632b1d240f125.json.gz",
+    "sha256": "b9288df642910943ade9a31e713f21037900a57cd449a7655dc632b1d240f125",
+    "fetched_at": "2026-11-11T22:47:43.495462+00:00",
+    "parameters": {
+      "team_id": 1610612741,
+      "season": "1990-91"
+    },
+    "endpoint": "https://stats.nba.com/stats/commonteamroster",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 769}]": {
+    "file": "sources/72bf8721a6e9b67dca33c9964c127510a5828ed40ca89d57aa754db76245a7ee.json.gz",
+    "sha256": "72bf8721a6e9b67dca33c9964c127510a5828ed40ca89d57aa754db76245a7ee",
+    "fetched_at": "2026-11-11T22:47:44.209185+00:00",
+    "parameters": {
+      "player_id": 769,
+      "per_mode36": "Totals",
+      "league_id_nullable": "00"
+    },
+    "endpoint": "https://stats.nba.com/stats/playercareerstats",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 76362}]": {
+    "file": "sources/5e272111fc1bfe2f464e5b89069b4fdd5202848f843cd4d0f6a4d2e7bfd8d7bb.json.gz",
+    "sha256": "5e272111fc1bfe2f464e5b89069b4fdd5202848f843cd4d0f6a4d2e7bfd8d7bb",
+    "fetched_at": "2026-11-11T22:47:43.827818+00:00",
+    "parameters": {
+      "player_id": 76362,
+      "per_mode36": "Totals",
+      "league_id_nullable": "00"
+    },
+    "endpoint": "https://stats.nba.com/stats/playercareerstats",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 270}]": {
+    "file": "sources/2713a1137eb9b5c1e4abe9a1f147faa1ffe9434ead1ab9d9f362e51d65601570.json.gz",
+    "sha256": "2713a1137eb9b5c1e4abe9a1f147faa1ffe9434ead1ab9d9f362e51d65601570",
+    "fetched_at": "2026-11-11T22:47:43.834041+00:00",
+    "parameters": {
+      "player_id": 270,
+      "per_mode36": "Totals",
+      "league_id_nullable": "00"
+    },
+    "endpoint": "https://stats.nba.com/stats/playercareerstats",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 77034}]": {
+    "file": "sources/1540f558f14125cb8433c6302059d9e4a4f2e9fed01f1bb494e20ed8555ff307.json.gz",
+    "sha256": "1540f558f14125cb8433c6302059d9e4a4f2e9fed01f1bb494e20ed8555ff307",
+    "fetched_at": "2026-11-11T22:47:44.219419+00:00",
+    "parameters": {
+      "player_id": 77034,
+      "per_mode36": "Totals",
+      "league_id_nullable": "00"
+    },
+    "endpoint": "https://stats.nba.com/stats/playercareerstats",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 77054}]": {
+    "file": "sources/213dadb90b9f8057ef44346fb75636f7027bd956c5e7cdecb9e61f52f3210c3f.json.gz",
+    "sha256": "213dadb90b9f8057ef44346fb75636f7027bd956c5e7cdecb9e61f52f3210c3f",
+    "fetched_at": "2026-11-11T22:47:44.322315+00:00",
+    "parameters": {
+      "player_id": 77054,
+      "per_mode36": "Totals",
+      "league_id_nullable": "00"
+    },
+    "endpoint": "https://stats.nba.com/stats/playercareerstats",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 351}]": {
+    "file": "sources/cad6f41ffbcc0e261d99076bf6ae88c3255614cc236facbe25b59d35bb0ea387.json.gz",
+    "sha256": "cad6f41ffbcc0e261d99076bf6ae88c3255614cc236facbe25b59d35bb0ea387",
+    "fetched_at": "2026-11-11T22:47:44.453966+00:00",
+    "parameters": {
+      "player_id": 351,
+      "per_mode36": "Totals",
+      "league_id_nullable": "00"
+    },
+    "endpoint": "https://stats.nba.com/stats/playercareerstats",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 77377}]": {
+    "file": "sources/cfd95f645d2ea636904dcea141e0161d549a23f2590b84c29098d26e85c72b20.json.gz",
+    "sha256": "cfd95f645d2ea636904dcea141e0161d549a23f2590b84c29098d26e85c72b20",
+    "fetched_at": "2026-11-11T22:47:44.559942+00:00",
+    "parameters": {
+      "player_id": 77377,
+      "per_mode36": "Totals",
+      "league_id_nullable": "00"
+    },
+    "endpoint": "https://stats.nba.com/stats/playercareerstats",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 77820}]": {
+    "file": "sources/65bbf5ed4ab5ffde1082b50b370f3dee000c07583ccf58258db52ac3e547b666.json.gz",
+    "sha256": "65bbf5ed4ab5ffde1082b50b370f3dee000c07583ccf58258db52ac3e547b666",
+    "fetched_at": "2026-11-11T22:47:44.454724+00:00",
+    "parameters": {
+      "player_id": 77820,
+      "per_mode36": "Totals",
+      "league_id_nullable": "00"
+    },
+    "endpoint": "https://stats.nba.com/stats/playercareerstats",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 781}]": {
+    "file": "sources/0b4a27683a599c21df0682ab95c5be80df7f04777fee30e286534e54082530a0.json.gz",
+    "sha256": "0b4a27683a599c21df0682ab95c5be80df7f04777fee30e286534e54082530a0",
+    "fetched_at": "2026-11-11T22:47:44.671149+00:00",
+    "parameters": {
+      "player_id": 781,
+      "per_mode36": "Totals",
+      "league_id_nullable": "00"
+    },
+    "endpoint": "https://stats.nba.com/stats/playercareerstats",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 937}]": {
+    "file": "sources/9d797c355abb0eca116a99022388258c506b040956de797ecf174e2212f7122b.json.gz",
+    "sha256": "9d797c355abb0eca116a99022388258c506b040956de797ecf174e2212f7122b",
+    "fetched_at": "2026-11-11T22:47:44.791513+00:00",
+    "parameters": {
+      "player_id": 937,
+      "per_mode36": "Totals",
+      "league_id_nullable": "00"
+    },
+    "endpoint": "https://stats.nba.com/stats/playercareerstats",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 281}]": {
+    "file": "sources/4507d608c9d82084746126731100f0780c123b33513ad1a5168f44e78bbad195.json.gz",
+    "sha256": "4507d608c9d82084746126731100f0780c123b33513ad1a5168f44e78bbad195",
+    "fetched_at": "2026-11-11T22:47:44.875925+00:00",
+    "parameters": {
+      "player_id": 281,
+      "per_mode36": "Totals",
+      "league_id_nullable": "00"
+    },
+    "endpoint": "https://stats.nba.com/stats/playercareerstats",
+    "stale": false
+  },
+  "[\"team_history\", {\"league_id\": \"00\", \"per_mode_simple\": \"Totals\", \"team_id\": 1610612739}]": {
+    "file": "sources/839936eac6cc206ae8f2d256f87673d121107453ce7e2e3cce6ced4ee5ee3404.json.gz",
+    "sha256": "839936eac6cc206ae8f2d256f87673d121107453ce7e2e3cce6ced4ee5ee3404",
+    "fetched_at": "2026-11-11T22:47:44.588905+00:00",
+    "parameters": {
+      "team_id": 1610612739,
+      "league_id": "00",
+      "per_mode_simple": "Totals"
+    },
+    "endpoint": "https://stats.nba.com/stats/teamyearbyyearstats",
+    "stale": false
+  },
+  "[\"team_history\", {\"league_id\": \"00\", \"per_mode_simple\": \"Totals\", \"team_id\": 1610612744}]": {
+    "file": "sources/8cf26fa7e8472acc51283bc3f53cf09de0a099a28c2b828abb90041f5e013b34.json.gz",
+    "sha256": "8cf26fa7e8472acc51283bc3f53cf09de0a099a28c2b828abb90041f5e013b34",
+    "fetched_at": "2026-11-11T22:47:45.008318+00:00",
+    "parameters": {
+      "team_id": 1610612744,
+      "league_id": "00",
+      "per_mode_simple": "Totals"
+    },
+    "endpoint": "https://stats.nba.com/stats/teamyearbyyearstats",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2014-15\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/83b3715d4e4232e81cc68923bbfcd665086af5d6128b10ba33bcb97fa356914c.json.gz",
+    "sha256": "83b3715d4e4232e81cc68923bbfcd665086af5d6128b10ba33bcb97fa356914c",
+    "fetched_at": "2026-11-11T22:47:43.429733+00:00",
+    "parameters": {
+      "season": "2014-15",
+      "season_type_all_star": "Playoffs",
+      "player_or_team_abbreviation": "T"
+    },
+    "endpoint": "https://stats.nba.com/stats/leaguegamelog",
+    "stale": false
+  },
+  "[\"games\", {\"player_id\": 2544, \"season\": \"2014-15\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/59e6fbb2ac8398039884cf630a307614bcfa5fd5f05c9ab6d06ec69715f4971d.json.gz",
+    "sha256": "59e6fbb2ac8398039884cf630a307614bcfa5fd5f05c9ab6d06ec69715f4971d",
+    "fetched_at": "2026-11-09T09:52:01.185179+00:00",
+    "parameters": {
+      "player_id": 2544,
+      "season": "2014-15",
+      "season_type_all_star": "Playoffs"
+    },
+    "endpoint": "https://stats.nba.com/stats/playergamelog",
+    "stale": false
+  },
+  "[\"team_players\", {\"measure_type_detailed_defense\": \"Base\", \"per_mode_detailed\": \"Totals\", \"season\": \"2014-15\", \"season_type_all_star\": \"Playoffs\", \"team_id\": 1610612739}]": {
+    "file": "sources/8ec1e9945a5238f6d62eaa7ce6fa6dabe2b86e5bfe0c84bf677ccb645b03bd13.json.gz",
+    "sha256": "8ec1e9945a5238f6d62eaa7ce6fa6dabe2b86e5bfe0c84bf677ccb645b03bd13",
+    "fetched_at": "2026-11-11T00:21:36.959246+00:00",
+    "parameters": {
+      "team_id": 1610612739,
+      "season": "2014-15",
+      "season_type_all_star": "Playoffs",
+      "per_mode_detailed": "Totals",
+      "measure_type_detailed_defense": "Base"
+    },
+    "endpoint": "https://stats.nba.com/stats/teamplayerdashboard",
+    "stale": false
+  },
+  "[\"team_players\", {\"measure_type_detailed_defense\": \"Base\", \"per_mode_detailed\": \"Totals\", \"season\": \"2014-15\", \"season_type_all_star\": \"Regular Season\", \"team_id\": 1610612739}]": {
+    "file": "sources/95894de38ffa563fe17df397ce617c466e94d56e3b8a7fe3f5196f6079211f87.json.gz",
+    "sha256": "95894de38ffa563fe17df397ce617c466e94d56e3b8a7fe3f5196f6079211f87",
+    "fetched_at": "2026-11-11T00:22:45.468754+00:00",
+    "parameters": {
+      "team_id": 1610612739,
+      "season": "2014-15",
+      "season_type_all_star": "Regular Season",
+      "per_mode_detailed": "Totals",
+      "measure_type_detailed_defense": "Base"
+    },
+    "endpoint": "https://stats.nba.com/stats/teamplayerdashboard",
+    "stale": false
+  },
+  "[\"on_off\", {\"league_id_nullable\": \"00\", \"per_mode_detailed\": \"Totals\", \"season\": \"2015-16\", \"season_type_all_star\": \"Regular Season\", \"team_id\": 1610612744}]": {
+    "file": "sources/6fcdf5ac4cd6158ff10a7901b26be51dab2f487e338f8a4141415325798fc9c0.json.gz",
+    "sha256": "6fcdf5ac4cd6158ff10a7901b26be51dab2f487e338f8a4141415325798fc9c0",
+    "fetched_at": "2026-11-11T23:43:54.798828+00:00",
+    "parameters": {
+      "team_id": 1610612744,
+      "season": "2015-16",
+      "season_type_all_star": "Regular Season",
+      "per_mode_detailed": "Totals",
+      "league_id_nullable": "00"
+    },
+    "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+    "stale": false
+  },
+  "[\"on_off\", {\"league_id_nullable\": \"00\", \"per_mode_detailed\": \"Totals\", \"season\": \"2015-16\", \"season_type_all_star\": \"Regular Season\", \"team_id\": 1610612739}]": {
+    "file": "sources/1107e9070354ddb664dc274b360bdaf0db81a2d4d303f06f5fbeb1e737b4eb34.json.gz",
+    "sha256": "1107e9070354ddb664dc274b360bdaf0db81a2d4d303f06f5fbeb1e737b4eb34",
+    "fetched_at": "2026-11-11T23:44:10.669528+00:00",
+    "parameters": {
+      "team_id": 1610612739,
+      "season": "2015-16",
+      "season_type_all_star": "Regular Season",
+      "per_mode_detailed": "Totals",
+      "league_id_nullable": "00"
+    },
+    "endpoint": "https://stats.nba.com/stats/teamplayeronoffsummary",
+    "stale": false
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "status": "passed",
+  "fresh_original_queries": [
+    {
+      "case": "career",
+      "numeric_matrix_checks": 16,
+      "phase_change_checks": 0,
+      "scope_matches_original_question": true,
+      "seconds": 10.55
+    },
+    {
+      "case": "windows",
+      "numeric_matrix_checks": 8,
+      "phase_change_checks": 0,
+      "scope_matches_original_question": true,
+      "seconds": 10.07
+    },
+    {
+      "case": "postseason",
+      "numeric_matrix_checks": 16,
+      "phase_change_checks": 4,
+      "scope_matches_original_question": true,
+      "seconds": 8.4
+    }
+  ],
+  "additional_live_api_queries": [
+    {
+      "case": "new_volume",
+      "numeric_matrix_checks": 4,
+      "phase_change_checks": 0,
+      "scope_matches_original_question": true,
+      "seconds": 13.85,
+      "narrow_answer_focus": true,
+      "neutral_framing": true,
+      "live_api_and_owned_citations": true
+    },
+    {
+      "case": "new_efficiency",
+      "numeric_matrix_checks": 4,
+      "phase_change_checks": 0,
+      "scope_matches_original_question": true,
+      "seconds": 10.36,
+      "narrow_answer_focus": true,
+      "neutral_framing": true,
+      "live_api_and_owned_citations": true
+    }
+  ],
+  "path_workflow": {
+    "single_decision_fan_out": 4,
+    "measured_overlap_ms": 2765,
+    "fresh_contexts_observed": 5,
+    "content_driven_rounds": 2,
+    "targeted_followups": 1,
+    "fault_injected": false
+  },
+  "independent_context_checks": [
+    {
+      "id": "career",
+      "helper_records": 48,
+      "helper_samples": 4,
+      "helper_numeric_checks": 624,
+      "finals_series": 16,
+      "finals_numeric_checks": 272,
+      "published_context_numeric_checks": 112,
+      "export_citations_checked": true,
+      "finals_results": {
+        "win": 10,
+        "defeat": 6
+      },
+      "all_returned_context_metrics_checked": true,
+      "source_membership_selection_scope_and_finals_completeness_checked": true
+    },
+    {
+      "id": "support_findings",
+      "helper_records": 54,
+      "helper_samples": 4,
+      "helper_numeric_checks": 702,
+      "finals_series": 2,
+      "finals_numeric_checks": 34,
+      "published_context_numeric_checks": 42,
+      "export_citations_checked": true,
+      "finals_results": {
+        "win": 1,
+        "defeat": 1
+      },
+      "all_returned_context_metrics_checked": true,
+      "source_membership_selection_scope_and_finals_completeness_checked": true
+    }
+  ],
+  "boundaries": [
+    {
+      "case": "vague",
+      "action": "clarify",
+      "statistical_collection_calls": 0
+    },
+    {
+      "case": "outside_scope",
+      "action": "outside_scope",
+      "statistical_collection_calls": 0
+    },
+    {
+      "case": "early_era",
+      "action": "unsupported_era",
+      "statistical_collection_calls": 0
+    },
+    {
+      "case": "causal",
+      "action": "causal_limit",
+      "statistical_collection_calls": 0
+    }
+  ],
+  "controlled_source_unavailable": {
+    "verdict": "insufficient_data",
+    "checked_numeric_claims": 0,
+    "fault_injected": true,
+    "seconds": 8.72
+  },
+  "inputs": {
+    "new_efficiency.json": "8716d1e4abdaf27c95658686a573113571abc0bc967f0b625be6b04e09bbf0f7",
+    "causal.json": "2686afbffb647fcebd0c046c2a75a5bd8815a546376530d3b5f9667d16994def",
+    "controlled_source_unavailable.json": "a269df821d5482ce4a552602108d58e8cf07a0ef9429f1bae0ab0636b8c12ae7",
+    "postseason.json": "09957a31fa282a02e0ef975ce93067bb3f9a2a1b79918106bd16d75add9e25e1",
+    "support_findings.json": "a0e723884baa2034a33e1e2eb2806cd25947bfebb7828fe6976866be27a594b2",
+    "early_era.json": "fc8e213d9752d2187d7b43e90c50f31cd81eef67eaf00848e90aca3616b7e1a2",
+    "windows.json": "30b2bc6effd6f71e9bc6b54aaa6b1303201533c77bc0cf0386c9002eabfa5890",
+    "new_volume.json": "6a9a4db0770c4e76c863bf103e24e2fa43ce4926847a4ab2321a75e3dda66a71",
+    "career.json": "373eaa99a3b15fd130b7b99ed1a14c1f05f08df2ef3ba8e1a74230e65ac9d40d",
+    "outside_scope.json": "0861a56dba9d6019caca39d091e866bae980f89aad2a1e2ccaace3bbafedf72f",
+    "vague.json": "905f417bb5596228121fe14927eb2e75ddf3b15fabd4fb5f52215afb5dda92ce"
+  },
+  "limits": "Local targeted acceptance; source snapshots may be warm. No grading guarantee, registration approval, deployment or remote submission verification."
+}

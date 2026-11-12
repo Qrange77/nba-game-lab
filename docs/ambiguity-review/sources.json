@@ -1,0 +1,26 @@
+{
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 893}]": {
+    "file": "sources/63783b5a1f71f08431cda92f596576c716d04313f6f733dc19c738960c1477d0.json.gz",
+    "sha256": "63783b5a1f71f08431cda92f596576c716d04313f6f733dc19c738960c1477d0",
+    "fetched_at": "2026-11-11T22:47:42.924042+00:00",
+    "parameters": {
+      "player_id": 893,
+      "per_mode36": "Totals",
+      "league_id_nullable": "00"
+    },
+    "endpoint": "https://stats.nba.com/stats/playercareerstats",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 2544}]": {
+    "file": "sources/11783d9e1b336a09067aaa7ed0396da11dd433f20cf045a8872b034a84b6ed72.json.gz",
+    "sha256": "11783d9e1b336a09067aaa7ed0396da11dd433f20cf045a8872b034a84b6ed72",
+    "fetched_at": "2026-11-11T22:47:43.146672+00:00",
+    "parameters": {
+      "player_id": 2544,
+      "per_mode36": "Totals",
+      "league_id_nullable": "00"
+    },
+    "endpoint": "https://stats.nba.com/stats/playercareerstats",
+    "stale": false
+  }
+}

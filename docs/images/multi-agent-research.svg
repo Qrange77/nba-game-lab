@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="680" viewBox="0 0 1240 680" role="img" aria-labelledby="title description">
+<title id="title">Recorded multi-agent research: four parallel Researchers and one targeted follow-up</title>
+<desc id="description">Assess the claim that Michael Jordan&#x27;s scoring in 1990-91 was stronger than LeBron James&#x27;s scoring in 2014-15. Compare regular-season and playoff scoring volume and shooting efficiency relative to the league. Compare teammates: core helpers first, then rotation scoring, minutes and recorded games. Check whether the per-game helper leaders adequately represent the supporting cast&#x27;s recorded availability. Keep original samples and qualify any limited context. The diagram is a vector export of actual completed execution, not a screenshot.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#849bb8" stroke-width="1.8"/></marker></defs>
+<rect width="1240" height="680" rx="18" fill="#0d1524"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="32" y="42" font-size="28" fill="#edf4ff" font-weight="700" text-anchor="start">Cross-era scoring research</text>
+<text x="32" y="73" font-size="19" fill="#b5c6dc" font-weight="400" text-anchor="start">Jordan 1990-91 vs James 2014-15 · recorded execution</text>
+<text x="1208" y="42" font-size="20" fill="#7de0be" font-weight="700" text-anchor="end">4 concurrent Researchers</text>
+<text x="1208" y="73" font-size="18" fill="#b5c6dc" font-weight="400" text-anchor="end">2 rounds · 5 Researcher starts · 11.8s</text>
+<path data-edge="lead:researcher-1" d="M 620 214 V 226 H 170 V 260" fill="none" stroke="#849bb8" stroke-width="2.4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path data-edge="researcher-1:review-1" d="M 170 372 V 410 H 170 V 464" fill="none" stroke="#849bb8" stroke-width="2.4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path data-edge="lead:researcher-2" d="M 620 214 V 226 H 470 V 260" fill="none" stroke="#849bb8" stroke-width="2.4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path data-edge="researcher-2:review-1" d="M 470 372 V 410 H 170 V 464" fill="none" stroke="#849bb8" stroke-width="2.4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path data-edge="lead:researcher-3" d="M 620 214 V 226 H 770 V 260" fill="none" stroke="#849bb8" stroke-width="2.4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path data-edge="researcher-3:review-1" d="M 770 372 V 410 H 170 V 464" fill="none" stroke="#849bb8" stroke-width="2.4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path data-edge="lead:researcher-4" d="M 620 214 V 226 H 1070 V 260" fill="none" stroke="#849bb8" stroke-width="2.4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path data-edge="researcher-4:review-1" d="M 1070 372 V 410 H 170 V 464" fill="none" stroke="#849bb8" stroke-width="2.4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path data-edge="review-1:researcher-5" d="M 308 520 H 332" fill="none" stroke="#849bb8" stroke-width="2.4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path data-edge="researcher-5:review-2" d="M 608 520 H 632" fill="none" stroke="#849bb8" stroke-width="2.4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path data-edge="review-2:writer" d="M 908 520 H 932" fill="none" stroke="#849bb8" stroke-width="2.4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<text x="32" y="211" font-size="15" fill="#9cacc4" font-weight="700" text-anchor="start">ROUND 1 · INDEPENDENT RESEARCH IN PARALLEL</text>
+<text x="332" y="445" font-size="15" fill="#9cacc4" font-weight="700" text-anchor="start">EVIDENCE REVIEW → TARGETED FOLLOW-UP → SUMMARY</text>
+<g data-node-id="lead">
+<rect x="482" y="102" width="276" height="112" rx="13" fill="#162337" stroke="#59c9a5" stroke-opacity=".65" stroke-width="1.6"/>
+<circle cx="504" cy="129" r="8" fill="#59c9a5" fill-opacity=".16"/>
+<path d="M 500 129 l 3 3 l 5 -6" fill="none" stroke="#59c9a5" stroke-width="1.7"/>
+<text x="521" y="134" font-size="14" fill="#59c9a5" font-weight="700" text-anchor="start">LEAD</text>
+<text x="500" y="164" font-size="22" fill="#edf4ff" font-weight="700" text-anchor="start">Lead</text>
+<text x="500" y="191" font-size="17" fill="#b5c6dc" font-weight="400" text-anchor="start">Completed · 2.6s</text>
+</g>
+<g data-node-id="researcher-1">
+<rect x="32" y="260" width="276" height="112" rx="13" fill="#162337" stroke="#59c9a5" stroke-opacity=".65" stroke-width="1.6"/>
+<circle cx="54" cy="287" r="8" fill="#59c9a5" fill-opacity=".16"/>
+<path d="M 50 287 l 3 3 l 5 -6" fill="none" stroke="#59c9a5" stroke-width="1.7"/>
+<text x="71" y="292" font-size="14" fill="#59c9a5" font-weight="700" text-anchor="start">ROUND 1</text>
+<text x="50" y="322" font-size="22" fill="#edf4ff" font-weight="700" text-anchor="start">Scoring evidence</text>
+<text x="50" y="349" font-size="17" fill="#b5c6dc" font-weight="400" text-anchor="start">Completed · 3.4s</text>
+</g>
+<g data-node-id="researcher-2">
+<rect x="332" y="260" width="276" height="112" rx="13" fill="#162337" stroke="#59c9a5" stroke-opacity=".65" stroke-width="1.6"/>
+<circle cx="354" cy="287" r="8" fill="#59c9a5" fill-opacity=".16"/>
+<path d="M 350 287 l 3 3 l 5 -6" fill="none" stroke="#59c9a5" stroke-width="1.7"/>
+<text x="371" y="292" font-size="14" fill="#59c9a5" font-weight="700" text-anchor="start">ROUND 1</text>
+<text x="350" y="322" font-size="22" fill="#edf4ff" font-weight="700" text-anchor="start">Era benchmarks</text>
+<text x="350" y="349" font-size="17" fill="#b5c6dc" font-weight="400" text-anchor="start">Completed · 2.6s</text>
+</g>
+<g data-node-id="researcher-3">
+<rect x="632" y="260" width="276" height="112" rx="13" fill="#162337" stroke="#59c9a5" stroke-opacity=".65" stroke-width="1.6"/>
+<circle cx="654" cy="287" r="8" fill="#59c9a5" fill-opacity=".16"/>
+<path d="M 650 287 l 3 3 l 5 -6" fill="none" stroke="#59c9a5" stroke-width="1.7"/>
+<text x="671" y="292" font-size="14" fill="#59c9a5" font-weight="700" text-anchor="start">ROUND 1</text>
+<text x="650" y="322" font-size="22" fill="#edf4ff" font-weight="700" text-anchor="start">Supporting cast</text>
+<text x="650" y="349" font-size="17" fill="#b5c6dc" font-weight="400" text-anchor="start">Completed · 3.3s</text>
+</g>
+<g data-node-id="researcher-4">
+<rect x="932" y="260" width="276" height="112" rx="13" fill="#162337" stroke="#59c9a5" stroke-opacity=".65" stroke-width="1.6"/>
+<circle cx="954" cy="287" r="8" fill="#59c9a5" fill-opacity=".16"/>
+<path d="M 950 287 l 3 3 l 5 -6" fill="none" stroke="#59c9a5" stroke-width="1.7"/>
+<text x="971" y="292" font-size="14" fill="#59c9a5" font-weight="700" text-anchor="start">ROUND 1</text>
+<text x="950" y="322" font-size="22" fill="#edf4ff" font-weight="700" text-anchor="start">Finals opponents</text>
+<text x="950" y="349" font-size="17" fill="#b5c6dc" font-weight="400" text-anchor="start">Completed · 2.7s</text>
+</g>
+<g data-node-id="review-1">
+<rect x="32" y="464" width="276" height="112" rx="13" fill="#162337" stroke="#59c9a5" stroke-opacity=".65" stroke-width="1.6"/>
+<circle cx="54" cy="491" r="8" fill="#59c9a5" fill-opacity=".16"/>
+<path d="M 50 491 l 3 3 l 5 -6" fill="none" stroke="#59c9a5" stroke-width="1.7"/>
+<text x="71" y="496" font-size="14" fill="#59c9a5" font-weight="700" text-anchor="start">REVIEW</text>
+<text x="50" y="526" font-size="22" fill="#edf4ff" font-weight="700" text-anchor="start">Lead review</text>
+<text x="50" y="553" font-size="17" fill="#b5c6dc" font-weight="400" text-anchor="start">Round 1 · Completed · &lt;1s</text>
+</g>
+<g data-node-id="researcher-5">
+<rect x="332" y="464" width="276" height="112" rx="13" fill="#30291e" stroke="#f2c26c" stroke-opacity=".65" stroke-width="1.6"/>
+<circle cx="354" cy="491" r="8" fill="#f2c26c" fill-opacity=".16"/>
+<path d="M 350 491 l 3 3 l 5 -6" fill="none" stroke="#f2c26c" stroke-width="1.7"/>
+<text x="371" y="496" font-size="14" fill="#f2c26c" font-weight="700" text-anchor="start">ROUND 2</text>
+<text x="350" y="526" font-size="22" fill="#edf4ff" font-weight="700" text-anchor="start">Helper follow-up</text>
+<text x="350" y="553" font-size="17" fill="#b5c6dc" font-weight="400" text-anchor="start">Completed · 3.3s</text>
+</g>
+<g data-node-id="review-2">
+<rect x="632" y="464" width="276" height="112" rx="13" fill="#162337" stroke="#59c9a5" stroke-opacity=".65" stroke-width="1.6"/>
+<circle cx="654" cy="491" r="8" fill="#59c9a5" fill-opacity=".16"/>
+<path d="M 650 491 l 3 3 l 5 -6" fill="none" stroke="#59c9a5" stroke-width="1.7"/>
+<text x="671" y="496" font-size="14" fill="#59c9a5" font-weight="700" text-anchor="start">REVIEW</text>
+<text x="650" y="526" font-size="22" fill="#edf4ff" font-weight="700" text-anchor="start">Lead review</text>
+<text x="650" y="553" font-size="17" fill="#b5c6dc" font-weight="400" text-anchor="start">Round 2 · Completed · &lt;1s</text>
+</g>
+<g data-node-id="writer">
+<rect x="932" y="464" width="276" height="112" rx="13" fill="#222c49" stroke="#a5b5ff" stroke-opacity=".65" stroke-width="1.6"/>
+<circle cx="954" cy="491" r="8" fill="#a5b5ff" fill-opacity=".16"/>
+<path d="M 950 491 l 3 3 l 5 -6" fill="none" stroke="#a5b5ff" stroke-width="1.7"/>
+<text x="971" y="496" font-size="14" fill="#a5b5ff" font-weight="700" text-anchor="start">WRITER</text>
+<text x="950" y="526" font-size="22" fill="#edf4ff" font-weight="700" text-anchor="start">Writer</text>
+<text x="950" y="553" font-size="17" fill="#b5c6dc" font-weight="400" text-anchor="start">Completed · &lt;1s</text>
+</g>
+<text x="32" y="615" font-size="18" fill="#c6d5e8" font-weight="400" text-anchor="start">Finding: sparse helper appearances triggered one matched investigation; original samples were retained.</text>
+<text x="32" y="650" font-size="16" fill="#91a5c0" font-weight="400" text-anchor="start">Vector export of the actual execution record · not an application screenshot</text>
+</g>
+</svg>

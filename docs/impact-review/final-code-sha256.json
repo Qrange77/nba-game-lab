@@ -1,0 +1,11 @@
+{
+  "backend/research/impact.py": "f4c668dbb1d165b75103208ee2494ca2aeb98932c3daf8603daaf023e4239947",
+  "backend/research/impact_evidence.py": "11c506f51b120b28fb023150041eac7533c269ef32d73893a9bcaffaec1d33aa",
+  "backend/research/contract.py": "bfb54132ed7a8448832b78b1bd54c6bc4ef81180427f5c2af9baf112f0145dae",
+  "backend/research/scoring.py": "4ecda8705e98660307fea70ab744ca45b25ecf1e23c188fb7b39a3f34839cb76",
+  "backend/research/scope_review.py": "ba8956aba9aafa928ab9012c3dfa54ba37806809ebbc3f5b07f1d04bc9e60c67",
+  "backend/data/nba.py": "585c1e3a8a15582fd887788310e7989e34009817983081ee51c6e61d3df997f8",
+  "frontend/src/App.vue": "02e5ba6d9b23ef73752dc6ce58035e961e2ca324e799f135aa32704199aa563d",
+  "frontend/src/reportSections.ts": "3c1f94200efb6da508864049691a32af0997f665810bee7fd4e4d743dbaeb1cf",
+  "frontend/src/components/ScopeClarification.vue": "4801739e6e0f4acd3366e5ac4a88679d8aae007f050410ac06128e229af10cff"
+}

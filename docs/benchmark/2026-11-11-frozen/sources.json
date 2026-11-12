@@ -1,0 +1,962 @@
+{
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 893}]": {
+    "file": "sources/772610ac6a861e39f2b24dfdbc6dbb33a7fcd05c91d2ae5251b0e32a038bf95a.json.gz",
+    "sha256": "0046687022f140cbff1082f95f13554a5b23b1dafbdf3d51afcc29920bd2cba5",
+    "source_url": "https://stats.nba.com/stats/playercareerstats",
+    "parameters": {
+      "league_id_nullable": "00",
+      "per_mode36": "Totals",
+      "player_id": 893
+    },
+    "fetched_at": "2026-11-10T22:33:42.899495+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1984-85\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/8c3841cc6ef90b27a458f4e42150b761c08dcbdc6cdb35d908e9e31246337088.json.gz",
+    "sha256": "4ff4e3985229c830253a14571307cb1f1d4b4660b80f03a79801c09137415622",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1984-85",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:23.846776+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1985-86\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/26bd6038ed5de945c440e45d9f9ca5447c46ce85641deaaf9b1fb0ef4c101b7f.json.gz",
+    "sha256": "8e62bfe69595766cee9473053039b4f360df66db3a362a36a88ea8b51faaf50e",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1985-86",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:24.735090+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1986-87\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/39508a10175d6039fdc6c791fe78897daefb2819657a54456cb4083c896b179b.json.gz",
+    "sha256": "29ad529aea09098c49354c891bf441b8cbcc246f679c0db7f5ac45666dbed737",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1986-87",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:33:51.495467+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1987-88\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/f1d9fbfc03de3bf62c2fbd275be07b31a3f18af9efd1bf41a9b5452013ad7916.json.gz",
+    "sha256": "c85b9de0240db1702244a55c458423d971361620bc4f9fd2e163f72ef553f3f7",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1987-88",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:23.863533+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1988-89\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/8ffcaa93a99313094ce7183b337e0f9b51f578709ca3b7476263ee18c76c1c61.json.gz",
+    "sha256": "1fd412d746eb70a8b129427762e77f082f423df6fda291bb141410812038980d",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1988-89",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:24.764678+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1989-90\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/00186da303348862b9320f72945b60768455a56d697375e42179009bb62da4eb.json.gz",
+    "sha256": "0d0e3acf48eddd6ec3b6e49b30dd01acc3ae52377b68bc8bc72d3f8384b2c1f8",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1989-90",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:24.290550+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1990-91\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/deefdcf627dffc9eb0b380a7742b7729042a6d5af588bf16041438232974620c.json.gz",
+    "sha256": "9e167e28770cc606c932f7d14d59f7498aefca0a3b85618218b2c918a14efb86",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1990-91",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:24.459049+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1991-92\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/fdd9c7e3a5bcd9997d594419a2008ad1bdb423ac811d21f048ff79c7a80a3cb9.json.gz",
+    "sha256": "c0812231219dfedba6f039e28c22100bbd57f32a4ca8f645f9186c24c3c91078",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1991-92",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:33:52.285437+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1992-93\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/5f8ae4f6590a169fd89fae55604d1a416f4a9c0cdfe165478f621f1d295efee2.json.gz",
+    "sha256": "b025ee159354036a5e4a1d03ed01a98b39dd0e9e851be2b532864d1174c4c241",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1992-93",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:24.614198+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1994-95\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/7b6139cea12c4a0e519eaaf112344115055fdb314dee602a59a57ae10065409c.json.gz",
+    "sha256": "73c7b095f1c3b6c92e4c9e9bd3af37740e372db9acf3902ffb2da49e8529fcc6",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1994-95",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:25.655077+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1995-96\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/9e909856549e7c65503ac9b9a5edb26480a77202c8e08b422a315e364841e364.json.gz",
+    "sha256": "915901edae5614a533db09c9383d2c9d9a8a6794a3b49c087f52aac6fae08cdd",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1995-96",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:24.880251+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1996-97\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/f0d286ef7c0a398b2d08a2ce1a87aee8d8bb47e1cc321625a35ad4ba4aa823ca.json.gz",
+    "sha256": "107ef02c26ae9847952abbe9978d85ed7f2e5fa3b140bc0beef75f35298d3e9d",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1996-97",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:25.036315+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1997-98\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/f871f3afbed6314f24205db5885ba34cf79cee69897a3c1daea4af79945445ec.json.gz",
+    "sha256": "562945e133a5c90251f91ea0b24fbb0f17859560e614310922f7aac6663c8d74",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1997-98",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:25.014899+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2001-02\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/be6974b73a202cb5f25cbb23c0185d13464ee5806c9a8958291b184b2032dae0.json.gz",
+    "sha256": "cad6c3d07d1d5e8b9c558e5bce5b911dc7143bd6a8cd54ed112935c857f71fd7",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2001-02",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:25.173901+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2002-03\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/137ba98531a7029261cd8f91f8e640a8eb1bc659c27657ebf901bf1932584780.json.gz",
+    "sha256": "bfd26b919001ac2f8adcc026ae8f5e887c8ba1095d0c2416e50a0ef5761074d0",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2002-03",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:25.191568+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1984-85\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/b7c99f52619d958af919f8938dbeca0dddc5b912f90cc643e6164109d5d6a7ef.json.gz",
+    "sha256": "1d9ce0a56a75a2de799e40b35560e6e8f66314fd8ecdadc9648a683a8b42b098",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1984-85",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:48:25.798659+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1985-86\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/8bb4a44aeec09882a239e48f4e6631a26921907a9d80b27ed6ad54396966f698.json.gz",
+    "sha256": "54b0be908d603fac081df50955508e87c1aea97ab6dfea3ef27b60bead9b0540",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1985-86",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:48:25.745528+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1986-87\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/9058f927b3a6472713fe9cb27e32fe94c9d9f3552997538193a000bedb3d7407.json.gz",
+    "sha256": "5e8d1d7e404f844f90c6fd16b57c72dddf25d7e14dc9e0d64aacbc517e4a7256",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1986-87",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:48:25.813348+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1987-88\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/c9a23f0fb35184abf1408b395a22d26c695d26174dcb3e17aa49270f898093d7.json.gz",
+    "sha256": "ed7d9a1e85c8dfa6881c3c2832917f546ecb2a18b455a755b4987f4b02831431",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1987-88",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:48:25.755162+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1988-89\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/31010e551ce85c3f6e86cf99f5c38eb03ca874884e29d36ed273365c1164d86e.json.gz",
+    "sha256": "4216c07545ed9368c8a4a27bdac2713d19c4b0c30f111cfd1c315be16a2d4c3b",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1988-89",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:48:25.897567+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1989-90\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/c123a12bcb099bcd342e9ea1edd300f94f4f5916da56ab63266b16881296bf45.json.gz",
+    "sha256": "6a37b785289f306648f877de9afaab97a0cab2281454fc12ad55c88f2c9239e4",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1989-90",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:48:25.854859+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1990-91\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/85d5c65a691e561a6a02a6e34b3ab496525e58dc7a9b9d14ddefd1337e66a69b.json.gz",
+    "sha256": "d04fa46fc4d170d7681407d731b5ca84d347d52a84545355e4344a8e20e772d1",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1990-91",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:33:43.986875+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1991-92\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/b9fe5cc065951eeb88a7d7565e1ee54bd50164f6617fd79e81cfa3b14979dd77.json.gz",
+    "sha256": "5fbd7187a681e5c6106412b2a775aab05ba753bb301e93afb37876c2df38e319",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1991-92",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:33:44.363722+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1992-93\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/f768393445ee807e17c68751321614b200ef6848fc8589eac463d44f67bdf47a.json.gz",
+    "sha256": "de4a8629054f8eb0c99b120858b9395f296ec60918dbbb7dd4da165fda3d04f0",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1992-93",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:33:44.751676+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1994-95\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/caf78902b2e1e49e4e621388dd3dbee45611f6c3d83ccc57c5525cc68fa09c84.json.gz",
+    "sha256": "25e964c44fdac445195f6cf8309b3d52d53bbf2ea91c8750b96df9c55538559f",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1994-95",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:48:25.877501+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1995-96\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/a30ea4f4a809bf7e6d46c6b8b5951ba5db7fa341bb8e68cd35b51462585aff42.json.gz",
+    "sha256": "60f745f874ae73e9ecd9f8de0c4836b4f5f7931c6a969fb565f9816c293d990f",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1995-96",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:33:45.045968+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1996-97\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/0dffe92a0a56e499e4ab7551914ac4cc2bc1ba3ff11aec72fc302f4b5f1d820e.json.gz",
+    "sha256": "ebdc34a93798ba90bab4fe3df6e4baf04e5f11205f18cb387606f27a0e931fda",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1996-97",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:33:45.409180+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"1997-98\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/2318e18e14764f4d67fc7454784415855a6e6cc74e969a4d57bdb444a98e2ca2.json.gz",
+    "sha256": "61a406eb66b1f45fc6199bcb58e1ca98f2851c5a2d21b7f64480f634e34f22f1",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "1997-98",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:33:45.746070+00:00",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 2544}]": {
+    "file": "sources/596a5fa2b056b1e476f02be2a40fd7e84f7f2ecff4c203fbe547ba3440d7d61d.json.gz",
+    "sha256": "bd99dd61df1e1235ac31f48a02b108643246ea16d9f6d4e086fd1f12662922fb",
+    "source_url": "https://stats.nba.com/stats/playercareerstats",
+    "parameters": {
+      "league_id_nullable": "00",
+      "per_mode36": "Totals",
+      "player_id": 2544
+    },
+    "fetched_at": "2026-11-10T22:33:43.397521+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2003-04\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/c7fac412421546873003a5381b66f6eae499f0ae7b9b49c4253a3cf71c90d480.json.gz",
+    "sha256": "49ae92ea021373dadb156ac9fa7e426d30301ab90ab7bc5bcdb889ea0b5d0947",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2003-04",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:26.018458+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2004-05\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/f2cc37120b84eb34ed1fda8d958b2620b90b506887eda83395b292e8778d5dad.json.gz",
+    "sha256": "c4bad989576580d310b242058d3fec0ebe326e10c6801af9bf5b12792b5db4dd",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2004-05",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:26.137690+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2005-06\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/a6a1f7c5eeb51b9aab37f29b350abe2725233157231a8d3d883d1f7ef6d00ae3.json.gz",
+    "sha256": "349c5b84ba1a2fdbfd26dc64baddfbf6f18c767f8d0349b8d69191d5e2881e7e",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2005-06",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:33:46.299441+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2006-07\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/b9f347c237a4f55f8e9392667d1b1c92bb8c856698e534bfa5a99d4927618818.json.gz",
+    "sha256": "505eaa0b724b93edd1484238a3b3f674e2494bfa0a36b5490f014effc5d7e58c",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2006-07",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:33:46.549502+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2007-08\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/e6fbb2d27c44d0a29c3452071cb5ea58255d3c825f0611785451ee6032ab6c30.json.gz",
+    "sha256": "88ed873b318b9f93e8bd78939e19874c82ac20bca6eff179e54ea29883506655",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2007-08",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:33:46.711946+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2008-09\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/a18d429e459cec49e9fa3f459004f53a125c5dc9f221891d48d9a6c0a528a0ba.json.gz",
+    "sha256": "64789fbe7a801d69b1bb04bcd6090481d0fc44f42a647be7f6808b8e44070630",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2008-09",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:26.087027+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2009-10\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/cdc905d0024fb4372d9125bce10a95fd6a6b690ac681715375e532d091924bbb.json.gz",
+    "sha256": "516aa2426f0617d12d80a3c54505a5ff96bca3a93030c308473749cede59278d",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2009-10",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:26.111022+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2010-11\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/68a810261238efac9bf6d4ba265c023f78d870f375bae173b78fd8376604144c.json.gz",
+    "sha256": "c73a8fd2ff2621dbed078799649cf2e208109609d02dd1e6d3fb6fac3487ebac",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2010-11",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:26.174907+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2011-12\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/c16b6814527d57c2a1031073dd715bb0c73ea41b25ce5f36eee5c3a0093d4d2a.json.gz",
+    "sha256": "50e3870b0f86a3504109c911ec4bf7434a66957f2d13d31f6c190bba183cf77a",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2011-12",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:26.191418+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2012-13\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/4c06a5861fe03af538d2c6a268ee4f2458f9e0cb7dbf72392946a4fb0cce3ede.json.gz",
+    "sha256": "e09b917b3fdbbf513b7b9e10395de15e0912c22f794274aecdb640f916429d81",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2012-13",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:26.269859+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2013-14\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/6badbe41d9b99eba0b62717756101e2e849c64844abcd31bfa4f8eeb0c2f47d1.json.gz",
+    "sha256": "68dfc83a7434e5761c4c718e0dda4704a57d7622f093ff3f9ef569e207e11bfd",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2013-14",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:33:53.037272+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2014-15\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/930e3391d7f907fa375193e62f5916a0f6af2e25173bd0925f6774111b3afc90.json.gz",
+    "sha256": "11333d7ce8b70a5a136e3e05d5082493411729cce033b93b6e6a6e6a0ddff875",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2014-15",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:33:46.847863+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2015-16\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/7343c42523dfd984fcd07c753deda12caeee4596db7b704024a780fd1afb33af.json.gz",
+    "sha256": "83d2f4225b834b29029012d48ab52e662cbdb74b5b695ca0e7f592cf668ba7e0",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2015-16",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:33:47.065079+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2016-17\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/c665c558e515878746330136e6f7c86d215ec0c8f6dcf6b8817fcf4ac7d5f893.json.gz",
+    "sha256": "3dd4f6e88b71e95679444e16dacb78c6f2c94064bd0c4cc97d67e822eff0b276",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2016-17",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:33:47.255933+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2017-18\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/e67cf5061bdeef0f1b0c6bb155c4fa30a9ef85947d2ad29dbd842d06742a3fd3.json.gz",
+    "sha256": "11e8138697b15320ddde14ef50163464e54352e178e7237c2c1945fbbe40bccb",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2017-18",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:26.626877+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2018-19\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/988a6c0e42d1c7888a8d3bfebcba872bf53c790abba0d1f20ed8ee993d4e5481.json.gz",
+    "sha256": "852db233f3b940186182b18118b8ea7372f3cd9d1f43a69e0b6b2d4733d45aaa",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2018-19",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:26.569753+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2019-20\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/16ade778f52a33c11b1d7825938dcf28439daadc0b4208a964d934912feeb277.json.gz",
+    "sha256": "ec5bf419257179f4c4937b8494bca8508159d9ff56e2df908c64608df67de2c0",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2019-20",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:26.354090+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2020-21\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/80504389913dc8122cd4cc1c49f7d5fe6c12ce1ef1cde7ced9c0a30e320b1b0b.json.gz",
+    "sha256": "df5b5b9ae088f45be55114105bb7b47d20e2abb36326fcf49d3f485bac37b321",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2020-21",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:26.371571+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2021-22\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/4cae2f43eae46e316c81e6207958c4df9b2b1e91a5791bad6ac0c7caaeec3de4.json.gz",
+    "sha256": "0b7a8bd39e43ec11b5cd1b6d7c0d8d05fc523ef35521a582040b1a3591f10446",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2021-22",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:26.590592+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2022-23\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/b9b8dd0da92018fd76368041e85416ad7b76c0f9dabd9a6306108a6e489bd789.json.gz",
+    "sha256": "70b58bb980f88a5e3429dbf0a2ac619e89452f45b7eac5d287e263769f1daf06",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2022-23",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:34:15.983773+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2023-24\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/fdfc58bcd5fbb74aca68304885c77cbc03afd62e68d89066b8453b710414fe5a.json.gz",
+    "sha256": "8f20269b532d9942ed923776004a8e37fbc8a67ae57906378d9fe7a10f26848b",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2023-24",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:26.608174+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2024-25\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/d48171800c5d9e9afc9c4643a381e00c011e700263216d4ab46fa3cbcf94589f.json.gz",
+    "sha256": "96dd97fa115f54edf6d7a1b151d171e529dfa5e923b15ae0de934243411df2b7",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2024-25",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:33:53.275465+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2025-26\", \"season_type_all_star\": \"Regular Season\"}]": {
+    "file": "sources/f2e59bb29989c38d29b2def94dfdfb4ea1d83036f862b34183e604e03f47a1df.json.gz",
+    "sha256": "7bc46ce75868bef9c28d7ef9c22a5751256de352561545aa9a84cafee918aced",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2025-26",
+      "season_type_all_star": "Regular Season"
+    },
+    "fetched_at": "2026-11-10T22:48:26.831046+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2005-06\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/6169256c832aa31670df612d9d4b03c04cb68d8d624a46df16daea3d7fe8c46a.json.gz",
+    "sha256": "680e70654c999204c4c258ef2bbfcf43bcc43f134e059d167d0fd70885fdc65c",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2005-06",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:48:26.922200+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2006-07\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/9ce1bb17f71bdfd102abdbabaddcd20807cd95c15e87ab20ff4f213ae53c1ad9.json.gz",
+    "sha256": "b0b9d57eaccace2ba394a38114905dfcd65013281b72cbd88f72f531051f38b4",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2006-07",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:33:46.439298+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2007-08\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/f7e388de4b82d462e68923776b3d1a1a15dd8be6ccba3cdc08393e6b51fc9b1d.json.gz",
+    "sha256": "61514fb1539680c730cbc0b75fc927a2b957606e643f0d07b764da86e857b63e",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2007-08",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:47:06.588135+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2008-09\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/dbf595f1ed1beb04849c9df11d8bd7162d3d066ac54a3d40053aaa4f3c05991f.json.gz",
+    "sha256": "a4c20ed2c43ca8cfbc937b8be4c8d21e21473d7c5ade2b4d644141898be0cd71",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2008-09",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:48:26.997458+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2009-10\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/75c6be2646fc525d5f7d8e074743dae349cfdc2d622f3a27d60cfcd8ae86600c.json.gz",
+    "sha256": "a37ae76fc93c7f9fc47a156aa39338269491f27c8d1ee1835937d66fab88ab64",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2009-10",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:48:26.928127+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2010-11\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/921f010e38db894171d42f4164d55b375f8f991214a4519a8aa3959408efdc21.json.gz",
+    "sha256": "d1fabc0cfc7694b0b70e6087e778000676ec2fef4757611de6cef982e33143d3",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2010-11",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:33:47.010702+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2011-12\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/9cf74364d58d0a8bc0b67daec7094a98fac9a7e1caa1a2185a6e8d089c0afd03.json.gz",
+    "sha256": "870a55fcc0f360d350b05b94dc5190027a79031663c6f68efb1280a3731f154e",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2011-12",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:33:48.025287+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2012-13\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/f2621a1fad968a14a943805601e97bcd1e21849d267bf0d2f8402258f808ffed.json.gz",
+    "sha256": "148c73c5efd7ec804b23f912ed923b1cc7abc4b45dec082cb029e0bb105ccbf0",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2012-13",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:33:48.105670+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2013-14\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/3a1f5622f81b6326faf41bb3a0fb7dd5c4882b3631139740483f24351cf702c6.json.gz",
+    "sha256": "45ed3cf09386a8fbcb8832a5000e6de0960037a9ff9850a03e917c78170ebc40",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2013-14",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:33:48.229998+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2014-15\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/2106a1b0c845e50850cca68aee4073a17fa0eb7814fb08543dcde278e2561f97.json.gz",
+    "sha256": "40e218ad245b07bfae63904d712822a1b2b2a7b41dd942f46fb1c9cecf81199b",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2014-15",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:33:48.327775+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2015-16\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/2c56f133c651c190fba04b61365cc7315be0011e0e044ad597fbd90ed4206df0.json.gz",
+    "sha256": "be6cdc7806a38a798016d5fd8bd7bf5afd4c8dbe5c4f17781c16da7cb841faaf",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2015-16",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:33:48.750065+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2016-17\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/3599cf5a7c1feb98022bdef93113263469feeea133ea0e3ef1d4e16f9564151d.json.gz",
+    "sha256": "b1e502192665fe39e84c4ab3895a825a6d1522d91dcab73e7e44a57f0af2e1a0",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2016-17",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:33:48.893288+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2017-18\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/2b34d6654714563ac217e3c2ba725ac716be329270becb21f43b0f02736383a6.json.gz",
+    "sha256": "81df73cf59c40d943d344de05b36d1941c02fcd83e96acacab02d1ddc3db83ed",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2017-18",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:33:49.148870+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2019-20\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/f02a4e8a0553087d41049e01d0ec4771640b45d86ea1ff660110a81689841528.json.gz",
+    "sha256": "ac232dd4ff8907cb89714ed4453aa00a16f575a4d770ed42ebb54ec877bb81d7",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2019-20",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:33:49.316755+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2020-21\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/425882ab36fd0be2d9281dee44aded5863b14cee73de9ff42a1f5011b453a718.json.gz",
+    "sha256": "7b67e0ec10132e6ad908ff239ae117a5b92a709255a342bc4a514d2cb09ece5e",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2020-21",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:48:26.944349+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2022-23\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/ba046b75caef4895f284f6151c863c307c7918474747589845e0e574ab9866f1.json.gz",
+    "sha256": "aae7668a0e6733d9f5ad7dec13c86a1ac6f533ed928776ce959c988b2ec8e4b0",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2022-23",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:48:27.002870+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2023-24\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/365ee8e887829b7b87413fee9ec3b539ad35a0744ea5a80ab5be44c19efb8def.json.gz",
+    "sha256": "0c99bc873cff5ded07f4254d69007f67c98a2d57b555e0a53e4e8351372991ed",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2023-24",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:48:27.000613+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2024-25\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/7dbad1a8a2efe0874ae77cc8c6109baba768677ebef6cbe5e1901aa4895ea7c1.json.gz",
+    "sha256": "3c22d4b8c3a25e0464279e3394849e532565c2904bbea974b1647d3eac9bec82",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2024-25",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:48:27.010031+00:00",
+    "stale": false
+  },
+  "[\"league_games\", {\"player_or_team_abbreviation\": \"T\", \"season\": \"2025-26\", \"season_type_all_star\": \"Playoffs\"}]": {
+    "file": "sources/a5a10f5e8724c4e219870b0d3aec7344ba23366598f7c2971636863648d8709b.json.gz",
+    "sha256": "9ff974804fbc94ae634bbc8ee451db7fcd0831562a03e69b3be416318b0d726a",
+    "source_url": "https://stats.nba.com/stats/leaguegamelog",
+    "parameters": {
+      "player_or_team_abbreviation": "T",
+      "season": "2025-26",
+      "season_type_all_star": "Playoffs"
+    },
+    "fetched_at": "2026-11-10T22:48:27.171470+00:00",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 977}]": {
+    "file": "sources/c7822b3e403c287707319e8c41337dda00dbb20e367d7ff273cc84b451c7aca1.json.gz",
+    "sha256": "8782bef94a09303f9a2eda59501c3e4676d8c3b936da028b5a01fdf949b5f4c1",
+    "source_url": "https://stats.nba.com/stats/playercareerstats",
+    "parameters": {
+      "league_id_nullable": "00",
+      "per_mode36": "Totals",
+      "player_id": 977
+    },
+    "fetched_at": "2026-11-10T22:33:41.897420+00:00",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 201939}]": {
+    "file": "sources/a9ff33475b48b53f713175e69004115b83075ca9f652a069ff5a7e6b12a0b510.json.gz",
+    "sha256": "5ec819d25e74ed42a0dc859f6333d6915cb8331a7d75da845ba75c39d86089ed",
+    "source_url": "https://stats.nba.com/stats/playercareerstats",
+    "parameters": {
+      "league_id_nullable": "00",
+      "per_mode36": "Totals",
+      "player_id": 201939
+    },
+    "fetched_at": "2026-11-10T22:33:41.861783+00:00",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 1495}]": {
+    "file": "sources/2ba59295bdc26aff98ab45509f10de3ce4725c793f27b5826c07866a3c20b15b.json.gz",
+    "sha256": "13aa1d5b86ce4055b2de5d19c3cb67ee87c796e9e67463e9b726126695a8bfa5",
+    "source_url": "https://stats.nba.com/stats/playercareerstats",
+    "parameters": {
+      "league_id_nullable": "00",
+      "per_mode36": "Totals",
+      "player_id": 1495
+    },
+    "fetched_at": "2026-11-11T03:42:07.734845+00:00",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 1717}]": {
+    "file": "sources/cf0750cd17a8b4b3017c552c1997fb706ba4ff4e7ea44a5e2377eec0ff0c915f.json.gz",
+    "sha256": "e729bb18ed5cec19779a1b3eafd807a6c51ef7d9d0f416575ce80b477ebfbf0d",
+    "source_url": "https://stats.nba.com/stats/playercareerstats",
+    "parameters": {
+      "league_id_nullable": "00",
+      "per_mode36": "Totals",
+      "player_id": 1717
+    },
+    "fetched_at": "2026-11-11T03:42:08.151806+00:00",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 201142}]": {
+    "file": "sources/dc0314c64230dbd680a82a4e537e9bf00c11fbb7e68da620ff92cd6aae3838f1.json.gz",
+    "sha256": "47df682b756ebee6e756f570ef6f37a2b3967dc6704aa3929efce3372d66e54f",
+    "source_url": "https://stats.nba.com/stats/playercareerstats",
+    "parameters": {
+      "league_id_nullable": "00",
+      "per_mode36": "Totals",
+      "player_id": 201142
+    },
+    "fetched_at": "2026-11-11T03:42:08.390758+00:00",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 201935}]": {
+    "file": "sources/6fccfd6c5670ce3ddfc42ad9511898f712e01ff5cd06f64123c9daa03f3c5999.json.gz",
+    "sha256": "1fb0e455158ff9061ef57f59f10f316d46fef7f8913e0200fe0e9ec8a979552d",
+    "source_url": "https://stats.nba.com/stats/playercareerstats",
+    "parameters": {
+      "league_id_nullable": "00",
+      "per_mode36": "Totals",
+      "player_id": 201935
+    },
+    "fetched_at": "2026-11-11T03:42:08.627540+00:00",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 2548}]": {
+    "file": "sources/1b4dec9a478bbf190685ae871dd27f72a4a70d03bf7919ec7693e72d7782f370.json.gz",
+    "sha256": "1fd805eac321fa5b2ea15bbffaffd3fac2e8334031deae1c24f0dd850649819e",
+    "source_url": "https://stats.nba.com/stats/playercareerstats",
+    "parameters": {
+      "league_id_nullable": "00",
+      "per_mode36": "Totals",
+      "player_id": 2548
+    },
+    "fetched_at": "2026-11-11T03:42:09.067070+00:00",
+    "stale": false
+  },
+  "[\"career\", {\"league_id_nullable\": \"00\", \"per_mode36\": \"Totals\", \"player_id\": 202695}]": {
+    "file": "sources/8ab6e540106d12088bbf7e21416bba0c513f3f09e3f8d1003fec54ba895f571e.json.gz",
+    "sha256": "09815656521067596153ab7d8b1f06e2734106e28faa33960e0b180f896dc24a",
+    "source_url": "https://stats.nba.com/stats/playercareerstats",
+    "parameters": {
+      "league_id_nullable": "00",
+      "per_mode36": "Totals",
+      "player_id": 202695
+    },
+    "fetched_at": "2026-11-11T03:42:09.261700+00:00",
+    "stale": false
+  }
+}

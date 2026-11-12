@@ -1,0 +1,242 @@
+Browser tab: 7, Title: "NBA Game Lab · Scoring Review", URL: "http://127.0.0.1:8767/".
+1 AXWebArea NBA Game Lab · Scoring Review, URL: 127.0.0.1:8767/
+	2 container app
+		3 container Description: Conversation history, ID: conversation-sidebar
+			4 text NBA 
+			5 text GAME LAB
+			6 text A NEW ANGLE ON THE GAME
+			7 button New conversation ↗
+				8 image
+				9 text New conversation
+				152 text ↗
+			11 container
+				12 image
+				13 search text field (settable) Search conversations
+			14 text YOUR CONVERSATIONS 15
+			15 container
+				16 heading Today, Value: 2
+					17 text Today
+				153 container
+					154 button Assess the claim that Michael Jordan’s scoring in 1990-91 was stronger than LeBr
+						155 image
+						156 text Assess the claim that Michael Jordan’s scoring in 1990-91 was stronger than LeBr
+					157 button Help: Delete conversation, Description: Delete conversation: Assess the claim that Michael Jordan’s scoring in 1990-91 was stronger than LeBr
+						158 image
+				159 container
+					160 button Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+						161 image
+						162 text Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+					163 button Help: Delete conversation, Description: Delete conversation: Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+						164 image
+				18 container
+					19 button Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+						20 image
+						21 text Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+					22 button Help: Delete conversation, Description: Delete conversation: Compare Dwyane Wade in 2005-06 with Kawhi Leonard in 2018-19 as postseason score
+						23 image
+				24 container
+					25 button Compare Kevin Durant in 2011-12 through 2013-14 with James Harden in 2016-17 thr
+						26 image
+						27 text Compare Kevin Durant in 2011-12 through 2013-14 with James Harden in 2016-17 thr
+					28 button Help: Delete conversation, Description: Delete conversation: Compare Kevin Durant in 2011-12 through 2013-14 with James Harden in 2016-17 thr
+						29 image
+				30 container
+					31 button Compare Tim Duncan in 2000-01 through 2002-03 with Dirk Nowitzki in 2004-05 thro
+						32 image
+						33 text Compare Tim Duncan in 2000-01 through 2002-03 with Dirk Nowitzki in 2004-05 thro
+					34 button Help: Delete conversation, Description: Delete conversation: Compare Tim Duncan in 2000-01 through 2002-03 with Dirk Nowitzki in 2004-05 thro
+						35 image
+				36 container
+					37 button Compare Tim Duncan in 2000-01 through 2002-03 with Dirk Nowitzki in 2004-05 thro
+						38 image
+						39 text Compare Tim Duncan in 2000-01 through 2002-03 with Dirk Nowitzki in 2004-05 thro
+					40 button Help: Delete conversation, Description: Delete conversation: Compare Tim Duncan in 2000-01 through 2002-03 with Dirk Nowitzki in 2004-05 thro
+						41 image
+				42 container
+					43 button Assess the claim that Michael Jordan’s scoring in 1990-91 was stronger than LeBr
+						44 image
+						45 text Assess the claim that Michael Jordan’s scoring in 1990-91 was stronger than LeBr
+					46 button Help: Delete conversation, Description: Delete conversation: Assess the claim that Michael Jordan’s scoring in 1990-91 was stronger than LeBr
+						47 image
+				48 container
+					49 button Flow Graph acceptance: Assess the claim that Michael Jordan was a stronger score
+						50 image
+						51 text Flow Graph acceptance: Assess the claim that Michael Jordan was a stronger score
+					52 button Help: Delete conversation, Description: Delete conversation: Flow Graph acceptance: Assess the claim that Michael Jordan was a stronger score
+						53 image
+				54 container
+					55 button Controlled follow-up acceptance: Assess whether Kobe Bryant's scoring in 2005-06
+						56 image
+						57 text Controlled follow-up acceptance: Assess whether Kobe Bryant's scoring in 2005-06
+					58 button Help: Delete conversation, Description: Delete conversation: Controlled follow-up acceptance: Assess whether Kobe Bryant's scoring in 2005-06
+						59 image
+				60 container
+					61 button Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+						62 image
+						63 text Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+					64 button Help: Delete conversation, Description: Delete conversation: Assess the claim that Michael Jordan was a stronger scorer than LeBron James ove
+						65 image
+				66 container
+					67 button Jordan or LeBron: who is better?
+						68 image
+						69 text Jordan or LeBron: who is better?
+					70 button Description: Delete conversation: Jordan or LeBron: who is better?, Help: Delete conversation
+						71 image
+				72 heading Previous 7 days, Value: 2
+					73 text Previous 7 days
+				74 container
+					75 button Investigate Orlando against Memphis on January 15, 2026. Compare team scoring, s
+						76 image
+						77 text Investigate Orlando against Memphis on January 15, 2026. Compare team scoring, s
+					78 button Help: Delete conversation, Description: Delete conversation: Investigate Orlando against Memphis on January 15, 2026. Compare team scoring, s
+						79 image
+				80 container
+					81 button Compare Michael Jordan and LeBron James. Who is better?
+						82 image
+						83 text Compare Michael Jordan and LeBron James. Who is better?
+					84 button Description: Delete conversation: Compare Michael Jordan and LeBron James. Who is better?, Help: Delete conversation
+						85 image
+				86 container
+					87 button Compare Michael Jordan and LeBron James. Who is better?
+						88 image
+						89 text Compare Michael Jordan and LeBron James. Who is better?
+					90 button Description: Delete conversation: Compare Michael Jordan and LeBron James. Who is better?, Help: Delete conversation
+						91 image
+				92 container
+					93 button What was Curry's points per game in the 2015-16 regular season? Show sources.
+						94 image
+						95 text What was Curry's points per game in the 2015-16 regular season? Show sources.
+					96 button Description: Delete conversation: What was Curry's points per game in the 2015-16 regular season? Show sources., Help: Delete conversation
+						97 image
+		98 container
+			99 text SCORING CLAIM REVIEW
+			100 heading Assess the claim that Michael Jordan’s scoring in 1990-91 was stronger than LeBr, Value: 1
+				165 text Assess the claim that Michael Jordan’s scoring in 1990-91 was stronger than LeBr
+			102 text NBA API evidence
+			103 button Switch to light theme
+				104 image
+			148 container
+				149 text YOU Assess the claim that Michael Jordan’s scoring in 1990-91 was stronger than LeBron James’s scoring in 2014-15. Compare regular-season and playoff scoring volume and shooting efficiency relative to the league. Compare teammates: core helpers first, then rotation scoring, minutes and recorded games. Check whether the per-game helper leaders adequately represent the supporting cast’s recorded availability. Keep original samples and qualify any limited context.
+				150 text Game Lab
+				151 text ASSISTANT
+				166 button (collapsed) Research workspace, Secondary Actions: Expand
+					167 image
+					168 text Research workspace
+					169 text Completed · 2 rounds
+					170 image
+				171 button (collapsed) Research activity · 12 tool calls, Secondary Actions: Expand
+					172 image
+					173 text Research activity
+					174 text · 12 tool calls
+					175 image
+				176 heading Scoring Claim Review, Value: 1
+					177 text Scoring Claim Review
+				178 heading Answer, Value: 2
+					179 text Answer
+				180 container
+					181 text Regular Season: Michael Jordan leads total points, points per game, true shooting, league-relative efficiency.
+					182 text Playoffs: Michael Jordan leads points per game, true shooting, league-relative efficiency; LeBron James leads total points.
+					183 text Claim assessment: Conditional: the broad claim is not uniformly supported across the selected metrics.
+				184 container
+					185 text Scope:  1990-91–1990-91 versus 2014-15–2014-15; Regular Season, Playoffs.
+				186 heading Key evidence, Value: 2
+					187 text Key evidence
+				188 content list
+					189 container
+						190 AXListMarker • 
+						191 text Regular Season / Points per game (per game) : Michael Jordan  31.46 ; LeBron James  25.26 . 
+						192 link Description: Evidence, Value: 127.0.0.1:8767/sessions/13603834-d95b-41bf-abb5-892ef42bec2b/evidence/ev_72585cf3a41c2eea92f9
+						193 link Description: Evidence, Value: 127.0.0.1:8767/sessions/13603834-d95b-41bf-abb5-892ef42bec2b/evidence/ev_1a60ad865731ca8a2514
+					194 container
+						195 AXListMarker • 
+						196 text Regular Season / Contemporaneous relative true shooting (percentage points) : Michael Jordan  7.06 ; LeBron James  4.25 . 
+						197 link Description: Evidence, Value: 127.0.0.1:8767/sessions/13603834-d95b-41bf-abb5-892ef42bec2b/evidence/ev_4081e02a78163835afed
+						198 link Description: Evidence, Value: 127.0.0.1:8767/sessions/13603834-d95b-41bf-abb5-892ef42bec2b/evidence/ev_7b39d6469acdd04cf0ad
+					199 container
+						200 AXListMarker • 
+						201 text Playoffs / Accumulated points (total) : Michael Jordan  529 ; LeBron James  601 . 
+						202 link Description: Evidence, Value: 127.0.0.1:8767/sessions/13603834-d95b-41bf-abb5-892ef42bec2b/evidence/ev_55e9406610b3f892e707
+						203 link Description: Evidence, Value: 127.0.0.1:8767/sessions/13603834-d95b-41bf-abb5-892ef42bec2b/evidence/ev_2c4e69a517795317b310
+				204 heading What changes the interpretation?, Value: 2
+					205 text What changes the interpretation?
+				206 content list
+					207 container
+						208 AXListMarker • 
+						209 text The playoff points per game comparison favors Michael Jordan; the playoff-minus-regular-season change favors LeBron James. A higher playoff level is not the same as a larger change from the regular season. Different games and opposition prevent a causal interpretation. 
+						210 link Description: Evidence, Value: 127.0.0.1:8767/sessions/13603834-d95b-41bf-abb5-892ef42bec2b/evidence/ev_b250c4f10918e546cb31
+						211 link Description: Evidence, Value: 127.0.0.1:8767/sessions/13603834-d95b-41bf-abb5-892ef42bec2b/evidence/ev_923155aefee6276a60cb
+						212 link Description: Evidence, Value: 127.0.0.1:8767/sessions/13603834-d95b-41bf-abb5-892ef42bec2b/evidence/ev_8399a4961f58b8854a2d
+						213 link Description: Evidence, Value: 127.0.0.1:8767/sessions/13603834-d95b-41bf-abb5-892ef42bec2b/evidence/ev_851a7461d56595eed980
+					214 container
+						215 AXListMarker • 
+						216 text Playoffs: the accumulated points comparison favors LeBron James; the points per game comparison favors Michael Jordan. Accumulation and scoring rate answer different questions. 
+						217 link Description: Evidence, Value: 127.0.0.1:8767/sessions/13603834-d95b-41bf-abb5-892ef42bec2b/evidence/ev_55e9406610b3f892e707
+						218 link Description: Evidence, Value: 127.0.0.1:8767/sessions/13603834-d95b-41bf-abb5-892ef42bec2b/evidence/ev_2c4e69a517795317b310
+						219 link Description: Evidence, Value: 127.0.0.1:8767/sessions/13603834-d95b-41bf-abb5-892ef42bec2b/evidence/ev_b250c4f10918e546cb31
+						220 link Description: Evidence, Value: 127.0.0.1:8767/sessions/13603834-d95b-41bf-abb5-892ef42bec2b/evidence/ev_923155aefee6276a60cb
+					221 container
+						222 AXListMarker • 
+						223 text Supporting-cast context: The per-game core list includes Kevin Love with sparse recorded appearances relative to the returned rotation. A matched regular-season baseline is needed before treating this playoff sample as typical supporting-cast context. Matched scoped evidence addresses the sample-adequacy question. Original observations remain visible; the additional phase does not replace them. 
+						224 link Description: Evidence, Value: 127.0.0.1:8767/sessions/13603834-d95b-41bf-abb5-892ef42bec2b/evidence/ev_7b87fcd6ccf6d34af772
+						225 link Description: Evidence, Value: 127.0.0.1:8767/sessions/13603834-d95b-41bf-abb5-892ef42bec2b/evidence/ev_f8c80e106bceaea02d2b
+				226 text These findings compare the selected scoring measures; they do not establish overall ability or explain championship outcomes.
+				227 button (collapsed) Full comparison table, Secondary Actions: Expand
+					228 text Full comparison table
+				229 button (collapsed) All metric checks and phase changes, Secondary Actions: Expand
+					230 text All metric checks and phase changes
+				231 button (collapsed) Supporting-cast evidence, Secondary Actions: Expand
+					232 text Supporting-cast evidence
+				233 button (collapsed) Finals-opponent evidence, Secondary Actions: Expand
+					234 text Finals-opponent evidence
+				235 button (collapsed) Coverage and limitations, Secondary Actions: Expand
+					236 text Coverage and limitations
+				237 button (collapsed) Scope, formulas and methods, Secondary Actions: Expand
+					238 text Scope, formulas and methods
+				239 container Supporting-cast sample details
+					240 heading Supporting-cast sample details, Value: 3
+						241 text Supporting-cast sample details
+					242 text Core helpers are considered first. These rotation samples retain contemporary production, minutes and recorded appearances; they do not establish injury causes or a full-career teammate ranking.
+					243 button (collapsed) Michael Jordan · 1990–91 · Playoffs, Secondary Actions: Expand
+						244 text Michael Jordan · 1990–91 · Playoffs
+					245 button (collapsed) LeBron James · 2014–15 · Playoffs, Secondary Actions: Expand
+						246 text LeBron James · 2014–15 · Playoffs
+					247 button (collapsed) Michael Jordan · 1990–91 · Regular SeasonFollow-up, Secondary Actions: Expand
+						248 text Michael Jordan · 1990–91 · Regular Season
+						249 text Follow-up
+					250 button (collapsed) LeBron James · 2014–15 · Regular SeasonFollow-up, Secondary Actions: Expand
+						251 text LeBron James · 2014–15 · Regular Season
+						252 text Follow-up
+				253 button Copy reply
+				254 container Sources and evidence checks
+					255 text Evidence & sources
+					256 text 66 numeric claims checked
+					257 button (collapsed) Validated numerical facts (66), Secondary Actions: Expand
+						258 text Validated numerical facts (66)
+					259 button (collapsed) Sources & coverage, Secondary Actions: Expand
+						260 text Sources & coverage
+					261 button (collapsed) Numeric check history, Secondary Actions: Expand
+						262 text Numeric check history
+					263 text Published numeric values and comparison directions are server-derived and checked against scoped evidence. Missing source coverage is reported separately; descriptive context does not establish causation.
+			135 container Research players
+				136 button (collapsed) Research players 2, Secondary Actions: Expand
+					137 image
+					138 text Research players
+					264 text 2
+				265 container NBA ID 893
+					266 text Michael Jordan
+					267 button Remove Michael Jordan
+						268 image
+				269 container NBA ID 2544
+					270 text LeBron James
+					271 button Remove LeBron James
+						272 image
+			140 container
+				141 text Your message
+				142 text entry area (settable) Your message, ID: message
+				143 image
+				144 text Scoring Review RESEARCH ↵ to send
+				145 button (disabled) Send message
+					146 image
+			147 text AI can make mistakes. Inspect the evidence and scope. Shift + Enter for a new line
+
+The focused UI element is 142 text entry area (settable) Your message, ID: message

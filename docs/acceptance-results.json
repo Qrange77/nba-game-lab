@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "case": "career",
+      "comparable_axes": 8,
+      "old_published_axes_matching_scoped_values": 3,
+      "new_independently_verified_axes": 8,
+      "old_seconds": 35.73,
+      "new_seconds": 12.25,
+      "verdict": "conditional"
+    },
+    {
+      "case": "windows",
+      "comparable_axes": 4,
+      "old_published_axes_matching_scoped_values": 2,
+      "new_independently_verified_axes": 4,
+      "old_seconds": 23.14,
+      "new_seconds": 8.41,
+      "verdict": "conditional"
+    },
+    {
+      "case": "postseason",
+      "comparable_axes": 8,
+      "old_published_axes_matching_scoped_values": 4,
+      "new_independently_verified_axes": 8,
+      "old_seconds": 14.84,
+      "new_seconds": 8.87,
+      "verdict": "conditional"
+    }
+  ],
+  "independent_numeric_checks": 40,
+  "boundaries": [
+    {
+      "case": "vague",
+      "action": "clarify",
+      "statistical_collection_calls": 0
+    },
+    {
+      "case": "outside_scope",
+      "action": "outside_scope",
+      "statistical_collection_calls": 0
+    },
+    {
+      "case": "early_era",
+      "action": "unsupported_era",
+      "statistical_collection_calls": 0
+    },
+    {
+      "case": "causal",
+      "action": "causal_limit",
+      "statistical_collection_calls": 0
+    }
+  ],
+  "controlled_fault": {
+    "case": "windows-gap",
+    "rounds": 2,
+    "coverage": "completed",
+    "repeated_completed_dimensions": 0
+  },
+  "method": "Independent arithmetic from cached original NBA resultSets; no production scoring/aggregation imports. Paired baseline uses identical questions and model. Published-axis coverage measures this product contract, not universal answer quality. Cached API timing is not a cold-start benchmark."
+}

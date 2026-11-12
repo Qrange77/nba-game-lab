@@ -1,0 +1,94 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "case": "ability",
+      "player": "Michael Jordan",
+      "phase": "Regular Season",
+      "TS": 60.49975612501407,
+      "source_inputs": {
+        "PTS": 2580,
+        "FGA": 1837,
+        "FTA": 671
+      }
+    },
+    {
+      "case": "ability",
+      "player": "LeBron James",
+      "phase": "Regular Season",
+      "TS": 57.664822803906524,
+      "source_inputs": {
+        "PTS": 1743,
+        "FGA": 1279,
+        "FTA": 528
+      }
+    },
+    {
+      "case": "ability",
+      "player": "Michael Jordan",
+      "phase": "Playoffs",
+      "TS": 59.96100834240116,
+      "source_inputs": {
+        "PTS": 529,
+        "FGA": 376,
+        "FTA": 148
+      }
+    },
+    {
+      "case": "ability",
+      "player": "LeBron James",
+      "phase": "Playoffs",
+      "TS": 48.66554382328172,
+      "source_inputs": {
+        "PTS": 601,
+        "FGA": 544,
+        "FTA": 167
+      }
+    },
+    {
+      "case": "influence",
+      "player": "Michael Jordan",
+      "phase": "Regular Season",
+      "TS": 60.49975612501407,
+      "source_inputs": {
+        "PTS": 2580,
+        "FGA": 1837,
+        "FTA": 671
+      }
+    },
+    {
+      "case": "influence",
+      "player": "LeBron James",
+      "phase": "Regular Season",
+      "TS": 57.664822803906524,
+      "source_inputs": {
+        "PTS": 1743,
+        "FGA": 1279,
+        "FTA": 528
+      }
+    },
+    {
+      "case": "influence",
+      "player": "Michael Jordan",
+      "phase": "Playoffs",
+      "TS": 59.96100834240116,
+      "source_inputs": {
+        "PTS": 529,
+        "FGA": 376,
+        "FTA": 148
+      }
+    },
+    {
+      "case": "influence",
+      "player": "LeBron James",
+      "phase": "Playoffs",
+      "TS": 48.66554382328172,
+      "source_inputs": {
+        "PTS": 601,
+        "FGA": 544,
+        "FTA": 167
+      }
+    }
+  ],
+  "scope": "Eight TS checks only; not a complete semantic score of either answer."
+}

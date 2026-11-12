@@ -125,6 +125,8 @@ class AssistantResearchTools(DebateTools):
         return {'status': 'accepted' if checked['valid'] else 'revise', **checked}
 
     def summary(self):
+        if hasattr(self, 'research_summary'):
+            return self.research_summary
         cards = self.submission['cards'] if self.submission else []
         cited = {c['evidence_id'] for c in cards}
         records = [self.evidence[key] for key in self.used_evidence | cited if key in self.evidence]
